@@ -1,0 +1,965 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  	   <style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">Fractal Facebook Evolution</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+    	<div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="47">47% Complete</small>
+              <small id="48" style="display:none;">48% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="47" aria-valuemin="0" aria-valuetext="47 percent" aria-valuemax="100" id="67">
+              <div class="progress-meter" style="width:47%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="48" aria-valuemin="0" aria-valuetext="48 percent" aria-valuemax="100" style="display:none;" id="68">
+              <div class="progress-meter" style="width:48%"></div>
+            </div>
+        </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+				<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+					<option value="week-five-overview">Week Five</option>
+					<option value="welcome.html">Welcome!</option>
+					<option value="week-one.html">Week One</option>
+					<option value="week-two-overview.html">Week Two</option>
+					<option value="week-Three-overview.html">Week Three</option>
+					<option value="week-four-overview.html">Week Four</option>
+					<option value="week-Six-overview">Week Six</option>
+					<option value="week-Seven-overview.html">Week Seven</option>
+					<option value="dm-1.html">DM Bonus</option>
+				</select>
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-five-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-1.html'>1. Fractal Facebook evolution</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-2.html'>2. Unveiling the fb algorithm</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-3.html'>3. Facebook&#039;s book of law</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-4.html'>4. Playbook for a new epoch</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-5.html'>5. Your ad hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-6.html'>6. Your audience hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-7.html'>7. Tracking swans &amp; the polaris star</a>
+              </li>
+                            <li class='active '>
+                <a href='week-five-8.html'>8. Achieving omnipresence </a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-9.html'>9. Ad &amp; audience templates</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-10.html'>10. Campaign genesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-11.html'>11. Governing initial conditions</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-12.html'>12. Daily workflow of the king</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-13.html'>13. Ratcheting up the kingdom</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Five</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>8. Achieving omnipresence </h1>
+                  </div>
+			<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+		<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">Fractal Facebook Evolution</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+                            <select name="" id="change-category" class="chosen-select week-dropdown">
+                              <option value="20">Week Five</option>
+                            </select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-five-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-1.html'>1. Fractal Facebook evolution</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-2.html'>2. Unveiling the fb algorithm</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-3.html'>3. Facebook&#039;s book of law</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-4.html'>4. Playbook for a new epoch</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-5.html'>5. Your ad hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-6.html'>6. Your audience hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-7.html'>7. Tracking swans &amp; the polaris star</a>
+              </li>
+                            <li class='active '>
+                <a href='week-five-8.html'>8. Achieving omnipresence </a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-9.html'>9. Ad &amp; audience templates</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-10.html'>10. Campaign genesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-11.html'>11. Governing initial conditions</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-12.html'>12. Daily workflow of the king</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-13.html'>13. Ratcheting up the kingdom</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "6av": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/6avnnhq4te.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_6avnnhq4te videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-five-7.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-five-9.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p><font color="#636363"><span style="font-size: 15.2px; letter-spacing: -0.19px;">In this module I'm going to show you how you can plug the holes in your marketing campaign and your funnel and get more people to do what you want them to do. We do this by achieving "omnipresence". In this video I'm going to show you exactly how we do that.&nbsp;</span><br></font></p><p><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">Here's what we cover:&nbsp;</font></span></p><ul><li><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">Every marketers nightmare: Why people don’t do what we want them to do </font></span></li><li><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">Achieving Omnipresence: How to be everywhere and nowhere at the same time</font></span></li><li><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">Blueprints for setting up a flawless retargeting campaign</font></span><br></li></ul>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/319ed5b4dcecce11fa2d8b8a2c251656.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey everyone, Sam Ovens here. Welcome to this training module called Achieving Omnipresence. In this module I&#039;m going to show you really how you can plug the holes of your marketing campaign and your funnel and get more people to do what you want them to do. The way we do that is we achieve omnipresence. In this video I&#039;m going to show you exactly how we do that. Here&#039;s what we&#039;re going to cover on today&#039;s training. We&#039;re going to start off by discussing every marketer&#039;s nightmare and why people don&#039;t do what we want them to do. We&#039;ve got a funnel and we&#039;ve got a process which we try to step people through, however things don&#039;t always go as planned and most people actually don&#039;t take the path that we want them to take. I&#039;m going to show you how that happens, where the leakages are, and what we can do about it.
+
+Then we&#039;re going to discuss achieving omnipresence and how to be everywhere and nowhere at the same time. Omnipresence is what we call retargeting on multiple platforms. I&#039;m sure you&#039;ve experienced retargeting before. It&#039;s when you visit a company&#039;s website, you might view a product or something on Amazon and then you leave the website and you don&#039;t buy it. Then for weeks you just keep seeing the ad for that exact product that you were about to buy everywhere on the internet. It&#039;s like the company is following you around. That&#039;s what we call omnipresence. I&#039;m going to show you how we can do that and how we can literally be everywhere in your niche&#039;s world.
+
+Then I&#039;m going to show you blueprints for setting up a flawless retargeting campaign. I&#039;m going to show you step-by-step on my screen as I go and set all of this up. We&#039;re going to cover what the issue is and then we&#039;re going to cover how to solve it. We&#039;re going to discuss the high level strategy, and then we&#039;re going to get right down into the step-by-step action steps. Let&#039;s get started, every marketer&#039;s nightmare and why people don&#039;t do what we want them to do.
+
+When it comes to marketing most people don&#039;t do what we want them to do. We design an ideal pathy for people to follow but most people don&#039;t follow it the way we&#039;d like them to. Let me show you exactly what I mean by this. Here&#039;s our paid client attraction method or our fragmentation funnel. It starts off with Facebook ads, then goes to the landing page, then the value video, then the schedule with Schedule Once in our calendar, then they complete a survey, and then they show up to the appointment and we get on the call with them. If they buy they become a customer or they don&#039;t buy, that is our process from end-to-end.
+
+Well, people don&#039;t always do what we want them to do through this process. There&#039;s a couple of places where they can sort of fall out of this funnel. The first point is when they hit the landing page and we call this an exit path or a trap door. If someone sees our Facebook ad and then they click on it and then they come to our landing page, well they&#039;ve got to enter their email address to get to the next step and watch the value video but most people won&#039;t enter their email address. Our KPIs and our benchmarks it&#039;s roughly 20% when it&#039;s set up properly so that means out of every 100 people we only get 20 people to enter in their email and then 80 people don&#039;t. More people exit through this little path here than keep going so this is one place where people are falling out and one place where this funnel is leaking.
+
+Another place is when they&#039;ve entered in their email and they&#039;re watching the value video. They might watch it, they might watch all of it or they might just watch a little bit of it or they might just flick through different points and then they might exit. That person might have been somewhat interested because they did click on our ad and then they did enter in their email address. They might have even watched the whole video but they didn&#039;t complete the survey. Then they just quit or something got in the way and they forgot about it.
+
+Well, that&#039;s another place where they can exit, they can exit without completing that survey there. These two areas are the main leaks in this funnel. If our benchmark is a 20% conversion from landing page to value video that means that we&#039;re losing 80% of our traffic there. Then if our value video benchmark conversion rate is 5% that means we&#039;re losing 95% of our traffic there. Now, when you add these up that&#039;s a huge leak. There&#039;s nothing wrong with that, even when we&#039;re making those numbers we&#039;re still very profitable and we&#039;re still going really well but we do want to be mindful of these two leaks and have some sort of thing in place to help.
+
+What do we do about it? What do we do about these two exit paths in our funnel? Well, we appear everywhere. This is what I call achieving omnipresence and it&#039;s how to be everywhere and nowhere at the same time. It&#039;s how to literally be everywhere. It&#039;s how you make your niche feel like you&#039;re just following them around, feels like you&#039;re just everywhere they look, on your shoulder and everything. The first step to plug these exit paths is to create contingencies. What&#039;s a contingency? Well, if you remember the two exit paths we had they were at these two stages. Whenever we have an exit path we want it create a contingency. A contingency is what we do when someone doesn&#039;t do what we want them to do.
+
+When a lot of people start not doing what we want them to do well we create a contingency plan to bring them back, it&#039;s like a fail safe for our funnel. Our first one, contingency one, is for people that visited the landing page but didn&#039;t opt in. Our second contingency, contingency number two, is for people that visited the value video but didn&#039;t complete the survey. We want to create two contingency plans here to solve this problem. We do this with something we call retargeting. You&#039;re probably thinking, &quot;Well, what&#039;s retargeting,&quot; or you might be familiar with retargeting. Well, here&#039;s a very simple explanation of what retargeting is so retargeting explained.
+
+With retargeting you could have a potential customer visiting your website or visiting your funnel or whatever. Then they might opt in or they might view the video or whatever and then they leave without purchasing or without applying for a strategy session or whatever. Life might get in the way, they might not have enough time, they might be browsing on their phone at their lunch break but then their lunch break&#039;s over and they&#039;ve just got to get back to it. Now, a lot of the time when this happens people are legitimately interested but they just, life gets in the way and then they forget about it.
+
+It&#039;s not like they deliberately left. I mean, a lot of the time people want to keep going but they forget. People forget about things all the time. Then later on, one thing&#039;s for sure, is they&#039;re going to use the internet. That&#039;s the good thing about the internet is that people always use it. This person who was on your website or who was in your funnel but forgot about it is now going to come back to surf the internet. Then because we&#039;ve pixeled them, when the visited our website we dropped a pixel onto their browser and now we can identify them everywhere on the internet and show our ad to them. Now our ad advertises to them specifically and it reminds them of us and the step in the process which they were at.
+
+Now this person who was interested but forgot sees our ad everywhere and then they&#039;re either going to click on it or not. Then they come back to the process and many of them go and complete the process by scheduling a strategy session with you or remembering to opt in and watch the value video and some of them don&#039;t anyway, and that&#039;s totally fine. Retargeting is extremely powerful and it&#039;s very simple to set up. It works really well because we&#039;re just retargeting the people who were interested. It&#039;s like Facebook Ads is great at getting cold people who have never heard of us before interested, but then if they forget we can use retargeting to kind of get our message back in front of them. It&#039;s kind of a way to just keep hitting the people who expressed some interest until they actually take definitive action.
+
+By using contingencies and retargeting we&#039;re able to appear everywhere in our prospect&#039;s world. This is what we call omnipresence when we just appear everywhere in our prospect&#039;s mind. Now that you know what omnipresence is and why it&#039;s important and what problem it solves let&#039;s set it up right now. Let&#039;s go through the step-by-step action steps and I&#039;m just going to show yo on my screen how to do it all. Blueprints for setting up a flawless retargeting campaign and here is the instructions.
+
+In order to achieve true omnipresence with our retargeting we want to use multiple platforms. These instructions will guide you step-by-step through the entire setup process for all three platforms. The first step is to set up two custom audiences in Facebook. The first one&#039;s called visited LP but no opt in. The second one&#039;s called visited VV but no survey. Now, LP stands for landing page and VV stands for value video so that is step number two. Now, let&#039;s go and do it right now. To do this you want to go to your business manager, business.facebook.com. You want to select your number one ad count. Then you want to go over to ads manager, click on that. Then what you want to do is go to audiences here under assets.
+
+I don&#039;t have any audiences in here, this is brand new account. Yours will probably look like this too if you&#039;re new to Facebook. What we want to do is we want to click on create a custom audience, then we want to select website traffic. Then we want to select from this drop down people visiting specific web pages but not others. Then we want to go to click funnels and we want to find our fragmentation funnel and then we want to copy paste this URL for our landing page. In my case, it&#039;s samovensdemo.com/case study so I&#039;m going to copy that. Don&#039;t put in the HTTPS, don&#039;t in the www or any of that stuff. I&#039;m going to put this in here, include people who visited this page, yep.
+
+Exclude people who visited. We go back to click funnels and this time we&#039;re excluding people who visited the value video. I&#039;m just going to do this, it will be samovensdemo.com/video. Just want to put that in, exclude these people. This one&#039;s going to be for the last 30 days and you want to include past website traffic. Then our instructions say to name this Visited LP but No Opt In. I&#039;m going to call it Visited LP but No Opt In. Then I&#039;m going to call it 30D, that stands for 30 days. Then I&#039;m going to go create audience. That looks right, just double checking. Perfect.
+
+It&#039;s going to go and create this audience and now I&#039;m going to ... You&#039;ll notice it says audience too small. That is totally normal. We can&#039;t use these audiences until people actually click on our ads, go to our funnel and everything. This takes a while but don&#039;t worry about this, we&#039;re just setting up this for now. Now what I&#039;m going to do is I&#039;m going to create a ... What I&#039;m going to do is I&#039;m going to create another pixel ... Sorry, not a pixel, an audience. I click custom audience and people who visit specific web pages but not others. This time I&#039;m just going to create the same audience again but I&#039;m going to make it for a longer time window.
+
+I&#039;m going to put in URL doesn&#039;t contain the video but URL contains the landing page, just the same as before. Make sure I get this without any of the stuff at the start on it, put that in like that. You can see we can go for a maximum of 90 days so I&#039;m going to create a 30 and a ... Oh sorry, not 90 days, 180 days. I&#039;m going to create a 30, a 60, and then a 90, and then a 180. I&#039;m going to call this visited LP but no opt in, that&#039;s what it was called. Then I&#039;m going to call this 60D and I&#039;m going to go and create audience. Now, you&#039;re going to go and repeat that process for 30 day, 60 days, and 90 days, and then 180 days. The reason why we&#039;re doing this is because we want to try out different audiences for retargeting.
+
+In the beginning we&#039;ll probably go for the 30 or the 60, and then later on it&#039;s worthwhile trying to the longer term ones as well. It&#039;s good to create a couple of these audiences in the beginning, it gives us more retargeting options. Now what I&#039;m going to do is I&#039;m going to go back to our instructions. The other one it wants us to create is visited value video but no survey. I&#039;m going to click on create audience, custom audience, website traffic, anyone, people visiting specific web pages but not others. This time we go to click funnels and this is people who have visited the value video, which is our domain name dot com/video. Going to put this in here but we don&#039;t want people who have completed the survey or we may as well go to the success page so we can exclude our domain name.com/success.
+
+This is basically going to target anyone who opts in for the value video but doesn&#039;t complete the survey. We probably just want to create ... We can create a 30, 60, 90 here for this as well if you want to. It&#039;s probably good practice in the beginning and then just see which ones work and then we can delete the other ones. I&#039;m going to call this one, Visited Value Video but No Survey. Then I&#039;m going to put in brackets 30D for 30 days. Create audience, boom, done. For simplicity sake, I would probably just create a 30, 60, 90, don&#039;t worry about the 180, so just 30, 60, 90. Then for the other one 30, 60, 90. That&#039;s all you really need to do.
+
+Now another retargeting audience that you can create is you go custom audience, website traffic, and anyone who visits your website. We want to target everyone who visits our website at all. This includes any pages on our domain name. What we do is we click on browse here and we can just put in our domain, samovensdemo.com or whatever yours is. For this one I want to create a 30, 60, 90, and I&#039;d go with a 180 as well. I&#039;m just going to call this one All Website Visitors, then I&#039;m going to put in here 30D, create audience. You can set up a 30, 60, 90, 180 for this too.
+
+Now, these audiences they&#039;re going to track everyone who visits your website at all. This could be people who heard about you from someone else and then went to your website, people who got your email and then looked up what your email was and then visited your website or these could be people who you sent a lumpy mail package to or you sent a direct outreach email to and then they go to your website. Well, as soon as they go to your website we&#039;re going to pixel them. Now we&#039;ve got their pixel and we can show our ads to them. It&#039;s a way to achieve omnipresence even if someone hears about you by other means, other than the Facebook Ads so you want to set up these audiences.
+
+That was step two. Now, step three is to create an account with Perfect Audience by going to consulting.com/perfectaudience and then install the pixel code into your Google tag manager container. By setting up these custom audiences on Facebook it allows us to re-target these people on Facebook  Facebook is one platform and that&#039;s awesome but with Facebook we can only re-target people who are on Facebook. Facebook&#039;s just one website on the internet and there&#039;s a lot of other websites on the internet. What about when these people leave Facebook? We can no longer re-target them with Facebook, so when they&#039;re off of Facebook which is most of the time we want to be able to re-target them on other websites. That&#039;s what Perfect Audience and Google AdWords allows us to do.
+
+Someone could be looking at Wall Street Journal or Forbes or their favorite blog or anything. A lot of websites display ads and it could be something real big like Wall Street Journal or Forbes or something. Someone just could be reading their news or whatever on the internet, on Forbes, and then they might see your ad pop up. This is very powerful. The way we want to do this is with Perfect Audience and Google AdWords and I&#039;m going to show you how to do that right now. First step, go to consulting.com/perfect-audience and the website will look like this. Then what you want to do is click on start free trial. Enter in your info, enter in your password, select a country, select a state, boom, sign up.
+
+Then you want to enter in your business name, so let&#039;s say mine&#039;s called Sam Ovens Demo LC. My website URL, samovensdemo.com. My industry, let&#039;s just say that it is ... We could just say it&#039;s education, this doesn&#039;t really matter. Then it says welcome to perfect audience. What we want to do is where do you want to start tracking your users? We want to click on website. Right here it&#039;s going to provide us with this code here. What we do is we grab this code right here, we copy paste it. Then we go to Google tag manager and then we click sign in tag manager. Then we select our container, then we go down to tags. At this point you should already have your Facebook smart pixel in here.
+
+Now I&#039;m going to go new, and then I&#039;m going to call this one Perfect Audience Pixel. Then I&#039;m going to go here and I&#039;m going to select custom HTML. Then I&#039;m just going to paste this code in, then I&#039;m going to support document. Then for triggering I&#039;m going to click on edit and I&#039;m going to select all pages, and then ad. Then I&#039;m just going to go, save. Now I&#039;ve got my Facebook smart pixel on and my perfect audience pixel in my Google container. Now, this is great but now I need to hit submit and I&#039;m going to publish it but I need to give this a quick title. I&#039;m going to go added Perfect Audience and then same for the description, and then I&#039;m going to publish this. Now it&#039;s saying that it&#039;s published so I&#039;m going to go back to my workspace. I&#039;m just going to give it a quick preview to make sure that it all worked.
+
+We click on preview then we go to our funnel, and then we want to launch it just on even just the first page is fine. Now I can see down here in the preview tool that tag&#039;s found on this page, Facebook smart pixel, and the Perfect Audience pixel so that confirms that everything is working correctly, which is good. Now that I&#039;ve done that in Perfect Audience I can go and get started here, can quit out of this.  Now you&#039;ll see up here it wants me to confirm my email. You want to go ahead and confirm your email. Then you just let the account sit. We&#039;re not doing anything now because we need to build up enough people within our audience before we can start advertising.
+
+If I click here and click start free trial it says that we need at least 250 users within a week. Now, depending on how much you&#039;re advertising this might take a while. A lot of you won&#039;t even really use Perfect Audience because you don&#039;t have enough people clicking on your ads in the beginning and that is totally fine. The main thing we want to do is actually just set it up so that it is here and it is tracking. The main thing is, is that we have the pixel on our page and that it&#039;s actually collecting data and building audiences. Then when we use it, we&#039;ll use it when we can but we don&#039;t need to worry about using it right now, we&#039;re just kind of laying the foundations. That&#039;s all we need to do there.
+
+Once you&#039;ve done that the next step in the process, step four, is to create a Google Analytics Account by going to google.com/analytics and then install the pixel code in your Google tag manager. Google.com/analytics, it looks like this. Then you click on analytics on the left. Then you can click sign up for free and then you can go sign up. Then what you can do, is it&#039;s going to be using your Google account, your Gmail account which you would have set up. We want to select website then we want to name this our company name, so Sam Ovens Demo, LLC. Website name www ... Well, I&#039;ll just call it samovensdemo.com. Probably leave out the www because it doesn&#039;t have that. Then our website URL, HTTPS, samovensdemo.com. My industry, I&#039;m just going to select ... This doesn&#039;t really matter, I might just go other. Reporting time zone, you want to select your time zone here, I&#039;m in Eastern US.
+
+Then data sharing. You can pretty much leave all of this stuff on, get tracking ID, accept. Okay, got it. Now you can see that it&#039;s got our tracking ID and our website tracking code. Now what we do is we grab this code right here. We&#039;re going to go copy this. Then we&#039;re going to go to Google tag manager and you can see that we want to click on tags and you should be able to see two tags here, Facebook[inaudible 00:26:50] Pixel and Perfect Audience Pixel. Then you want to click on new and then we&#039;re going to call this one Google Analytics Pixel. Then we click on tag configuration and we&#039;re just going to click on custom HTML and we&#039;re going to just paste that here, support document right. Then we&#039;re going to click on triggering and we&#039;re going to trigger all pages. Then we&#039;re just going to click save, just like that.
+
+Now what we&#039;re going to do is we&#039;re going to hit submit and we&#039;re going to publish this. I&#039;m just going to name this, Added Google Analytics. Just going to copy this in here, then I&#039;m going to hit publish and boom, it is published. Now we want to click back on work space and we&#039;re in preview mode here. If you&#039;re not in preview mode then hit preview. Then what we want to do is we want to go to any page in our funnel, I&#039;m just going to go to the first page, launch that. Now it&#039;s opening up the Google tag manager preview tool and I can see tags fired on this page, the Facebook Smart Pixel, the Google Analytics Pixel, and the Perfect Audience Pixel. Perfect, fired one time each, just what we want to see.
+
+Now we can quit out of that and now we&#039;ll go back to our instructions and so we&#039;ve done that. Now we just want to go and leave preview mode because it can get kind of annoying when we&#039;re looking at our website. Once we&#039;ve left preview mode we can quit out of that and we are done with this. If I go back to our instructions, I&#039;ve completed step four. Then step five says initially these audiences will need time to build up data and establish an audience before we&#039;re able to re-target them. It usually takes greater than 500 clicks. Each platform&#039;s different, sometimes it&#039;s like 250, sometimes it&#039;s 50. A good rule of thumb, until it&#039;s really worth even running an ad to these people we want at least 500 people pixeled in these audiences.
+
+Initially we&#039;re just going to let these things sit. We&#039;re setting it all up, we&#039;re laying the foundations and we&#039;re doing it all properly but for a while we&#039;re just going to let all this stuff sit and collect data. Then later on we&#039;re going to come back to it and we&#039;re going to utilize these audiences and run retargeting ads to them. For now we&#039;re just setting it up and we&#039;ll advertise to them later. Once you&#039;ve set everything up, tested it in that preview mode and everything and verified that all is working, congratulations. You have now set the foundations for a savagely effective retargeting campaign and a true omnipresence in your niche.
+
+Nice work on setting that up, it&#039;s pretty simple like you can see. This is just a short module and it&#039;s pretty straight to the point. Like I&#039;ve said, we&#039;re going to refer back to this later on. All of this work we&#039;ve been doing up until now in the Facebook Ads training is just really laying our foundations, doing the preparation, and really setting the foundations for our campaign solid. Then later on we&#039;ll really be able to get the fruits from all of this work. Congratulations on setting this up and I will see you in the next video right now. Thanks for watching.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="https://app.consulting.com/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="#">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Five"
+    var moduleName = "8. Achieving omnipresence "
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-251')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-251', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Five";
+    if (!moduleName) var moduleName = "8. Achieving omnipresence ";
+    if (!file) var file = "media/319ed5b4dcecce11fa2d8b8a2c251656.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "https://app.consulting.com/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-complete/251', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-incomplete/251', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "6avnnhq4te", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-251')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-251', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('https://app.consulting.com/products/mark-complete/251');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("47").style.display="none";
+	document.getElementById("48").style.display="block";
+	document.getElementById("67").style.display="none";
+	document.getElementById("68").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("47").style.display="block";
+	document.getElementById("48").style.display="none";
+	document.getElementById("67").style.display="block";
+	document.getElementById("68").style.display="none";
+	} 
+</script>
+  </body>
+</html>

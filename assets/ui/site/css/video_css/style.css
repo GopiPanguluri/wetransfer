@@ -1,0 +1,295 @@
+
+.close:focus, .close:hover
+{
+    transform: rotate(320deg);
+    transition: 0.9s;
+}
+.close{
+        opacity: .8 !important;
+}
+#modal-body{
+	
+	background-color: white;
+	
+}
+
+
+
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+/* */
+
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);    
+
+}
+.style_prevu_kit:hover {
+    z-index: 2;
+    -webkit-transition: all 100ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 100ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.thevideo{
+    width: 100%;
+}
+
+
+.video{
+  margin-bottom: -6px;
+
+}
+
+
+/*popup window*/
+.modal1,.modal2,.modal3,.modal4,.modal5,.modal6,.modal7,.modal8,.modal9,.modal10,.modal11,.modal12,.modal13{
+  margin-top:-60px !important;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    padding-right: 11%;
+    height: 130%;
+    width: 100%; /* Full width */
+   /* overflow: auto;*/ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; 
+    -webkit-animation-duration: 1.2s;
+    animation-name: fadeIn;
+    animation-duration: 1.8s
+    transform: rotateZ( 14deg );
+    background-color:rgba(12, 1, 1, 0.76)
+
+}
+.img.yus{
+    width:5% !important;;
+}
+.close,.close2,.close3,.close4,.close5,.close6,.close7,.close8,.close9,.close10,.close11,.close12,.close13{
+  font-size: 40px !important;
+      margin-right: 13px;
+              line-height: 52px !important;
+}
+.close{
+    color: white !important;
+}
+/* Modal Content */
+.modal-content {
+
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+.modal-header {
+    padding: 0 !important;
+   
+    color: #ffffff ;
+  
+    background-color: rgb(0, 0, 0);
+}
+.modal-footer {
+    background-color: rgba(41, 40, 40, 0.2);
+    color: black;
+    text-align: center;
+}
+.webdesign{
+      width: 50%;
+    float: right;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+.ctn{
+
+border-radius: 0px !important;
+}
+.modal-content {
+     margin-top: 64px !important;
+
+     background-color:rgba(239, 239, 239, 0.85) !important) !important;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    width: 64%;
+    margin-left: 18%;
+    margin-bottom: 5%;
+    top: 0%;
+}
+
+
+ .modal-body  p {
+    /*font-family: serif !important;*/
+ 
+  padding: 8px !important;
+   
+margin: 0 0 10px !important;
+  
+ font-size: 18px !important;
+   
+font-weight: 500;
+  
+ font-weight: bold!important
+font-style:Arial !important;
+}
+.modal-body h4 {
+    font-family: serif;
+}   
+
+.close:focus, .close:hover {
+    color:white!important;
+}
+.close5{
+      top: -19px !important ;
+    right: -37px !important;
+}
+.modal-body{
+/*    color: #252222;*/
+    overflow-y:auto;
+    height: 450px;
+    border-radius: 0px;
+    padding: 11px;
+    padding-bottom: 0;
+    border-bottom: 2px solid #efeaea;
+    border-top: 2px solid #efeaea;
+}
+
+.videosdiv{
+     margin-left: 9%;
+    margin-bottom: 2%;
+    width: 85%;
+}
+
+
+
+/*@media only screen and (min-device-width: 974px) and (max-device-height: 1366px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+.bottom_ul{margin-top: -40px;}}*/
+
+@media only screen and (min-device-width: 1390px) and (max-device-width: 1920px) {
+    /*  .contentmoving{margin-top: 29%;}*/
+      .modal-body {height: 720px !important;}
+      .modal-content{width: 60%;margin-left: 26%;
+      }} 
+
+
+
+
+
+
+@media only screen and (max-device-width: 1920px) and (min-device-width: 1390px) {
+.texta {
+  font-size: 20px !important;
+}
+.modal-bodyq ul li h4 {
+  font-size:21px !important;
+}
+.modal-body  p {
+  font-size: 21px !important;
+}
+.wrap button {
+    margin: -71px 0 0px 40px !important;
+}
+}
+
+
+
+
+
+
+@media only screen and (max-device-width: 414px) and (min-device-width: 310px) {
+.close-button {
+    margin-left: -25%;
+    margin-top: -6%;
+}
+.modal-content {
+  height: 154px;
+  margin-top: 94px !important;
+}
+
+}
+
+@media only screen and (max-device-width: 1000px) and (min-device-width: 767px) {
+.close-button {
+    left: -63px !important;
+    top: 1px !important;
+}
+.modal-content {
+  height: 154px;
+  margin-top: 94px !important;
+}
+
+}

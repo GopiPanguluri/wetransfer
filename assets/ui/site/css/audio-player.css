@@ -1,0 +1,176 @@
+.player {
+  position      : relative;
+  width         : 100%;
+  height        : 36px;
+  border-radius : 4px;
+  background    : #F2F3F4;
+  box-shadow    : 0 1px 2px #999EA1;
+}
+
+@media screen
+       and (min-width : 75em) {
+  .player {
+    width : 574px;
+  }
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container {
+  height       : 36px;
+  margin       : 0 58px 0 46px;
+  padding      : 11px 12px 0;
+  overflow     : hidden;
+  border-right : 1px solid #AEB1B4;
+  border-left  : 1px solid #AEB1B4;
+}
+
+@media print,
+       screen
+       and (min-width : 64em) {
+  .player .player-wrap .track-container .player-controls .player-progress-container {
+    margin : 0 178px 0 46px;
+  }
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-bar {
+  position : relative;
+  height   : 14px;
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-bar progress {
+  -moz-appearance    : none;
+  -webkit-appearance : none;
+  appearance         : none;
+  width              : 100%;
+  height             : 14px;
+  overflow           : hidden;
+  border-top         : 1px solid #AAA;
+  vertical-align     : top;
+  cursor             : pointer;
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-bar progress[value]::-webkit-progress-bar {
+  background-color : #616161;
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-bar progress[value]::-webkit-progress-value {
+  background-color : #C2CFD9;
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-bar .progress-bar-fix {
+  position         : absolute;
+  top              : 0;
+  left             : 0;
+  width            : 0;
+  height           : 14px;
+  background-color : #616161;
+}
+
+@media screen
+       and (-webkit-min-device-pixel-ratio : 0) {
+  .player .player-wrap .track-container .player-controls .player-progress-container .player-progress-bar .progress-bar-fix {
+    z-index : -1;
+  }
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-bar .progress-bar-thumb {
+  display    : none;
+  position   : absolute;
+  top        : 0;
+  left       : 0;
+  width      : 2px;
+  height     : 14px;
+  background : #616161;
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-time {
+  display      : none;
+  zoom         : 1;
+  position     : absolute;
+  top          : 0;
+  right        : 58px;
+  width        : 120px;
+  height       : 36px;
+  padding      : 8px 0;
+  border-right : 1px solid #AEB1B4;
+  text-align   : center;
+  font-size    : 0.875rem;
+}
+
+@media print,
+       screen
+       and (min-width : 64em) {
+  .player .player-wrap .track-container .player-controls .player-progress-container .player-progress-time {
+    display : block;
+  }
+}
+
+.player .player-wrap .track-container .player-controls .player-progress-container .player-progress-time .player-time {
+  display   : inline-block;
+  color     : #8a8a8a;
+  font-size : 0.875rem;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons {
+  display   : block;
+  zoom      : 1;
+  max-width : 100%;
+  overflow  : hidden;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button {
+  border     : 0;
+  background : none;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.pause,
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.play {
+  position    : absolute;
+  top         : 7px;
+  left        : 12px;
+  width       : 22px;
+  height      : 22px;
+  text-align  : center;
+  font-family : FontAwesome;
+  font-size   : 1.5625rem;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.pause:before,
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.play:before {
+  color : #656A6E;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.pause:hover,
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.play:hover {
+  opacity : 0.8;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.play:before {
+  content : '\f01d';
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.pause {
+  display : none;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.pause:before {
+  content : '\f28c';
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.player-speed {
+  display     : block;
+  zoom        : 1;
+  position    : absolute;
+  top         : 6px;
+  right       : 8px;
+  width       : 42px;
+  padding     : 4px 0;
+  color       : #8a8a8a;
+  text-align  : center;
+  text-indent : initial;
+  font-size   : 1rem;
+  font-weight : 700;
+}
+
+.player .player-wrap .track-container .player-controls .player-container .player-buttons button.player-speed:hover {
+  color : #333333;
+}

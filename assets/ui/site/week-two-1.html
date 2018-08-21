@@ -1,0 +1,1338 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="#/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="#/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="#/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="#/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="#/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="#/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  
+	  <style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">New Paradigm &amp; World View</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+        <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="15">15% Complete</small>
+              <small id="16" style="display:none;">16% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="15" aria-valuemin="0" aria-valuetext="15 percent" aria-valuemax="100" id="35">
+              <div class="progress-meter" style="width:15%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="16" aria-valuemin="0" aria-valuetext="16 percent" aria-valuemax="100" style="display:none;" id="36">
+              <div class="progress-meter" style="width:16%"></div>
+            </div>
+        </div>
+
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+                <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+						   <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+				
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-two-overview.html'>Overview</a>
+              </li>
+                            <li class='active '>
+                <a href='week-two-1.html'>1. The dark force holding your heels</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-2.html'>2. Face off with the devil</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-3.html'>3. Duality &amp; conflict of man</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-4.html'>4. Seeing for the first time</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-5.html'>5. Alchemy of self</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-6.html'>6. New paradigm &amp; world view</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-7.html'>7. Rolling Gods loaded dice</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-action.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Two</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>1. The dark force holding your heels</h1>
+                  </div>
+
+					<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+					<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+					
+				  
+				  
+				  
+				  
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">New Paradigm &amp; World View</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>22% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="22" aria-valuemin="0" aria-valuetext="22 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 22%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+                          <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+						   <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/258'>Overview</a>
+                          </li>
+                                                    <li class='active '>
+                            <a href='#/products/consulting-accelerator/3/120'>1. The dark force holding your heels</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/123'>2. Face off with the devil</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/124'>3. Duality &amp; conflict of man</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/125'>4. Seeing for the first time</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/126'>5. Alchemy of self</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/127'>6. New paradigm &amp; world view</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/128'>7. Rolling Gods loaded dice</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/129'>Action items</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/130'>Questions</a>
+                          </li>
+                                                    
+                        </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "n3i": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/n3ikuq389f.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_n3ikuq389f videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-one-questions.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-two-2.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p style="border: 0px; line-height: 28px;">In business there's two things that make you successful: your skills and your mindset. If you don't work on your mindset you will know what to do but you'll be paralyzed with fear and unable to apply it. This video reveals the dark force that has most entrepreneurs by the heels and how to defeat it once and for all.</p><p style="border: 0px; line-height: 28px;">Here's what we cover:</p><ul><li style="border: 0px; line-height: 28px;">Why do you know what you need to do, but just can't do it?</li><li style="border: 0px; line-height: 28px;">Why do you hope, dream and pray for things, but never seem to be able to obtain or achieve them? </li><li style="border: 0px; line-height: 28px;">Why do you start making positive progress towards your dreams and goals, but then self-sabotage?</li><li style="border: 0px; line-height: 28px;">Why can't we achieve the things that we want to achieve?</li><li style="border: 0px; line-height: 28px;">What is this dark force that's to blame for all of this?<br></li></ul>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/49bd58b2d7b38e048974e7bf4ace4da5.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey, everybody. It&#039;s Sam Ovens here. Welcome to week two of the Consulting Accelerated Program. In week two, we&#039;re going to be discussing a new paradigm and world view. In this first video for week two, we&#039;re going to discuss the dark force holding your heels. This probably sounds totally different. You&#039;re like, &quot;What does this have to do with marketing or getting consulting clients or making money or starting a consulting business?&quot; Well, I&#039;m sure you&#039;ve noticed that it&#039;s not just about knowing things that counts. There&#039;s a lot of people that know a lot of stuff. I mean, their head&#039;s full of information, but they just can&#039;t seem to do anything with it. They know a lot, but they don&#039;t achieve a lot. Then there&#039;s some people who don&#039;t seem to know as much as others, but they just seem to succeed so much.
+
+I&#039;m sure you&#039;ve noticed these things and these occurrences throughout life that it&#039;s not just about knowing information and it&#039;s not just about tactics. There&#039;s something else. There&#039;s something else which other people haven&#039;t been talking about for no other reason, really, other than they haven&#039;t understood it and it hasn&#039;t been bought to light.
+
+We&#039;re going to be talking about the dark force holding your heels. This is an extremely important video, so you want to watch this one in full. Why do you know what you need to do, but just can&#039;t do it? Why do you hope, dream and pray for things, but never seem to be able to obtain or achieve them? Why do you start making positive progress towards your dreams and goals, but then self-sabotage?
+
+Why do you seem to have a desire for something, make some progress towards there, get halfway and then smash it all down again? Why do we dream for things, reach out and then just get crushed back down? Why are we constantly in a dance between who we are and who we want to become? Why are we always fighting ourselves? Why do we have desire? Why is it so hard? Why can&#039;t we achieve the things that we want to achieve? What is this dark force that&#039;s to blame for all of this? Does it ever feel like something is just holding you back? What is it and who is to blame? What is this dark force that seems to be against you and making you suffer?
+
+This video is going to reveal the savage character to you and show you how to defeat it once and for all. First, what is this strange content doing in a program about consulting and making money? If you remember from week one, video one, I told you about how this program was made and how it gets such amazing results for people. This program is the Perfectly Engineered Change Agent. I&#039;ve put a lot of effort and attention and study and experimentation into the art of changing people and getting them results.
+
+My central focus throughout creating all of these different programs has been to get people results. I don&#039;t care about anything else, really, other than getting people exactly what they want. I want people to get clients. I want people to make money. I want people to have an amazing consulting business. I used to teach just tactics and I noticed that people didn&#039;t get results. They would understand the tactics, but then they didn&#039;t implement them or they understood them, but they didn&#039;t believe them. They might understand the tactics, but they don&#039;t feel worthy of success or they can&#039;t break through these different barriers or they can&#039;t face their fears or get outside of their comfort zone.
+
+I&#039;ve been doing this for long enough now that I became very aware of what was going on with all of my students and I became aware of the difference between those who broke through and those who did not. While I used to focus just on tactics alone, I started to realize that it was more than that. It&#039;s more than just knowing what to do that counts. I came up with this new philosophy for creating these training programs. I call it the Perfectly Engineered Change Agent. It&#039;s a combination of a proven process, a new paradigm and a winning community and expert mentorship.
+
+The new paradigm is what we&#039;re covering in week two, the new paradigm and world view. It says here, &quot;We engineered a new way to think and reprogram your mind that&#039;s so profound it&#039;s like seeing for the first time. Successful people take lifetimes to build their mental comprehension mechanism, we figured out how to install it in weeks.&quot; This si what we&#039;re doing in week two. We&#039;re going to show you the new paradigm and world view and show you how society&#039;s current way of understanding everything is wrong and why it needs to change if we want to evolve and become something bigger than we are.
+
+Why do you need a new paradigm? What&#039;s wrong with the one you&#039;ve got? Why am I going out of my way here to bring this stuff to your attention? I want to show you something called the blind men and the elephant. It&#039;s a very simple example to really help submit this point. The blind men and the elephant is basically this idea that people had a blindfold around them and they will led up to an elephant, any particular part of an elephant and they were told to put their hands out and try to understand what it was they were standing next to.
+
+When you lead someone up to something and they don&#039;t have full understanding of it and by full understanding, I mean, they don&#039;t have full eyesight. All they have is their touch. When you lead someone up to a particular part of something like this, they all become fully convinced of what they have found. The person who finds the tail might actually think it&#039;s a rope and truly believe that they have a rope in their hands. The person who finds the leg might truly believe that it&#039;s a tree. Someone at the front might think it&#039;s a snake or it&#039;s a spear. Someone on the top might think it&#039;s a fan. Someone at the side might think it&#039;s a wall.
+
+Depending on our frame of reference, we are so likely to make a massive mistake about what it is that we have actually observed. This is what your paradigm is basically. It&#039;s the way you believe things are. All of your belief is built up in your mind and it&#039;s how you see the world. It&#039;s how you perceive reality. It&#039;s everything to you. Your paradigm is how you walk through the world and exist and perceive everything. It&#039;s probably the most important thing that a human being can have. Most people don&#039;t even know what the word means.
+
+We tend to believe that everybody thinks the same way we do. We think that if we think something, then everyone thinks that or if we believe in something, then everyone believes in that. We tend to believe that everybody believes the same things we do. They don&#039;t. Successful people see, think and believe totally different things than you do. Let me tell you where this all began for me. I want to tell you a personal story about me just so that you can get a real understanding of this.
+
+I want to tell you about my trip to the island. You might have heard me tell this before in some of my earlier interviews or I&#039;m sure a lot of people who have been in my programs for a while, they would have heard me tell this story. Basically, when I was about 21 years old, I had a corporate job at Vodafone and I was finishing off my college degree in business. I had grown up in a normal blue-collar working-class family. I didn&#039;t know anything else. I was the massive success in our entire family just because I was working in a corporate building.
+
+That&#039;s what my view of success always was. That was it. That was success. That&#039;s when you made it just if you are in an air-conditioned office. I thought that I was doing pretty well and I thought that I knew quite a lot about everything. Then one day, my girlfriend at the time, her best friend, her dad owned an island in New Zealand. I won&#039;t reveal exactly who it is because there&#039;s a lot of people in these programs right now and I don&#039;t want people e-mailing other people of things like that. It&#039;s a guy in New Zealand and he owns a private island. Basically, he invented a cable TV in New Zealand.
+
+I got invited to this island and I really didn&#039;t think anything of it. I thought, &quot;Okay. Cool. We&#039;re going to go to an island.&quot; Well, actually, I didn&#039;t think it was an island. I thought it was a beach house because that&#039;s what my girlfriend at the time said. She said, &quot;Well, we&#039;re going to my friend&#039;s beach house.&quot; A beach house to me was a little shack somewhere, maybe five minutes from the beach. Little did I know that we were going to a private island. Little did I know that there was a helicopter pad and all sorts of just insane things on this island.
+
+Arriving on this island and being there, it totally opened my eyes to a new world because my whole life I thought, okay, If you make 50 grand a year, you&#039;re pretty rich. I thought if you made 100 grand a year, you were a king. I thought you pretty much were flying in first-class, you had an awesome car, you could go out for dinner all the time. I thought if you had 100 grand a year, you were the king.
+
+This was my understanding. I thought how you got successful and how you made wealth was by having a job and everything. I had all of these different beliefs. These beliefs were installed in me throughout childhood and growing up and everything. Because I came from a family that was blue-collar and they didn&#039;t have the best beliefs, all the most accurate beliefs about everything.
+
+They installed in me a lot of what was in them, just thing like people always say, &quot;Don&#039;t talk to strangers,&quot; &quot;Don&#039;t do all of this different stuff,&quot; or &quot;Be careful of that,&quot; or &quot;This is good, this is bad,&quot; or &quot;You don&#039;t want to do this.&quot; It&#039;s all of these different things we&#039;re told and it&#039;s the conversations we hear our parents have while we&#039;re sitting at the top of the stairs eavesdropping when we&#039;re a child.
+
+All of these things build up and they create this understanding and this comprehension mechanism, which we use to walk through the world and perceive reality. Here, I turn up on this island and I thought I understood everything, but then this island just blew my mind. There was a statue on this island. When I asked how much it cost, I realized that it would take me 17 years working at my job to pay for the statue. I was like, &quot;Why would I work for 17 years for a statue? This is just a statue.&quot;
+
+As I walked around this island and saw different things, it totally blew my mind. I&#039;d never seen wealth or abundance like this before in my entire life. I thought somebody who was wealthy had a BMW and a suit and that was about it or then they were able to go out to dinner. That&#039;s what I thought wealthy was. This was a whole new world of wealthy. I mean, this guy as far as it&#039;s reported is worth 500-600 million and that&#039;s quite a lot. Being on this island totally blew my mind.
+
+What really got me, what really just stuck with me was we were all sitting on the couch and we&#039;re watching TV. We were watching a program and it changed and it went on to something else. It must have been 60 minutes or something like that. Anyway, it was a story about some negative stuff, basically about these people who were victims of some crime or something. It was very negative information. Everyone was watching the TV. The owner of the island, the guy who own this thing, he just stood up, didn&#039;t really say anything or do anything weird, but he just stood up and left just out of the blue like that.
+
+It really got me. I couldn&#039;t stop asking myself, &quot;Why did he just stood? That was disrespectful. He just got up and left while there&#039;s something that&#039;s not good on TV. It&#039;s negative, but he should pay attention to this thing because these people are suffering.&quot; It really got to me. Then I asked him the next day, &quot;Hey, I noticed you got up when that came on the television. What were you doing?&quot; He said to me something that completely changed everything for me. He said, &quot;Sam, I don&#039;t listen or watch or put into my mind anything that is negative.&quot;
+
+I really thought about that for a moment. I was like, &quot;What? You don&#039;t pay any attention to anything that&#039;s negative?&quot; I couldn&#039;t really understand it. At first, I was like, &quot;Well, that&#039;s selfish of you. You should be ...&quot; I didn&#039;t say these things, but this is what I was thinking. I was like, &quot;You should pay attention to these people because they&#039;re suffering. Just because you&#039;re successful and all of this doesn&#039;t mean you should just ignore them.&quot;
+
+Then that&#039;s when I realize that really, if he was to pay attention to that, he would probably become more down. There&#039;s nothing he can do anyway watching a TV. I mean, it&#039;s actually better for him and it&#039;s more beneficial for him and everyone else in the world. If he doesn&#039;t pay attention to that and just focuses on keeping on getting results and keeping on improving himself because if he&#039;s doing that, then he&#039;s lifting the positivity of everyone else.
+
+I thought, &quot;Well, maybe he&#039;s right with this one. Maybe we shouldn&#039;t pay attention to this negative stuff.&quot; It was quite a strange thought because I&#039;d always pay a lot of attention to all the negative stuff, I mean, it&#039;s all that&#039;s on the news, it&#039;s all that&#039;s on the radio, it&#039;s all anyone, everyone wants to talk about. It&#039;s just everywhere. The view that this guy was so successful he must know some things. If this is what he does, then maybe it is the right thing to do.
+
+There was lots of these things, lots of these beliefs that I started to question when I was on this island. Another one was when there was six houses all over this island. I&#039;d always turn the lights off because I thought when you left a room, you turn the lights off at night because it was disrespectful to leave lights on. It was a waste of power and electricity and all of that. I did that. Then I noticed that the lights would turn on and people just keep turning them on.
+
+Then whenever I left the room, I turn them off. Then one night, someone was like, &quot;Hey, what are you doing? Why are you turning off all the lights?&quot; I was like, &quot;Oh, I thought we were supposed to turn off the lights.&quot; He was like, &quot;No, no, no, no.&quot; Insert his name here. He doesn&#039;t like the lights turned off. He wants this place lit up like a Christmas tree. This was another one of those beliefs. I was like, &quot;What? He wants his place lit up like a Christmas tree? Isn&#039;t it a waste of power? Doesn&#039;t he even want to save money?&quot;
+
+My whole life, my parents had always told me turn the lights off. Everyone was always worried about turning the lights off, making sure that we turn the heater off when we weren&#039;t using it. It was a very scarcity mindset. Now when I was on this island, this dude wanted his entire house lit up like a Christmas tree. Every light that could be turned on there, he wanted it turned on.
+
+That&#039;s just because he wanted to enjoy it. He wanted to see it. He didn&#039;t want and if you&#039;ve built an island, if you&#039;ve built a place on a private island, I mean, you&#039;re not really going to care about your electricity bill. It was another one of these things. Then when he was driving around in a car, he&#039;d have the windows down, but the air-conditioning on. I was like, &quot;What? We&#039;re not supposed to do that.&quot;
+
+It was a lot of things that I observed and noticed that they were different to things that I was used to. It was a really interesting experience being on this island and I didn&#039;t really think too much of it at the time, but I did start to question a lot of these different things, which I thought were normal as I started to observe how he behaved and the different things he did.
+
+When I got off the island, there was one thing that I knew for certain. It was that this wasn&#039;t a normal person. By normal person, I mean someone who believes what most people believe like turn all the lights off, that you should pay attention to negative stuff and have sympathy when there&#039;s negative stuff on and that you shouldn&#039;t drive around with the windows down and the air-conditioning on because it&#039;s just a waste, all of these different things. This guy wasn&#039;t a normal person. I&#039;d never really met someone who is this different before. He was very different. It was quite an interesting experience.
+
+Since meeting him, something about me had changed too. I couldn&#039;t quite figure out what it was, but something had definitely changed a little bit. I began questioning things. Because I found out that I was wrong about paying attention to negative stuff and the lights and all these different things, I was like, &quot;What else have I got wrong here? I mean, what else does this guy know that I don&#039;t know?&quot; I started to just think about this. It was the first time that I really questioned what I was doing in my existence and everything.
+
+Then I returned back after being on this island to my cubicle at Vodafone, which is my corporate job. I used to be happy in this cubicle. Well, actually, I wasn&#039;t that happy, but I wouldn&#039;t say I was really depressed. I mean, I felt dull, but my belief was that I&#039;d made it. This was successful because that&#039;s what everyone had always told me and that&#039;s what I believed.
+
+Now when I came back and sat down at this cubicle, it was totally different. I just come off this island and witnessed abundance and something totally different to what I&#039;d ever witnessed before. Now coming back and sitting in this place, it was quite surreal. I was like, &quot;Oh, my God! I&#039;m back here again.&quot; The weight of it really started to dawn on me at that time. Then I noticed that all of the people I talk to, they didn&#039;t have the same beliefs that he did.
+
+The first thing they wanted to talk about was the negative things and stuff like that. That&#039;s when I really started just noticing the difference between the way he thought and saw the world and the way that everyone else did in normal everyday people. After a while, I sat in that uncomfort and pain for quite a long time. It was a few months. Then I just decided. I did some research and I looked at ... I asked people on the island, &quot;What he did?&quot; They said, &quot;He was an entrepreneur and he started this business.&quot;
+
+I didn&#039;t even know what an entrepreneur was. I remember when I got back from the island, I Googled entrepreneur. That&#039;s really where my journey began. I had to look up the definition. I&#039;d never even looked at other options other than having a job. I started to look. After a bit of research, it became really obvious to me that this entrepreneurship way was a lot better than this job way. I decided to quit my job and start my own business.
+
+I had to move back home with my parents into their garage. I had no money. I had nothing going for me at all. Like I said, I had no network, totally average. I didn&#039;t know anyone who was anyone. I didn&#039;t even know anyone who was in business or started a business. My parents weren&#039;t wealthy, neither were their parents or their parents or their parents. My mom&#039;s a special needs teacher, my dad&#039;s a builder. My whole life, we always grew up poor, power got cut off and things like that, didn&#039;t have anything to eat lots of the time. We were by no means starving, but we were pretty poor.
+
+I had really nothing going for me. The reason why I&#039;m telling you this is because I just want you to know where I started. I think a lot of people see successful people and they think, &quot;Oh, he must have just inherited some money,&quot; or &quot;He must have had some connections or taking over his dad&#039;s business,&quot; or something like that. I truly didn&#039;t have anything. I was just in this garage. I&#039;d sleep on that couch at night and work on that desk supported by concrete blocks.
+
+This is a photo of me back then. It&#039;s pretty funny. I got my mom to take this photo of me as you do when you start your first business. This was my first day in business for myself. It&#039;s quite strange looking at this photo because I really don&#039;t even recognize that person. We look totally different. This person looks a lot more innocent. It&#039;s quite weird to look at a picture of me at that time because I really didn&#039;t know anything back then and I had so many beliefs in my mind, which were totally different to what they are now.
+
+One of them was is that businessmen wore suits. Of course, I wore a suit in my garage when I was starting a business that was making no money. I cared a lot about the image like having the business cards, having the mug, having the pen, having the suit. These were all the things I thought were important and I went and invested in all of those things and believed in them. It turned out that none of them were really important. This is where I began.
+
+Then this is a picture of me now. This is my apartment, which I&#039;m sitting in right now in Manhattan, in New York City. Looking at these two people, it&#039;s quite interesting because these are massive change. One person was in a garage in New Zealand and didn&#039;t really know how the world worked or anything. This person here is on top of Manhattan and making a difference in the market and leading a lot of things. They&#039;re totally different people. These two people are not the same. They are totally different.
+
+One of them, this me back then, I never had more than $500 in my bank account. In fact, if I ever did get up to $500, the first thing that came in to my mind was, &quot;What can I buy?&quot; As soon as I had 500, I was already calculating how to spend that or I&#039;d already calculated how to spend it before I had it. That was the way I used to work. I think that&#039;s the way most people work. I observed a lot of other people and I still continue to observe a lot of people. They do things like that.
+
+Now, fast forward to me today, I make more than $20 million per year. If I had, right now if I had any less than $15 million in cash in my bank, I would be on the side of my chair. I used to think if I had $500 in the bank, I was rich and I had a lot of debt back then. In these days, if I had less $15 million in cash, no debt, I would be beside myself with worry. There&#039;s a massive shift that&#039;s happened there. These are big difference between $500 and 15 million. There&#039;s a big difference between making $40,000 a year, which I was back then and this year, we should do 50 million. That&#039;s more than 100,000 today.
+
+It&#039;s totally different. These two people are not the same. There is a very, very powerful point that I&#039;m going to make with this. These two people see the world differently. They think differently. They believe in totally different things.
+
+now, let&#039;s talk about you for a moment. I just wanted to tell you a little bit of my story, but this training is about you. Let&#039;s talk about you for a moment here. Do you feel like there&#039;s a slim chance that you will actually be successful and wealthy? Have you believed that throughout your life? Where you are in your situation right now? Have you believed that there&#039;s probably a tiny chance that you&#039;re actually going to do well, achieve massive things and be really wealthy?
+
+Because I knew I wasn&#039;t. I knew that there was going to be a very, very slim chance. I thought that only really lucky people or only really outgoing and talented people achieve success. I thought that success wasn&#039;t for me because I wasn&#039;t one of those people. I thought if I did become successful and wealthy, it would probably be if I won lotto or something. That&#039;s why there&#039;s a lot of people that buy lotto or it&#039;s the lottery.
+
+I noticed that most people feel this way. Most people feel like there is a slim chance that they&#039;ll actually be successful and wealthy. Right now, just answer this to yourself. Do you feel like there&#039;s a slim chance that you will actually be successful and wealthy?
+
+I&#039;m really sorry to break this to you, but there&#039;s actually no chance at all. There&#039;s no chance at all of you being successful and wealthy and achieving your dreams. It&#039;s okay because I&#039;m going to show you who&#039;s to blame for all of this. There&#039;s someone who is all to blame and I&#039;m going to let you know who that is in just a minute.
+
+Do you remember how we discussed the feeling like something is holding you back? Well, who is it? Who is this dark force that&#039;s holding you back? What is this dark force that seems to be against you and making you suffer? I mean, it&#039;s quite cruel to hold you back from what you want to do. It&#039;s quite cruel to make you suffer like that throughout life. This person is seriously to blame for everything. Everything you&#039;ve ever wanted and haven&#039;t been able to do, everything that has always caused you to be self-destructive and act in a way that wasn&#039;t in alignment with what you really wanted to do and how you really wanted to act, this person is really to blame for everything in your life.
+
+It haunts you. This thing has you by the heels and it&#039;s pulling you in. Are you ready to find out who it is? It&#039;s you. Yes, you heard that correctly. It&#039;s you. It&#039;s not your skills. This is what people have come to believe. It&#039;s quite crazy to witness this. This is actually how most people believe that the world exists. They think the reason why they&#039;re not successful or the reason why they don&#039;t have what they want is because of any one of these reasons. They think it&#039;s their skills. It&#039;s not your skills.
+
+It&#039;s not your past. It&#039;s not your location. It&#039;s not the government. It&#039;s not the president. It&#039;s not the party that got in. It&#039;s not any of that. It&#039;s not the news or what&#039;s being covered in the news or some big scandal. It&#039;s not your age. You&#039;re not too young and you&#039;re not too old. It&#039;s not tech skills. A lot of people say, &quot;I&#039;m not a techy,&quot; or &quot;I&#039;m not tech savvy.&quot; People say all these different things, &quot;I&#039;m not tech savvy. Therefore, I can&#039;t do it,&quot; or &quot;I&#039;m computer illiterate. Therefore, I can&#039;t do it.&quot; It&#039;s not your race. This is a big one right now. It&#039;s got nothing to do with this at all.
+
+It&#039;s not your class. It&#039;s not your sex. Male, female, it&#039;s not that. It&#039;s not your English skills or your language. It&#039;s not the family you&#039;re in. It&#039;s not your lack of time. It&#039;s not your stressful job. It&#039;s not your family. It&#039;s not your wife. It&#039;s not your internet connection, if it&#039;s too slow. It&#039;s not your computer. It&#039;s not your friends and their influences. It&#039;s not your back pain. It&#039;s not this ache which you&#039;ve got in your wrist, which holds you back from doing everything you want to do. It&#039;s not your illness. It&#039;s not your voice. It&#039;s not your accent. It&#039;s not your personality. It&#039;s not the way you look. It&#039;s not anything. It&#039;s not your anything.
+
+We think that it&#039;s all of this different stuff. It&#039;s so easy to blame somebody or something. The only problem is that the moment you choose to do that, you lose forever. Believe me, I know what this is like because I lived this. I mean, I blamed other people for everything. If I didn&#039;t have what I wanted, I could point to someone else. I will tell you exactly how that happened. Of course, it was never my fault. It was always something else or some story or some unfortunate sequence of events. Whatever it was, it was pretty much never me or I knew it was me and if someone else ask me, I just make something up and it wouldn&#039;t be me.
+
+I would always pin the blame on somebody else or something else. The only problem is that the moment you choose to do that, you lose. You&#039;re giving control to something else that isn&#039;t you and that&#039;s giving away control. This caused me to suffer in life a lot because I always was going around blaming other people and other things for my lack of success and my lack of really growing into a bigger person and becoming something which was bigger than myself.
+
+You have to realize that you are, we are in life right now because of nobody but you. You have to realize that the thing you&#039;re blaming isn&#039;t the thing at all. It&#039;s you. The voices in your head, the devil, the doubts and fears, they&#039;re all you. Everything you think is someone else&#039;s fault is yours. This is the most important thing to understand really early on in any training program. It&#039;s a bold thing for me to say because a lot of people, especially in society and everything, have come to believe that they need to be sympathetic of everyone and listen to their story and acknowledge their story and give them some sympathy and then say, &quot;Oh, it&#039;s okay. I would have done the same thing if I was you. You did the right thing. It&#039;s hard out there. It&#039;s really hard.&quot; That&#039;s what people are saying to other people.
+
+While that might make you feel better at a given moment, in the long run, it&#039;s only feeding the addiction. It&#039;s only going to make you suffer for longer because all that sympathy is doing is feeding your addiction, it&#039;s feeding the story. It&#039;s giving the story evidence and credence that it exists and that you were right in giving it that story. This is what people do that when they blame other people and then they go out looking for sympathy or they blame other things, it&#039;s not their fault and they want to be with people who believe that it&#039;s not their fault.
+
+You have to realize that where you are in life right now is because of nobody but you. If you look around right now, what you have, what you own and the physical shape that you&#039;re in, the mental state that you&#039;re in, the cleanliness and the tidiness of your home, the state of your home, how awesome it is or how much you love it or don&#039;t like it, your car and how much money you make, how much money is in your bank account, all of these things, you did them. It was nobody else or no other force that was coming in here and influencing it. It was all you.
+
+People lives are exactly how they designed them to be. I think a lot of people forget this a lot of the time. Who you are right now was built to speak. You built that person. That person which you are now, you designed it, you built it. If it&#039;s not something which you&#039;re totally comfortable with or if you were hoping to be in a better situation or be a bigger person or something else, then somewhere along the way, you must have been out of alignment. Your actions must have been out of alignment with what you really wanted to be.
+
+This is what happens to people. It&#039;s like going to an airport without a ticket. If you do that and you just get on some random plane and you just wing it, I mean, you might end up anywhere in the world. You might end up in the middle of Africa and then become conscious one day and be like, &quot;Whoa! Shit! I didn&#039;t want to be in Africa. Why am I here? Oh, I know. It was because that person&#039;s fault or that airline. It was them. Bad service. Of course, it&#039;s someone else&#039;s fault. Okay. Now I can feel better and I will just stay here miserable in this country which I don&#039;t want to be in.&quot;
+
+That&#039;s what people do with their life. They walk through life without intent, without a plan or anything and then it&#039;s all fun and games and then one day, they wake up somewhere where they don&#039;t want to be or somewhere where maybe not as far along the path as they thought they wanted to be. Then it&#039;s never their fault. They blame something else. You have to realize that where you are in life right now is because of nobody but you. This is the first most fundamental thing to understand if you want to change because if we want to change, we need to understand that we have the control.
+
+However, if we blame something else, we&#039;re just telling ourselves that we don&#039;t have the control. If we say it was the government&#039;s fault, well, I mean, now you can&#039;t be successful until the government changes. Who know when that&#039;s going to be? The government could last for four years, eight years. How many years it will last? If we say it&#039;s your back pain that&#039;s the reason why you&#039;re not successful, your back pain might never go away.
+
+You see, we assign these things as the reason why we can&#039;t be successful. In doing so, we totally make it impossible for ourselves. You need to understand that where you are in life right now is because of nobody but you. Those voices in your head telling you that you can&#039;t do it or aren&#039;t good enough, the monster that has you in its grips pulling you away from everything that you want while breathing down your neck just to let you know that it&#039;s there. It&#039;s watching. When you try and step out, when you try and become something a little bit bigger, it&#039;s got you. You know it&#039;s got you. You know it&#039;s just going to pull on you.
+
+This is what keeps people from growing. This is what keeps people from venturing out and doing things that are slightly uncomfortable. It&#039;s this fear that cripples people. It&#039;s this monster that really has you in its grips and it won&#039;t let you go too far.
+
+You have met the enemy and the enemy is you. This is a very, very profound understanding to have in business and in life because if you want to succeed, if you want to achieve massive things, you need to have the steering wheel. If you don&#039;t have the steering wheel, everything is out of our control. We might as well just throw our hands up in the air and just be done with it. Everything you&#039;ve thought the enemy is, everything that you&#039;ve thought is the reason why you aren&#039;t successful, it&#039;s not. The enemy is you. We are our own worst enemies.
+
+If you feel uncomfortable right now, that is good. Now, I&#039;ll tell you why in just a minute. You&#039;re probably wondering why I&#039;m saying all of this like, &quot;Sam, what is going on here?&quot; I thought this was a training on making money and getting consulting clients and all of that? Why are we talking about monsters and dark forces and everything?&quot; Well, this is all extremely important. This program is about how to start your own consulting business, get clients and make money. It is the best in the world.
+
+It&#039;s got more than 5,000 testimonials. We&#039;ve created 21 millionaires as of right now when I record this video. We&#039;ve got almost 500 people who have made six figures. This is without a doubt. The difference is black and white compared to the next things. This is without a doubt the best training there is on how to start a consulting business and get clients and make money.
+
+Believe me, that&#039;s exactly what we&#039;re going to do. We&#039;re going to do it really well and we&#039;re going to do it really fast. We&#039;re not going to do any marketing around. After witnessing 10,000+ students try to become consultants, making money and be successful, I&#039;ve noticed that there&#039;s one thing in common with all of the successes.
+
+I&#039;ve always been intrigued why are some people successful when others are not. These people had the same program. We&#039;re talking about people who bought this course and they logged into it and they had the same program. I mean, the program is identical. The only thing that&#039;s different is the person. These people, they come through and I&#039;ve witnessed varying degrees of success. I mean, my top student right now, Andrew Argue, he just made $400,000 last month. That is a lot of money. That&#039;s more than five million a year. He&#039;s due to make a million a month this year. I&#039;m going to have my first eight-figure student this year. Eight figure is going to become a thing in our training programs.
+
+I&#039;ve wondered, &quot;Why is there someone like that who can go in to make eight figures, which is ridiculous and then why is there someone who can&#039;t get a single client. Why is there someone who can&#039;t pick their niche? What&#039;s the difference? I thought it was because that person is smarter. This was my understanding back in the beginning. I thought, &quot;Oh, well, some people are smarter than other people and some people are more talented than others. Some people are more outgoing than others and therefore, that&#039;s what&#039;s creating their results.&quot;
+
+It fascinated me that sometimes these underdogs were successful. Sometimes these people with massive issues, with fear, they were scared of doing things, they were scared of making phone calls or they were scared of getting on camera or doing anything, often these people who are crippled or really, really in bad situations like they had no money and they were in legal situations and stuff, these people were in stressful situations and they weren&#039;t the smartest. Somehow I noticed them getting results too.
+
+When I looked at the difference, it was almost like those people got slightly better results than the people who were smart or who society had labeled as smart. That when it really struck me. I was like, &quot;Well, what is going on here? How come there&#039;s such a varying difference, such a varying degree of success when everyone&#039;s got the same program and some people start off worse and end up better?&quot; I was trying to figure it out.
+
+That&#039;s when I realized it. I realized that after a while, after I created enough millionaires and after I personally know enough of my clients and watched them change and watched them improve and get their results, that&#039;s when I noticed that when they achieve success, they are not the same person that they were before. I started to notice that, &quot;Hey, that guy I met back at that event ...&quot; Joshua Harris is one of them, the first time I ever met him, he was sitting up the front of the small, little event I was doing. This was back when I was just getting started.
+
+He was sitting up the front and he looked really young and innocent. He just wouldn&#039;t stop asking questions. He&#039;s sitting up the front like that kid at school that just wouldn&#039;t stop asking questions. He had asked me what I ate for breakfast. He had asked me everything. He wasn&#039;t doing very well at all. I think he was only making a grand a month or less. He was truly just getting started and he was broke and didn&#039;t really know anything about business.
+
+That was him back then and I thought after that event, I thought, &quot;That guy is never going to be successful.&quot; I&#039;d never say these things. I&#039;ve made a lot of judgments. I was a very judgmental person, but I often didn&#039;t say them. I thought, &quot;Well, if I don&#039;t say the judgment, it&#039;s not true.&quot; Little did I know, it&#039;s just as true if you think it than it is if you say it. I thought I&#039;ll get away with it because I&#039;m not saying it.
+
+Then I didn&#039;t say it to Josh or anything. I let him stay in the program and I gave him equal attention that I gave everyone else too. It started to surprise me that he started getting results and he started to grow and evolve as a businessman. Then he started to make 80 grand a month, 100 grand a month. Then at one of my mastermind events, Josh was there and he was speaking and everything. I noticed the dynamics of everybody around him.
+
+All of the people around him who were in the group, the way they were positioned around him, the way they were looking at him and everything, I could tell that a lot had changed. Before, a lot of people would look at him like, &quot;Oh, that&#039;s that annoying guy who doesn&#039;t know anything.&quot; Now, people are looking at him like he was more powerful and he had something of value to say. I noticed his presence was totally different. He was a lot bigger of a person than he was before.
+
+That&#039;s when I realized that really, this wasn&#039;t even the same person. This was a totally new Josh. He used to work in his basement in a robe, completely broke. Now, he&#039;s got a Tesla and he moved into his dream place in Florida. He&#039;s making 100 grand a month consistently. That&#039;s when I realized that this person was completely different, completely different in every way. It&#039;s when I noticed that really all of my students that achieved success or massive success, they were not the same person that they were when they got started. That&#039;s when this thing really started to click for me.
+
+It was the same for me too. I did the exact same thing. Who I am today is not who I was back then. You might be thinking, &quot;Your name is still Sam Ovens. Legally, you&#039;re still the same person.&quot; You&#039;re right, legally, but the way our system and everything works, I am still Sam Ovens. I still use the same driver&#039;s license. I&#039;m still from New Zealand, those things, whatever they are. However, if you met me then and meet me now, we were totally different. One person was very judgmental, one person blamed everything other than himself. One person was immature and thought that he could do really make no effort and he made no effort and he expected the world in return. He was rude to other people. He was selfish and he didn&#039;t treat other people well. He didn&#039;t really believe in looking after other people. He just believed in looking after himself because it&#039;s just a waste of time to look after other people. You just worry about yourself.
+
+I thought that money was hard to get. I thought that we should try and save money and that&#039;s the way we get money. Turn lights off and things like that. I also created a plan at the start of the year for every dollar I was going to make the entire year and how I&#039;d spend it. I thought that was good budgeting is planning how to spend it. I was totally different. I was really skinny. My hair was different. My skin was different. The way I dressed was different. The way I talked was different. The way other people interacted with me was different. The things other people used to say about me was different. The way my parents thought I was was different, sisters, everything. We&#039;re talking about a totally different person here.
+
+Then the person who I am today is totally different in pretty much every way, shape and form. I would go as far as saying that every cell in my physical body has changed and there isn&#039;t a single synapse in my mind that exists the way that it used to do back then. We are talking about a fully different person.
+
+Who you are right now, just picture where you are right now, just look at yourself, who you are right now is not who you will be when you achieve the things that you want to achieve. To become who you want to be, the goals and aspirations you have for yourself. If you want a successful business and if you want to make millions of dollars, that&#039;s impossible to do if you just stay as you are right now.
+
+People don&#039;t just get rich out of the blue. People don&#039;t just get hit by a piece of lightning and then have a million dollars. That&#039;s not how it works. There is no fluke or chance or random act that happens like that. You can&#039;t remain the same person as you are right now and have all of these different things because it&#039;s been my observation that in order to get success, you have to become the person that deserves success.
+
+I always thought, &quot;Well, how can I trick the system? I&#039;m not deserving of success because I&#039;m ...&quot; Let&#039;s be honest with myself. This is the self-talk I used to say. I&#039;d say, &quot;Let&#039;s be honest with yourself, Sam. You&#039;re pretty stupid. You don&#039;t really know much and you don&#039;t really have anything going for you. You don&#039;t have any degrees, bad grades, you&#039;re definitely known as a bit of an idiot and a bit lazy. Teachers didn&#039;t like you. You&#039;re bad at math, bad at accounting, bad at managing money.&quot; This was me. This was who I was back then.
+
+I said, &quot;Let&#039;s be honest with yourself. You&#039;re not going to make money by really deserving it because you don&#039;t.&quot; I was like, &quot;Well, if you&#039;re going to make money, it&#039;s going to be some fluky thing like lotto or some inheritance or if you marry some woman who&#039;s rich and just be with her for money.&quot; This is how many stuff, the thoughts I had were. Obviously, I didn&#039;t go and do any of those things, but this is still the thoughts that go through my mind. This was the only way I thought I was going to achieve success.
+
+A lot of people, they don&#039;t understand this. A lot of people, they think, &quot;Well, oh, well, you have to learn a little bit about the internet. We have to learn this little piece of software,&quot; or &quot;You mean, we have to watch that video and it&#039;s two hours long? I don&#039;t want to do that. That&#039;s not me. This doesn&#039;t fit with me. I&#039;m not a tech person. I don&#039;t understand computers well,&quot; or &quot;I&#039;m not good with technology.&quot; These are the things people say and they&#039;re like, &quot;I&#039;m not good at tech,&quot; or &quot;I don&#039;t have the time to watch a two-hour video. Therefore, I won&#039;t do this. It&#039;s not my fault that I&#039;m not doing it. It&#039;s this program&#039;s fault because it&#039;s got technology in it or it&#039;s got videos that are two hours long.&quot;
+
+Of course, they blame the program or the course or whatever and it&#039;s not them. Then they say, &quot;I can&#039;t do that because this isn&#039;t me.&quot; That&#039;s because most people really haven&#039;t come to grips with the fact that who they are now, it&#039;s impossible to achieve success as that person. If you want to forever stay who you are, then you will forever not be successful because who you are right now doesn&#039;t deserve success. You need to deserve it to get it.
+
+I&#039;m not saying that you are not a deserving person. I&#039;m simply just saying that if you had things that the market rewarded or if you did things that the market rewarded, the market would have rewarded you. That&#039;s the way it works. I&#039;m going to teach you a very, very profound understanding of that and how to make it all happen and come to life and actually exist for you throughout this training.
+
+If you don&#039;t have what you want in life, it&#039;s safe to assume that you haven&#039;t become the person that really deserves the things that you desire. The only way to get those things is to grow. It&#039;s to become a new person. It&#039;s to become a better version of yourself. I&#039;m not saying you need to totally change yourself here. I don&#039;t want anyone to get the wrong end of the stick and think, &quot;Oh, Sam wants us to change. He wants us to do this or believe in this or whatever.&quot; That&#039;s not what we&#039;re doing here.
+
+You&#039;re still going to have the same name and everything. I&#039;m not going to tell you to disown anyone or disown your family or your spouse or any. I&#039;m never going to say anything like that. I am simply saying that you&#039;re going to be a different person in the way you behave and in the way you think and in the way you view the world around you. You&#039;re going to have different beliefs. You&#039;re going to have different behaviors. The way you conduct yourself and the way you wake up each day and the way you show up and take action, it&#039;s going to be different.
+
+All these things are going to be different because we need you to grow into the person who is going to achieve success. We can&#039;t keep you as you are and just hope and guess and pray that maybe by some off chance, success is going to just come hit you like a lightning bolt because that&#039;s not going to happen.
+
+This training is quite different compared to a lot of other trainings because a lot of other trainings, they give you sympathy and they try and mold and adjust the program to fit for you. However, I&#039;m telling you that it&#039;s you that needs to change. I have witnessed enough people now and created enough success for myself. I&#039;ve grown myself from absolutely zero out of the gutter into more than 20 million. I&#039;ve got no doubt in my mind that I&#039;m going to end up making hundreds of millions. That&#039;s not even a stretch of the imagination. That&#039;s just going to happen. It&#039;s a fact.
+
+I&#039;ve made a massive transformation myself. Then I&#039;ve been able to make a massive transformation for so many thousands of other people. It&#039;s not just with some random thought or random act that I&#039;ve created this training here and said these things to you and confronted you on these things. It&#039;s because as soon as we do this, the quicker we get to become who you want to be. The quicker we get you to take responsibility for your life, for your actions, for your thoughts, for everything, the second we get you to understand that where you are in life right now is all you&#039;re doing. You&#039;ve built the person you are right now to speak. It was you.
+
+Once we get you to understand this and believe this, it&#039;s way, way, way easier to get you to start doing all of these different things and making sales calls, making money, getting clients, being successful, being confident and not blaming other things. This is the most critical piece of work that we really have to do together in order to bring about change.
+
+You might be thinking, &quot;Well, Sam, this is so weird because everyone in life, even today, everyone I know they all say, &#039;Be yourself.&#039;&quot; Everyone always say, &quot;Hey, Sam. You should just be yourself. You don&#039;t want to be someone else or stick to your roots. You definitely want to stick to your roots.&quot; These are the different words, which go around today in society and, &quot;Don&#039;t change.&quot; It&#039;s like, &quot;Oh, don&#039;t change who you are. Don&#039;t change into someone else. Be you. We like you just the way you are.&quot;
+
+It&#039;s silly to be somebody else. You just want to just accept what you were given. Be you. These are the words that go around. These are the responses which have come to take over society and really create our belief of who we are and who others are. Another one is, &quot;Don&#039;t forget where you come from.&quot; You know what? As soon as I started getting successful and people noticed that I changed a little bit, people were like, &quot;Hey, Sam, you&#039;ve changed. I don&#039;t know if I like it. I think I preferred you how you were before.&quot; I don&#039;t know how someone like that, but who I was before was just some very awkward, shy person who didn&#039;t say anything and if I did say anything, I would probably just be complaining about some stuff of how life was hard and how it was pulling me and it was other people&#039;s fault why I didn&#039;t have what I wanted. That was me, pessimistic, a drag. I don&#039;t know why someone would prefer me that way.
+
+As soon as you start to change, as soon as you start to become someone who has pulled themselves out of the gutter and become someone that others now listen to, it makes other people question themselves too. When other people start questioning themselves, they start to panic. They&#039;re like, &quot;If you&#039;ve changed and if you&#039;re a new person, that means that maybe this other person could become a new person.&quot; Sometimes people don&#039;t like change. People like to stay where they are all the time, but at the same time, they don&#039;t like that. They often attack you when you&#039;re trying to grow.
+
+In Western civilization and in Western philosophy, we&#039;ve come to believe these different things like stick to your roots, be yourself, just be you, be authentic and all of these different things, don&#039;t try and be someone else. These words go around. I&#039;m sure as I&#039;m saying these words, you can remember it just a million times you&#039;ve heard them. These words just run rampant throughout society.
+
+You see, the world has been plagued by a lethal virus. This one is totally different because this one has gone by undetected and it slipped the radar of biology and modern day science. This is one of those viruses that no one is aware of. No one&#039;s noticed this one. It&#039;s just crypt up on us and it&#039;s really just stemmed. It&#039;s been systemic. It&#039;s just breed and it&#039;s taken over everything. This virus has taken over everyone. It&#039;s not a virus of the body or the cell. It&#039;s a different virus. It&#039;s a virus of the mind.
+
+It&#039;s an evolutionary mutation of thought that has skewed us to think and perceive reality a particular way. We come to understand that different physical things can manifest and evolve and grow different disease in bodies or that those things can develop. We come thought, that&#039;s just discounted ideas, things in your head, none of those mean anything. It&#039;s only what we can see and touch.
+
+This thing has evolved. It&#039;s really evolved and it&#039;s taken over. It&#039;s become a mental virus or a mind virus that has taken over all of society. How did this happen? You&#039;re probably thinking, &quot;Well, how did something take over everyone&#039;s mind without really anyone knowing?&quot; Mankind has been in a big hurry to understand what&#039;s out there in space. Everyone is looking outside or outside of them for what the answers are to everything. Everyone&#039;s like, &quot;Well, maybe there&#039;s aliens out there in space. Maybe there&#039;s some people on some other planet who have the answers to why we&#039;re so unhappy on earth. Maybe artificial intelligence will teach us what we don&#039;t know and then we&#039;ll be happy.&quot;
+
+It&#039;s like, &quot;Well, maybe we&#039;ll meet some god thing and it&#039;s going to teach us what we don&#039;t know and then we&#039;ll be happy.&quot; Mankind has been looking outside and far away and into space. There&#039;s been a big space race. Everyone&#039;s trying to occupy another planet because they&#039;re not even happy with our planet anymore.
+
+While mankind is being obsessed about what&#039;s out there, it&#039;s forgotten what&#039;s in here in its own mind. We have come to look at everything else outside of us and think that we need this and we need that and that if it&#039;s in space and far away, then it probably has the answers. The further we look away, the more we ignore and forget about what&#039;s in here in our own mind, our own thoughts and all of what happens with human consciousness. I mean, they really know nothing about consciousness. It is remarkable.
+
+If you read about it, if you read the latest peer review papers, the latest anything on it, you listen to the supposedly world-leading experts on consciousness and the human mind and it&#039;s shocking how little they actually know. Yet, we know a lot about space and all of these different things. It&#039;s quite remarkable.
+
+This mind virus has become widespread and its greatest strength is that people don&#039;t even know that it exists. That&#039;s really what allows it to plague over everyone and grow in advance so much. It&#039;s because people don&#039;t even know that it&#039;s there. It is a very, very serious problem. I just see it getting more and more developed in everything.
+
+What I&#039;m about to show you in week two of this training program is the cure to this mental virus. I&#039;m going to show you exactly what it is and then I&#039;m going to show you what the cure is. I&#039;m going to give you the cure. I&#039;m going to make sure you can rid yourself of this thing. You will not have heard this anywhere else. It&#039;s a profound new way of thinking. This is a program on how to make money, how to get consulting clients and all of that. Now, we&#039;re talking about a mind virus that has been systemic and taken over everything and how we can cure it.
+
+This is totally different. This is totally new way of thinking and it&#039;s quite profound. However, I wouldn&#039;t put it in this program. I&#039;m not just going to spend as much time and put this much effort like I&#039;ve put thousands of hours just into this mindset thing because it&#039;s been very hard for me to pull into words really my understanding of all of this and to be able to transfer that same information over to you and get you to understand. It&#039;s been a massive challenge.
+
+I wouldn&#039;t have put in this much time and effort and everything if I didn&#039;t think that this was seriously important for everyone to learn because when I look around and observe others, the people who can solve this thing, they end up doing so well. I&#039;ve noticed that a lot of people always say, &quot;Well, it&#039;s not just about the money, Sam. It&#039;s about being happy.&quot; What I&#039;ve noticed is that no one can really make a lot of money without doing good. I&#039;ve never seen someone make a lot of money and just rip people off.
+
+I know there&#039;s a lot of stories and movies and everything about that, but I&#039;ve never really witnessed it. I used to grow up thinking that that&#039;s how people got wealthy because we&#039;ve got Scrooge McDuck, we&#039;ve got movies like Richie Rich, we&#039;ve got Mr. Burns and the Simpsons. Society&#039;s taught us to believe that the wealthy people are evil and do bad things. However, that&#039;s what I learned as a child growing up with all of these programming around me and so that&#039;s what I believed when I went into adulthood.
+
+However, observing actual wealthy people, I couldn&#039;t believe how generous they were and how much they kid about being kind and humanity and improving things. That&#039;s when I realized that there&#039;s no way to really get long-lasting wealth without helping others. I was like, &quot;Well, I thought it was the other way around when I was a kid.&quot;
+
+This new way of thinking is totally, totally different. You will not have heard this anywhere else in the world because I haven&#039;t copied it from anyone else. This monkey see, monkey do thing has taken over our industry and we have a lot of people just regurgitating other people and they never stop to ask the question, &quot;Is what I&#039;m regurgitating even right?&quot; We&#039;ve been taken over by this obsession with software and applications and tactics. Everyone wants to know the latest little trick and the latest gadget to use. I used to want those things too. I was constantly shopping for gadgets.
+
+Truthfully, it&#039;s not those things. As someone who&#039;s gone from being broke to making more than 20 million, I can tell you that all the big breakthroughs have come from something else. That&#039;s what I&#039;m going to do in week two. I&#039;m going to show you what that something else is. This is the first time I&#039;ve ever done it. I&#039;ve kept it quiet for a long time partly because I was too scared to tell others because I thought it was my secret weapon. Another was that I didn&#039;t really believe people for it. I thought, &quot;Oh, this is too intense for other people. It might totally blow their minds and they might think that I&#039;m weird for saying stuff like this.&quot;
+
+I&#039;ve just decided to do it because I&#039;ve witnessed it now, I&#039;ve witnessed enough people achieve massive success and through what I&#039;m about to show you that I&#039;ve decided to make it an integral part of this training. In fact, this was the most challenging thing I have ever done. I put this off. I procrastinated making this one particular category, this week two, this mindset stuff, the updated mindset. I&#039;ve taught mindset before, but I&#039;ve never taught it like this.
+
+Truthfully, if you want to know why that happened it&#039;s because this is some pretty intense stuff, which I&#039;m going to show you and teach you and get you to understand. No one else is saying this stuff because I think no one else really understands this stuff. It&#039;s been really hard for me to come to grips with like, &quot;Is the market ready for this? Is it the right time? Is my audience ready to listen to this?&quot; and everything.
+
+It&#039;s been a challenge for me, but I just decided to just do it because every time I have taught more of my understanding of the world and more of my worldview and paradigm and everything. I&#039;ve started to see more results in others. I&#039;ve just decided to let it all out, just show you the whole thing. I&#039;ve decided to take a stand against the world and say that the way everybody sees reality, it&#039;s wrong. Right now, maybe in the past it was right, but the way everyone&#039;s seeing the world right now, it&#039;s wrong.
+
+Society&#039;s paradigm is broken. In week two of this training program, I&#039;m going to show you how it&#039;s broken and introduce you to a revolutionary new way of thinking. This is a totally new paradigm and worldview. I call it the Alchemy Paradigm. It&#039;s about to set off a revolution that is going to change the way our entire civilization views reality. I&#039;m not joking. This thing is going to totally change everything for a lot of people.
+
+What is a paradigm and a worldview? You might be thinking, &quot;What is this thing, Sam? What is it? What do we do with it? Why do we need it?&quot; Well, a paradigm is the way you see something. It&#039;s your point of view, your frame of reference or your belief. You want to think of it as a collection of beliefs, judgments, acceptances, stories and concepts. The paradigm we use and accept is dependent on us believing what we perceive to be true and accurate.
+
+If you were to go outside right now and walk around the city for a couple of hours and interact with different things, the way you react to all of those things and the thoughts that are going through your head, that&#039;s all really subject to your paradigm. I realized that when I went over and went to that island. I used to turn all the lights off all the time because I thought people wanted to save power. This dude wanted his house lit up like a Christmas tree all the time because he wants to think that money is abundant, money is everywhere and it truly is for him.
+
+He has a totally new way of doing things. If something negative came on or if someone talked about something negative, he just left, just walked out. He didn&#039;t do it in an offensive, rude way or anything, he just didn&#039;t do it, didn&#039;t have time for it. The way he could contribute to the world was just by being positive and doing what he did best, not just sitting in front of a TV and feeling down. He didn&#039;t think and believe what other people did. He had a different paradigm. I had no idea that that&#039;s what he had then. I was far too unsophisticated to understand that. I didn&#039;t even know what an entrepreneur was. I had to Google it.
+
+However, I&#039;ve come to understand that the thing that makes the massive difference, you can teach someone Facebook ads. You can teach them how to sell and stuff. They can get a little bit of a difference. They might go from 10 grand a month to 12 grand. They might pick it up a little bit. That&#039;s all cool and everything. A lot of people might be stoked if they increase their income by two grand a month. It&#039;s 24 grand a year. That&#039;s not going to change the world. That&#039;s not really going to change your life that much. You&#039;re not going to be like, &quot;Sam changed my life. Sam taught me how to see.&quot; You&#039;re not going to say things like that if we just help you get an extra client here and there.
+
+I&#039;ve helped people go from literally being broke. I&#039;ve had students like Dave Rogenmoser who started with me when he had $400 and he was broke in a corporate job and he didn&#039;t know anything. Now, he makes millions. He makes more than 100 grand a month. To literally transform people from broke and truly unworthy of success because they didn&#039;t know enough. They didn&#039;t know what to do. They weren&#039;t worthy of someone really paying them any money because they didn&#039;t know what to do.
+
+We&#039;ve really transformed people from that into millionaires and a lot of them, too many of them for it to be a fluke. I&#039;ve come to realize that it&#039;s the big thing that makes the shift, the big, big, big, thing like the earth-shaking thing that no one can see and understand is the paradigm and the worldview. It&#039;s the way of seeing reality and seeing the world around them. What I see it, people become a new person. When you adopt a new paradigm, you truly do become a new person. People will start to say, &quot;Well, you&#039;ve changed.&quot; That&#039;s a good thing if it&#039;s provided with growing into something bigger than we are and we&#039;re doing good and we&#039;re trying to improve, there is absolutely nothing wrong with changing.
+
+We probably don&#039;t want to change for the worse and we probably don&#039;t want to shrink down and become someone pettier and smaller minded and smaller thinking than who we are. I don&#039;t think that&#039;s a good way to change. I do think that growing into a bigger person and evolving and becoming something bigger than yourself, I think that is the right thing to do. I can tell you from my own experience, it&#039;s very satisfying and it&#039;s not only helped me, but it&#039;s helped everyone else around me like all of my customers, my family, my friends, everyone.
+
+I think that that&#039;s the totally right thing to do in every instance that I&#039;ve observed it. Growing into a bigger person and making a difference is the right thing to do rather than just staying where you are and feeling regretful and dreaming of how things could be.
+
+The thing that causes this difference is the paradigm and the worldview. Don&#039;t get me wrong. You still need to know tactics and sales. You still need to know how to to Facebook ads. You still need to know how to do sales calls. You still need to know how to do things like that. You actually don&#039;t need to know how to do Facebook ads. You can use organic methods to get clients. I&#039;m going to show you how to do that. You definitely need to know how to sell and you definitely need to know how to get clients.
+
+I don&#039;t want you to get the wrong end of the stick here and think, &quot;Oh, Sam&#039;s just going to teach us about this taboo woo stuff about myself. I don&#039;t need that. All I need is just this tactical stuff. If Sam just tells me what to say and he gives me a script and he tells me what buttons to click, I&#039;ll make money.&quot; Well, I&#039;ve watched more than 10.5 thousand people do this now. The people who end up thinking that way, they don&#039;t end up doing very well. It&#039;s an actual thing.
+
+The people who refuse to change anything about themselves and just want to make more money, they never make any money. The people whoa re open to change and improvement, they&#039;re always making the most money. The thing that really helps you is the paradigm and the worldview. I&#039;d say it&#039;s probably 80% your paradigm and worldview and 20% tactics. Don&#039;t worry, I&#039;m going to go really, this program is going to, the sales script which I&#039;ve got is by far the best in the world when it comes to selling consulting services and it&#039;s not just me that says that. There&#039;s thousands of ... Some of the best sales reps in the world say this thing is devastating, how powerful it is.
+
+I&#039;m going to give you amazing tactics and strategies, but the paradigm and the worldview is the thing that&#039;s really going to shake things up for you. It&#039;s the thing that&#039;s really going to explode your growth and turn you into the person which you want to become.
+
+Remember the blind men and the elephant, this diagram or image I showed you before, how if you just led people that were blindfolded up to an elephant, depending on what they could touch and where they were that they would think it was something else. Not only would they think it, but they would truly believe it. A lot of people, even if they can&#039;t see something, they truly believe it. You might yourself believe something and you actually don&#039;t know for sure, you haven&#039;t ... Let&#039;s say you might think someone did something, but if you weren&#039;t there to observe, if you don&#039;t have footage of it happening, how can you really be sure?
+
+This is the thing. A lot of us, a lot of humans, even me, everyone, I don&#039;t think anyone is free of this, we come to believe things a certain way and we get this really, we become really certain of our belief of something to the point where we will defend it until the death. We will absolutely fight anyone who come and tries to take this from us. However, quite often throughout life, we understand that our view was wrong. In fact, pretty much every view we have, we find out that it&#039;s wrong.
+
+This is really what a paradigm is. A paradigm is your comprehension of the universe and the world based on really your viewpoint and your angle and how much information you have access to. What&#039;s wrong with society&#039;s current paradigm? Why do we need a new one? What is wrong with the one we&#039;ve got? How could society get it wrong? Society is everyone. How could everyone get something wrong?
+
+Well, these are the issues that I see with society&#039;s current paradigm. This isn&#039;t just some slideshow that I made up. This has taken me my entire life to understand. While I&#039;ve never talked about it before, I&#039;ve always had an overactive mind of always being observing things and thinking and trying to understand why things are the way they are and why people behave and think the way they do.
+
+At this point in time, I see these as the massive issues with society&#039;s current paradigm and most probably the paradigm that you have right now. Number one is a misunderstanding in the psychology of the self and the creation of the identity. Don&#039;t worry if any of these things sound a little bit strange to you right now. I&#039;m going to explain them all in detail.
+
+Number two, a bias towards the material and the physical. We&#039;ve developed a massive bias to what we can touch and what we can feel and see. If we can&#039;t see it, it doesn&#039;t exist. If we can&#039;t touch it, it doesn&#039;t exist. You&#039;ll see a lot of people say things like, &quot;Oh, but Sam&#039;s program, it doesn&#039;t give you something you can hold. It doesn&#039;t give you a certificate. Therefore, you shouldn&#039;t do it because you only want to do a training that&#039;s going to give you a certificate,&quot; or &quot;It&#039;s not certified by the government or a major university. Therefore, you shouldn&#039;t do it.&quot; That&#039;s the wrong thinking.
+
+Does anyone really want a certificate? What good does certificate do? I always say to people and I&#039;m an activist and not giving out certificates because it&#039;s a false perception of success. You shouldn&#039;t come into this program to get a certificate and worry about the certificate. You should come into this program and wants to get a client and get a client. That&#039;s the real marker of success. That&#039;s the real yardstick and the measure. If I throw in a certificate, it&#039;s going to delude everyone. It&#039;s going to be an illusion and people will be aiming for the wrong thing.
+
+There&#039;s all of these different things that we have come to believe and understand with society&#039;s current paradigm. The material one is big. I&#039;m going to explain that later on. Another one is false perceptions of entitlement and authority. We believe if someone&#039;s a doctor, they know everything. Now, modern science is starting to get really pulled under light the spotlight. We&#039;re starting to find out a lot of things, which we&#039;ve been led to believe for a long time that are being proven false.
+
+We believe that just because someone has a title or a certificate or a degree that we should listen to everything. You&#039;ll find right now that universities, they&#039;re destructing. Universities all around the world are being totally shattered apart. People are going to college now and they&#039;re not able to get jobs and people are wrecking up hundreds of grands in student debt and they&#039;re not even able to get a 50 grand job. People leave university with this false perception like they are now worthy of success and money and people&#039;s attention when in reality, they&#039;re not because no one gives them any success, money or attention.
+
+There&#039;s a market breech there. The market is very accurate at rewarding the participants who deserve things and not rewarding anyone who doesn&#039;t. If people go to college and get a degree and they can&#039;t get a job or make any money, it&#039;s a sign that something&#039;s off and something&#039;s got to give. I&#039;ve been witnessing this for a long time and tracking it. I&#039;ve chosen now is the right time to come out about all of this stuff, but college and all of this, it&#039;s disintegrating. It&#039;s all moving away.
+
+Major companies like Price Waterhouse, Ernst &amp; Young, they no longer require university degrees for you to get a job there. What we&#039;re going to witness is a total dissolution of structured education out there like that. False perceptions of entitlement such as a certificate and a degree, these things are going to erode away.
+
+We also have number is dualism and perception of one right and one wrong. We&#039;ve come to believe that one way is right, the other way is wrong. If we&#039;ve got a view on something, then the other person must be the enemy. A classic one of this the elections. There&#039;s always two parties. If someone believes in one, they&#039;ve got to hate the other. It&#039;s nasty. There&#039;s a lot of fighting. We have a dualism of everything. For everything in this world as we perceive it and understand it and believe it, there&#039;s an opposite.
+
+It&#039;s impossible to create beauty without creating ugliness or it&#039;s impossible to create ugliness without creating beauty. This is what we&#039;ve done and what we&#039;ve exaggerated overtime is this massive dualism. I&#039;m just brushing over these lightly right now. I&#039;m going to cover all of them in more detail. These are really quite massive concepts and things to understand. You totally see the world a different way after taking you through this.
+
+Then the contradiction of the two sciences. Right now is an awesome in history because we have one science, classical physics that comes out and sees that things are things and matter is solid and what we can see is what exists. That was the major leading school of thought for a long time. Now, we have a new science which has emerged and it&#039;s very prominent, which is quantum physics, quantum mechanics. There&#039;s a ton of evidences. There&#039;s a ton of smart people and everything. It&#039;s well-formed.
+
+The two contradict each other. What classical physics says, quantum makes it a bit something totally different. We&#039;ve got these two versions of a supposed truth that say something totally different. That&#039;s a sign there. That&#039;s a sign there. We&#039;ve really gotten to a point in time where things are distorted and our current paradigm is wrong because it shouldn&#039;t exist like that or we should at least be able to explain it, but nobody can explain it.
+
+I&#039;m not joking. You can Google for days, weeks. I spent years studying this stuff. Six years of way too much time, thousands of books and trying to understand it all. It&#039;s unbelievable that no one gets it. No one actually understands how this all exist.
+
+Another one is the birth of the victim and their story. This is a massive thing right now that is in our paradigm, it&#039;s par of the mind virus that&#039;s taken over everyone. It&#039;s this feeling that everyone gets offended at other things. Everyone walks around as a person. It&#039;s like if you read on ... It&#039;s fascinating. No one really does it in the Facebook group anymore, but you still see the odd one or you see it on social media all the time when people are arguing.
+
+What people do is they will always say, &quot;As a so and so and so and so,&quot; like &quot;As a who I am, this offends me.&quot; They&#039;ll say, &quot;As a 26-year-old Asian man with a business degree, this offends me.&quot; Then they&#039;ll go on and have a rant and have a fight about it or someone will say, &quot;As a 62-year-old mother of two, this offends me,&quot; and then they&#039;ll say their thing or &quot;As a 54-year-old ex-military veteran, dadada.&quot; It&#039;s like now before anyone has a point, they have to have a &quot;As a something&quot;. This is fascinating stuff to watch.
+
+I&#039;ve watched it evolved for years now. It&#039;s like people can&#039;t tell you their point of view and people can&#039;t tell you their arguments or line of questioning or belief or stunts on anything without first telling you their, &quot;As a dadada&quot;. Their dadada, it&#039;s really their identity. This identity has become so strong that they have to tell you about it before they tell you anything else because if you don&#039;t understand this one part about them, then you can&#039;t possibly understand the other part.
+
+It&#039;s quite fascinating. If anyone ever says that to you, you know there&#039;s something going on there. If someone has to tell you their story before you can understand the question or anything else, it&#039;s a sign that they&#039;ve become a victim. A victim always has a story. A victim is someone who is someone and it is them. It&#039;s someone who has formed an identity and this is such an integral part of them that everyone needs to know it about them, otherwise, they can&#039;t understand them. It&#039;s like they&#039;ve become attached and morphed into this thing. It might be their age, it might be their race, it might be this experience they had as a child or it might be this belief they have, that they&#039;re a vegan or that they&#039;re some type of something. There&#039;s so many different things that people can believe in these days and so many different types of religions and all sorts.
+
+There&#039;s all of these things which people can adopt. It&#039;s like these days everyone has to say, &quot;As a something,&quot; and then they have to say their piece. It&#039;s quite remarkable to watch. I&#039;m going to tell you all about how society&#039;s current paradigm has birth the victim and armed them with the story.
+
+I&#039;m also going to show you number eight is the mistaken view of cause and effect. We&#039;ve really come to believe that cause is out of our control. It&#039;s some other thing and we live with the effect. There&#039;s no real way we can do it. It&#039;s like we walk around and it&#039;s just like we&#039;re at the mercy of cause and effect and we just have effect. We&#039;re living with the effect of some other force&#039;s cause.
+
+I&#039;m not going to explain it too much here because this is a really good one. I&#039;m just going to brush over these briefly here. This might not sound much. You might be like, &quot;Well, where&#039;s the tactic, Sam? Where&#039;s Facebook ads, whatever?&quot; Seriously, don&#039;t worry. We&#039;re going to cover Facebook ads and all of that. I&#039;m going to give you the best tactics that you can possibly get. This program still has the best tactics that you can find on earth to get clients and make money as a consultant, so don&#039;t worry about that.
+
+This is fundamentally important for everyone, regardless of how successful you are. In fact, if you think you&#039;re successful and you don&#039;t need this, then you need it more because the worst thing that you can do in life is think that you know everything and that you&#039;re infallible because when you start to believe that, something&#039;s going to come around and whack you in the face and remind you that you&#039;re not.
+
+It&#039;s very important regardless of where you are with your success level. I don&#039;t care if you&#039;re a multimillionaire, if you&#039;re at eight figures. I don&#039;t care if you&#039;re starting and you&#039;re broke. I don&#039;t care about anything. I don&#039;t care if you&#039;ve got a Harvard MBA. None of it matters. This is seriously important for everyone because this is everywhere right now. This is our society&#039;s current way of viewing the world and their current way of viewing reality and they truly do believe and take this to be the ultimate truth. They believe this is it. This is who we are, this is our existence and this is how everything works.
+
+Throughout week two&#039;s training, all of the different videos in week two, I&#039;m going to show you what&#039;s wrong with our current paradigm, worldview and way of thinking. I&#039;m also going to show you the founding principles of the new Alchemy Paradigm and its revolutionary new way of perceiving reality. Not only am I going to show you society&#039;s paradigm and how it&#039;s broken and how people are suffering by it, but I&#039;m also going to show you this new paradigm, which I&#039;ve developed and exactly how it works and how it&#039;s going to completely change everything. This is going to be an awesome training week.
+
+I&#039;ve been working on this for my entire life, trying to pull it all together and get it this clear and actually be able to test this stuff in the world and test it not only with myself, but with other people too. I have massive amounts of success now to the point where I firmly believe in this and it&#039;s not just belief, it&#039;s been tested. It&#039;s been tested on a lot of people and it worked. I really can&#039;t wait to share this with everyone and help get everyone some massive results.
+
+You might be thinking, &quot;Sam, when did you come up with this stuff? I thought you were just sales or just about making money or whatever. When did you ever come to understand so much about psychology and all of this stuff, philosophy?&quot; I&#039;ve always been obsessed with this stuff. I just never ever really talked about it because I hadn&#039;t got my ideas and I hadn&#039;t tested them enough or I hadn&#039;t collected enough evidence to the point where I was confident enough to share them. When I share things in this program or in any program with you, it&#039;s after extreme testing. That&#039;s how I&#039;m able to get so many people good results because I don&#039;t just put random stuff in here.
+
+This has been throughout my whole life. This isn&#039;t just recent years. Really, ever since I became conscious of my existence, I have had a passion and interest in understanding it. I regarded my own understanding as the central problem that needed to be understood. This has been what I&#039;ve cared about for as long as I can remember. I just wanted to understand oneself. I wanted to understand who I was, who other were. I wanted to understand my existence and how it all worked. I always wanted to know how things worked because otherwise, I was clueless.
+
+This new paradigm is the culmination of my life&#039;s work to date. It&#039;s the synthesis of a lifetime of observation, study, experimentation and obsession. I have put thousands of hours of work into this. More well over 20,000 hours, really, mindset and psychology and understanding, all of the stuff has been my obsession. I&#039;ve finally got it to the point where it is powerful and ready to be applied by everyone and really to be shared around to really help everyone.
+
+I battle with myself releasing this information because I wasn&#039;t sure the world and my audience was ready for it. I kept putting it off. I was like, &quot;I don&#039;t know what to put in here. I don&#039;t know how far I should go. I don&#039;t know if I should just water it down and give people a light version. I don&#039;t know if I should really just reveal the whole thing because I wasn&#039;t really sure if people could take it.&quot; Then I thought, &quot;That&#039;s a stupid thing to think,&quot; because throughout my observation whenever I have taught someone more of this stuff, they have done way better.
+
+An example is Andrew Argue. Because he&#039;s been so hungry for improvement, I&#039;ve really piled on a lot of this understanding. You ask anyone who&#039;s in the mastermind with us, I&#039;ve really totally applied this stuff to him and it&#039;s completely changed his life. The guy is not the same person today who he was back then. He used to make $17,000 a month in January last year. Now with 14 months later and he makes $400,000 a year. That&#039;s a profound difference, $400,000 a month, sorry. It would be an awesome job if that was per year, but he actually makes that per month. It&#039;s more than five million a year.
+
+What made him have that massive shift? It was really teaching him this and allowing him to see things differently. I decided to reveal it all, the full noise. What you&#039;re going to get here in week two is the full-blown thing, the full understanding of the paradigm as it exists in society today, its problems and why we need to change it and how really this new paradigm and this new way of thinking is going to fully take over everything.
+
+If you&#039;re ready to embark on a great journey to become whoever you want to be in life, this revolutionary Alchemy Paradigm is for you. Prepare to have your head blown off your body, seriously. What you&#039;re about to learn through our week two is so profound it&#039;s like seeing for the first time. This is what people say. It&#039;s funny, we listen to the testimonials. People were like, &quot;I see things differently now. I didn&#039;t see any of this stuff out there before,&quot; or &quot;I wasn&#039;t aware of this.&quot; We can hear what they&#039;re trying to say.
+
+It really is like seeing for the first time. I remember, I used to walk around and I couldn&#039;t see opportunity everywhere, anywhere. I thought that all good ideas were already done. That&#039;s what a lot of people do. It&#039;s a sign of a very, very, very rotten and poor paradigm. If you think that everything good has already been done or that there&#039;s no ideas left or that there isn&#039;t enough money in the world to go around or that money is scarce, if you think that any of the ... or it&#039;s hard to be successful or any of these things, it&#039;s just a sign that your paradigm and worldview is faulty and it needs repairing.
+
+Until you repair it, until you really start to see things accurately, then it&#039;s going to be very hard to be successful. In each module throughout week two, I will reveal more issues with society&#039;s current way of thinking and introduce more of the Alchemy Paradigm and its founding principles. There&#039;s a number of different founding principles, which I&#039;ve put together. They all really come together. The conclusion of all of these videos together, if you watch every video in week two and I recommend you do it in order, then all of these different founding principles will come together and form the Alchemy Paradigm and worldview. You will then fully understand it and fully be able to go out into the world and see things which you never saw before.
+
+In places where you used to get scared and feel down and depressed and anxious, you will start to feel confident and you will start to feel awesome. The things that make me feel happy now and the things I love doing are the things that I wouldn&#039;t have done in a million years as the old me. I used to hide away and to not do anything because I was so afraid of criticism. Now, I put myself really on the front lines of lots of stuff. I&#039;ve got no fear of it at all.
+
+Things have totally changed, totally different worldview. If I&#039;m not growing and pushing myself and doing, if I&#039;m not out of my comfort zone, I&#039;m not even comfortable. Being outside of my comfort zone is the comfy place to be now. For most people, they never want to go there. How people evolve and how people become these success-eating machines is when they adopt a new paradigm and a worldview.
+
+To conclude this first module, now I&#039;ve told you all about how week two is going to work and I know this is long video, but it&#039;s quite challenging to try and put all of this stuff into words because it&#039;s a very advanced and it&#039;s a very different understanding of everything. Truthfully, words don&#039;t really exist to really accurately describe a lot of the stuff. It&#039;s been a real challenge to put it together. While it might be long in some places, if you understand this and if you watch this training and you fully comprehend everything here, this is going to shake your world like nothing else. You are going to become who you want to be. There&#039;s no question about that because we&#039;ve got thousands of success stories and testimonials as evidence like the people who get what they want, they all change themselves for the better. They all grow into the person who deserves success.
+
+To conclude this first module, what is the dark force that seems to be against you and making you suffer? I always thought that there was this evilness out there. There was some force that it hit people at random and it was just this thing that we were at the mercy oven. We suffered by it and there was nothing we could do about it. I used to think that I got a bit more of it than other people because bad stuff always used to happen to me or I&#039;d always get in a rotten walk, storm often and be angry at other people and blame things and I was like, &quot;Why does this always happen to me? What did I do? Why does this thing always seem to happen to me?&quot;
+
+It was this understanding that there was this thing out there that was making things hard for me. It will always be someone or something that was against me. I&#039;m always angry and I&#039;m always a victim, a victim to this other thing and I didn&#039;t even have any evidence or understanding of it. It&#039;s you. It&#039;s seriously is you. Everything you think has been limiting you, it&#039;s you. It&#039;s always been you. It always will be you. Saying that it is someone else or something else is only a sure fire way to guarantee that you never get it.
+
+You really need to come to grips with this and take responsibility for where you are in life right now. You did it, you built it to speak, you as a person, you built them. You built who you are. You&#039;re going to be responsible for building who you&#039;re going to be in the future years and everything. You really need to take responsibility for it and understand it. You have to realize that where you are in life right now is because of nobody but you. You have to realize that the thing you&#039;re blaming isn&#039;t the thing at all. It&#039;s you. The voices, the doubts, the devil, the fears, they&#039;re all you.
+
+This is the first issue that we&#039;re going to address with society&#039;s current paradigm. This is number one and it&#039;s called misunderstanding in the psychology of the self and creation of the identity. We&#039;ve gotten lost like the psychologists. These days, it&#039;s fascinating to watch. Psychologists, there&#039;s a lot of them in my program and a lot of them I am helping with mindset stuff on a day-to-day basis and they&#039;ve got PhDs in psychology. I don&#039;t have a PhD in anything. I didn&#039;t even have a degree.
+
+Sometimes, actually a lot of the time, I make grammar mistakes and spelling mistakes. I&#039;m sure you&#039;ve probably seen some. I don&#039;t have any qualifications to do anything. I&#039;m the least qualified person you&#039;ve ever met your entire life because I don&#039;t have any. However, sometimes, I mean not sometimes, all the time, there&#039;s Harvard, Yale, Stanford, we&#039;ve got world-leading people in this program from all the best colleges and with PhDs in psychology and everything and somehow they&#039;re in here and also they need help with mindset.
+
+Therapists and everyone out ... Therapy is an industry. It&#039;s become distorted too. Most of what they&#039;re teaching and everything and advising their clients is wrong. Often, they themselves struggle with the things, which they are supposedly supposed to help other people solve. It&#039;s totally become distorted out there. It is time for a new way of seeing things. It&#039;s the time for a new way of comprehending reality because I wouldn&#039;t just come out and say this and put forward such a bold statement unless I truly believe it needed to be done.
+
+Number one is a misunderstanding in the psychology of the self. We come to believe that ... I&#039;ll tell you properly what this means. We have a flawed psychology of the self and creation of identity. Let me read this to you properly. We&#039;ve come to believe that people are born with it. We see someone who&#039;s successful and we&#039;re like, &quot;Oh, they&#039;re born with it. Good genes. They&#039;re born with it,&quot; or &quot;They&#039;re born into it. They&#039;re naturals,&quot; &quot;Oh, he&#039;s a natural. She&#039;s a natural,&quot; &quot;Oh, it&#039;s in their family. It runs in the family. They&#039;re all doctors. They&#039;re all smart,&quot; or &quot;They&#039;re all good at engineering.&quot; This is what my parents always used to say. They&#039;re like, &quot;Oh, those people, they&#039;re just born with it. It&#039;s in the family.&quot;
+
+We&#039;ve come to believe that we are somebody specific with an identity and characteristics that define us as a person. We&#039;ve come to believe that we are ourselves unable to change and that we should just love ourselves just as we are without changing anything. That&#039;s a good thought and all except for, I mean, we shouldn&#039;t try and fool ourselves to love ourselves if we truly know we could become better. I totally don&#039;t understand how this got so systemic, this belief that we should just be who we are and not change because the nature of evolution and everything is to evolve and become better and to become the best version we possible can be.
+
+Now, we&#039;ve got all these sayings that have taken over our mind and our beliefs and everything that we shouldn&#039;t change and that we are stuck as something in this person. Life isn&#039;t static. You&#039;re not just someone and then that&#039;s it. If that was true, that would be horrible because some people are in bad situations. Some people might be born into a family and the family is poor. That was me. Some people, parents might not have the best beliefs and they might share their beliefs with their children. That happened to me. Poor family, poor beliefs and definitely not the best start or anything like that. However, a lot of people said, &quot;Well, you&#039;re not a businessperson. You can&#039;t do that.&quot; I managed to completely change into a different person who can and not only can, but can do it really well.
+
+It&#039;s true that people can change. We&#039;ve come to believe in society that people are who they are and that they don&#039;t change and that the right thing to do is just love yourself as you are, but don&#039;t change. There&#039;s all these sayings like, &quot;People don&#039;t change,&quot; &quot;Be yourself,&quot; &quot;Stick to your roots,&quot; &quot;Don&#039;t forget who you are,&quot; &quot;Stay true to yourself and be authentic.&quot; Authentic is like, &quot;Don&#039;t be someone who you&#039;re not.&quot; This one used to run through my head all the time and I was like, &quot;Man, I&#039;m a big fraud and a liar and I&#039;m so inauthentic. Why am I doing this?&quot; Because I was trying to start a business and make money and totally evolved into something else.
+
+My history, my past told me that I wasn&#039;t very smart and that I&#039;d never achieve anything in life, so why would I achieve this and everyone else thought I wasn&#039;t, so who was I to think that I was? I had to try and act like this businessperson because that&#039;s who I was trying to be. Whenever I did that, it just felt so inauthentic because I was trying to be someone who I wasn&#039;t. That&#039;s the only way you can grow.
+
+Michael Jordan wasn&#039;t just born with a basketball in his hand and just able to immediately just be the best basketball player in the world. He had to evolve and grow into that. In fact, people used to tell him that he wasn&#039;t good at basketball when he started out. Most people told him that he&#039;d never be good and he still did it. We&#039;ve come to believe that we are something, but everyone&#039;s born the same way. We&#039;re all born the same way and then the skills and everything that we have, we have to go out and get them.
+
+I think a lot of people might look at me and think, &quot;Oh, Sam&#039;s smart,&quot; or &quot;Sam&#039;s gifted,&quot; or &quot;Sam&#039;s rich,&quot; or &quot;Sam&#039;s young,&quot; or &quot;Sam&#039;s tech savvy.&quot; The stories are crazy. You should hear them. I hear them all the time, how crazy they are. People think that I&#039;m successful because I&#039;m in New York or I&#039;m successful because I&#039;ve got an awesome view from my office and that&#039;s why people buy. I&#039;m like, &quot;Man, if people really are signing something like a view to my entire success, that&#039;s pricey.&quot; This is what people do. They think that it&#039;s because of a different thing and they just don&#039;t understand it.
+
+It&#039;s when you blame something else that you let go of it, you let go of all control. Society has told us that it&#039;s wrong to be anything else other than who we are. Quite a lot of the time, who we are isn&#039;t a very good existence for us. I mean, sure, if you&#039;re successful, happy with your life, happy with your situation and everything, you should be happy with who you are. What about if you&#039;re in a really poor situation and people around you need taking care of? Are you supposed to just embrace that? It&#039;s messed up.
+
+We&#039;ve come to freeze everyone as their self and we&#039;ve given everyone these identities. This is why people need to say their identity before they even speak these days. People say, &quot;As a 26-year-old Asian with a Harvard MBA, I&#039;m offended by what you said,&quot; and then they&#039;ll say their thing. Everyone&#039;s always offended these days. If someone gets offended at anything, it&#039;s a sign that they&#039;ve got an identity because you get offended based on your beliefs. If someone contradicts your belief or says something you don&#039;t believe in, you&#039;re offended. If someone goes around and is always offended and is always fighting with everyone, then they&#039;ve got a very strong identity and a very strong sense of self.
+
+This epidemic has been fueled by the Western world going through life, trying to define the question, &quot;Who am I?&quot; This is it. This is the big thing. Western philosophy in the Western world has come to really live an existence where they&#039;re like, &quot;Who am I?&quot; That&#039;s the thought that everyone has in their mind growing up. They&#039;re like, everyday they walk around, they&#039;re like, &quot;Who am I? Is this thing like me? Are these people like me?&quot; We&#039;re just trying to figure out if this thing is in alignment with us and if it is, we pull it in. If it isn&#039;t, we leave it. If something is really opposite to us, then it&#039;s our enemy. This is how we become to exist is, &quot;Who am I?&quot; We try to answer this question.
+
+People have been trying to find themselves. I put these things in quotation marks because these are the exact words and phrases that you&#039;ll start picking up on and notice everyone&#039;s saying out there. &quot;Who am I?&quot; People are also saying they&#039;re trying to find themselves and they&#039;re asking, &quot;Who am I?&quot; They&#039;re seeking out things that are like them and they think, &quot;That&#039;s not me,&quot; like, &quot;Oh, that thing? That&#039;s not me. Those clothes? Not me. Music? Not me. That type of person? Not me. That food? Not me.&quot; A lot of people they think that ... They&#039;ll come into a training program or something and they&#039;ll see to our video, &quot;Not me,&quot; or they&#039;ll see, &quot;Oh, technology? Not me. I&#039;m not tech savvy.&quot; They&#039;ll see something which is like, &quot;Oh, you&#039;ve got to do sales? I&#039;m not going to do sales. I&#039;m above sales. I don&#039;t do sales.&quot;
+
+This is what people do. Their identity says that something doesn&#039;t agree with them, so they&#039;re like, &quot;I&#039;m not having that. I&#039;m walking away.&quot; Then they end up frozen, never being able to achieve anything because sometimes, well, a lot of the time actually, when you want to achieve success, you&#039;ve got to do something that isn&#039;t in alignment with who you are and it&#039;s the truth. If you never want to talk to anyone ever for the rest of your life, then okay. If you want to hold on to that belief, you&#039;re probably never going to be successful because you&#039;re going to have to talk to someone at some point. That&#039;s an extreme example, but you get my point.
+
+They think like, &quot;That&#039;s not me. This is me. These people are like me. I associate with this thing.&quot; We quite often hear people say, &quot;I associate with this,&quot; or &quot;I am this person. This is me as a 26-year-old Asian dude with this education,&quot; or &quot;As a Catholic 45-year-old man in Iowa,&quot; people say these things and then they say their point. This identity thing has gotten crazy. This sense of self and this sense of character gets very strong and defined over time. We form an identity and build our entire lives around things that confirm its existence. We pull closer and reward and cherish everything that serves our identity.
+
+If it makes our identity stronger, then we pull it in. If anything contradicts it or is not against it, we ignore it or we even argue and fight with it. Often, the opposite of our beliefs is our enemies. This issue, the issue is as humans, it&#039;s natural to desire more than who we are. We dream of improving and growing. We form this image of our desired self. However, that&#039;s when all the conflict comes. We exist, we go around asking, &quot;Who am I? and everything and then we come to dream of becoming something bigger.
+
+Like me, I started to dream of, &quot;What if I didn&#039;t work in this cubicle and what if I actually did something bigger? What if my work was more impactful? What if instead of just clicking around in PowerPoint and Excel, doing random stuff, making 40 grand a year, what if the work I did was actually recognized by people? What if actually helped people? What if people are like, &#039;Man, you&#039;re good at what you do,&#039; instead of just being some person who just turns cogs at a corporate job? What if I became something bigger?&quot;
+
+As soon as I started to think like that, I was like, &quot;Oh, yeah, maybe I should. Maybe I should become this new me. Maybe I should grow into this bigger and better and improved version.&quot; However, that&#039;s when all the conflict comes because every time I try to behave like that new person, like when I was a broke person, I was trying to become a businessperson. I would start dressing up a little bit and starting to be a bit more confident and starting to say that, &quot;I&#039;m an entrepreneur. I&#039;m a businessman.&quot; Then you feel like a bit of a fraud because you know that you&#039;re not, but you know that you have to try to be to become one.
+
+This is where the biggest conflict comes for people who I&#039;ve witnessed evolved and grow into bigger versions of themselves and all the people who I&#039;ve observed become successful. They have an identity crisis.
+
+An identity crisis is simply when who you want to be, your desired self is different than who you are right now because if you want to be someone else, if you want to be you, but a better version of you, then that is contradicting who you are right now because who you are right now, if right now you&#039;re a shy person and you think that making money is evil and if you think that money is scarce and if you think that you&#039;re going to be judged by others and all of these different things, if those are all of your beliefs as who you are right, but you desire to be someone who is bold, powerful and makes a ton of money, then you are going to have a lot of conflict because when if you try and be this other person, this person you are right now is going to attack.
+
+It&#039;s going to try and cling on to who you are because the only way that this current self, this self which you think you are, I mean, really, that&#039;s just an illusion. It&#039;s just this thing that you&#039;ve built up of stories of the past. You can&#039;t show me yourself. You can&#039;t really show me this thing that is the self.
+
+What we&#039;ve done is we&#039;ve built up this belief of this identity of who we are based off stories and everything from the past. It really isn&#039;t anything. However, when we&#039;re trying to become someone who we are not, then there&#039;s a conflict and the self, it attacks. That&#039;s why you feel uncomfortable. That&#039;s why you feel fear. Whenever you feel fear like trying to do something, it&#039;s because it&#039;s not in alignment with that old self, the old you.
+
+This is what makes it difficult for a lot of people to become successful is because it isn&#039;t in alignment with who they are. They seriously believe that they should stay true to themselves, be authentic, don&#039;t forget who they are, stick to their roots, be themselves and they think that people don&#039;t change. You can see how we&#039;ve got ourselves into one big tangle. Really, we want to be something, but at the same time, we&#039;re just telling ourselves that it&#039;s wrong to be something. This is how everyone lives and it&#039;s very, very strange.
+
+Every time we try to become this desired self, we are out of alignment with our current self and that&#039;s when the chaos comes. This sentence really just is pretty sobering and it really summarizes most people&#039;s existence. It just goes like this. We live lives paralyzes as ourselves, dreaming and full of regret about who we could have been. We try and just be ourselves because apparently, that&#039;s what&#039;s right, but then when we are just ourselves, we end up full of regret of who we could have been.
+
+Don&#039;t you think that&#039;s backwards? If we should be ourselves, then we shouldn&#039;t end up regretting it. This is how our paradigm has become flawed. We think people have an identity and we think that identity defines them and that&#039;s them forever. The people who have identities, they believe that too. They believe that if some teacher told them that they were dumb at school that they are dumb and they&#039;re dumb forever.
+
+I remember at primary school for me, very early on, one of the first things that I learned was that I was dumb at times tables. Some of the kids told me that in the classroom and my teacher told me that too. What do you think I did? Of course, I believed it. I&#039;m not going to question the teacher. I was like, &quot;Oh, I&#039;m dumb at times tables.&quot; Now, what do you think happens? Every time I try and do times tables, I&#039;m just telling myself, &quot;I can&#039;t do this. I can&#039;t do this.&quot; For my whole life, this thing plagued me. I couldn&#039;t do times tables. I believed I wasn&#039;t good at Math, so I failed Math. I was horrible at it.
+
+It is amazing to think that it all just stemmed from just one thing, one person said. This is what really a mind virus is. A mind virus is someone can just say this. One little thing, it means nothing. They might have just been in a bad mood or they might not have even said it. Someone might tell us that someone said something and they didn&#039;t even say it. It&#039;s quite often the case. Then we come to believe this thing and we&#039;ve replayed in our minds again and again and again. We tell other people and it evolves. Before we know it, it&#039;s affected our entire world and our entire existence.
+
+Just like how a teacher telling you your dumb at times tables when you&#039;re a kid can make you be horrible at Math for life or if someone told you&#039;re bad at tech or if you told yourself you&#039;re bad at technology, well, it&#039;s probably why you believe you&#039;re bad at technology. Really, that&#039;s just it. It&#039;s just a mind virus. It&#039;s just an evolution of a thought that has just stemmed and become systemic and taken over.
+
+This is what has happened to our philosophy and our paradigm and worldview and we need to change it if we want to improve things and really grow into and evolve into better, bigger people, bigger than who we are right now.
+
+Here&#039;s the new way of understanding the self. I showed you the old flawed way. Here&#039;s the new way. Here&#039;s the Alchemy Paradigm way of understanding the self. We remove the static self. Removal of the static self for the becoming self. The static self is the self that is just is. It can&#039;t change. It&#039;s like, &quot;Oh, you are who you are. Just deal with it. Be grateful.&quot; The Western world has cemented beliefs like, &quot;Be yourself,&quot; &quot;Stick to your roots,&quot; &quot;Don&#039;t forget where you came from,&quot; &quot;Don&#039;t lose yourself in pursuit of success.&quot; These are things which people say all the time.
+
+Have you ever stopped to think about who you really are? Seriously? Have you ever stopped to think who are you, really? It&#039;s a pretty profound question. It&#039;s amazing what happens when you start to really question that. You&#039;re like, &quot;There&#039;s really nothing there.&quot; Then you&#039;re like, &quot;What? How can that be? I am this person,&quot; like it is when your identity starts to kick in again and you start to puff out your chest and you&#039;re like, &quot;No, no, no. I am this person. I&#039;m proud of this person. This is me.&quot; This is the sense of self.
+
+Where is this thing you call the self? Can you really identify it to me? Can you show it? Can you pull it out? Can you explain it? Because nobody can. It&#039;s because the self doesn&#039;t exist. We call ourselves, we talk about people with names and we&#039;ve got social media accounts and everything and we paint these pictures of who we are. We get sad at some things or angry at some things. Some people are our enemies or our friends, depending on how they align with ourselves, our self-image, this identity and this ID. The self doesn&#039;t exist. It&#039;s merely you&#039;re clinging to an identity built up of stories about the past.
+
+If you have an identity, you&#039;ve got stories. It&#039;s just like the people who have to say, &quot;As a dadada, I&#039;m offended,&quot; and then they tell their story, then they get to their point after they say, &quot;As a ...&quot; as a this person. That&#039;s a story. That&#039;s an identity. That&#039;s a self.
+
+Every person in the world wants to improve and grow. However, that&#039;s impossible when you don&#039;t want to lose yourself. It&#039;s been my observation that the only way to achieve success is to become the person who deserves it. You can&#039;t get success without deserving it. The only way to get success is to deserve it and that means we&#039;ve got to become the person who deserves it. When we become this new person, we are no longer ourselves. That&#039;s the nature of becoming someone who deserves it.
+
+You see, this is the issue with Western philosophy and our current paradigm and worldview. We believe we are something when we aren&#039;t anything. While the whole world has been trying to define who am I and they&#039;ve been looking in space and everything for the answers, I mean, the only question that&#039;s important is, &quot;Who are we becoming?&quot; That&#039;s it. That is the only question because life isn&#039;t static. You&#039;re not something and then that&#039;s it.
+
+We are moving. Things are changing. It&#039;s just who are you becoming. That&#039;s the question you want to ask yourself because I always used to define myself as a person and I say, &quot;Oh, I am this person, so therefore, I can&#039;t do these other things.&quot; When I started to become successful, I had a different view of things and it evolved over time, but when I looked at something I couldn&#039;t do, I thought, &quot;Okay. Well, yeah, I&#039;ll learn how to do that. I will become a master at that.&quot;
+
+When I looked at the consulting world, I mean, when I first became a consultant, I couldn&#039;t even get a client. It took me a year to get a client. Then when I did get a client, I was only getting paid nothing. People thought I was just some kid who didn&#039;t really know anything and truthfully, I probably was, but I started to learn some things. A lot of people mocked me or laughed at that I thought I could be a consultant because I didn&#039;t have a degree or I didn&#039;t know, they didn&#039;t think that I knew anything.
+
+However, somehow, it&#039;s only been four or five years and I now owned consulting.com. We have the most powerful program for consultants in the world and we&#039;re definitely the market leaders in this niche. My e-mail list is getting close to a million people. That&#039;s a lot of people. About 5,000-6,000 people opt in to my e-mail list a day. I can&#039;t remember the last day where we didn&#039;t make more than 100 grand a day. This year, I would be pretty disappointed if we didn&#039;t make 50 million.
+
+What on earth happened? How could someone not get a client for a year than pretty much everyone make a mockery, be a mock to other people because they thought he couldn&#039;t be a consultant? How could that same person within four years own consulting.com and go on to make 50 million a year? Well, this is it. It&#039;s because I had a vision of who I wanted to become. I was never and I still am not who I am. I am just always who I want to become.
+
+There&#039;s a really awesome saying that I love and it&#039;s like, &quot;You&#039;ve always got to have a hero.&quot; No person can really, should really live without having a hero because there&#039;s always going to be something which we&#039;re chasing and looking up to. Without that, we get lost. A lot of people, they choose their hero to be someone who isn&#039;t them. That might be a sports player or something else or a video game person, something which isn&#039;t them. The best thing to do is to make your hero you in one year and then you in five years.
+
+Your hero should be you, but just a better version of you about a year out. You should just be constantly chasing that hero. You should take the time to design this hero. Make him or her whoever you want to be and chase it, grow into it. Your hero should always be you, just a better, improved version. That is the best way, really, to live because it means all of a sudden we take the steering wheel of our own life and we design it the way we want it to be and we&#039;re in full power, full control. We become who we want to be and that&#039;s the way we best serve ourselves and best serve others. It&#039;s an awesome thing to do.
+
+It&#039;s not just about the money. You will be able to make a ton of money doing this. That&#039;s part of the reason why we bought this program, but it will also improve every other aspect of any area of your life. You can use it for everything. You just have to let go of who you are because really, you aren&#039;t anything. There isn&#039;t such a thing as the self. The only thing that&#039;s important is who are you becoming. What is this character that you&#039;re growing into?&quot; If you don&#039;t know, then that means you&#039;re just rolling the dice and leaving it up to chance. When you do that, you end up being someone who you don&#039;t want to be and you end up making mistakes.
+
+It&#039;s like going to the airport without a ticket. You might end up in Africa and then wake up one day and be like, &quot;Oh, shit! I don&#039;t want to be in Africa.&quot; That&#039;s what will happen if you don&#039;t know who you want to be. It&#039;s like taking a random walk. You need to have intent in life and you need to have a hero and that hero should be you and you should be constantly growing into that.
+
+Here&#039;s a look at the two self&#039;s, this new idea which I have introduced with the new Alchemy Paradigm. The static self, we say with the static self, &quot;Who am I?&quot; We try to answer that question, &quot;Who am I as a person? What is my identity?&quot; You&#039;re born this way and you can&#039;t change who you are. That&#039;s what we think. We&#039;re like, &quot;I am this person. I&#039;m just going to deal with it. I&#039;m going to make the most with it. I just need to come to grips with the fact that I&#039;m never going to be happy.&quot; This is what people say. It&#039;s crazy. &quot;I need to come to grips with the fact that I&#039;m dumb.&quot; What?
+
+People aren&#039;t dumb. The only reason people are dumb is because they think they&#039;re dumb. It&#039;s really as simple as that. This is coming from someone who thought they were dumb and who teachers told were dumb too. Now, I&#039;m definitely not dumb because I don&#039;t think you can make as much money as I am doing that and I don&#039;t think you can really bring about as much change and improvement as I have.
+
+We find out that really, all of these things which we thought were limitations and issues and enemies and forces against us, they were literally just little ideas which we had hooked up in our heads. If you think you&#039;re not anything, it&#039;s just you did it. It&#039;s just some silly belief.
+
+The other one is, &quot;Accept what you were given. Deal with it. Don&#039;t try to be something which you are not. Be yourself. Stick to who you are. Don&#039;t be inauthentic. Stay true to yourself. Be yourself. Be authentic. Don&#039;t forget your roots. Don&#039;t forget where you came from.&quot; The big belief that really just submits it all is that the self is me. Once we define this self, it&#039;s everything. If we let go of ourselves, we cease to exist. That&#039;s how people think.
+
+&quot;It&#039;s who I am and I am bound by the limits of its character and able to do anything that conflict with it. The second something is not in alignment with myself or I&#039;m not doing that. No, sorry.&quot; That&#039;s what people think. This is how limiting it is. This is how people have gotten stuck. This is why there&#039;s so much conflict. This is why success is rare right now when it totally doesn&#039;t need to be.
+
+If everyone knew all of this stuff, everyone would be very successful. That&#039;s why this new program and what we&#039;re doing with consulting.com is really revolutionizing everything because it&#039;s going to create a way of successful people, a lot, millions. It&#039;s already on the rise because it&#039;s giving people a new way to think. This is the old self, the static self.
+
+This is the new self, which I&#039;m introducing. We call it the becoming self. This is very important. You want to really, really, really understand this. You probably want to write this one down because if there was nothing not to forget, it would be this. The becoming self, &quot;Who am I becoming?&quot; That&#039;s the question we ask ourselves. It&#039;s not, &quot;Who am I?&quot; It&#039;s, &quot;Who am I becoming?&quot;
+
+We&#039;re born into an environment and who we become is the byproduct of our own thoughts, choice and actions. You see, with the other self, you&#039;re born this way and you can&#039;t change who you are. It&#039;s just we got to deal with it. With this new understanding, we&#039;re born into an environment and for some part like the environment has a bit of an effect on who we are based just on the environment. However, it&#039;s us that really defines and chooses who we are. It&#039;s just a byproduct of our thoughts, choices and actions.
+
+We accept. Instead of with the old self, we don&#039;t accept what we were given and then deal with it. We accept that we can be whoever we want to be and achieve whatever we want to achieve. That&#039;s literally our acceptance. We can be whoever we want to be and if we&#039;re not, then we did it. We just obviously didn&#039;t said enough intent, we didn&#039;t try hard enough or we didn&#039;t put in the work. That&#039;s it. It&#039;s simple. It&#039;s so easy. There&#039;s no one else to blame but us. It&#039;s the perfect person to blame because it just means that if you want to change it, you can. It&#039;s just a decision.
+
+Become whoever you want to be and don&#039;t feel bad about losing yourself in the process. We have no attachment to who we are with the becoming self. We understand that any feelings, which arise from our old self trying to exist and cling on is it&#039;s just natural. If we&#039;re trying to become someone who we are not, it&#039;s going to be a little bit uncomfortable. When you become this new person, it&#039;s gone. The old self is just gone.
+
+It happens to everyone when they try and do stuff. You&#039;ll notice as you go through this training, you might be a little bit uncomfortable. You&#039;re like, &quot;Oh, my God! I&#039;ve never thought about things this way,&quot; or &quot;Oh, my God! I&#039;m actually studying or reading or watching things. I don&#039;t usually do this. Maybe I shouldn&#039;t do this because this isn&#039;t who I am.&quot; Trust me, these are all good things. If you start to panic and freak out a little bit like that, it&#039;s good. It means you&#039;re changing.
+
+When you start to change, that&#039;s when results come. Often, the best results come after the most intense change. The more uncomfortable you feel, that means the more you&#039;re pushing yourself and the more you&#039;re pushing yourself, that means the bigger the barrier you&#039;re about to bust down. The bigger the barrier, the more money and success is behind it. You just want to become an animal at smashing down barriers and growing and evolving.
+
+The self doesn&#039;t exist. It&#039;s merely an illusion clinging to an identity built up of stories about the past. We let go of all attachment to the self. We just let it go. We&#039;re only who we&#039;re becoming. We don&#039;t have any identity. We don&#039;t say things like, &quot;As a dadadada ...&quot; We&#039;re not as a anything. We just have a question and we ask that. We don&#039;t feel the need to put our identity in there because an identity, it just causes all sorts of issues when there doesn&#039;t need to be any issues. We are only who we are becoming and that&#039;s it.
+
+The person you believe you are is nothing but an illusion veiled over your eyes by your own imagination. You are not anybody. The only thing that&#039;s important is who are you becoming. That&#039;s the question. That is the thing. That is the most important question a human being can really contemplate and think about. It shouldn&#039;t even really be a human being. It should be a human becoming because that is how important it is. Being is really an illusion. We aren&#039;t existing as we are. We are always becoming something.
+
+This is the first point of many about what&#039;s wrong with society&#039;s current paradigm and how we have changed it in the Alchemy Paradigm, which I&#039;m teaching you. This is the first point of many. Throughout these videos in week two, we&#039;re going to keep covering them. This is big important one which you must understand and take on right now. As soon as you done that, awesome. Let&#039;s move on to the next video and let&#039;s get through this training and I can&#039;t wait to see the profound changes and improvements that everyone&#039;s able to make to themselves and their lives through this. Thanks.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="#/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Two"
+    var moduleName = "1. The dark force holding your heels"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-120')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-120', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Two";
+    if (!moduleName) var moduleName = "1. The dark force holding your heels";
+    if (!file) var file = "media/49bd58b2d7b38e048974e7bf4ace4da5.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "#/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('#/products/mark-complete/120', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('#/products/mark-incomplete/120', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "n3ikuq389f", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-120')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-120', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('#/products/mark-complete/120');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+  
+  
+  
+  <script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("15").style.display="none";
+	document.getElementById("16").style.display="block";
+	document.getElementById("35").style.display="none";
+	document.getElementById("36").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("15").style.display="block";
+	document.getElementById("16").style.display="none";
+	document.getElementById("35").style.display="block";
+	document.getElementById("36").style.display="none";
+	} 
+</script> 
+
+  </body>
+</html>

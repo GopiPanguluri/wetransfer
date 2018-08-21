@@ -1,0 +1,1285 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="#/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="#/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="#/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="#/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="#/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="#/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+	  
+	  
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="#/assets/img/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">New Paradigm &amp; World View</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+       
+	   <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="16">16% Complete</small>
+              <small id="17" style="display:none;">17% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="16" aria-valuemin="0" aria-valuetext="16 percent" aria-valuemax="100" id="36">
+              <div class="progress-meter" style="width:16%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="17" aria-valuemin="0" aria-valuetext="17 percent" aria-valuemax="100" style="display:none;" id="37">
+              <div class="progress-meter" style="width:17%"></div>
+            </div>
+        </div>
+		  
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+                 <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+						   <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-two-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-1.html'>1. The dark force holding your heels</a>
+              </li>
+                            <li class='active completed'>
+                <a href='week-two-2.html'>2. Face off with the devil</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-3.html'>3. Duality &amp; conflict of man</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-4.html'>4. Seeing for the first time</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-5.html'>5. Alchemy of self</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-6.html'>6. New paradigm &amp; world view</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-7.html'>7. Rolling Gods loaded dice</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-action.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-incomplete' class="button mobile-lesson-complete active">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Two</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>2. Face off with the devil</h1>
+                  </div>
+
+				  
+				  
+				 
+
+				<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+					<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+				  
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">New Paradigm &amp; World View</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>20% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="20 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 20%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+                             <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+						   <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/258'>Overview</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/120'>1. The dark force holding your heels</a>
+                          </li>
+                                                    <li class='active completed'>
+                            <a href='#/products/consulting-accelerator/3/123'>2. Face off with the devil</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/124'>3. Duality &amp; conflict of man</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/125'>4. Seeing for the first time</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/126'>5. Alchemy of self</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/127'>6. New paradigm &amp; world view</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/128'>7. Rolling Gods loaded dice</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/129'>Action items</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/130'>Questions</a>
+                          </li>
+                                                    
+                        </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "nz2": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/nz27o9rxoe.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_nz27o9rxoe videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-two-1.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-two-3.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">In this video we show you how to face off with the devil and face your dark side. If you've ever wondered why there's one side of you that wants to achieve big things and another side of you that procrastinates and self-sabotages this video is for you. This has been the most transformative module in the program for many successful students. We highly recommend you watch this in full.</font></span></p><p style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Here's what we cover:</font></span></p><ul><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Facing the dark side of yourself and why it’s important </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">My personal story of self doubt, struggle, pain, anxiety, self sabotage and how I overcame it </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">The fascinating discovery of the two forces at play within me, the darkness and the light </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Denial - the cause of all suffering, limitation and failure </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Facing the music - the cause of all success and happiness </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">My observations about business, life and the laws of the universe</font></span><br></li></ul>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                        <h2>Resources</h2>
+                    <ul class="no-bullet">
+                                            <li>
+                        <a target='_blank' href="#/resources/20">Personal standards pinup</a>
+                      </li>                    
+                                            <li>
+                        <a target='_blank' href="#/resources/21">Pattern of existence worksheet</a>
+                      </li>                    
+                        
+                    </ul>
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/b979546969208def1bad0ac6329edfde.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey, everybody. Sam Ovens here. Welcome to week two of the Consulting Accelerated Program. This is video two. This one is called Face Off with the Devil. This is a pretty strange title. I&#039;m sure you&#039;re thinking, &quot;What on earth is ...? Why is this video got such a strange title?&quot; Well, this is probably the most profitable thing you can do. I know that sounds counterintuitive because we&#039;re not talking about specific tactics or how to make money or something like that. Understanding the dark side of yourself and understanding the destructive side of yourself is probably the most important thing that you can possibly do because life is more about managing your downside than it is managing your upside.
+
+It&#039;s always about the things that trip you up more than it is about the things that make you do well. We&#039;ve got to be really aware and conscious of those things, which we have and which are present in our life because if we don&#039;t learn how to watch out for these things, then they&#039;re constantly going to trip us up and whatever work we do, build up. Whatever good we do, whatever money we make, whatever things we build, this other side of us all just tear it all down and there&#039;s nothing more painful than that.
+
+This is an extremely important video. Even if you&#039;re someone who is totally weirded out by this title and everything and thinks, &quot;Oh, this is some crazy stuff. I just want to learn about tactics and specifics about Facebook and stuff,&quot; well, this video will probably help you the most. Make sure you watch it and I&#039;m sure it will completely change things for you and help you make a lot of money in the process.
+
+Face Off with the Devil. We&#039;re going to start off. Here&#039;s an overview of what we&#039;re going to cover today. We&#039;re going to start off with facing your dark side of yourself and why it&#039;s important. I will explain what it is, why it&#039;s important and how it&#039;s actually the most profitable thing you can really do in your business. I know a lot of people they go looking in business. If they&#039;ve got problems in their business or if they want to grow their business, they just look inside their business.
+
+That&#039;s the wrong thinking because if something&#039;s going on in your business, then it&#039;s probably going on in your personal life. In my experience, when someone&#039;s got something that is going on in their personal and isn&#039;t sorted out or cleaned up, then it&#039;s always going to be in their business and they keep trying to fix it with different tactics or different strategies or whatever. It&#039;s like trying to put a BandAid on a broken leg. It doesn&#039;t work.
+
+We&#039;re going to talk about facing the dark side of yourself and why that&#039;s important. Then I&#039;m going to tell you my personal story of self-doubt, struggle, pain, anxiety, self-sabotage and how I overcame it. I&#039;ve never really talked about this before, but I think it&#039;s really important for everyone in this program to know that really, everyone goes through struggles when they&#039;re trying to become successful. I think a lot of people look at successful people and they think, &quot;Oh, he was born with it,&quot; or &quot;They&#039;re a natural,&quot; or &quot;That person was always confident,&quot; or &quot;That person was always going to be successful and I&#039;m different because I&#039;ve got all these emotions, all these stories, all these fear,&quot; and it&#039;s not true.
+
+I&#039;m going to tell you how bad things were for me, what I went through. It was extremely painful. Truthfully, it didn&#039;t need to be that way. I want to tell you my story of how I got started and all the struggles I had because I know that if you&#039;re in a similar situation, then that&#039;s going to help you pull out of that way faster. You&#039;ll be able to snap out of it a lot quicker and get through that pain and that struggle a lot faster.
+
+Then I&#039;m going to tell you the fascinating discovery of the two forces at play within me, the constructive side which would motivate me to dream and work hard for things and build things up and get my life in order, but then also the destructive side of me that would break it all down and make me do things which was stupid and undo all of the good work I had done.
+
+These are the two sides that were within me, the darkness and the light and the destructive side and the constructive side. I&#039;m going to tell you how I discovered these two forces at play within me and how you can discover those inside yourself too and learn what they are and how they work and the patterns and markers and all of those things. It is the most important thing to know, really.
+
+In business, I think a lot of people, they&#039;re just like, &quot;I just need to know a business and then that&#039;s it,&quot; but you need to know yourself and you need to know everything about yourself because in business, we&#039;re pushing ourselves. We&#039;re really pushing ourselves outside of our comfort zone and we&#039;re trying to do new things and we have to work hard and all of that. If we&#039;ve got little things that we&#039;re not aware of with ourselves, then they will always trip us up and we&#039;re always going to make mistakes and we&#039;re always going to be breaking down and things like that. It&#039;s really important to understand that.
+
+Then I&#039;m going to talk about denial and how really it is the cause of all suffering, limitation and failure. Pretty much everyone I have observed that is unhappy with their job, with their life, with their business, with anything and the people also who struggle, the people who can&#039;t get things to work or the people that just can&#039;t seem to breakthrough, there&#039;s always a strong element of denial. It was definitely the case for me too. I&#039;m going to talk about that. I&#039;m going to explain exactly what denial is and everything that&#039;s involved with it and how to identify if you have any denial right now.
+
+Then we&#039;re going to talk about facing the music and the cause of all success and happiness. This is a profound thing to do in life and in business because up until the point where I face the music, I really didn&#039;t achieve anything. Any small amount of success I had, I just break it down. If I saved a little bit of money, I&#039;ll just spend it on stupid stuff. It was just a constant roller coaster ride of building things up, breaking things down.
+
+I thought that that&#039;s just the way things were or maybe I was different or I just had a problem that wasn&#039;t curable. I&#039;m going to talk about facing the music and how it completely changed everything for me and how if you do the same, then it&#039;s going to completely change everything for you too.
+
+Then I&#039;m going to discuss my observations about business, life and the laws of the universe. These are rules and things which I&#039;ve observed that are present in our lives. When I was growing up, I always thought that everything was just random and everything was just chance. I think a lot of people live that way. They just think everything&#039;s random and it&#039;s too complex to understand and everything. They just exist in the mercy of random chance.
+
+Then I started to realize that there are some rules and some laws which are present all the time. If you&#039;re not aware of them, then you&#039;re always going to suffer, but if you are aware of them, then all of a sudden life becomes quite easy. It&#039;s remarkable how easy life is once you understand how it all works.
+
+I&#039;m going to explain some of the key observations that I&#039;ve made and I&#039;m going to explain them. Then I&#039;m going to get you to start applying them right away. Right now, today while you&#039;re watching this video, you&#039;re going to start recognizing these things in your life and you&#039;re going to be able to start making changes, so that you can start winning, you can start being successful. Because once you understand how the world works and once you understand how all of the stuff exists, it&#039;s just really easy.
+
+If you&#039;ve got a problem, you can identify the cause. If you aren&#039;t successful, you can identify why you&#039;re not successful. Then it&#039;s just really easy because then you&#039;ve just got to do the action and then you&#039;ll get the result. This is going to be a really powerful training for everyone.
+
+Let&#039;s start with facing your dark side. What does it mean? Have you ever wondered why one side of you is constructive and the other destructive? Do you ever build things up or start taking positive action towards something, but then break it back down or does one side of you dream for something, but then this other side of you is like, &quot;Oh, just let&#039;s be realistic and not even try&quot;? It&#039;s like we&#039;ve got these two voices inside of us all the time. One wants us to do something, one doesn&#039;t want us to do something. The battle between these two things is quite painful.
+
+Why do we build things up and then smash them down and feel bad about it? Why do we feel like we have this good side of us and this evil side of us, this dark side and this light side? Well, I&#039;m going to tell you my personal story of struggle, self-doubt, anxiety and how I overcame it. My hopes are by telling you this that you&#039;re able to recognize if any of these things you have in your life too because I think entrepreneurship and becoming successful in life and anything, whether you want to become a pro athlete, whether you want to make a lot of money, whether you want to really achieve high level of success in anything, you have to master two things.
+
+One thing is the subject. If you want to be really good at basketball, I mean, you&#039;ve got to learn the rules of basketball and you&#039;ve got to train and practice. The most important thing really is managing yourself and your mind and being able to control your emotions and regulate your behavior and everything, so that you can stay in the zone.
+
+If you study any pro athletes or any pro businessmen, they are masters of controlling themselves and controlling their own minds because life isn&#039;t really about how you perform when things are going good. It&#039;s more about how you perform when things are going bad. It&#039;s really important to understand these things and learn how to protect your downside. When things go bad, how to just pull right through it like it just didn&#039;t even happen.
+
+Let&#039;s start with my personal story. I&#039;ll tell you exactly how that worked, my struggle, doubt, anxiety and pain. I wanted to do something big. I was sick of my job. It was just mediocre. I was just sitting there and I was doing work that didn&#039;t really matter. I was barely making enough money to do anything other than pay my bills and just keep working. It was like I was working to earn money to keep working. It was stupid.
+
+This was my existence. I felt like it was just pretty mediocre and I wanted to do something bigger. I wanted to do something bold and I wanted to quit my job and start a business. I did that. This one side of me wanted to do something big. It wanted to be bold and courageous, but I was so afraid to face the day that I couldn&#039;t get out of bed. One side of me wanted to start this business and I actually did and I quit my job and everything, but then I was so afraid to face the day. I couldn&#039;t even get out of bed.
+
+It was like, &quot;Why would I desire to do that and then behave like that?&quot; It doesn&#039;t make sense. Why would we desire to do something big and bold and courageous, but then why would we behave in a way where we can&#039;t even get out of bed? It didn&#039;t make any sense to me and it caused a lot of pain. Then I wanted to do sales calls and get customers. I learned about sales. I read some books on it. I even typed up different bulletpoints about the questions I would ask. I built a list of all the people who I wanted to schedule a sales call with.
+
+Logically, I knew sales. I understood how it all worked and I thought I&#039;d probably be pretty good at it, but I was too afraid to speak on the phone and I procrastinated. It&#039;s strange. I wanted to do calls. I dreamed of doing sales calls, but then I was too afraid to speak on the phone. Again, I had this strange thing going on where I wanted something, but I also self-sabotage and didn&#039;t want it all at the same time.
+
+I wanted to be confidence and worthy of success, but I couldn&#039;t face talking to customers and I felt unworthy. Again, these two sides. One wants to be this thing, the other is saying that, &quot;You can&#039;t.&quot; I wanted to be productive, mentally sharp and get things done. I was constantly trying to escape the pain. I wanted to be in a good, sharp mental state and I wanted to be productive, getting things done and making progress. Then somehow, this is back in New Zealand, somehow I&#039;d always end up going out with my friends and drinking a lot of alcohol and then feeling sorry for myself and feeling groggy and having a foggy head again.
+
+It was this never-ending cycle. I would want to be productive and I would get productive and then I&#039;d go out with my friends again and just ruin it. It was just this constant cycle, which I couldn&#039;t stop. It was like, &quot;Why would I desire to be mentally sharp and everything, but then go out and do that?&quot; It didn&#039;t make much sense. I wanted to save money and be responsible, but I would always spend surplus funds and regret it. I noticed these things with my bank account. I&#039;d always get a certain amount of money and then I just blow it all.
+
+Then quite often, the things which I purchased I would regret purchasing them. It was like I couldn&#039;t really ever save anything because I would always just spend it. I wanted to save, but at the same time I obviously didn&#039;t want to save because I would spend it right away. I had these two sides of myself which were one side was something that wanted me to achieve and do better and build things up, but the other side of me wanted me to fail and crash and burn and pull things apart and smash down everything.
+
+I think a lot of people when they&#039;re starting, they own a business, they face this issue. They want to be something bigger than they are, but there&#039;s this other side of them which just keeps breaking everything down. Whatever I desired, it was like there was this force against me trying to pull me back down. Whatever goal I set for myself, I would get halfway there and then do something to sabotage it. Just when things were going well for me, I&#039;d do something stupid and mess it all up. It was a constant cycle. It was construction and hope. I&#039;d be hopeful and I&#039;d be building, building, building towards my dreams and then boom. I would just get to a certain point and then it would just be destruction and despair.
+
+Once you&#039;ve built something up and then if you break it down, the feeling is ... I can&#039;t even describe how painful it is. It&#039;s just a pity. It would have been probably better to just not do anything at all because seeing yourself build things up and you get close to your dreams and get close to being the person you want to be, you&#039;re like, &quot;Oh, I&#039;m almost there,&quot; and then bam! You crush it back down. It&#039;s a really painful thing to go through. It&#039;s tormenting.
+
+I see entrepreneurs do this all the time, every single day. They&#039;re constantly going in these cycles of construction and destruction and hope and despair and it just repeats again and again and again. It is a constant cycle. I lived in this pain for years and it was excruciating. What I went through internally, I would not wish upon anyone. Then I noticed a pattern. I went through too many years of this and it was a long time. All of this pain and all of this suffering and everything, I started to recognize a pattern to it all.
+
+What I noticed is that my life really looked like this. It was just ups and downs. It was like I&#039;d build things up to a certain level. I&#039;d have dreams and hopes and desires and everything about who I wanted to become and I&#039;d build things up to a certain peak and then I&#039;d break them down. What was interesting is that I&#039;d break them down to a certain level and I&#039;d build them up to a certain level. These levels were pretty much always the same. That&#039;s what fascinated me.
+
+I thought, &quot;Oh, these levels are always different and there was no order or pattern to any of this stuff,&quot; but I started to recognize that it was very, very, very predictable and the peaks and the troughs were identical in how high they got built up and how low they got broken down. The fascinating thing was these highs and lows were almost exactly the same. It&#039;s like I had a thermostat inside of me that would switch off at a certain peak and then kick back in at a certain low.
+
+A thermostat is something which you have in your car or something and when the engine temperature gets to a certain level, it turns on and it cools down the engine. Then if the engine cools down to a certain and it gets too low, it kicks in again and it heats it back up. It&#039;s like a regulator. It regulates the height and the low. It keeps it in the middle there. It was like I had one of these inside of me. It&#039;s like I could only build up so high and then it would just shut off and regulate all the way back down.
+
+Then when it regulated on the way back down, it would cut off at a certain level. It wouldn&#039;t let me go too low. I never went too low and I never went too high. These two things were almost identical. My constructive force was equally matched to my destructive force. The average of the two formed an accurate view of my existence. Here were the two points, these high points and these low points. Then some average of these two things was my average. This was really where if you were to look at 30 days of my life or 60 or 90 days of my life and then you&#039;re to average it all out, the average would be right here in the middle. This is pretty much where I operated at most of the time, but I always had these peaks and these troughs.
+
+It was fascinating to see this, to see that there was some order in the chaos of my life and this constant cycle of building things up and breaking them down. This pattern existed in every area of my life. It happened with money. I would always have these different numbers. They always changed. If I think back, I had this number at school. I&#039;d only ever save up so much money and then I would feel confident and I go out and spend it. Then in college, when I first started my business and when I had my job and even now, I can tell what my numbers are, what my panic number is and what my confident number is. Everyone&#039;s always got these things.
+
+To give you an example, back when I was ... In the early days of being an entrepreneur and having a business, my number was 5,000 means I&#039;m good, I&#039;m flashed, I&#039;m confident and I&#039;m winning life. That was the number that my peak existed at. Then my panic number was 1,000. I couldn&#039;t go below 1,000. If I got down to below 1,000 or something, I would freak out. It was like something just ... It was just danger zone if it got below there.
+
+What would happen is I would just kick in to gear. If I went close to 1,000 or just a little bit below 1,000, it was like I would just kick in to gear and pull my life together and I just start being really productive, start making sales and pull everything back up again to a certain peak. Then I could never really go past 5,000. Once I&#039;d saved about 5,000 or more, I would start looking for things to spend money on. I&#039;d buy different stuff or I would just really stop being hungry to make sales.
+
+I would stop actively trying to grow or I would be destructive and spend money on stupid stuff and it would pull it back down. There were these two things, this high and this low and this confident number and this panic number. Some average of these two was about three grand. That&#039;s very accurate. If you&#039;re to average out 90 days of my life back then, you would see that the average sum of my bank balance would be about $3,000. This happens for everybody. Everyone has a panic number and everyone has a confident number.
+
+You&#039;ll find that with your bank account right now, you can probably think about it when it gets below a certain number, you&#039;re in gear. All of a sudden, you&#039;re going to kick in and regulate that thing back up. Then over a certain number, you&#039;re probably going to spend it and break it back down. It was a fascinating thing to understand. If I was up here, I&#039;d be cocky and spend it. That&#039;s when I was confident. If I was down here, I would panic and I&#039;d save and I would be trying to get sales.
+
+It wasn&#039;t just with money. Like I said, this was with everything in my life. It was with the cleanliness of my apartment. At the peak was how clean I wanted it was when everything was done. It was like when the bed was made, when bathrooms are clean, when it was vacuumed, mopped, everything. It was immaculate, where I wanted it. It would get to this peak and then I would have this trough and this low which was as dirty as I could possibly stand it. That was a certain state where I just couldn&#039;t let it go any further. It was impossible for me to tolerate anything below a certain level of cleanliness.
+
+If it went below that, I would kick in and start cleaning it. If it went above that, it&#039;s like I would sabotage it and just start leaving plates and stuff around the house and start making it dirty again. The sum average of these two was the average state of my apartment. This was if any one went over to my house, that&#039;s pretty much the state that they would expect it in was the sum average between these two points.
+
+Up here, I&#039;d be messy and I&#039;d be happy and just mess it up and be lazy. I&#039;d be like, &quot;Oh, my apartment&#039;s clean, so I don&#039;t need to clean this thing up,&quot; or &quot;I can just leave this thing here or leave this thing here.&quot; I fooled myself. I was like, &quot;Oh, everything&#039;s good. My apartment&#039;s clean. I don&#039;t need to clean it.&quot; Then boom, before I knew it, it&#039;s dirty again and I&#039;d get frustrated and clean it up.
+
+It happened with my mental state too. This isn&#039;t just with money and with the cleanliness of your apartment or anything. It&#039;s also with the state of your own mind, how focused and sharp and determine it is. These things happen for our mind, our emotions. They happen for our apartment, the state of your car, the state of your bank account, the state of your e-mail inbox. This thing occurs in everything.
+
+I had this high point, which was where I was rested. I had had plenty of sleep and I had been drinking water and exercising and everything and I was rested, happy and mentally sharp. I was sharp. I could take on any task and I had laser focus and really productive. That was my peak, but then I had this trough of where I was literally curled up in bed, hungover and depressed. When I was back in New Zealand, my friends from high school and everything, it was a habit for them to go out every Friday and Saturday night pretty much and just drink quite a lot of alcohol.
+
+Then obviously, the days after that aren&#039;t the best. You&#039;re also not very mentally sharp. This happened to me. I had this constant cycle. I would go out on Friday night or on the weekend and end up drinking too much and then I&#039;d be totally depressed and I&#039;d have a foggy mental state. I would hardly be able to do anything because my mind wasn&#039;t clear.
+
+Then throughout the week, I would pull myself out of it. I would focus on pulling myself back together and building myself back up. Then around Thursday, Friday, just when my mind started to get sharp again, it was like that was just about the time when the weekend came around again. It was constantly going between these two things. Just at the point where I really got rested, happy and mentally sharp, it&#039;s like I would go and smash it back down. The sum average of these two things was the average fogginess of my mental state. That&#039;s really where I operated at.
+
+It&#039;s really fascinating to look at. I&#039;m sure a lot of you guys don&#039;t have this problem, but I know a lot of younger people have this problem because when you&#039;re going through high school and college and in the early days of having a career or whatever, a lot of people go out, party and drink a lot. There&#039;s nothing really wrong with that, but being an entrepreneur and starting a business and trying to do anything big, you really start to value your mental state.
+
+When you have a nine to five job, you can turn up a bit dusty and it&#039;s okay because you can just get through it. You don&#039;t really need to be that mentally sharp. When you&#039;re trying to do something massive with your life and when you&#039;re trying to start your own business and everything, you really do need and you really start to value that clarity, that mental clarity and that mental sharpness.
+
+It&#039;s definitely was a massive issue for me. The best thing I ever did in my entire life was stop drinking. Seriously, a lot of people ask me, &quot;Sam, what was the best thing that you ever did towards your business and being successful and making a whole lot of money?&quot; If I think about it really, it was stop going out on the weekends and being an idiot. That was really the biggest thing I ever did.
+
+When I did that, everything changed for me. At this point in time, I don&#039;t think I&#039;ve been drunk for two years or something. I think that in the last two years I&#039;ve probably had four alcoholic drinks. I&#039;m not saying you need to give it up. If you can just have a glass of wine here and there or whatever, there&#039;s absolutely nothing wrong with that. If you&#039;re someone where it&#039;s a bit of a destructive habit, then it is something which you definitely want to get away from because it will help your business exponentially. I&#039;ve noticed a lot of younger people, this has been an issue for them as well.
+
+Up here, I&#039;d be happy, drink and ruin it. Down here, I&#039;d be depressed and pull myself back together. It was a really interesting thing to notice all of a sudden because I wasn&#039;t aware of it. I just lived and didn&#039;t really think anything of it. It was like I was asleep and totally unaware and totally unconscious to what I was doing. Once I started to notice this pattern, it was very clear to me exactly how it all worked.
+
+Literally, everything in my life followed this exactly pattern of construction and destruction to the same points. It was scary and it was spooky to discover. What fascinated me is that they were all in sync together. It wasn&#039;t just that all of these things had patterns, but it was like all of the things were tied together and in sync.
+
+If I was hungover in bed, then my apartment was messy and my finances were down. If I was bad in one area, I was bad in all of the areas. If I was happy and in a sharp mental state, my apartment was clean and my finances were up. It&#039;s like when things were good in one area, they were good in every area. When things were bad in one area, they were bad in every area. These peaks and troughs and these highs and lows of everything in my life, it was like they were all tied together and all perfectly in sync.
+
+It was like when one thing was going good, everything was going good and I was on top of life and I was just crushing it. Then when one thing was going bad, everything was going bad and it was just disaster. It was a fascinating thing to discover. Up until this point of my life, I had no understanding of myself and the universe. I existed at the mercy of it and believed there was nothing I could do to influence my existed.
+
+It was poor me. I was a victim to forces outside of my control and there was nothing I could do about it. That&#039;s at least what I thought. I just felt like I was just walking through life and life was hard. All of this random stuff was always going on and something would pop up in my life and it was bad and I&#039;d be like, &quot;Oh, I&#039;ve just got bad luck. These bad things just keep happening to me,&quot; and it was poor me and it&#039;s everyone else&#039;s fault. That&#039;s how I used to live.
+
+The finding of this pattern, after going through enough of these cycles and living through enough pain, I started to recognize this pattern in my own existence. Finding it proved to me that there was some underlying rules of the universe governing everything. This discovery was so spooky because it happened with my bank account and that was measurable with my bank statements. I could just look through my bank statements and I could recognize these patterns.
+
+Then I could recognize it with my inbox. It would get built up to so many e-mails that were unread and messy or I wouldn&#039;t reply to people for so many days or whatever and then I&#039;d fix it all up. It would just always oscillate between these booms and busts. It happened with my mental state. It happened with the cleanliness of my fridge. It happened with everything. It was quite a remarkable thing to discover and it showed me that if all of these things were all tied together and interrelated and if they all were this symmetrical and if they all followed a pattern like this, then there must be some underlying rules in the universe and in life governing everything which I didn&#039;t understand.
+
+That&#039;s when I really knew that there must be something to learn here. I made it my mission to really figure out what these things were. What was going on here? How come I wasn&#039;t aware of it? Was there anything I could actually do to improve everything? I had no idea what I had found, but this pattern of my existence became my obsession. I knew that if I solve this thing, if I figure this thing out, then I would figure myself out and I&#039;d probably be able to live a good life that was somewhat in my control rather than just this life, which had left me totally depressed and out of my control.
+
+My original goal was to understand business and make money. I got into business, I was just like, &quot;I just want to make money. I just want to be rich.&quot; There&#039;s nothing wrong with that, but often, you need to or actually in every instance I&#039;ve ever seen, making money isn&#039;t just about making money. You need to also understand yourself. If anybody talked about self-help stuff, I just felt sick and label them as stupid hippie. I&#039;m not joking here. If anyone ever said anything about meditation or any book which has to do with just money, anything to do with positive thinking or anything to do with meditating or your mind or anything, I was just like, &quot;Oh! This stuff is just rubbish. It doesn&#039;t do anything. It&#039;s stupid.&quot; I just dismiss it all.
+
+When I did that, I achieved nothing but misery and destroyed everything and anything that I created. I learned so much about business. I read so many different books and I worked so hard. I was working 12 hours a day every single day, but nothing happened. The needle didn&#039;t move. If it did, if I managed to get some money, if I manage to sell a few people, then I&#039;d go and smash it all back down. I&#039;d go and blow the money on stupid stuff and I would self-sabotage the business, this progress and everything.
+
+I achieved nothing. The sum result was nothing because I think people, they sometimes think, &quot;Oh, if I just gain something, if I gain something, that&#039;s all that&#039;s there.&quot; No. In life, you not only need to be able to gain something, but you need to be able to hang on to it. You need to be able to gain something and then not lose it. A lot of people in business and in life and in everything, especially start-out entrepreneurs, I noticed that they don&#039;t protect their downside. They&#039;re able to get money and they&#039;re able to make positive progress, but then they go and break it all down. They go and spend the money on stupid stuff or then they start getting some money and then they stop improving themselves and they stop making sales calls and whatever. Then all of a sudden, they don&#039;t have any money and everything&#039;s back in disorder again.
+
+This was going on for me in a big way. When I totally ignored understanding myself and understanding my mind and everything, I just got my ass kicked and I achieved nothing but misery and destroyed everything that I created. My new goal was to not only understand business and how to make money, but understand oneself in the state of my consciousness because if I could do that ... I always thought about it. I was like, &quot;Me on a good day didn&#039;t happen very often.&quot; I would probably have one really good day out of an average week of seven days back then when I got started.
+
+I&#039;d be really sharp and really focused and really productive and I&#039;d be really confident and I&#039;d just be smashing it out of the park. I would be so good in that state. The only problem was is that I could only be in that state one day out of the week. The other days of the week, I was all horrible and I couldn&#039;t pull anything together. I always thought, &quot;Well, if only I could stay in that state permanently, then I would be so successful. If only I could remove this destructive side and just have this positive side, well, I&#039;d be so successful.&quot;
+
+This was what I set out to understand. I wanted to understand myself, so that I could stop going through these cycles of building up and breaking down. I decided to learn two things. My new mission was not only to learn how to make money, but to understand my mind. I wanted to understand both money, business, how it all works and then I wanted to understand my mind. Understanding these two things and how they were interrelated became my obsession.
+
+The decision to understand oneself and business was the best decision I ever made and it turned out making me richer than I could ever imagine. This was where all of the positive change really started to happen in my life. This was when I was about ... When I first started making progress was probably one year after I&#039;d first started my business. That first year I started my business, I made nothing. I pretty much got myself into debt in my first year and I achieved really nothing.
+
+Then when I started to think, &quot;Okay, fine. I&#039;m probably going to look into myself a little bit here. I&#039;m not just going to be like, &#039;I&#039;ve got nothing wrong. I&#039;ve got nothing going on.&#039; I&#039;m going to look at both sides, personal side and business side.&quot; It was the best decision I ever made.
+
+The discovery of this pattern of my existence was not enough to fix the problem. These vicious cycles continued. I still went through this construction and hope phase. Then I&#039;d go and destroy it all and be in despair again. I&#039;d have a high point, then I&#039;d break it down to a low point and the sum average of these two would form pretty much the average state of everything in my entire life.
+
+This thing had me in its grips. I couldn&#039;t really understand it because I was like, &quot;I know the pattern. I understand the pattern. I thought I&#039;d figure this thing out.&quot; Yet, still, even though I understood the pattern, still I fell for the trap. I still kept on messing things up. I still build things up and broke them down. Even though I was aware of it, I would still do it. That&#039;s what really puzzled me. I was like, &quot;What? I thought I had fixed this thing. I thought I had outsmarted it and figured it out, but I still mess it up.&quot;
+
+It ruled my entire life and made me suffer immeasurably. I still went through it for months even though I had identified the boom and bust cycles. Then one day, I read something that stood out to me and it changed my life. This was the little quote, &quot;Pain can be an excellent teacher. If you look at it dead on in the eyes and face it rather than running away from it or sedating yourself, pain will teach you everything.&quot;
+
+This sentence, it doesn&#039;t really seem like much, but to me, it really meant everything because I was going through so much pain back then. I&#039;d build things up and break them down. It&#039;s horrible to do that because you get so close to achieving your dreams and then you go and break them all back down again and it&#039;s so painful.
+
+Then it just said, the sentence really stood out to me, it said, &quot;Look at it dead on in the eyes and face it rather than running away from it or sedating yourself.&quot; It really struck a chord with me. I was like, &quot;Whoa! This is the answer.&quot; The truth was I&#039;d been escaping the pain and was too afraid to confront it. Every time things got ... I just sweep everything under the rug. I had been living in denial. This is really the cause of every one that is in this constant boom/bust cycle.
+
+Whenever you have a pattern like this in your life or with your bank account or with how clean your apartment is, with anything, it&#039;s when you really are living in denial in some way. Living in denial is a sure fire way to achieve nothing in life and business. Living in denial is when you don&#039;t take responsibility for your own actions and you fool yourself by thinking that you can act irresponsibly and not face the consequences.
+
+Living in denial is when you refuse to face the truth and you refuse to face the music and then wonder why you get burned and live an unhappy life. It&#039;s when you do something which you know isn&#039;t good for you, but then you&#039;re surprised when you get the consequence of that action. It&#039;s like when I went out on a Friday night or Saturday night with my friends and everything was going well for me. I really knew what was going to happen. I mean, we were drinking alcohol, we were going out. I knew that the next day I wasn&#039;t going to feel really good and I knew that the next day I was going to regret it, but I still did it anyway.
+
+It was like I just lied to myself. I was like, &quot;Oh, we can just forget about that one. It might not happen?&quot; That&#039;s really denial. It&#039;s when you know the outcome of what you&#039;re doing, but you&#039;re fooling yourself by thinking that it&#039;s not going to happen to you. You have to face the truth. You have to look the monster in the eyes and you have to face the music. This is what I call facing the music. Facing the music is when you face the truth front on and stop lying to yourself.
+
+Facing the music is when you stop running away from the pain and problems in your life by avoiding them and distracting yourself or sedating yourself. A lot of people, they ignore things. They won&#039;t answer calls from someone or won&#039;t go anywhere in a particular town because they might see someone or they won&#039;t reply to someone&#039;s e-mails or they&#039;ve got this problem with this relationship or something and they won&#039;t fix it. They just sweep it under the rug. They&#039;ve got also some things going on and they just sweep it under the rug.
+
+This is what I call facing the music is when you stop really trying to escape it. You stop running away from it all and you just face it front on. A lot of people these days, especially these days if you look around at all the different statistics, there&#039;s a lot of people that drink a lot, there&#039;s a lot of people that have all sorts of habits like video games and all sorts of things which are distractions or ways of sedating yourself, so that you can escape the pain.
+
+I always remember when this pain was so intense that I always wanted to escape it. Different ways for me to do that was one was just staying in bed in the morning. When I woke up, I knew I had to go out and face the day and probably make calls and get out of my comfort zone. A way of escaping that was just to stay asleep. Then another one was going out with friends and drinking alcohol because after I did a few drinks, I forgot about it. These were ways of escaping it.
+
+Facing the music is when you take full responsibility for your actions and know that what you get in life is a mirror image of what you put in. If you go and do those things, then what do you think you&#039;re going to get in return? Before I face the truth, I was able to make money, but it was a constant struggle and it was immediately taken away from me, not by anyone else, but myself. I was net position zero and totally unhappy.
+
+What I mean by this is if I was able to make a sale or two and get five, six grand, then I would spend that on stupid things and just blow it. Then I was back down at zero. I&#039;d have these little wins and I&#039;d make money and stuff, but bam, I just smash it back down. I&#039;d be back net position zero.
+
+In life, you&#039;ll realize that it doesn&#039;t matter what you can get, it only matters what you can keep. Money is never about how much money you can make. Money is always about how much money you can keep. All of life is not about how much you make, but how much you keep. Because if you have a very, very powerful positive side, but an equally matched negative side, then you&#039;re going to end up with nothing.
+
+I see this all the time. Some people are amazing and gifted salespeople, but they refuse to resolve an issue with their personal life or something. They&#039;re able to make so much money, literally hundreds of thousands of dollars, but then they just blow it all and they ended up net position zero or some people even end up in the negatives because they go and get themselves into debt because the downward forces is more powerful than the positive one, even though the positive one&#039;s really powerful.
+
+You need to remember that in life and with money, with business, with everything, it doesn&#039;t matter how much you make. It only matters how much you can keep. When I finally face the truth, all the pain and suffering just disappeared from my business and everything just exploded for me. I went from $0, lying in bed, hungover, in pain to loving life and making over 20 million. That is a massive, massive, massive difference. Now, I&#039;m able to keep a ton of it.
+
+When I clean things up at first, my business profit margins were very high because we didn&#039;t have any staff. I used to make about 75%-80% margins with my business when it was just me or me and one assistant. These days, my margins aren&#039;t as high as that because we have a lot of infrastructure and overhead and everything, but they&#039;re still high. They&#039;re still 50% to 60%, which means that of everything I make, I&#039;m able to keep more than half of it. That&#039;s what&#039;s important because it doesn&#039;t matter how much you can make. It only matters how much you can keep.
+
+How do you face the truth? How do you face the music? What I&#039;m going to talk to you about now is my observations about business, life and the universe. What are these governing rules that are going on? What causes these patterns to go up to a peak and then go down to a trough? Why is everything so symmetrical and why do things follow rhythms and cycles like this? How can we be aware of these things and how can we change them, so that we can pull ourselves out of these bad situations and get ourselves into good situations? That&#039;s what I&#039;m going to tell you about now.
+
+We&#039;re going to go through a few different things. Number one is for every action, there is an equal and opposite reaction. It was Isaac Newton that found this out. This one, it&#039;s such a simple thing to read like this, but it is profoundly powerful when you understand how it works in your life. Remember my pattern of existence? This is it with money. I would go up to $5,000, then if I went over that, I just spend it on stupid stuff and I&#039;d regulate it back down to 1,000. If it went down to 1,000 or below, I would panic. I was just in gear. I was saving, I was making money. If I was up here, I&#039;d be cocky and if I was down here, I&#039;d be in panic.
+
+Then my apartment if it was up here, I&#039;d clean it. If it was up there, it would be clean and then I&#039;d make it messy again. If it was down here, it would be dirty and I&#039;d make it clean again. Then my mental state. If I was rested, happy and mentally sharp, I&#039;d then go and mess it up to the point where I&#039;d be curled up in bed, hungover and depressed. If I was up there, I would be happy, drink and ruin it. If I was down there, I&#039;d be depressed and pull myself together.
+
+A stupid action that I did caused my life to fall apart. A smart action that I did caused my life to pull back together. At first, I thought there was nothing I could do about this thing and it was just an unfortunate thing about me or an unfortunate thing about the world or I was a victim to something like my friends or it&#039;s my friends&#039; fault because they always want to go out on the weekend. That&#039;s the way I thought about it.
+
+You have to remember, every action has an equal and opposite reaction. You just need to think on both sides, action, reaction, action, reaction, up and down. When I was down at my low like with my bank account, if I got below $1,000, I would start being very ... I&#039;d just kick in to gear. I would stop spending money. I&#039;d often look around for things I didn&#039;t need to sell and I would not be attracted to gimmicks or new gadgets or shiny objects. I&#039;d just block them out. I wouldn&#039;t spend money on stupid stuff. I would start saving and I would start trying to make sales and try to make money.
+
+That was my action. My action was pulling my life together and being onto it. Then the equal and opposite reaction of that was that I would make money and pull my life back together and get to five grand. Then when I got to five grand, I would do a stupid action. I would go out on the weekend and spend hundreds and hundreds of dollars on drinks and being stupid. Then that action there had an equal and opposite reaction, which was my money went down and I ended up lying in bed, depressed and so I couldn&#039;t make any more money.
+
+These things, they&#039;re just actions and reactions. For every action, there&#039;s an equal and opposite reaction. That&#039;s how it works. Quite often for most people, their action of building up will be equal to their action of breaking down. That&#039;s why they regulate themselves and they operate at this sum average point in the middle, the midpoint of these two peaks and troughs.
+
+Most people try to cheat cause and effect. They behave like it doesn&#039;t apply to them. That&#039;s what I did. I would spend money on some stupid stuff and then I would somehow think that I wasn&#039;t going to end up with no money and feeling not good again. How does that happen? You can&#039;t do an action and then not expect to get the outcome of that action. It doesn&#039;t happen like that. When I was in a sharp mental state and had a clear mind and everything and I was happy and confident, I would go out and drink with my friends. I knew that that next day I was going to regret it and be hungover and have a foggy mind again. I just did anyway and just thought, &quot;Oh, maybe it won&#039;t happen.&quot; It was just denial.
+
+This is what I&#039;ve noticed. Most people try to cheat cause and effect. They wonder why they&#039;re not wealthy and they wonder why life isn&#039;t going their way. They blame other people or they think it&#039;s out of their control, but really, they&#039;re just living an effect of a cause and the cause was all the actions they&#039;ve taken. The only way to get successful is to deserve it. If we want to make money, we&#039;ve got to do something to add value. If you can add value, you&#039;re going to make money.
+
+Number two is the mirror. This is very similar to for every action, there&#039;s an equal and opposite reaction,&quot; except the mirror, we can understand in a different way. The mirror and how it works. Your fears and judgments are only an outward reflection of how you think and behave. This was a fascinating one for me to discover because I was always very judgmental. I often didn&#039;t say it, so I thought it didn&#039;t count because I thought only if you say your judgments to other people, you&#039;re a judgmental person.
+
+I didn&#039;t think that it was judgmental if you just have judgments in your mind. I&#039;d always judge other people. I&#039;d think, &quot;Ah, that guy is stupid,&quot; or &quot;Oh, my God! That guy is such an idiot,&quot; or &quot;Wow! That guy, he&#039;s so cocky and he&#039;s so up of himself.&quot; I would always be judging everyone. Literally, everyone I looked at on the internet I would make some judgment in my mind about them. I had massive, massive, massive lists of people who I judged. They were massive judgments too.
+
+I thought that I could get away with it because I wasn&#039;t saying it and I thought that probably other people wouldn&#039;t judge me. What happened is when I started my business, I was too afraid to do anything. I was too afraid to get on the phone and call people. I was too afraid to do anything. I was too afraid to send someone an e-mail. I was too afraid to do anything. I was literally just paralyzed. That&#039;s when I was really just stuck. I would be judgmental of other people, but then I couldn&#039;t take action because I was afraid that other were going to judge me.
+
+It&#039;s pretty silly, really, because if you judge other people, you won&#039;t be able to do anything special due to your fear of being judged. This is the way it works. If you judge other people, that means that you&#039;re now going to be too afraid to do anything special. You&#039;re never going to be able to step outside of your comfort zone because you&#039;re going to have a massive fear that others are going to judge you.
+
+It&#039;s a fascinating thing to discover in life because you understand that if anyone ever judge that judges someone and you understand this, you know exactly what problem they have with themselves. It&#039;s fascinating to read in Facebook comments and arguments and everything. When people get offended and when people start arguing and labeling other people and attacking other people, it&#039;s really, really awesome and fascinating to watch because you&#039;re like, &quot;Whoa! These people don&#039;t understand that they&#039;re just revealing all of the things that they&#039;re trying to hide.&quot;
+
+It&#039;s like people are revealing their cards. They&#039;re showing you their hand, what cards they&#039;re holding, but they don&#039;t think that they&#039;re doing it at all. It&#039;s so funny to watch because this is what I would always do. I&#039;d always judge other people, but then that was always the thing that I was too afraid to do myself and really wanted to do myself.
+
+It&#039;s a really fascinating thing to discover. The only way to be free of the fear of judgment and all of that is to not judge other people. It was a fascinating thing to discover because I was like, &quot;Wow! All right. I&#039;m just going to try not judging anyone.&quot; From that point on, I didn&#039;t hold opinions of anyone. I saw people who I usually would have judged big time and I&#039;d just like their Facebook post and mean it. I would no longer hold people in any form of judgment.
+
+People who I used to think as my enemy or anything like that, I decided to just be their friend and totally let go of it. It was amazing what happened. All of a sudden every ounce of fear I ever had about being judged just disappeared. I could then actually just do whatever I wanted without any fear of rejection or fear of judgment at all. It just fell off me. It just eroded. The same thing will happen to you too. This is a big one.
+
+I noticed a lot of people are too afraid to do something bold. They&#039;re too afraid to get on the phone. They&#039;re too afraid to do anything because of the fear of what other people will say about them. Well, if someone&#039;s too scared to do something because of what others will say, I know immediately that that person is saying things about people who are doing something, which is such an amazing thing to understand because it&#039;s like for every action, there&#039;s an equal and opposite reaction.&quot;
+
+If someone is too afraid to step outside of their comfort zone, then that means that they&#039;re judging people who are stepping outside of their comfort zone. The only way to be free of the fear, so that you can step into your comfort zone is to stop judging people who do it. It&#039;s really as simple as that. It will totally change everything for you. From this point on, you do not want to judge anyone and you want to let go of all of those feelings and labels that you&#039;ve given to people. Then you will be totally invincible and able to do anything you want without a fear.
+
+If you don&#039;t invest in yourself, others won&#039;t invest in you. This was another massive understanding. It was like if you don&#039;t invest money in your education and in improving yourself, then no one is going to invest any money in you as a consultant or as a businessman or business owner. It was fascinating to understand because I noticed that all of the people who were too cheap and too petty to ever buy an online course or ever buy any self-improvement thing, they were always the people that would struggle in business and no one would ever buy anything from them.
+
+What was fascinating is that I started to recognize the pattern in my own life where the prices I was confident charging other people pretty much was a mirror reflection of the price I was confident investing in myself. At the point where I had invested about $1,000 into an online course, I was confident to charge about $1,000 to my clients and able to make it happen. At the point where I was investing 2,000-3,000 in courses, I was happy to charge my clients about 2,000 and 3,000. At the point where I was investing in a mastermind, which was more expensive, I was confident charging people the same or similar amounts for my mastermind.
+
+I really started to recognize this pattern. The prices that you&#039;re confident charging others are really just a mirror reflection of the prices you&#039;re comfortable investing in yourself. For every action, there&#039;s an equal and opposite reaction. This is how the mirror works. If you actively invest 2,000 yourself, well, you&#039;re probably going to be able to get other people to actively invest 2,000 in you. Very, very simple observation.
+
+It&#039;s fascinating to watch because the people who often can&#039;t get anyone to invest in them have never invested in themselves. The people who are stingy and have only ever invested $29 in an eBook, well, all they sell is eBooks and all they ever charge is $29. The people who sell $29 eBooks and that&#039;s all they sell, you can pretty much always guaranteed the only they&#039;ve ever bought and invested in is a $29 eBook. It&#039;s just a mirrored image and it&#039;s really fascinating to understand.
+
+Congratulations on investing in this program. Just doing that alone is huge because you&#039;re proving to yourself that people do buy stuff and people do spend money on the stuff. Once that&#039;s proven to you, well, you&#039;re going to have no problem going out and trying to do it and trying to get others to do it.
+
+If you like to think about it when making a buying decision, others will do the exact same to you. When I used to buy anything, I wanted to think about it all of the time. It didn&#039;t matter what I was buying. If I want to go buy a gym membership, I would sit down with the person, I&#039;d walk around the gym and it&#039;s perfect. I pretty much knew I wanted it but, &quot;Oh, I couldn&#039;t make decision now. No way.&quot; The person would say, &quot;Hey, do you want to sign up?&quot; I would be like, &quot;Oh, no. Do you have a brochure or something I can take away and have a think about it?&quot;
+
+What I did is then I would take something away and I&#039;d just mull over this decision for ages. I just want to keep thinking about it. That&#039;s just the way I thought things were done. I think I inherited this belief and way of doing things from my parents because I&#039;m pretty sure that&#039;s the way they did things. They always wanted to think about it and mull things over. That was just their way of doing things.
+
+Often, we learn this behavior some way and then this is what we start doing, but what we don&#039;t understand is that now when we&#039;re running a business and we want other people to make a decision, what do you think they&#039;re going to do? They&#039;re going to want to think about it. I couldn&#039;t understand why all of my clients wouldn&#039;t sign up on the call. They wanted to think about it or any meetings I went to, people were like, &quot;Oh, do you have anything you can send us, so we can think about it?&quot; I was just getting a mirror image of what I did. It&#039;s a really fascinating thing to understand.
+
+What you want to do from now on is you&#039;d never want to think about it again. You want to be decisive and it&#039;s totally fine to say no. Before, I was too afraid to say no and so I&#039;d just say, &quot;Oh, I&#039;ll think about it,&quot; but I was also too afraid to say yes. These days, everything for me is an immediate decision when I&#039;m buying. It doesn&#039;t matter how big the price tag is. Even if it&#039;s $5 million, I won&#039;t think about it. I will make a decision on the call.
+
+When I was in New Zealand and I was looking at this apartment which I&#039;m in now in Manhattan, I was speaking to the agent and he was in the apartment and I said, &quot;Well, can you show me around with Facetime?&quot; He pulled up his camera on his phone and he did Facetime and he walked around the apartment. I didn&#039;t even have a very good view because the internet was pretty sketchy. He was like, &quot;Okay. Well, what do you want to do?&quot; I was just like, &quot;Oh, I&#039;ll take it. It&#039;s done.&quot; He was like, &quot;What? But you haven&#039;t looked at it and you haven&#039;t been here in person. I didn&#039;t even show you some of the rooms.&quot; I was like, &quot;No, no, that&#039;s all right. Let&#039;s do it. It&#039;s done.&quot;
+
+He was shocked because people don&#039;t make decisions like that even on big things. A lot of people believe that it&#039;s irresponsible to make fast decisions, but I can tell you that billionaires and millionaires and successful people, they think it&#039;s irresponsible to mull over decisions. You want to be a decisive person from now on.
+
+If you&#039;re rude to your vendors when you buy from them, you will attract the same behavior from your clients. I noticed that the people who are always posting on their Facebook news feeds about all this, they&#039;re always judging other vendors, they&#039;re like, &quot;Oh, this AT&amp;T service, it&#039;s horrible, these people,&quot; and they&#039;re on a crusade just calling out all of these other companies and saying how horrible they are and all of this stuff. Then I noticed that they&#039;re all upset because their clients are attacking them as well.
+
+They&#039;re always in a battle. They&#039;re always having a swipe at someone else, but then they act all surprised when other people are having a swipe at them. That&#039;s the way it works. If you&#039;re rude to vendors, if when you buy from them you try and get discounts, if you&#039;re always the guy that&#039;s like, &quot;Oh, do you have a discount or discounts?&quot; what do you think your customers are going to do? They&#039;re going to be all about discounts.
+
+If you&#039;re trying to get free stuff all the time, your customers are always going to want free stuff. You&#039;ll notice with my business, I really don&#039;t have anything that&#039;s for free. There&#039;s really nothing. I don&#039;t offer all these free giveaways on my site. There&#039;s really nothing for free on my site. I think the only thing we&#039;ve got for free is a webinar. That&#039;s the only free thing there is.
+
+That&#039;s because I don&#039;t really believe in free at all. I don&#039;t even like the word at all. I don&#039;t give out free trials and all of this, but you&#039;ll notice that these people who are obsessed with free, these people out there who are totally obsessed with it and they do so much blog content, so much PR in news, so much different eBooks and giveaways and PDFs and all of this and so many things on the social media that they&#039;re obsessed with free and so then they wonder they can&#039;t get people to pay money. It&#039;s just every action has an equal and opposite reaction.
+
+I put all of my effort into the products. Every ounce effort I have it goes into these training programs and getting my customers results and not into free stuff because that&#039;s silly. You want to stop being the person who seeks out all of this free stuff from now. You&#039;ll notice that your customers will, your market will just mirror the same thing back to you.
+
+If you&#039;re always someone that asks for split payments, if you&#039;re like, &quot;Oh, do you have split payments or can I break it down or whatever?&quot; your clients are going to do that to you. If you&#039;re a person that always refunds things, well, guess what your customers are going to do to you? You&#039;re going to suffer immeasurably with refunds. It&#039;s just the way it works. If you&#039;re rude to people when you call up their customer support, well, when you have customers, they&#039;re going to be rude to you. They&#039;ll be swearing at you if you&#039;re swearing at others. It&#039;s just a mirror reflection.
+
+I can tell you that the people who struggle to get their marketplace and clients to respect them and invest in them are people who do the exact same to others. You can&#039;t cheat the mirror. I think a lot of people think that they can do something to someone else and then not expect it to come back and come into their business. They fool themselves, but it always does. The key is you must become the client you want to attract. You want to think about your dream client. Who do you want in your consulting business? What do they look like? How do they behave? How do they treat you? You want to really take time to think about that and write it down. Then you want to become that client.
+
+When you&#039;re buying from other people, that&#039;s how you want to ... You want to act like that. If you act like that, then that&#039;s exactly what your clients are going to do to you. I always wondered where all the good clients were. I was always like, &quot;Where are all these good clients?&quot; I realized that I was really not a good client. I focused on becoming a good client myself and then all these good clients just started pouring in. It&#039;s a fascinating thing. Become the client you want to attract.
+
+You want to be decisive when making buying decisions. Make it a clean cut, yes or no and never leave any decision in limbo. A lot of people have people calling them on their phone and they know the number and they know not to answer it. I remember for me, I&#039;d have these different people who would call me. It might have been someone calling me about an overdue balance. It might have been someone calling me if I had made a decision, whether I was going to sign up for a gym or not. I would actually save the contact in my phone as don&#039;t answer.
+
+I would literally save it in there, so whenever it rang, I&#039;ll just leave it and I was like, &quot;Okay. I know not to answer that number.&quot; That&#039;s how messed up my head was. I&#039;d always have people sending me stuff in the mail and I&#039;ll just let it pile up and avoid it. People would send me e-mails and I wouldn&#039;t reply to their e-mails and I&#039;ll just think that they weren&#039;t going to notice. I could never make a decision on anything, really.
+
+What happens is when you do that, having things in this limbos takes a massive toll on you and it takes up mental space. Once you have so many things in a gray area like that, your head can&#039;t take on anything new. If you&#039;ve got 20 decisions in your head just for personal life stuff that aren&#039;t clean cut yeses or no, then you&#039;re not going to be able to do anything in your business because your mind is already full.
+
+If you want to clear up space in your mind, you got to start making these things clean cut yeses or no. From now on, make buying decisions immediately and pay your vendors on time every time. Make them think that you&#039;re their best client. If you start being everyone&#039;s best client, you&#039;re going to start getting best clients. You want to tip well, be generous, give testimonials and say thank you. The people who are generous often have people who are generous with them.
+
+When I used to be petty about everything and never want to be generous to anyone, well, I couldn&#039;t really attract anyone to treat me well or to invest me in me at all. I had to change that. A lot of people I&#039;ve noticed they think that no one will give them a testimonial. They&#039;re like, &quot;Oh, no one will give me a testimonial. This market is different.&quot; I&#039;m like, &quot;Okay. Well, thanks for telling me about yourself. You&#039;ve never given a testimonial, huh?&quot; It&#039;s amazing. For every action, there&#039;s an equal and opposite reaction.
+
+If someone is afraid of something, it means that they themselves do that behavior. If someone is afraid that their market won&#039;t make a decision on the call, then that means that they don&#039;t make a decision on the call. If someone is afraid of anything, it means that they themselves are that way. It&#039;s really important. If someone thinks their market won&#039;t give testimonials, they&#039;ve never given one. It&#039;s very interesting. It&#039;s just the mirror. You can&#039;t cheat it.
+
+Very plain and simple, never do anything to others which you wouldn&#039;t want done back to you. It&#039;s plain and simple. I take this to the extreme these days because I know how this thing works. I went to an airplane the other day and I wanted to download a movie and watch it on the plane because you can&#039;t stream on the plane. I downloaded a torrent movie, downloaded it to my desktop, a free one. I knew, I was like, when I was on the plane, I was like, &quot;Oh, wow! Okay. I need to fix that as soon as I land.&quot;
+
+As soon as I get off the plane, I opened up my laptop, connected to the internet and I went on to Amazon and I purchased that movie, even though I&#039;d already watched it. I&#039;m not going to try and breech the system like that. If I have torrented something, then I am going to delete from my computer after watching it and then I&#039;m going to buy it because that&#039;s how it should be done. Because I think a lot of people, they try and fool themselves. They might torrent the movie or something and then they think, &quot;Oh, it won&#039;t matter. That won&#039;t happen to me.&quot; Well, it always does. You can&#039;t live in denial. You can&#039;t do an action and not expect the reaction. Once you start doing this, your whole life will change. You&#039;ll start getting everything you want.
+
+Number three, people don&#039;t have business problems. They have life problems that reflect in their business. This is a fascinating thing to understand because a lot of people have all of these business problems. Their business isn&#039;t making money or their business is unhealthy or their business is, it&#039;s not very innovative, it&#039;s not moving forward, it&#039;s not growing. What&#039;s fascinating is that they just look inside their business for more tactics. They&#039;re looking at spreadsheets. They&#039;re looking at all of this stuff and they&#039;re like, &quot;What tactics can I learn? Maybe it&#039;s Facebook ads,&quot; &quot;Maybe it&#039;s a little sentence I can say in this e-mail,&quot; or &quot;Maybe I can hack this or hack that.&quot;
+
+They believe that they can just go into the business side of things and fix it, but they totally ignore their personal side. It&#039;s been my observation that people don&#039;t have business problems. They have life problems that reflect in their business. If something&#039;s coming up in your business, well, it&#039;s probably created from your personal side. If somebody has an issue in their business or starting their business, it&#039;s always a personal issue they have in their own life that&#039;s coming up and reflecting in their business.
+
+If somebody isn&#039;t committed in business, non-commitment will be showing up in other areas of their life, so they won&#039;t be committed to their girlfriend, they won&#039;t be committed to eating healthy or following some routine or doing something. If there&#039;s no commitment in the business, there will be no commitment in the personal life. If you have a messy house, then you probably have a messy business. If you have a messy house, you probably have a messy mind. If you have an unhealthy body, then you probably have an unhealthy business.
+
+This happened with me too. When I first got started, my business was unhealthy. The accounting and the financial was a mess. I just let it get out of control. I think a lot of entrepreneurs do that in their first year. Then it gets at the end of the year and they&#039;re like, &quot;Oh, my God! I&#039;ve got to clean up this massive mess.&quot; I had an unhealthy business. What that was is I had an unhealthy body too. I was eating poorly. I was staying up really late. I was drinking lots of Red Bull. I was totally unhealthy. That was just showing up in my business. When I decided to fix myself, my business became health all of a sudden too. It&#039;s a fascinating thing.
+
+If you have an unresolved issue in your personal life, it will leave you paralyzed in your business unable to do anything because the personal issues occupy your entire brain. If someone can&#039;t make a single move in business, then their mind is totally occupied with personal issues and you just have to clean those out and then bam, all of a sudden you&#039;ve got 100% of your brain back.
+
+People try to solve business problems with pure business tactics. That&#039;s the only thing they believe will work. I can tell you that no amount of business tactics will solve a personal issue appearing in your business. The only way to solve that is to solve it in your personal life and it disappears from your business. When you&#039;re having a problem with your business, just the first place you should look is your personal life. Most of the time, it just clears it right up, just gone, fixed.
+
+How you do one thing is how you do everything. This is number four. This is a massive lesson. You remember this pattern of existence, which I had discovered? I build things up to a certain point, then I&#039;d break them down to a certain point. For every action, there&#039;s an equal and opposite reaction and there was a constructive one and a destructive. I&#039;d do a destructive action, I&#039;d experience a destructive reaction. I&#039;d do a constructive action, I&#039;d experience a constructive reaction. Pretty simple.
+
+How you do one thing is how you do everything. The pattern of somebody&#039;s existence in one thing, big or small, will be present in their existence in everything else. It&#039;s like the microcosm and the macrocosm. It doesn&#039;t matter how small the thing is. It will be present in the largest thing that person does. You just can&#039;t have a breech in a tiny little thing and not expect it to show up in the massive thing. It just reflects everywhere.
+
+The pattern of somebody&#039;s existence in one thing, big or small, will be present in their existence in everything else. The way somebody does one thing is how they do literally everything. What&#039;s fascinating is that if somebody is light to one thing, they&#039;re light to everything. I noticed this with myself. If I let one meeting or one little deadline slip, then all the deadlines are gone. If I just let one thing, if I try and sleep in one day, then I let it go. This is what happens to everybody. It&#039;s like the way you do one thing is the way you do everything.
+
+It makes you take everything in a lot more seriously. It&#039;s like you&#039;re not going to let yourself just do it this one time because this one time becomes another time, which becomes a whole week, then a month, then a year and then whole life. You just take things seriously. If somebody isn&#039;t committed to their business and their success, that commitment will be showing up everywhere else in their life, going to bed on time, waking up on time, personal relationships and everything.
+
+I had to totally clean up a lot of stuff in my life, not all immediately. I mean, I had done it all immediately because I would be way wealthier and way more successful right now. I had to go back to people and apologize for things I&#039;d done or whatever. I had to go back and tell the truth to people who I had lied to. I had to do a ton of stuff to clean up everything. What I noticed is every time I fixed something and I cleaned it up, my business exploded more. It was fascinating. It was like I found a little hack to making money.
+
+It was like, &quot;Oh, wow! The secret to making money is to be really a better person and have a very clean life and just fix all of these action and reaction things.&quot; I just started cleaning them all up. I&#039;ve got a Trello board of all the things I&#039;ve ever done. I keep remembering a little thing and I write it down and I&#039;m like, &quot;Yes, I can fix this thing.&quot; It&#039;s funny. Even I think back now to this job I had where I was just washing dishes and I used to just take pies at lunch time. I never paid for them because at the end of the day, you&#039;re supposed to say what you took for lunch and pay for it.
+
+I didn&#039;t pay for them. I took all of these pies and I didn&#039;t think anything of it because I was like, &quot;Oh, they&#039;ve not even going to notice.&quot; It&#039;s funny now I&#039;m like, &quot;Oh, well, I wrote that thing down and I haven&#039;t done it yet,&quot; but I am definitely going to call them up and tell them, say sorry and then pay it all back. You don&#039;t have to do this immediately, but you want to start becoming conscious of all of these different things which you&#039;ve done and you want to start making a list of them all because if that was an action, then you&#039;re probably experiencing a reaction somewhere.
+
+It was always fascinating for me to make a list of all of these things because it became very obvious and apparent to me why my life was the way it was. You just want to be aware of these things and start cleaning them up. If somebody is unhealthy in one area of life, they are unhealthy in every other area of life. The pattern and tempo of how somebody works out in the gym or rides a bike will be the same pattern and tempo that they complete their work, read a book, listen to music, hang out with friends, whatever.
+
+If someone likes to go into the gym routinely, they just have a vigorous routine and they always do very long steady workout and not too excited at any point, it&#039;s just long and steady, that is exactly how they will work. The way somebody rides a bike and the way somebody works out, you&#039;ll notice that that&#039;s how they read a book. You&#039;ll notice that&#039;s how they like to hang out with friends or that&#039;s how they do everything.
+
+Then the person who comes in and just high intensity, small burst and then it&#039;s done, that&#039;s how they&#039;ll do everything else. That&#039;s how they read a book, listen to music, everything. It&#039;s fascinating to understand this because you want to start to understand the pattern and tempo that you are at right now. Think about how you would go to the gym and work out. Think about how you do different things. That&#039;s going to be a very obvious sign of how you do everything.
+
+The cool thing is you&#039;re not stuck with any of this stuff. I think this is the mistake a lot of people make. They think that once they identify the pattern and the tempo and the cause and effect, they think that that&#039;s them and they&#039;re stuck like that forever. That&#039;s not true at all. You can totally change everything. You can turn it totally upside down. I used to have zero commitment. I couldn&#039;t even work for half an hour a day. I turned it into too much commitment. I turned it into the point where I could work 18 hours a day for months on end without taking a break.
+
+I turned it totally on its head. It doesn&#039;t matter what it is. You can change anything. This mindset stuff is going to show you how you can totally rewire your entire brain and totally change your entire existence. It doesn&#039;t matter what we find here. When we&#039;re looking for problems and everything, don&#039;t feel bad about them. That&#039;s not what I&#039;m trying to get you to do here. We&#039;re just trying to become aware of them, so that we can fix them and change things because if you&#039;re someone who is unhappy with the way things are right now, then you need to change things because if you just keep doing what you&#039;ve always been doing, then you&#039;re always going to get more of what you&#039;ve got right now.
+
+If you keep doing the same things and expect a different outcome, it&#039;s like the definition of insanity, really. If you want a different outcome, you&#039;re going to have to change something. That&#039;s all we&#039;re trying to do here.
+
+I really took this to the nth degree. What you want to do is you want to commit to excellence in every area of your life because you realize that the way you do one thing is the way you do everything. When I understood this I was like, &quot;Wow! I want to do this with everything.&quot; If you want to be a winner in life, you must commit to excellence in every facet of your existence. Healthy mind and body, healthy fitness and healthy life and healthy business and you want to sleep well, eat well, exercise, drink tons of water. I know this sounds way too simple to be in a business training like drink tons of water. I can&#039;t tell you how much of a difference drinking a ton of water does make to the amount of money you&#039;re able to make.
+
+If you&#039;re dehydrated, then you&#039;re going to be or you&#039;re not having enough water, then you&#039;re going to be drowsy. You&#039;re not going to be productive. It&#039;s going to cost you money. All of these things like I used to go out and eat a massive lunch and have a beer with lunch and then the whole afternoon I was just, I couldn&#039;t do anything. I was out. All of these things affect your bank account and affect your work and affect everything.
+
+You want to have your home and your office in immaculate condition at all times and if possible, hire a cleaner. I noticed really that when my house and apartment was clean, I was in a really good mood. If everything was totally clean and in order, I was confident and my mind was clear and that means that I was making clear decisions and I&#039;d be running my business properly. Then I noticed when it got dirty, it was the opposite. I was like, &quot;Okay. Well, maybe I should get a cleaner.&quot; I got a cleaner and it made a difference.
+
+In the beginning, you&#039;re probably not able to get a cleaner because you&#039;re not making that much money, but as soon as you can afford it, absolutely get one. This is the best thing you&#039;ll ever do. What you want to do right now is if your room, office, house or car is messy right now, seriously, just go and clean it up because you have to remember that you&#039;re never just doing the thing that you&#039;re doing. If you&#039;re doing something in one area of your life, you&#039;re doing it in every other area of your life even if you can&#039;t understand it.
+
+I&#039;m going to show you in these other videos how you&#039;ll be able to understand that because you&#039;re probably not able to understand what I&#039;m talking about right now, but that&#039;s totally fine. You will understand it at the end of all of this mastermind training because it all is the same thing. Cleaning up your place and your workspace is the same thing as cleaning up in your mind and all of that.
+
+Active cleaning your space will clear your mind and clear your business all at the same time. You want to clear your computer and your phone. Have a clean screen. This is a big one. I noticed that people who have out of control desktops and they&#039;ve got 500 tabs open in their browser, man, when you talk to them, they&#039;re so confused. When I hear them on a Q&amp;A call or something, they&#039;re just totally so out of their mind confused and they don&#039;t know what to do and they&#039;re frantic.
+
+I&#039;m like, &quot;Man, well, look at your computer. This thing is wild.&quot; I personally can&#039;t do anything with more than four tabs open. As soon as there&#039;s too many things on my desktop, I&#039;m out. These things all take a toll on you. You want to have clarity in your life. You want to have a clean desk. You want to have a clean desktop. You want to have a clean screen. You want to clear your phone. If you&#039;ve got all of these apps on your phone, go delete them all. I&#039;ve got five apps on my phone, no kidding, because I don&#039;t want my phone just buzzing around all day.
+
+I don&#039;t have notifications for anything, literally zero. My e-mails don&#039;t push to my phone, nothing. Facebook doesn&#039;t push to my phone. I have no notifications because I want to be focused and I want to be clear-headed and concentrated. If all of these different things are buzzing at me and ticking and everything, well, I&#039;m going to be totally frantic. You want to shower in the morning, groom yourself and dress immaculately every single day, so that you show up for success even if you work from home by yourself.
+
+I used to work from home and I just got lazy and into the habit of not showering in the morning and just having messy hair and just wearing sweatpants and being scruffy and lazy. What happened is that that showed up in my business too. My business started to get scruffy. What happens is you start showing up to work like it isn&#039;t serious when that happens. What you want to do is every morning, when you start working from home and stuff and you start becoming your own boss, I noticed a lot of entrepreneurs, they battle with this. They let go of all of their standards.
+
+You still need to discipline yourself. You need to make sure that you show up to work like it&#039;s serious. You have to treat it seriously. If you take this seriously, your business and life will just totally explode out of the water. Everything will start going your way. If you want, you can ask anyone in the Facebook group. The people who get the massive results, they do this. Like I said, it&#039;s probably 20% tactics and then 80% your mindset and your paradigm and your worldview and everything.
+
+What you want to do is you want to learn all of the tactics and strategies and everything, but you want to make sure that you clean up your entire mind and your entire life because that will make more of a difference than anything else.
+
+Number five, this is a huge one. We become our lowest standards, not our highest dreams. If we remember this peak and trough wave here, we really become the person we dream about. We&#039;ve all got visions of who we want to be like this highest version of ourselves. We really become this person. We don&#039;t become the person we dream about. Life is more about managing downside than upside. No one is really talking about this at the moment. Everyone is out there all just talking about the positive stuff like, &quot;Oh, yeah, just be happy, positive thinking,&quot; all of this and everyone is always talking about, &quot;It&#039;s all about happiness and peace and it&#039;s all about the light and all of the stuff,&quot; and they totally ignore the dark side and they totally ignore the dark side of somebody. This side which everyone sweeps under the rug, they just let it go.
+
+I&#039;ve learned that life&#039;s more about managing the downside than the upside because the downside is more dangerous. Once people get stuck in the downs, they&#039;re stuck there for longer than they are in the ups. Often, the downs are stronger and more potent than the ups. It doesn&#039;t matter. Like I told you before, I&#039;ve seen people who make good amounts of money, but they end up with nothing because life and business isn&#039;t about how much you make. It&#039;s about how much you keep. It&#039;s about the average between these two, not the height of the peak.
+
+I noticed a lot of people are amazing at doing Facebook ads or they&#039;re amazing salespeople or they&#039;re amazing at all sorts of stuff and they even make good amounts of money, but they end up with nothing. There&#039;s not much point in making a lot if you don&#039;t have any. I would rather be someone that made a million dollars and kept a million dollars than someone who made $100 million and kept zero because it&#039;s not about how much you make, it&#039;s about how much you keep and you got to remember that.
+
+This is a printout. This is a pinup, which is available for download below this video. This is something you definitely want to put on your wall because you never want to forget this one. Our standards are what define us. We are not the highest version of ourselves which we can imagine. We are the lowest version of ourselves which we can accept. That is a quote I came up with and I noticed a lot of people, I said it in the Facebook group once and I noticed a ton of people had already printed it out and put it on their wall. It was fascinating for me to see when people send through testimonials, I could see it on the wall.
+
+This is a big one. This is huge. We are not the highest version of ourselves which we can imagine. We&#039;re the lowest version of ourselves which we can accept. You need to understand that you will do nothing to achieve your dreams, but you will fight like hell to not breech your standards. As humans, we do more to not lose something than we will to gain it. There&#039;s been lots of psychological studies and it&#039;s called Loss Aversion. People are more motivated by loss than gain.
+
+I will give you an extreme example. If you were to give a salesperson a Ferrari and then say, &quot;Okay. Well, you need to make 10 grand a month in sales and you can keep the Ferrari, but if you go below 10 grand a month in sales, I&#039;m going to take the Ferrari off you.&quot; Well, that sales rep is going to dance. That sales rep is most likely never going to let that thing go because now that he&#039;s got it, he doesn&#039;t want it gone. He&#039;s going to be very motivated. He&#039;ll probably sell above 10 grand a month forever.
+
+However, that&#039;s when you motivate someone by loss. If you motivate someone by potential gain, they often won&#039;t do anything. If that sales rep was making $0 and you said to him, &quot;Well, see this Ferrari? I&#039;ll give it to you once you start making 10 grand a month.&quot; See, he&#039;s not very likely to achieve that. I mean, it&#039;s possible, but one of them is infinitely more powerful than the other. The motivation to not lose something is way more powerful than the motivation to gain something.
+
+That&#039;s why we become not the highest version of ourselves which we can imagine. We become the lowest version which we can accept. It&#039;s like everyone has these standards. People don&#039;t breech these standards, but people will never ever, ever breech these standards. It&#039;s like a big thing that never happens. That&#039;s not the same about dreams. If you want to achieve your dreams and goals, you must turn them into irrefutable standards. This is powerful, very powerful.
+
+Looking back, I can&#039;t believe I made it so hard on myself. All of my suffering, fear, failure and sadness was caused by ignoring the consequences of my own actions. I was living in denial, sweeping it under the rug, pretending cause and effect didn&#039;t apply to me and then blaming others for my problems. What does it mean to face your dark side? This video is called Face Off with the Devil. It&#039;s like facing your dark side. What does it mean to face off with the devil? It sounds spooky.
+
+Well, facing your dark side is when you stop fighting your shadows and running away from your problems and fears. It&#039;s when you face the music and face the truth that you deep down know needs resolving and cleaning out. Facing your dark side is when you stop running away and trying to hide from the part of yourself that you&#039;re afraid of. It&#039;s when you face the monster front on and stare at it dead on in the eyes. The moment you confront it, it all fades away and just becomes nothing at all.
+
+I think a lot of people think once they face it, it&#039;s going to be so scary, but all the fear is not facing it. Once you face it, it&#039;s gone. It was nothing. It&#039;s amazing. Every time I face something front on, I&#039;m like, &quot;Oh, my God! That was it? You&#039;re kidding me. Why didn&#039;t I do that five years ago?&quot; It&#039;s amazing to do.
+
+A breech in one area of your life will become a breech in every area of your life. All having a business is going to do is magnify it 10x. If you have a breech somewhere and it&#039;s just showing its head, well, you put a business on top of you, it&#039;s just like putting a magnifying glass on that thing. It&#039;s like all a business does is magnify everything in your life 10x. If your personal life is good, then you&#039;re going to 10x that and it&#039;s going to be amplified. You&#039;re going to have an awesome everything. If you&#039;ve got a small little problem, it&#039;s just going to magnify the problem. You have to clean those things up.
+
+You must understand that every action has an equal and opposite reaction and all that exists is cause and effect. That which is considered chance is simply misunderstood cause and effect. People think that there is such thing as chance, but it&#039;s just people who don&#039;t understand what the cause is. You can&#039;t cheat the mirror. Believe me, I tried to cheat it for most of my life and I just got grilled. I got put through the ringer. Everyone I see that tries to cheat it just gets absolutely smashed.
+
+This here is awesome news. I don&#039;t want anyone to feel like this is bad news because it means that when you use the mirror properly, you&#039;re going to have everything you ever wanted. That&#039;s a fact because it can&#039;t be any other way. It&#039;s guaranteed. On the same side, if you do not face the truth, then you&#039;re going to have everything bad and that&#039;s just guaranteed.
+
+It&#039;s just a simple decision. You want to face the truth and have everything awesome or not face it and have everything bad. It&#039;s just a very simple, easy thing to change. This isn&#039;t a business tactic, but this is the most profitable thing you can possibly do. This is going to sound counterintuitive. You&#039;ll be like, &quot;Sam, this isn&#039;t the business stuff. Where&#039;s the business stuff? I want to learn how to make money.&quot; This will make you more money than anything else you could ever do in your entire life.
+
+I know this because the decision to stop drinking alcohol and stop being immature and stop living in denial has made me more than $20 million. Every amount of money I ever made before that, it just disappeared. I don&#039;t know where it went. It was just self-sabotage and destructive behavior. I noticed this with everyone. You want to take this stuff seriously.
+
+Now, we&#039;ve got a small exercise, so that we can start getting your mind thinking about this and we can start taking action on this stuff. We&#039;ve talked about a lot of different theory and a lot of findings and everything, but now it&#039;s time to put it into action. We want to start by identifying your patterns of existence. We have a pattern of existence worksheet.
+
+I&#039;ve been showing you this pattern thing here all throughout this video. It&#039;s just this wave form. It&#039;s got peaks and troughs. The truth is is everyone&#039;s existence looks like this, but it&#039;s just varying levels and degrees. The wave form will be slightly different, but it will always look like this. It will always have peaks and troughs. What you want to do is start trying to identify the patterns of your own existence.
+
+Think about a real easy way to get ... because people are like, &quot;Well, how do I do this? This is so hard.&quot; Well, it&#039;s very easy. The easiest one to look at is your bank account because that&#039;s got numbers in it and we can count numbers. Numbers are very easy. Think about what&#039;s your panic number because I know that everyone has a panic number. You might be thinking, &quot;No, no. I don&#039;t have a ...&quot; You have a panic number. What is that number that you will not let your bank account go below? What is that thing where you just freak out? For some people, it&#039;s 1,000. Some people it might be way less. Some people it might be zero. Some people it might be a certain amount of overdraft. Some people it might be a million dollars. Some people it might be a lot more. What is that number? What&#039;s that number that you just can&#039;t go below?
+
+You want to define that. Then what&#039;s that number which your bank account never really seems to go above? I remember when I first started trying to save, the number which I couldn&#039;t crack was 30,000. I&#039;d just go over 30 grand and then I&#039;d regulate it back down to 20 and it would 30, 20, 30, 20. I was like, &quot;What is going on?&quot; Then I figured. I remember back to this thing and I was like, &quot;Oh, this is the new number. Somehow this number is in my head.&quot; Then I went back to ... I fixed it up and then that number became 100 grand. Then the number became a million. I just kept working on this thing, but everyone always has a number and you can always ...
+
+The first way to change it is to become aware of what it is. Find your panic number and then find your confidence number. What&#039;s that number where you never really seem to go above or if you go above it, you regulate it back down? You can download this worksheet below the video right now. You can print it out or whatever.
+
+What you can do is start identifying these peaks and troughs of your own existence. Start off with your bank account because it&#039;s the easiest one to do. Then look at everything else. Think about how it happens with maybe in your personal life you might go out and party on the weekends and then end up regretting it. If that&#039;s something you do, put it on here too or if it&#039;s the cleanliness of your apartment or if it&#039;s the cleanliness of your car or if it&#039;s your productivity. Maybe you&#039;re really productive on Mondays and Tuesdays and then it just drops off or maybe you are really good at making sales early on in the month or in the last week of the month.
+
+I noticed a lot of people, a lot of sales reps, they don&#039;t kick in to gear until one week before the end of the month because they&#039;re like, &quot;Oh, my God! I need to reach my target,&quot; and they just kick in to overdrive. You want to identify these patterns of your existence. You can do it for as many different things as you want, even things which I haven&#039;t said.
+
+All life follows patterns, but seems random chaotic and out of control until we understand it. Then all of a sudden it just becomes clear and obvious. You need to understand your mental thermostats, turn on and turn off markers, so that you can understand your own personal standards. The best way to think about it is you&#039;ve got this little thermostat inside you. It&#039;s in your mind. You&#039;re not aware of it because it&#039;s in your subconscious, so you can&#039;t really know what&#039;s there. When you start thinking about it more, you can identify where its limits are.
+
+What it&#039;s going to do is it&#039;s going to start sabotaging once you go over a point and it&#039;s going to start kicking in to overdrive once you go below a certain point. That&#039;s what we call its turn on and turn off markers, its high point and its low point. You want to understand those because those define your personal standards. Remember how I said we don&#039;t become the highest version of ourselves which we can imagine. We become the lowest person which we can accept.
+
+Your conscious mind is going to dream of things, but your subconscious mind is just going to make sure you achieve its lowest standard. It&#039;s very important to do this. You want to do it with money. You want to do it with the cleanliness of your home, room, office or apartment, your mental state or any other constructive or destructive patterns that exist in your life or business. You want to be aware of yourself from now on and refer back to this chart to track your patterns and identify the markers which regulate your standards.
+
+You want to have this handy all the time. You want to print it out, put it on your wall or have it next to you because every time you start to feel emotions bubble up and you want to get angry or you want to freak out or get sad or curl up in bed, stop for a moment and be like, &quot;Whoa, whoa, whoa! Where&#039;s this? What&#039;s going on on my little pattern thing? What&#039;s going on? Where am I in this chart?&quot; Because all that happens in life is you&#039;re just oscillating between these two things and you just need to first of all become aware of it and then fix it. The best one to fix is the down one because the down ones define us. The highs never define us. It&#039;s mostly the lows.
+
+Your average existence is going to be the sum average of these two. That midpoint, that line, that&#039;s pretty much what you&#039;re going to be. It doesn&#039;t matter if you make 100 million, if you&#039;re destructive habit causes you 100 million, you&#039;re still worth zero. Life isn&#039;t about how much you make, it&#039;s about how much you keep. That&#039;s why we must learn to look at the low points. This is something new which I&#039;m doing in this training, which I&#039;ve noticed that no one else is doing because everyone&#039;s become obsessed with the light, the light side of everything. They&#039;re like, &quot;Be happy. Be positive and be all of these different things,&quot; and they&#039;re all about smiling and all of this stuff. They&#039;re all about making more money and how to make more money, but they don&#039;t address the fact that these people have ignored their destructive habits.
+
+They end up all smiling and positive thinking and everything, but then they end up with nothing because it&#039;s their destructive things that just ruin them. This is why in this training I have introduced really in this mindset stuff, it&#039;s like facing your dark side. It&#039;s like we have to look at the dark side. We have to look at the things which we perceive as the bad stuff because these define us more than what defines our good stuff.
+
+If we fix something up down here, it&#039;s worth way more than if we fix something up in the top gaining section. It&#039;s a totally different way of thinking and looking at everything. We look at both. We look at the dark side and the light. That&#039;s what makes this training fundamentally different.
+
+That is it for this training video. What I want you to do is print out that pattern of existence worksheet. You might want to print out five or 10 or whatever. Try mapping it for different things in your life and then become aware of it. The first step you have to do in life when you want to take control of yourself and your consciousness and everything is to understand that you are responsible for everything, you do it. If there&#039;s a problem, you caused it. If you&#039;re suffering, you did it. It&#039;s the first thing.
+
+The second thing is to then start mapping it. Start mapping everything out on that wave form because all life is is a dance between those two things. The sum average of that is where you&#039;ll be most of the time. If you want to improve your situation and improve your life, you just have to improve those peaks and valleys. The best one to focus on is the downside and that&#039;s what I have done in my business and life and it&#039;s made me viciously competitive with everyone else. Everyone else is all about the upside and I&#039;ve been focused relentlessly on the downside and the dark side because I know that that&#039;s worth a lot more because if you fix that, it&#039;s worth a lot more than fixing the light side. Focus on all of that stuff. It will seriously ... While it doesn&#039;t seem like a business, it will seriously change your life and be worth million and millions and millions of dollars for you.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="#/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Two"
+    var moduleName = "2. Face off with the devil"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-123')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-123', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Two";
+    if (!moduleName) var moduleName = "2. Face off with the devil";
+    if (!file) var file = "media/b979546969208def1bad0ac6329edfde.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "#/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('#/products/mark-complete/123', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('#/products/mark-incomplete/123', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "nz27o9rxoe", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-123')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-123', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('#/products/mark-complete/123');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("16").style.display="none";
+	document.getElementById("17").style.display="block";
+	document.getElementById("36").style.display="none";
+	document.getElementById("37").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("16").style.display="block";
+	document.getElementById("17").style.display="none";
+	document.getElementById("36").style.display="block";
+	document.getElementById("37").style.display="none";
+	} 
+</script>  
+  </body>
+</html>

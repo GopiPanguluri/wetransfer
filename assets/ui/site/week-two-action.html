@@ -1,0 +1,1356 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="#/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="#/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="#/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="#/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="#/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="#/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">New Paradigm &amp; World View</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+        <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="21">21% Complete</small>
+              <small id="22" style="display:none;">22% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="21" aria-valuemin="0" aria-valuetext="21 percent" aria-valuemax="100" id="62">
+              <div class="progress-meter" style="width:42%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="22" aria-valuemin="0" aria-valuetext="22 percent" aria-valuemax="100" style="display:none;" id="43">
+              <div class="progress-meter" style="width:43%"></div>
+            </div>
+        </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+             <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+							<option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+							<option value="welcome.html">Welcome!</option>
+							<option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-two-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-1.html'>1. The dark force holding your heels</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-2.html'>2. Face off with the devil</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-3.html'>3. Duality &amp; conflict of man</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-4.html'>4. Seeing for the first time</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-5.html'>5. Alchemy of self</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-6.html'>6. New paradigm &amp; world view</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-7.html'>7. Rolling Gods loaded dice</a>
+              </li>
+                            <li class='active '>
+                <a href='week-two-action.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Two</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>Action items</h1>
+                  </div>
+			<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+			<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">New Paradigm &amp; World View</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+                         <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+							<option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+							<option value="welcome.html">Welcome!</option>
+							<option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+						</select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/258'>Overview</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/120'>1. The dark force holding your heels</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/123'>2. Face off with the devil</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/124'>3. Duality &amp; conflict of man</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/125'>4. Seeing for the first time</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/126'>5. Alchemy of self</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/127'>6. New paradigm &amp; world view</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/128'>7. Rolling Gods loaded dice</a>
+                          </li>
+                                                    <li class='active '>
+                            <a href='#/products/consulting-accelerator/3/129'>Action items</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/130'>Questions</a>
+                          </li>
+                                                    
+                        </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-two-7.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-two-questions.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p>Congratulations on completing week one! As soon as you've finished watching all of the training videos in full please complete the action items below. </p><p>This is an "implementation program" and to get results you must do the work. Completing the worksheets and uploading them to our action items storage system keeps all of your worksheets safe in one place. We refer back to these worksheets throughout the program so we recommend you upload them.</p>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                
+                                <!--Modals-->
+
+                <!--Yes/No Question Modal -->
+                <div class="reveal reveal-action-item question" id="question-modal-3" data-reveal>
+                  <div class="row reveal-inner">
+                
+                    <header class="reveal-header columns small-12">
+                      <div class="sub-heading">Question</div>
+                      <h1 class="text-center question-text">1. Have you viewed all of week twos video's in full?</h1>
+                    </header>
+                
+                    <form action="" method='post'>
+                
+                      <div class="reveal-content">
+                        <div class="columns small-10 small-centered medium-6">
+                          <select name="answer" id="answer" class="chosen-select" data-placeholder="Select your answer..." placeholder="Select your answer...">
+                            <option value="No">No</option>
+                            <option value="Yes">Yes</option>
+                          </select>
+                        </div>
+                      </div>
+                
+                      <div class="columns small-12 footer-buttons-container text-center">
+                        <button class="button primary">Mark Complete</button>
+                      </div>
+                      <!-- /.columns small-12 footer-buttons-container -->
+                
+                      </form>
+                  </div>
+                  <!-- /.reveal-inner -->
+                
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&#10005;</span>
+                  </button>
+                </div>
+
+                <!-- Free Text Question Modal-->
+                <div class="reveal reveal-action-item question" id="question-modal-2" data-reveal>
+                  <div class="row reveal-inner">
+                
+                    <header class="reveal-header columns small-12">
+                      <div class="sub-heading">Question</div>
+                      <h1 class="text-center question-text">4. Complete your dream life worksheet</h1>
+                      <div class="blurb description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit interdum diam, eget tempus urna feugiat nec.</div>
+                    </header>
+                
+                    <form action="" method='post'>
+                
+                      <div class="reveal-content">
+                        <div class="columns small-12">
+                          <textarea name="answer" id="" cols="30" rows="10" required></textarea>
+                        </div>
+                      </div>
+                
+                      <div class="columns small-12 footer-buttons-container text-center">
+                        <button class="button primary">Mark Complete</button>
+                      </div>
+                      <!-- /.columns small-12 footer-buttons-container -->
+                
+                      </form>
+                  </div>
+                  <!-- /.reveal-inner -->
+                
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&#10005;</span>
+                  </button>
+                </div>
+
+                <!--Upload Question Modal-->
+                <div class="reveal reveal-action-item upload" id="question-modal-1" data-reveal>
+                  <div class="row reveal-inner">
+                
+                    <header class="reveal-header columns small-12">
+                      <div class="sub-heading">Files Upload</div>
+                      <h1 class="text-center question-text">Your pattern of existence worksheet</h1>
+                    </header>
+                
+                
+                
+                    <div class="reveal-content">
+                      <div class="columns small-12">
+                        <form action="/upload" class="file-upload" enctype="multipart/form-data">
+                
+                          <div class="drop-upload-area-container">
+                            <div class="drop-upload-area drop-upload-clickable" id="dropzone">
+                                <div class="page-icon show-for-medium">
+                                  <div class="image-icon drop-upload-clickable"></div>
+                                </div>
+                
+                                Drag Files To Upload
+                                <small class="drop-upload-clickable">or Click Here To Select Files</small>
+                            </div>
+                            <!-- /.drop-upload-area -->
+                
+                            <div class="file-uploading-indicator hide">
+                              <span class="small-title">Uploading</span>
+                            </div>
+                          </div>
+                          <!-- /.drop-upload-area-container -->
+                
+                
+                
+                          <div class="uploading-files-list" id="previewbox">
+                            <div class="preview-template" id="previewtemplate">
+                              <div id="preview"></div>
+                
+                              <div class="uploading-files-list">
+                                <div class="row preview-template">
+                                  <div class="columns medium-1 show-for-medium file-format">
+                                    <i class="fa fa-file-image-o file-type-img" aria-hidden="true"></i>
+                                    <i class="fa fa-file-text-o file-type-file" aria-hidden="true"></i>
+                                  </div>
+                
+                                  <div class="columns medium-11">
+                                    <input type="hidden" class="last-updated-byte" value="0">
+                                    <input type="hidden" class="last-time" value="0">
+                                    <input type="hidden" class="start-time" value="0">
+                
+                                    <div class="file-info">
+                                      <span class="file-name" data-dz-name>Worksheet.pdf</span>
+                                      <span class="file-size" data-dz-size>132 KB</span>
+                                    </div>
+                
+                                    <div class="upload-progress">
+                                      <div class="upload-progress-status" style="width: 0%" data-dz-uploadprogress></div>
+                                    </div>
+                
+                                    <div class="upload-progress-details clear">
+                                      <div class="upload-complete float-left"><span class="completed-upload">54%</span> Done</div>
+                                      <div class="upload-speed float-right">90kb/Sec</div>
+                                      <a class="upload-remove" href="#" data-dz-remove>Remove</a>
+                                    </div>
+                
+                                    <div class="error-message alert" data-dz-errormessage></div>
+                                  </div>
+                                </div>
+                              </div>
+                                <!-- /.uploading-files-list -->
+                
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <!-- /.reveal-content -->
+                
+                
+                  </div>
+                  <!-- /.reveal-inner -->
+                
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&#10005;</span>
+                  </button>
+                </div>
+
+                <!-- Yes/No Answer Modal -->
+                <div class="reveal reveal-action-item question" id="answer-modal-3" data-reveal>
+                  <div class="row reveal-inner">
+                
+                    <header class="reveal-header columns small-12">
+                      <div class="sub-heading">Question</div>
+                      <h1 class="text-center question-text">1. Have you viewed all of week twos video's in full?</h1>
+                    </header>
+                
+                    <form action="" method='post'>
+                
+                      <div class="reveal-content">
+                        <div class="columns small-10 small-centered medium-6">
+                          <div class='answer-text' style='text-align:center'></div>
+                        </div>
+                      </div>
+                
+                      <!-- /.columns small-12 footer-buttons-container -->
+                      <div class="columns small-12 footer-buttons-container text-center">
+                        <button class="button primary re-upload" data-close aria-label="Close modal" type="button">Re-answer</button>
+                      </div>
+                
+                      </form>
+                  </div>
+                  <!-- /.reveal-inner -->
+                
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&#10005;</span>
+                  </button>
+                </div>
+
+                <!-- Free Text Answer Modal -->
+                <div class="reveal reveal-action-item question" id="answer-modal-2" data-reveal>
+                  <div class="row reveal-inner">
+                
+                    <header class="reveal-header columns small-12">
+                      <div class="sub-heading">Question</div>
+                      <h1 class="text-center question-text">1. Have you viewed all of week twos video's in full?</h1>
+                    </header>
+                
+                    <form action="" method='post'>
+                
+                      <div class="reveal-content">
+                        <div class="columns small-10 small-centered medium-6">
+                          <div class='answer-text' style='text-align:center'></div>
+                        </div>
+                      </div>                                    
+                
+                      </form>
+
+                      <div class="columns small-12 footer-buttons-container text-center">
+                        <button class="button primary re-upload" data-close aria-label="Close modal" type="button">Re-answer</button>
+                      </div>
+                  </div>
+                  <!-- /.reveal-inner -->
+                
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&#10005;</span>
+                  </button>
+                </div>
+
+                <!-- Single uploaded file template -->
+                <template id='file-template'>
+                  <li class="row collapse">
+                    <div class="columns small-8 file-info">
+                      <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                      <span class="file-details">
+                        <span class="file-name">{name}</span>
+                        <span class="file-size"></span>
+                      </span>
+                    </div>
+        
+                    <div class="columns small-4 file-download text-right">
+                      <a href="https://s3.amazonaws.com/consulting-training-vault/{location}" class="button small primary" onclick="downloadTrack()" target="_blank">Download</a>
+                    </div>
+                  </li>
+                </template>
+
+                <!-- Uploaded Files Answer Modal-->
+                <div class="reveal reveal-action-item files" id="answer-modal-1" data-reveal>
+                  <div class="row reveal-inner">
+                
+                    <header class="reveal-header columns small-12">
+                      <div class="sub-heading">Uploaded Files</div>
+                      <h1 class="text-center question-text">3. Complete your current character worksheet</h1>
+                      <div class="blurb">You can find uploaded files below.</div>
+                    </header>                
+                
+                    <div class="reveal-content">
+                      <div class="columns small-12">
+                        <ul class="no-bullet upload-file-list">                                          
+                
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- /.reveal-content -->
+                
+                    <div class="columns small-12 footer-buttons-container text-center">
+                      <button class="button primary re-upload" data-close aria-label="Close modal" type="button">Re-upload</button>
+                    </div>
+                    <!-- /.columns small-12 footer-buttons-container -->
+                
+                  </div>
+                  <!-- /.reveal-inner -->
+                
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&#10005;</span>
+                  </button>
+                </div>
+
+                <!--Items-->
+                <div class="row action-items-container">
+                  <div class="columns large-9 ">
+                    <ul class="no-bullet">
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>1. Have you viewed all of week twos video&#039;s in full?</h5>
+                          <p>Simple yes/no question.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/27"
+                            data-question="1. Have you viewed all of week twos video&#039;s in full?"
+                            data-description="Simple yes/no question."
+                            data-open="question-modal-3">
+                                                            <i class="fa fa-question-circle-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>2. Complete your pattern of existence worksheet</h5>
+                          <p>Download the worksheet, complete it and then upload the pdf here.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/28"
+                            data-question="2. Complete your pattern of existence worksheet"
+                            data-description="Download the worksheet, complete it and then upload the pdf here."
+                            data-open="question-modal-1">
+                                                            <i class="fa fa-file-text-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>3. Complete your current character worksheet</h5>
+                          <p>Download the worksheet, complete it and then upload the pdf here.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/29"
+                            data-question="3. Complete your current character worksheet"
+                            data-description="Download the worksheet, complete it and then upload the pdf here."
+                            data-open="question-modal-1">
+                                                            <i class="fa fa-file-text-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>4. Complete your dream life worksheet</h5>
+                          <p>Download the worksheet, complete it and then upload the pdf here.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/30"
+                            data-question="4. Complete your dream life worksheet"
+                            data-description="Download the worksheet, complete it and then upload the pdf here."
+                            data-open="question-modal-1">
+                                                            <i class="fa fa-file-text-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>5. Complete your binary poles worksheet</h5>
+                          <p>Download the worksheet, complete it and then upload the pdf here.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/37"
+                            data-question="5. Complete your binary poles worksheet"
+                            data-description="Download the worksheet, complete it and then upload the pdf here."
+                            data-open="question-modal-1">
+                                                            <i class="fa fa-file-text-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>6. Complete your new character worksheet</h5>
+                          <p>Download the worksheet, complete it and then upload the pdf here.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/32"
+                            data-question="6. Complete your new character worksheet"
+                            data-description="Download the worksheet, complete it and then upload the pdf here."
+                            data-open="question-modal-1">
+                                                            <i class="fa fa-file-text-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>7. Complete your mythologizing yourself worksheet</h5>
+                          <p>Download the worksheet, complete it and then upload the pdf here.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/33"
+                            data-question="7. Complete your mythologizing yourself worksheet"
+                            data-description="Download the worksheet, complete it and then upload the pdf here."
+                            data-open="question-modal-1">
+                                                            <i class="fa fa-file-text-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>8. Complete your alchemy of self workbook</h5>
+                          <p>Download the workbook, complete it and then upload the pdf here.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/34"
+                            data-question="8. Complete your alchemy of self workbook"
+                            data-description="Download the workbook, complete it and then upload the pdf here."
+                            data-open="question-modal-1">
+                                                            <i class="fa fa-file-text-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>9. Start using your alchemy planner everyday </h5>
+                          <p>Download the planner, start using it everyday.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/35"
+                            data-question="9. Start using your alchemy planner everyday "
+                            data-description="Download the planner, start using it everyday."
+                            data-open="question-modal-3">
+                                                            <i class="fa fa-question-circle-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                            <li class="row action-item">
+                        <div class="columns small-8 medium-10">
+                          <h5>10. How are you feeling after completing week two?</h5>
+                          <p>Provide a simple one-two sentence answer to let us know how you&#039;re feeling as you progress.</p>
+                        </div>
+        
+                        <div class="columns small-2 medium-1 action-icon is-completed">
+                                                  </div>
+        
+                        <div class="columns small-2 medium-1 action-icon">
+                                                    <a href="#" class='open-question-modal'
+                            data-url="#/products/submit-action-item/consulting-accelerator/3/129/36"
+                            data-question="10. How are you feeling after completing week two?"
+                            data-description="Provide a simple one-two sentence answer to let us know how you&#039;re feeling as you progress."
+                            data-open="question-modal-2">
+                                                            <i class="fa fa-question-circle-o"></i>
+                                                        </a>
+                                                  </div>
+                      </li>
+                                           
+        
+        
+                    </ul>
+                  </div>
+        
+                  <aside class="columns large-3 help-aside">
+                    <div class="help-video-thumbnail">
+                      <script src="js/37vik8ybox.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <span class="wistia_embed wistia_async_37vik8ybox popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%">&nbsp;
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- / .help-video-thumbnail -->
+                    <h5>Having Trouble?</h5>
+                    <p>Watch this tutorial video to learn how action items work.</p>
+                  </aside>
+                </div>                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="#/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Two"
+    var moduleName = "Action items"
+  </script>
+
+  
+    <script src="js/dropzone.js"></script>
+  <script>
+    var fileUploadUrl = "/assets/upload/";
+    var currentUploadOpener = null;
+    var modalData = null
+
+    $('.open-question-modal').on('click', function() {
+      var data = $(this).data()
+      var modal = '#' + data.open
+      $(modal + ' form').attr('action', data.url)
+      $(modal + ' .question-text').text(data.question)
+      $(modal + ' .description-text').text(data.description)
+      fileUploadUrl = data.url
+      modalData = data
+    })
+
+    $('.open-answer-modal').on('click', function() {
+      //save this for reupload  
+      var data = $(this).data()  
+      var modal = '#' + data.open
+      var tpl = $('#file-template').html()
+      var html = "";
+      currentUploadOpener = $(this).next()
+      modalData = data
+
+      $(modal + ' form').attr('action', data.url)
+      $(modal + ' .question-text').text(data.question)
+      $(modal + ' .description-text').text(data.description)  
+      //handle upload ansewrs
+      if(data.type == 1) {    
+        for(var i in data.answer.files) {
+          html += tpl.replace('{name}', data.answer.files[i].name).replace('{location}', data.answer.files[i].location)
+        }    
+        $(modal + ' ul').html(html)
+      } else {
+        $(modal + ' .answer-text').text(data.answer.answer)
+      }    
+    })
+
+    $('.re-upload').on('click', function() {
+      setTimeout(function() {
+        currentUploadOpener.trigger('click')
+      }, 10)  
+    })
+
+    
+    function downloadTrack () {
+      analytics.track("Downloaded Action Item", {
+        week: categoryName,
+        name: modalData.question
+      });
+    }
+
+    if ($("#previewtemplate").length > 0) {
+      previewNode = document.querySelector("#previewtemplate");
+      previewNode.id = "";
+      previewTemplate = previewNode.parentNode.innerHTML;
+      previewNode.parentNode.removeChild(previewNode);
+      lastprogress = 0;
+      lastTime = 0;
+      lastbyte = 0;
+      endTime = 0;
+
+      objDropzone = new Dropzone("div#dropzone", {
+        paramName: 'files',
+        url: fileUploadUrl,
+        uploadMultiple: true,
+        thumbnailWidth: 80,
+        thumbnailHeight: 80,
+        parallelUploads: 20,
+        previewTemplate: previewTemplate,
+        autoQueue: true, // Make sure the files aren't queued until manually added
+        previewsContainer: "#previewbox", // Define the container to display the previews
+        clickable: ".drop-upload-clickable, .dropimg", // Define the element that should be used as click trigger to select files.,
+        processing: function(file) {
+          this.options.url = fileUploadUrl
+          $('.drop-upload-area').addClass('hide');
+          $('.file-uploading-indicator').removeClass('hide');
+
+          file.previewElement.querySelector(".start-time").value = (new Date()).getTime();
+        },
+        uploadprogress: function(file, progress, bytesSent) {
+          // Display the progress
+
+          if (file.previewElement) {
+
+            if (progress == 0) {
+              file.previewElement.querySelector(".start-time").value = (new Date()).getTime();
+            }
+
+            if (file.type.indexOf('image/') != -1) {
+              file.previewElement.querySelector(".file-type-img").style.display = "block";
+              file.previewElement.querySelector(".file-type-file").style.display = "none";
+            } else {
+              file.previewElement.querySelector(".file-type-img").style.display = "none";
+              file.previewElement.querySelector(".file-type-file").style.display = "block";
+            }
+
+
+            var progressElement = file.previewElement.querySelector("[data-dz-uploadprogress]");
+
+            progressElement.style.width = progress + "%";
+
+            file.previewElement.querySelector(".completed-upload").textContent = Math.round(progress) + "%";
+
+
+            lastTime = file.previewElement.querySelector(".last-time").value;
+
+            lastbyte = file.previewElement.querySelector(".last-updated-byte").value;
+
+
+            endTime = (new Date()).getTime();
+
+            var bitsLoaded = (bytesSent - lastbyte) * 8;
+
+            var duration = (endTime - lastTime) / 1000;
+
+            var speedMbps = ((bitsLoaded / duration) / 1024).toFixed(2);
+
+
+            file.previewElement.querySelector(".upload-speed").textContent = speedMbps + "KB/SEC";
+
+            file.previewElement.querySelector(".last-time").value = endTime;
+
+            file.previewElement.querySelector(".last-updated-byte").value = bytesSent;
+
+
+            if (progress == 100) {
+
+              starttime = file.previewElement.querySelector(".start-time").value;
+
+              endtime = file.previewElement.querySelector(".last-time").value;
+
+              var duration = (endtime - starttime) / 1000;
+
+              download_size = file.previewElement.querySelector(".last-updated-byte").value;
+
+              var bitsLoaded = download_size * 8;
+
+              var speedMbps = ((bitsLoaded / duration) / 1024).toFixed(2);
+
+              file.previewElement.querySelector(".upload-speed").textContent = speedMbps + "KB/SEC";
+
+            }
+
+          }
+        },
+        complete: function(file) {
+          starttime = file.previewElement.querySelector(".start-time").value;
+          endtime = file.previewElement.querySelector(".last-time").value;
+          var duration = (endtime - starttime) / 1000;
+          download_size = file.previewElement.querySelector(".last-updated-byte").value;
+          var bitsLoaded = download_size * 8;
+          var speedMbps = ((bitsLoaded / duration) / 1024).toFixed(2);
+          file.previewElement.querySelector(".upload-speed").textContent = speedMbps + "KB/SEC";
+        },
+        success: function(file, response) {
+          analytics.track("Uploaded Action Item", {
+            week: categoryName,
+            name: modalData.question
+          }, {}, function () {
+            location.href = location.href
+          });
+        }
+
+      });
+
+    }
+  </script>
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "#/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('#/products/mark-complete/129', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('#/products/mark-incomplete/129', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-129')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-129', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('#/products/mark-complete/129');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("21").style.display="none";
+	document.getElementById("22").style.display="block";
+	document.getElementById("62").style.display="none";
+	document.getElementById("43").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("21").style.display="block";
+	document.getElementById("22").style.display="none";
+	document.getElementById("62").style.display="block";
+	document.getElementById("43").style.display="none";
+	} 
+</script>
+
+  </body>
+</html>

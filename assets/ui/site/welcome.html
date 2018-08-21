@@ -1,0 +1,889 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+
+  
+  <!-------------------- Segment------------------>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="#/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="#/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="#/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="#/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="#/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="#/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  
+	  <style>
+.original
+{
+height:45px;
+width:155px;
+background-color:white;
+color:green;
+border: 2px solid green;
+border-radius:5px;
+
+margin-left:2%;
+}
+.original:hover
+{
+height:45px;
+width:155px;
+background-color:green;
+color:white;
+border: 2px solid green;
+border-radius:5px;
+
+margin-left:2%;
+}
+
+
+
+
+.dup
+{
+height:45px;
+width:155px;
+background-color:green;
+color:white;
+border: 2px solid green;
+border-radius:5px;
+
+margin-left:2%;
+}
+.dup:hover
+{
+height:45px;
+width:155px;
+background-color:darkgreen;
+color:white;
+border: 2px solid green;
+border-radius:5px;
+
+margin-left:2%;
+}
+
+
+
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="#/assets/img/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">Welcome To A New World</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+          <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="0">0% Complete</small>
+						  <small style="display:none" id="1">1% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="0" aria-valuemin="0" aria-valuetext="0 percent" aria-valuemax="100" id="01">
+              <div class="progress-meter" style="width: 0%"></div>
+            </div>
+			
+			
+			
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="1" aria-valuemin="0" aria-valuetext="1 percent" aria-valuemax="100" style="display:none" id="11">
+              <div class="progress-meter" style="width: 1%"></div>
+            </div>
+			
+			
+			
+			
+			
+			
+          </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+                <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-two-overview.html">Week Two</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                </select>
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class='active '>
+                <a href='welcome.html'>Welcome!</a>
+              </li>
+                            <li class=' completed'>
+                <a href='welcome-1.html'>How this program works</a>
+              </li>
+                            <li class=' completed'>
+                <a href='welcome-2.html'>Joining the community</a>
+              </li>
+                            <li class=' completed'>
+                <a href='welcome-3.html'>Course schedule</a>
+              </li>
+                            <li class=' completed'>
+                <a href='welcome-4.html'>Delivery of boxset</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Welcome!</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>Welcome!</h1>
+                  </div>
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+                 <button onclick="cb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+									  
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">Welcome To A New World</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+						<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+							<option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-two-overview.html">Week Two</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+						</select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                                                    <li class='active '>
+                            <a href='#/products/consulting-accelerator/1/256'>Welcome!</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/1/117'>How this program works</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/1/116'>Joining the community</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/1/53'>Course schedule</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/1/118'>Delivery of boxset</a>
+                          </li>
+                                                    
+                        </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "s5e": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/s5e9fpyegm.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_s5e9fpyegm videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="welcome-1.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p>Welcome to the Consulting Accelerator program! </p><p>You made an excelled decision investing in yourself through this training and we can't wait to work with you over the next six weeks. This part of the training program shows you how everything works, what to expect, how to get the most from your experience and more.</p>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/08907a6a09f91a339c47412dc958af75.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey everyone. Sam Ovens here, and welcome to the Consulting Accelerator Program. You&#039;ve made an excellent decision investing in this program and investing in yourself. I can&#039;t wait to start working with you over the next six to eight weeks and really help you start your own consulting business.
+
+This program is for two types of people. Number one is people who know nothing about business, nothing about consulting, and they&#039;re really starting from a blank page. If that&#039;s you, this training program is going to show you, step by step, how to start your own consulting business, get clients and make money, regardless of what experience you have, sales skills, consulting skills, business skills, anything like that.
+
+The second type of person that this program is for is those with existing consulting or coaching businesses. If that&#039;s you, this program is going to show you who to really systemize things, how to make things more predictable, and really how to take things up to that next level.
+
+So if you&#039;re in any of those categories, you&#039;re in the right place, and this training program is going to show you everything that you need to achieve those goals. I really just wanted to record this quick video to personally welcome you to this program, and you to tell you that you made an amazing decision investing in yourself and investing in this program.
+
+Since I started teaching this program, we have created 21 millionaire consultants. About 21 people have joined this program from scratch, and been able to start a consulting business and take it to that seven figure level. We&#039;ve also helped over 451 people make six figure incomes with their consulting businesses. We&#039;ve also helped three thousand one hundred and something people quit their 9:00 to 5:00 jobs. So this program is the real deal, and the results it&#039;s got is no joke. The reason why this program has produced such an amazing track record of success stories is because of the way I have structured and broken it down across these weeks and across these modules.
+
+What I&#039;ve really done in this program is I&#039;ve taken my real life experience as someone who knew nothing about business, knew nothing about consulting or anything, and I really went from that to having a profitable consulting business. The process I went through, it was very painful. It took a lot of time, and there was a lot of waste, and a lot of trial and error.
+
+What I&#039;ve really done with this program, is I&#039;ve looked at that experience, and I&#039;ve really studied it, analyzed it, crystallized it, and boiled it down, and really extracted the key processes and the key points that you have to achieve in a sequential process in order to make that transformation.
+
+If you were to go out and start your own consulting business from scratch with no advice or no help, it&#039;s a mine field. It&#039;s like trying to navigate through dangerous rocky waters on a ship at night without a map. I don&#039;t recommend that to anyone. However, with this program, it&#039;s like chartering a boat through very calm waters in the middle of the day with a very good map. That&#039;s the best analogy I&#039;ve got really to describe the process.
+
+What you&#039;ll be able to see is, to the left or the right of me, there&#039;s a blue button. If you click that button, you&#039;ll be able to see how I&#039;ve categorized this program. There is the welcome week, which is the week you&#039;re in right now. Then it goes week one, week two, week three, all the way through to week six. We advertise this program as a six week program, and that&#039;s where the core content is. However, I decided to throw in two additional bonus weeks for you, just as a special way to say thanks for investing in this program.
+
+What will happen is, each week, we&#039;re going to release to you the new week of content. So right now, if you&#039;ve just joined this program, you&#039;re going to have access to the welcome week, and you&#039;re going to have access to week one. The welcome week is going to show you exactly how this program works, how to join our community, how to get on the Q and A calls, how to use our content portal and all of the features within it. I really recommend that you go through all the videos in this welcome week, and really understand how the system works, so that you can get the most out of it, and get the best results possible.
+
+Then in week one, we take you through setting the foundations of your consulting business. Then what will happen is, every seven days, we&#039;re going to release the new week of content to you.
+
+We do this for a few very important reasons. The first one is so that you don&#039;t get overwhelmed. When you first join a program, and you first decide to really make a change in your life and in your business, you can get very overwhelmed. You look at all of this information, and you just get frazzled. You&#039;re just like ... You&#039;re paralyzed. You can&#039;t even make that first step.
+
+I&#039;ve tested these different things, and it works best when we release this modules and these weeks of content one week at a time. It&#039;s in your best interest to do it this way.
+
+The second reason is because it really forces you to follow the process in a sequential order. When I designed this program, I didn&#039;t call week one, week two, week three, week four, week five, week six. I didn&#039;t make up those weeks for some random reason. I&#039;ve made them like that because that is the exact sequence that you need to go through all of these steps in. If we were just to jump right to Facebook ads on week one, without getting the foundations of your business right, the ads aren&#039;t going to work. Or if we were to jump right into sales calls before we&#039;ve got your niche picked, and before we&#039;ve got your offer crafted, what are you going to sell?
+
+Why I&#039;ve created this program in the sequential process is so that you can make sure you took each step off, and you move in that sequential process. Now like I said, this program&#039;s created 21 millionaires, more than 451 people have made six figures. The reason why is because they followed the process and they did the work.
+
+Throughout this training program, I know that you&#039;re not really here just to listen to my voice. Who wants to just listen to my voice all day, and I know that. The real reason you&#039;re in this program is because you want to get results, and you want to get clients, and you want to make some money, and make a change in your life. If you want that change, if you want those results, then it is so important that you do the work.
+
+Each week, when I provide this content to you, it&#039;s important that you watch the video training in full, and then you take the action, and you do the work. Because I can honestly tell you, up front, right now, that if you just go through this program, and you listen to my voice, you watch all the videos, nothing is going to change. Nothing is going to happen. You must watch the videos, consume the content and the information, and then take action. I&#039;m going to stress that point throughout this entire program.
+
+So that&#039;s really it for this first video here. I just wanted to personally welcome you to the program. I wanted to tell you that you&#039;ve made an amazing decision, investing in yourself, and I can&#039;t wait to work with you over these next six to eight weeks, and really help you start or grow your consulting business.
+
+What I want you to do right now is go to the next video in this welcome week, which is going to show you exactly how this program works, and how to get the most out of it. Thanks.
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="#/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Welcome!"
+    var moduleName = "Welcome!"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-256')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-256', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+    <script>
+    var segmentTracker = function(){
+        if (!categoryName) var categoryName = "Welcome!";
+        if (!moduleName) var moduleName = "Welcome!";
+        if (!file) var file = "https://s3.amazonaws.com/consulting-training-vault/modules-audio/08907a6a09f91a339c47412dc958af75.mp3";
+        var audioPlayer = document.querySelectorAll(".player-wrap");
+        var currentPlayerTime = function () {
+            return Math.round(
+            Number(audio.currentTime)
+            );
+        };
+        for (var i = 0; i < audioPlayer.length; i++) {
+        var player = audioPlayer[i];
+        var audio = player.querySelector("audio");
+        var play = player.querySelector(".player-play");
+        var pause = player.querySelector(".player-pause");
+        var progress = player.querySelector(".player-progress");
+        var speed = player.querySelector(".player-speed");
+        
+        play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+        category: categoryName,
+        module: moduleName,
+        file: file,
+        started_at: currentPlayerTime()
+        });
+        }, false);
+        
+        pause.addEventListener('click', function () {
+            analytics.track("Pressed Pause", {
+            category: categoryName,
+            module: moduleName,
+            file: file,
+            paused_at: currentPlayerTime(),
+            current_speed: audio.playbackRate
+            });
+        }, false);
+        
+        speed.addEventListener('click', function () {
+            analytics.track("Pressed Speed", {
+                category: categoryName,
+                module: moduleName,
+                file: file,
+                set_at: audio.playbackRate
+            });
+        }, false);
+        
+            progress.addEventListener('click', function () {
+                analytics.track("Pressed Seek", {
+                    category: categoryName,
+                    module: moduleName,
+                    file: file,
+                    jumped_to: currentPlayerTime(),
+                    current_speed: audio.playbackRate
+                });
+            }, false);    
+        }
+    };
+    segmentTracker();
+    $(document).on('change', '#change-category', function() {
+        location.href = "#/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    });
+    $('#mark-complete, .mark-complete').on('click', function(){
+        $.get('#/products/mark-complete/256', function(result){
+        location.href = location.href
+        });
+    });
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+        $.get('#/products/mark-incomplete/256', function(result){
+        location.href = location.href
+        });
+    });
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "s5e9fpyegm", onReady: function(video) {
+    video.email("christophertduffee@gmail.com");
+    var lastTime = localStorage.getItem('seek-video-256');
+    if(lastTime)
+        video.time(lastTime);
+        video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-256', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+        marketAsComplete = true
+        $.get('#/products/mark-complete/256');
+        }
+    });
+        var videoDimLightElement = $('#video-dim-lights');
+        var videoDimLightTrigger = $('.dim-the-lights-button');
+        var videoContainer = $('.video-container');
+    }});
+        localStorage.setItem('product-last-location-1', location.href);
+    function cb1()
+    {
+        document.getElementById("btn1").style.display="none";
+        document.getElementById("btn2").style.display="block";
+        document.getElementById("0").style.display="none";
+        document.getElementById("1").style.display="block";
+        document.getElementById("01").style.display="none";
+        document.getElementById("11").style.display="block";
+    }
+    function cb2()
+    {
+        document.getElementById("btn1").style.display="block";
+        document.getElementById("btn2").style.display="none";
+        document.getElementById("0").style.display="block";
+        document.getElementById("1").style.display="none";
+        document.getElementById("01").style.display="block";
+        document.getElementById("11").style.display="none";
+    } 
+    </script>
+  </body>
+</html>

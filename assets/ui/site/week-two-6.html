@@ -1,0 +1,1181 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="#/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="#/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="#/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="#/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="#/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="#/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="#/assets/css/app.css">
+      <link rel="stylesheet" href="#/assets/css/audio-player.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">New Paradigm &amp; World View</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+        <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="20">20% Complete</small>
+              <small id="21" style="display:none;">21% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="20 percent" aria-valuemax="100" id="40">
+              <div class="progress-meter" style="width:20%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="21" aria-valuemin="0" aria-valuetext="21 percent" aria-valuemax="100" style="display:none;" id="41">
+              <div class="progress-meter" style="width:21%"></div>
+            </div>
+        </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+                  <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+						   <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-two-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-1.html'>1. The dark force holding your heels</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-2.html'>2. Face off with the devil</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-3.html'>3. Duality &amp; conflict of man</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-4.html'>4. Seeing for the first time</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-5.html'>5. Alchemy of self</a>
+              </li>
+                            <li class='active completed'>
+                <a href='week-two-6.html'>6. New paradigm &amp; world view</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-7.html'>7. Rolling Gods loaded dice</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-action.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-incomplete' class="button mobile-lesson-complete active">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Two</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>6. New paradigm &amp; world view</h1>
+                  </div>
+				  		<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+					<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">New Paradigm &amp; World View</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+				<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+							<option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+							<option value="welcome.html">Welcome!</option>
+							<option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/258'>Overview</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/120'>1. The dark force holding your heels</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/123'>2. Face off with the devil</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/124'>3. Duality &amp; conflict of man</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/125'>4. Seeing for the first time</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/126'>5. Alchemy of self</a>
+                          </li>
+                                                    <li class='active completed'>
+                            <a href='#/products/consulting-accelerator/3/127'>6. New paradigm &amp; world view</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/128'>7. Rolling Gods loaded dice</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/129'>Action items</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/130'>Questions</a>
+                          </li>
+                                                    
+                        </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "h6m": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/h6mgud7vuu.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_h6mgud7vuu videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-two-action.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-two-questions.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p style="border: 0px; line-height: 28px;"><font color="#787e82"><span style="letter-spacing: -0.19px;">In this video I'm going to bring together all of the different things which we have discussed. Here you will be introduced to the new paradigm and world view and learn how to adopt it for yourself. You'll learn how to stand up against your thoughts and beliefs which have blocked you so far. You'll learn how to be the one pulling the strings and take the steering wheel of your own life.&nbsp;</span></font><br></p><p style="border: 0px; color: rgb(120, 126, 130); line-height: 28px; letter-spacing: -0.19px; ">Here's what we cover:&nbsp;</p><ul><li style="border: 0px; line-height: 28px;"><font color="#787e82"><span style="letter-spacing: -0.19px;">A fundamental breakdown in statistics and societies flawed paradigm </span></font></li><li style="border: 0px; line-height: 28px;"><font color="#787e82"><span style="letter-spacing: -0.19px;">Separating the character from the mind and learning to observe it’s thoughts </span></font></li><li style="border: 0px; line-height: 28px;"><font color="#787e82"><span style="letter-spacing: -0.19px;">Breaking the character and learning to pull a gun when it draws a knife </span></font></li><li style="border: 0px; line-height: 28px;"><font color="#787e82"><span style="letter-spacing: -0.19px;">Personal story and examples of how I have broken my character and become a new one capable of new levels</span></font></li><li style="border: 0px; line-height: 28px;"><font color="#787e82"><span style="letter-spacing: -0.19px;"> Bringing it all together into one cohesive paradigm and world view</span></font><br></li></ul>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                        <h2>Resources</h2>
+                    <ul class="no-bullet">
+                                            <li>
+                        <a target='_blank' href="#/resources/30">Extremely popular delusions pinup</a>
+                      </li>                    
+                        
+                    </ul>
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/1e9090caba72a032d0ac4cf314d321fa.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey, everyone. Sam Ovens here and welcome to this training video called New Paradigm and Worldview. In this video here, I&#039;m basically going to bring together all of the different things which we have discussed. In week two, we&#039;ve covered a lot of ground. I mean, we literally covered an entire new paradigm. A new paradigm is literally what you have in your brain. It&#039;s your buildup collection of beliefs, analogies, frameworks, all sorts of things. I mean, a paradigm takes a lifetime to develop and build.
+
+Most people, they do take a lifetime to build their paradigm and they never change it. They never even understand that it can be changed. It is quite literally the most valuable and most important thing that you can possibly have in your entire life because with the wrong paradigm, you literally experience a different reality. With the right paradigm, you experience an entirely new reality where you&#039;re more in control, where you can achieve the things that you want, where your dreams literally become your reality everyday.
+
+If you get it wrong, you can suffer and have a pretty miserable life. However, if you get it right, I mean, you can have the wildest drive of your imagination. I mean, you can live life exactly how you want to live it. It&#039;s my belief that your paradigm is the most important thing in the world.
+
+In week two, we&#039;ve covered a lot of ground. We&#039;ve covered society&#039;s old paradigm. I&#039;ve introduced you to a whole bunch of new theories. I&#039;ve showed you how I&#039;ve applied these things to transform myself. In today&#039;s video, New Paradigm and Worldview, we&#039;re really just going to tie it all together. We&#039;re going to bring it all together into one cohesive paradigm and worldview, so that you can go out there and experience life in an entirely different way. You can live a different reality and really grab hold of the steering wheel of your own faith and your own life, which is the best feeling in the world when you are in control and it&#039;s you that&#039;s holding the steering wheel.
+
+Let&#039;s jump right right into this. Here&#039;s what we&#039;re going to cover today. First of all, we&#039;re going to talk a fundamental breakdown in statistics and society&#039;s flawed paradigm. I&#039;m going to explain the way society views success and achievement in business and making money. They view it as a statistic that it&#039;s just totally wrong the way it&#039;s viewed. I&#039;m going to break that down and show you how it&#039;s flawed.
+
+Then I&#039;m going to talk about separating your character from your mind and learning to observe its thoughts. I&#039;ve talked about in some of the other videos in week two how there&#039;s really two selves, really. There&#039;s the self, which is your character and then there is your mind, which is controlling your character. However, a lot of other people come to believe that it is one and a lot of people also believe that the character is controlling the mind.
+
+I mean, it&#039;s gotten quite mixed up. I&#039;m going to show you how you can separate those two and how you can learn to observe your character&#039;s thoughts. You can catch those negative thoughts. As soon as they pop up, you can catch them, throw them out and replace them with the right one, so that you can stomp yourself falling down those treacherous negative feedback loops.
+
+Then I&#039;m going to talk about breaking the character and learning to pull a gun when it draws a knife. It&#039;s a funny analogy there. It might sound a little strange, but I&#039;m going to explain that in more detail when we jump into this. Then I&#039;m going to show you some personal stories and examples of how I&#039;ve broken my character and become a new one capable of achieving new levels.
+
+So far, I&#039;ve explained a lot of theory and I&#039;ve also explained how I&#039;ve been able to use this stuff in life to achieve pretty big things. I&#039;ve used it to be able to change a lot of stuff. I&#039;ve been able to change my life completely. Gone from someone who&#039;s very shy and anxious and broke and not very smart through to someone who is at the top of an industry in a very short of amount of time and with a very high net worth at a young age. It&#039;s not just theory. I&#039;ve been able to apply it to myself and change things. I&#039;ve been able to apply it to other people and help them change things.
+
+To really cement this new paradigm, I&#039;m going to explain some personal stories of how I&#039;ve struggled. I&#039;m going to explain the negative thought patterns that I used to have and how I was able to conquer them. My hopes are by explaining them with personal stories, it&#039;s going to really help you resonate with these ideas and help you understand everything.
+
+Then towards the end, I&#039;m going to bring it all together. Everything we&#039;ve discussed from video one all the way through to this video, I&#039;m going to take all of the different stuff that this new paradigm and worldview is built up on and I&#039;m going to just bring it all together into one cohesive paradigm and worldview. Let&#039;s get started.
+
+A fundamental breakdown in statistics and society&#039;s flawed paradigm. I like to use this example called the coin flip because I&#039;m sure everyone&#039;s flipped a coin, heads or tails. I&#039;m sure everyone knows how a coin flip works. It&#039;s going to land on heads or it&#039;s going to land on tails. What I want you to do right now is just imagine flipping a coin. Imagine just holding it above your thumbnail and just flicking it up in the air and then it lands on the table. Heads or tails? Take a guess.
+
+A coin, if it&#039;s flipped the identical way every single time, it&#039;s got a 50/50 chance, 50% heads, 50% tails because there&#039;s just two sides of a coin. Those are the odds of flipping a coin. Society&#039;s current paradigm treats people and success as a statistic. Here&#039;s what society&#039;s current paradigm is. Nine out of 10 businesses fail. We hear this a lot. Being successful and achieving your dreams is statistically near impossible. It&#039;s being rich and millionaire is so far out of reach. I mean, you&#039;d be silly to even think that you can achieve that. These are the things we hear. People who are successful are lucky or they had a fluke and people who are successful are born with it. They&#039;re naturals or it&#039;s in the family, it&#039;s in their genes. These are the things we hear.
+
+Here&#039;s what&#039;s wrong with that assumption. A coin displays 50/50 odds because it is independent from the observed and it can&#039;t influence its outcome. A coin can&#039;t influence which way it lands. It doesn&#039;t have a brain and it doesn&#039;t have the ability to think and it doesn&#039;t have the ability to act. A coin is independent. We flick it up and it just lands whatever way it lands. I mean, that&#039;s just how it happens. It can&#039;t do anything to influence its outcome.
+
+This is really how society views people. If you&#039;re born into a poor family and you&#039;re born not very smart or anything, well, society&#039;s current paradigm pretty much says, &quot;Well, your chances aren&#039;t very high. The odds are against you. There&#039;s not much you can really do about it or if you start a business, it&#039;s nine out of 10 businesses fail, so your chances are pretty slim.&quot; This is what society sees it. It treats us a coin. It treats people as a coin.
+
+What I want you to do right now is imagine a new type of coin. Imagine if this new type of coin existed. It&#039;s a coin with a brain and arm sticking out the top of it, like this. Imagine a coin that has a brain and arms sticking out the side of it and it has the ability to think and participate in the experiment and influence its odds. It has the ability to think like, &quot;What side do I want to land on, heads or tails?&quot; Then it&#039;s able to flick with its arm itself over and land on whatever side it wants. It&#039;s thinking and it&#039;s acting and it has the ability to influence its outcome.
+
+Imagine if somebody pulled out one of these coins. Imagine if someone pulled it out of their pocket and ask you whether you wanted to bet on it. Would you consider it fair? Would you think it would be a fair test of this coin could think and participate? Would you be willing to play heads or tails with this and think that the odds are fair, 50/50?
+
+Chances are that you&#039;re like, &quot;There&#039;s no way I&#039;m going to play with this coin because this coin bias. This coin, it can land whatever side it wants. I&#039;m not going to bet on it because it&#039;s up to the coin. I don&#039;t really have much influence on it.&quot; Would you expect 50/50 odds? You most certainly wouldn&#039;t. A coin displays 50/50 odds because it&#039;s independent from the observer and it can&#039;t influence its outcome.
+
+However, a thinking and interacting coin displays odds that make no sense because it can participate in the experiment and influence its outcome. It can change things. Society&#039;s current paradigm treats humans as coins bound by fixed odds and able to determine their outcomes in life. Society is wrong again. As humans in the game of life, we have the ability to think, interact and participate and experiment in the experiment and determine our own odds. It doesn&#039;t matter what side of the coin is showing right now and what history it has of landing on a particular side.
+
+By this, I mean, imagine your own life. It doesn&#039;t matter if right now you&#039;re broke and it doesn&#039;t matter if right now you&#039;re not successful. It doesn&#039;t matter what history has to say about you. It doesn&#039;t matter if you&#039;ve been broke your whole life and it doesn&#039;t matter if you haven&#039;t been successful your whole life. You&#039;re not a coin, which is just bound by fixed odds. You can choose, you can think, you can interact and you can change things. You can determine what side you land on.
+
+A thinking, interacting and participating coin has the ability to influence its own outcome and skew the odds however it wishes. Its only flaw is when it forgets that it has this ability. This says a lot about human beings and society today. Most people have forgotten that they have the ability to think, interact, participate and change their life. That&#039;s really the human beings&#039; biggest weakness is the fact that it has forgotten what it really is and what it&#039;s really capable of.
+
+Remember the statement. The statement should just really be resonating and ringing through your brain by now. It&#039;s because I&#039;ve said this over and over again, but this really is the most important thing, really. If I could remember one thing, it would be this because this is the one thing that I never want to forget. It doesn&#039;t matter what is true. Only what you believe is true because with work, that will become true. It doesn&#039;t matter what the truth is right now. It doesn&#039;t matter if you&#039;re broke right now, beaten down right now, depressed. It doesn&#039;t matter if life&#039;s got you up against the ropes right now. It doesn&#039;t matter.
+
+It only matters what you believe is true. If you believe that you are capable, if you believe that you can achieve your dreams, if you believe that you can start a business, if you believe you can make money and get clients and be smart, then if you believe that, then you&#039;ll put in the work. By the work, I mean, doing this program, finishing the program, completing the worksheets and then taking action, picking your niche, crafting your offer, all of that stuff. Because belief with work will become true. That will become your new reality.
+
+Here is really the master algorithm of all evolution and the master algorithm of the universe and the master algorithm that&#039;s in your mind. It&#039;s action, reaction, belief and reality. It&#039;s a vicious circle. It goes around and around and around. There&#039;s no real start and end because it&#039;s a circle. We just have to drop into the circle. We have to choose a place to drop in because there is no start or end. Where we want to drop in and intervene is right here. It says, &quot;Intervene here by changing your thoughts and beliefs.&quot; You want to change those first.
+
+A lot of people, they walk around in life and they&#039;re like, &quot;I&#039;m going to wait until my reality changes and then I&#039;ll make an effort.&quot; You&#039;ll be waiting your whole life and it won&#039;t happen. Really, you have to intervene. You have to change your beliefs first. Once you change your beliefs, then you will take action in accordance and with confidence with your beliefs. Then when you have a belief and when you take action, your experience are reality and it confirmed becoming.
+
+Then based on that, based on the results you see in your own life, you experience feedback and then you adjust your beliefs and you adjust your actions and you just keep going around again and again and again and again and again. That is how you achieve. That is how you grow. It&#039;s amazing how powerful this is.
+
+Next time you think the odds are against you, remind yourself that you have a hand in determining those odds yourself. When people talk about odds and I hear people say odds all the time like, &quot;Oh, you can&#039;t spend more than this on Facebook ads,&quot; or &quot;You can&#039;t do this because I&#039;ve seen the odds and it says you can&#039;t do this.&quot; Well, you make the odds. I&#039;ve gone again and again and again and again thousands of times against the odds. I just bend them to behave the way I want them to behave because I make my odds and you do too. The only problem is that you forgot and you don&#039;t believe it.
+
+Now, let&#039;s talk about separating the character from the mind and learning to observe its thoughts. This is really important. You want to pay close attention to this. I&#039;ve talked about in one of the previous videos in the Alchemy of Self separating the mind from the character. I talked about how your character is who you think you are. Your mind is what&#039;s controlling that. Your character takes orders from the mind and gets it done. Your mind determines what you want to achieve in life and sets the dreams and goals and then dictates orders to the character for execution.
+
+If you want to be a really powerful and really evolved and developed human, you want to separate mind from character. You want to not see yourself as one, but see yourself as two. You want to view your thoughts and your mind as the controller of the character and the character is your body. It&#039;s you walking around. Most people have let their character take control of the master. The character is running the show. It&#039;s walking the hand itself. Your mind is the master and it can make the character dance whatever way it wants.
+
+When you get a really strong mind and when you separate the character from the mind and you really break it and control it, then you can make your character do whatever you want it to do. You can really make your character dance and you can put it into life everyday and you can make it do the things you want it do, so that you can achieve the outcomes that you want to achieve. It truly is the most powerful and most awesome thing to experience in the world that you really want to learn how to do this because things you&#039;ve been afraid of your whole life, things that you&#039;ve wanted to achieve your whole life, but thought were out of reach, once you can do this, you&#039;ll just march right in and take it and it will be yours because you won&#039;t have fear.
+
+Here&#039;s how you create that separation. You have to learn to view yourself in the third person view, as an observer and a master of your character. Right now in this photo, we&#039;re viewing from the third person and we&#039;re viewing behind the head of the character. We&#039;re separate. When we&#039;re viewing in the first person, we&#039;re viewing with our own body and we&#039;re viewing out of our eyes. We are our character and it&#039;s hard to control ourselves because we&#039;re with ourselves. We&#039;re very reactive. We are controlled by our emotions a lot. We&#039;re controlled by our thoughts. We&#039;re controlled by all sorts of things when we&#039;re in our own character.
+
+When you learn to step outside of your character and view it from behind and view it from the third person, you can control your character like it is a video game player. A lot of video games when you&#039;re playing, I don&#039;t know any because I don&#039;t play video games, but when you&#039;re behind, you&#039;re controlling your character and you can see it walk around and you don&#039;t have fear. You&#039;re not worried that your character is going to get hurt when it runs out and tries to do something. You&#039;re not worried about it. You just control your character. You throw it in to whatever situation you want it to go into.
+
+This is how you want to start observing yourself. You want to really step outside of yourself and learn to view yourself in the third person. This is what I do. Whenever I&#039;m in a difficult situation or whenever I&#039;m in a situation where there&#039;s a lot of emotions involved or whenever I&#039;m in a really hard situation like I&#039;m in a lot of pain, I might be waking up extremely early and I might have only had two hours sleep or I might have stayed up the entire night working on a massive issue in the business and I&#039;ve had zero sleep and I&#039;ve got a full day ahead of me of eight strategy sessions and a meeting and this other stuff. You&#039;re in a lot of pain, you&#039;re tired. You want to just go and give in.
+
+I&#039;ve learned to step outside of myself and just be like, &quot;No, you are doing what I say.&quot; I can make it do whatever I want. It might sound strange to you right now, but when you learn how to do this, your pain tolerance will be insane. You won&#039;t have fear anymore. You can do whatever you want. You&#039;ll have ultimate control of your character. You might be thinking, &quot;But what if the feelings and thoughts are so powerful that you can&#039;t override it? What if you wake up in the morning those feelings to go back to bed is so intense that you just have to go back to bed or what if you get in to work and you&#039;ve got to make some calls and that fear that comes over you and dawns over you like a dark cloud, what if that fear is so intense that you just can&#039;t fight it?&quot;
+
+Well, I&#039;ve got the same. When your character draws its fists, pull a knife. When I draws a knife, pull a gun. You must set the desire, the dream and the goal and then dictate them to your character for execution. If the character kicks back, give it more. You&#039;ve got to learn to fight it because if you don&#039;t control it, it will control you. If it controls you, then you don&#039;t have any control anymore.
+
+This is a very, very important thing to do. It took me a while to teach myself how to do it. For example, if I wake up first thing in the morning, the first thought that comes into my head is, &quot;Oh, go back to sleep.&quot; Now what happens is when I wake up in the morning, that thought comes in there and I&#039;m like, &quot;No, there&#039;s no way I&#039;m listening to that,&quot; and I throw myself out of bed. I throw my character out. I&#039;m just like, &quot;Don&#039;t even think. Feet on the floor. Out.&quot;
+
+Then the last thing I feel like doing is going to the gym. I&#039;ve taught myself to wake up at 4 a.m. in the morning, sometimes 3:30 a.m. in the morning. It&#039;s pitch black. I don&#039;t feel that great a lot of the time when I wake up at that time. I don&#039;t think many people do. You definitely want to go back to sleep, especially in winter when it&#039;s negative in New York here and it&#039;s all black and it&#039;s snowing and everything. I just throw myself up, get up and then I go to the gym.
+
+I&#039;ve gotten good at fighting my character. When I wake up in the morning, my character sticks up its fists. It wants to have a fight. It&#039;s like, &quot;I want to go back to sleep.&quot; Then when I want to go to the gym, my character sticks up its fists again. I&#039;ve learned when my character draws its fists, I pull a knife. Then if my character pulls a knife, then I just pull a gun. Whatever my character pulls out, I pull out something bigger and I fight back and I kick it back. You&#039;ve got to learn to do this if you want to learn to take control of your character.
+
+Now, let&#039;s talk about some personal stories and examples of how I&#039;ve broken my character and become a new one capable of achieving my goals. Here&#039;s me when I got started. I was 21 years old, broke, shy and anxious. Then here&#039;s me now and company&#039;s making more than 20 million a year, own Consulting.com. I live in this place in Manhattan with this view. I&#039;m quite outgoing compared to how I was back then. Here was me when I was 21 years old and pretty much making nothing, shy and anxious. Then here&#039;s me now making more than 20 million, living in Manhattan.
+
+You can see this exponential curve here. Well, along this journey, my character kicked and screamed. It told me to throw in the towel and return to just being me countless times. Every morning I got up and had to work on my business and work on my dreams, my character, it dug in its claws. It wanted to just stay exactly where it was. It was screaming at me. It was like, &quot;This isn&#039;t you. You&#039;re not this kind of person. You shouldn&#039;t do this and just go back to being yourself, just go back to the life that&#039;s comfortable.&quot;
+
+It did this to me countless times. It was literally breathing down my neck every single day and it had me in its grips. At first, I listened to it. I was like, &quot;Oh, I better listen to this feeling.&quot; It got me nowhere. All it got me was feeling more depressed because I couldn&#039;t fight it. If I told it to take action and get outside of its comfort zone, it would kick back and overpower me with emotion and endless thoughts. It&#039;s powerful. It would just release these emotions which will just take control of me. Then it would release these negative thoughts that I couldn&#039;t get out of my head and I couldn&#039;t fight it.
+
+Zero progress was made until I learned to fight back and break the character and show it who&#039;s boss. When my character drew its fists, I pulled a knife and it when drew a knife, I pulled a gun. Over this course of exponential growth and exponential change, the key, the real secret that I have which I&#039;m explaining to you in this training is that I&#039;m not the same person now as I was back then. I&#039;ve evolved myself and not just once, but multiple times.
+
+We can see here in this chat, there&#039;s Sam version 1.0, version 2.0, version 3.0, version 4.0, version 5.0. truthfully, there&#039;s probably a lot more versions than that. Every time I want to make growth in my life, I have to evolve myself. Then you&#039;re never done with evolving. That&#039;s the thing about evolution. It doesn&#039;t just end. It is forever moving, changing. It might sound silly to you now, but just recently, I had a plateau of making about $2 million a month. I know you might be thinking, &quot;Who would call that a plateau?&quot; I&#039;m telling you it&#039;s just as painful being stuck there as it is being stuck at being broke because all we want to do is grow and improve ourselves.
+
+You have plateaus at any income level. I had a plateau there. Even when I&#039;m making two million a month, I have to evolve again. I have to transcend myself. I have to learn how to change myself because you&#039;re never done growing and evolving. You&#039;ve always got to keep moving forward. You&#039;ve always got to keep evolving. Version 1.0 of myself was the longest period of myself because I didn&#039;t really know I could change. I didn&#039;t experience any progress until I changed. Then the more I changed, the more progress I started to see.
+
+The same will be true for you as well. The person you are now is not the person you&#039;ll be when you achieve massive success. You will be a different person. You will be completely evolved. All of my business and life success has happened through evolving myself, breaking my character and replacing it with a new one capable of achieving bigger goals. Success happened to me when my character no longer had me in its grips. I was free to evolve my character in the direction I wanted it to go and become whoever I wanted to be.
+
+Now, let&#039;s talk about some personal stories and real-life examples to help you understand. I&#039;ll just be totally honest with you. When I was younger, at school, I used to eat a bar of soap to avoid public speaking because you have these in New Zealand, it might be the same in America, I don&#039;t know, but in New Zealand, we had speeches and we had to do a speech each year. Whenever it was speech day, I would always just eat a bar of soap because then I could act sick and I could say to my mom, &quot;Oh, I can&#039;t go to school today. I&#039;m sick.&quot; Then I would stay home.
+
+I&#039;d actually eat soap and make myself sick to avoid going to school and public speak. I was that shy and anxious. I thought I was dumb and my teachers always said I was dumb. I thought that I don&#039;t know times tables. I thought I don&#039;t know how to spell. I thought I don&#039;t know anything. I thought I was stupid and dumb. Other people said I was too. I could hardly get out of bed in the morning when I started my business. I could hardly get out of bed in the morning because I was too afraid to speak to prospects on the phone. I was terrified of the phone. I couldn&#039;t get things done because I was so tied up in my thoughts about the future. I couldn&#039;t get out of my own head. I couldn&#039;t take action. I was paralyzed.
+
+My confidence was so low that I was horrified of competition and never believed I had a chance. Every time I got up and started my day, I would look at the competition and I&#039;d just be so terrified because I was like, &quot;Oh, there&#039;s so much better than me. They know so much more than me and there&#039;s no way I can possibly compete.&quot; Here&#039;s the early evolution of myself. Here&#039;s me and all of my issues paralyzed as myself, dreaming of the person I wanted to become, version 1.0. Here&#039;s version 2.0, me free of those issues and evolved into a new person.
+
+How did I evolve myself? You might be wondering. Well, I learned the markers of my existence. You remember the pattern of existence worksheet and learning the mark. Well, what we can do is we can learn the markers of our existence. We&#039;ve got two types of markers. We&#039;ve got peak markers and we&#039;ve got trough markers. Peak markers are events or thoughts or patterns that start occurring right when we get to the peak of our performance.
+
+In your bank account, you might go up to say $5,000 and then when you get to 5,000, you might start thinking, &quot;Oh, things are good and everything,&quot; and then you might start browsing on the internet for clothes to buy or something. Then you start doing that and before you know it, you&#039;ve started buying things and you&#039;ve bought more things and then all of a sudden, your money is gone. That would be a peak marker, when you start to look at things on the internet to buy.
+
+Then a trough marker is something that you do at the low just before you start climbing up again. That might be when your bank account gets to $500 and you start panicking. Then when you panic, you might start all of a sudden pulling into gear, being productive, waking up on time, making sales and making money to pull yourself up out of that trough. Well, you could learn those peak markers and you could learn those trough markers.
+
+The other thing you want to look at is your pattern of existence, pitching up or pitching down. Pitching up is when over time, over the course of three days, two days, one week, one month or whatever, you should be going up. Your bank account should be going up or your performance at the gym should be going up.
+
+A downwards pitch is when things are going down over time. Here&#039;s the thing. There&#039;s no such thing as staying where you are in life. You&#039;re either moving forwards or you&#039;re falling backwards. There&#039;s no such thing as staying where you are. There&#039;s no such thing as a flat line. Everything in life is either pitching up or pitching down. If you&#039;re not getting better, then you&#039;re getting worse. There&#039;s no such thing as staying where you are. If you think you&#039;re staying where you are, well, you&#039;re really lying to yourself because you&#039;re really going backwards.
+
+Here&#039;s some stories of how I did this. I was so afraid of facing the day and making progress in my business that I couldn&#039;t get out of bed in the morning. I just curl up in bed. I couldn&#039;t go out and face the day. Here&#039;s the thought pattern that happened. I&#039;d wake up, then I would think about getting out of bed. Then I&#039;d lie to myself about the benefits of staying asleep. I&#039;d say things like, &quot;Oh, if I sleep in, I&#039;ll be more focused and I&#039;ll have more clarity. I&#039;ll probably do better work and then I&#039;ll probably make more money.&quot; I&#039;d tell some lies to myself.
+
+Then I deny the responsibility to improve my life. I&#039;d be like, &quot;Well, I don&#039;t really need to do anything. It&#039;s not really up to me.&quot; Then I would listen to my thoughts and I&#039;d listen to them and I would be like, &quot;Okay. Yeah, that&#039;s what I should do.&quot; Then I would go back to sleep. Then what would happen is I would regret staying asleep. Later on in the day, I&#039;d regret it. I&#039;d be dreading it and I would regret staying asleep and I would start beating myself up. Then to make myself feel better, I&#039;d promise myself that that was the last time. I&#039;d promise myself not again.
+
+Then guess what? I just do it all again. Each time I did it, it got worse. The feelings got worse. The dread got worse. The self-hate got worse every time. They got harder to break each time I did it. This was the pattern. I learned to spot this pattern. I learned to separate my character from myself. At first, I just viewed myself as one thing. I was just like, &quot;This is me, this hunger flesh here in this world.&quot; I wasn&#039;t able, I wasn&#039;t sophisticated enough or evolved enough to be able to split myself apart like that and view my character separate from my mind.
+
+When I learned how to split my character separate from my mind, I could learn to observe the thoughts of my character. If my character started thinking, &quot;Oh, it&#039;s time ...&quot; started trying to sell me on the benefits of going asleep, I&#039;d be like, &quot;Wait a minute. I understand this pattern. I&#039;ve seen this pattern before.&quot; Then I would intervene and I&#039;d be like, &quot;No, you&#039;re getting up.&quot; I learned to observe the pattern and then I caught it.
+
+I separated my mind from my character and I learned to observe its thoughts. I learned the thought pattern. My character had become so strong that it had me in its grips and was constantly breathing down my neck every morning when I woke up. How did I fix it? Well, when my character drew its fists, I pulled knife and when it drew a knife, I pulled a gun. I decided to wake up earlier than ever. The moment I woke up and had thoughts of going back to sleep, I attacked it front on by getting up and going to to the gym.
+
+The last thing I wanted to do was wake up early and the last thing I wanted to do was wake up early and go to the gym. What do you think I did? I threw my character into battle. I was used to sleeping until 10:00, 11:00. 12:00, I was like, &quot;This character is going to now get up at four.&quot; I never used to go to the gym, so I was like, &quot;Not only are we going to wake up at four, but we&#039;re going to go to the gym and it&#039;s not going to be a small workout, it&#039;s going to be a brutal one.&quot; That&#039;s what I did. I threw my character into battle and win it. Pulled its fists, I pulled a knife. When it drew a knife, I pulled a gun. You&#039;ve got to learn to fight back.
+
+Then when I learned to fight back, one day became two days, then three days, then seven, then two weeks, then three weeks and then an entire month. Then something strange happened. The character&#039;s voices had gone. When I woke up in the morning, the character voices weren&#039;t there anymore. I&#039;d wake up now and I open my eyes and I&#039;m waiting for it and I&#039;m like, &quot;Where are those thoughts?&quot; They&#039;re not there anymore.
+
+Now when I open my eyes, they just open. I&#039;m not tired at all. I just sit straight up, put my feet on the floor and I&#039;m up. There&#039;s nothing. There&#039;s no voices anymore and there&#039;s no character that has me in its grips because I obliterated it. I evolved into the new me. This is when you&#039;ve transcended yourself and broken one of your thought patterns. You evolve.
+
+Here&#039;s another one. I was so terrified of talking to people on the phone that I put off making calls for three months and invented things to do to avoid the important. I&#039;d get into the office and by office, I mean, my parents&#039; garage. I would think, &quot;Okay. I&#039;ve got to start making some calls.&quot; Then I would think, I&#039;d look at the time and I was like, &quot;Oh, it&#039;s 9 a.m. People probably just be getting into the office. I&#039;ll wait until about 10:00 or 11:00.&quot; I did that. Then at 10:00 or 11:00 I was like, &quot;People are probably just going out for lunch. I&#039;ll wait until they get back from lunch.&quot;
+
+Then it would come about 2:00 or 3:00 and then I would be like, &quot;Oh, it&#039;s probably the end of the day. People are probably packing up. They&#039;re probably having meetings. They&#039;re probably getting ready to go home,&quot; so I was like, &quot;Okay. I&#039;ll just call them back. I&#039;ll call tomorrow. I&#039;ll do these calls tomorrow.&quot; Then tomorrow would come around and I&#039;d do the same thing again and again and again. This became everything. This became the thing that just terrorized me.
+
+Here&#039;s how this thought pattern looked. Start the work day, know that I need to make sales to grow my business, lie to myself that it&#039;s okay not to sell today and just read some blogs and watch some videos and then deny responsibility for my financial situation. Then listen to my thoughts and delay sales another day. Then regret my decision and then promise myself tomorrow is the day. Then repeat it all over again.
+
+What I&#039;d learned is to separate from mind from my character. I learned to observe its thoughts. I learned the pattern. My character had become so strong that it had me in its grips and it was constantly breathing down my neck every morning when I woke up and got in to my office. How did I fix it? Well, when my character drew its fists, I pulled a knife and when it drew a knife, I pulled a gun. When my character thought about putting sales calls off another day, I looked it in the eyes and I made it do 20. If it didn&#039;t like doing 20, I made it do 30. If it didn&#039;t like 30, I made it do 50.
+
+I just learned to fight it. I learned to overpower it. I learned my patterns and I took control and evolved myself. I went from Sam version 1.0 to Sam version 2.0. version 1.0 is me and all my issues, paralyzed as myself and dreaming of the person I wanted to become. Version 2.0 was me free of those issues and evolved into a new person. Every time I evolve myself, I found myself in another to facing issues again, but at another level of play.
+
+What I mean by another level of play is like I just told you. I&#039;ve experienced plateaus now, but they&#039;re at $2 million a month. I had to evolve myself just recently to be much more of a team player. I used to be a solo entrepreneur and that was fine, but now in order to do better, I need to really focus on my team and building a culture and all of these things, things which I never had to do before and things which I thought weren&#039;t important and put off.
+
+Now, I&#039;ve forced to evolve myself to do these things. I learned my patterns and took control and evolved myself. I went from Sam version 1.0 to version two, version three, version four, version five, version six, version seven, version eight. There&#039;s probably a lot more than this and I just keep evolving. That&#039;s how I keep growing. That&#039;s how I keep improving myself and improving my business and improving my life and everything.
+
+If you&#039;re wondering how this exponential curve occurred, it&#039;s because I learned to evolve myself. This person here, me at 21, I dreamed of being wealthy. It was a dream, but my standards were just me lying in bed feeling sorry for myself. The person I am now, wealth is a hygiene standard. I don&#039;t dream about being wealthy. I can&#039;t. It can&#039;t even exist. I can&#039;t not be wealthy now. It&#039;s a hygiene standard. Just like not eating rotten chicken is a hygiene standard for you. Not making two million a month is worse than eating a rotten chicken for me. It has become a hygiene standard. It&#039;s not a dream anymore. It&#039;s a standard. It&#039;s something I simply will not tolerate anything below.
+
+That is the relentless attitude you need to apply to your goals if you want to achieve them. You need to take your dreams and make them not dreams but standards. The only way you do that is by evolving yourself into a new person. Evolving myself was the only way. It was the only way to bridge this gap. A lot of people don&#039;t understand this. A lot of people don&#039;t understand that the person they are right now is not capable of achieving success. You have to become a new person and step into the success with it.
+
+Now, let&#039;s talk about bringing it all together into one cohesive paradigm and worldview. We&#039;ve discussed a lot of different things. Week two, it&#039;s been a big week. We&#039;ve covered a lot of stuff. It&#039;s probably blowing your mind all these different things. Now what I want do is bring them all together, wrap it all up and title together into one cohesive paradigm and worldview.
+
+Here&#039;s society&#039;s current paradigm. Here are the different things which we&#039;ve discussed. Number one, misunderstanding and the psychology of the self and creation of the identity. Then number two, a bias towards the material and the physical. Number three, a false perception of entitlement and authority. Number four, a dualism and perception of one right and one wrong. Then this should say five. Five, contradiction of the two sciences. Then six, birth of the victim and their story. Then seven, mistaken view of cause and effect. This is society&#039;s current paradigm.
+
+What I&#039;m going to do right now is just roll through each one of these, explain how they&#039;re wrong and then explain the right way to view things. I&#039;m going to introduce you to the founding principles of this new paradigm, which I have invented and bought forward here called the Alchemy Paradigm and Worldview.
+
+The society&#039;s current paradigm, it leads to this end result. This is the main problem. We believe that the world is round and we believe that it&#039;s this earth here. Then we believe that we are born into this earth. We&#039;re just born, we become conscious and then we live our lives, just little us separate from everything. Then we die and we leave. There&#039;s this earth. We&#039;re born and then we die and we leave. It&#039;s what we believe.
+
+We also believe in classical physics, which is like, &quot;That&#039;s a tree. That&#039;s a desk and that&#039;s a person.&quot; We believe all of these different things, the physical, material. We can touch them and everything and that we&#039;re separate from all of these things. We believe that we&#039;re born and that&#039;s when we become conscious. Then we have our life, which is when we&#039;re conscious and then we die and that&#039;s where we lose consciousness and that&#039;s it. That&#039;s just it.
+
+We also believe that we are a physical body of muscle, blood, flesh and bone and all of this and that this is us, this is ourself. Here&#039;s where this paradigm leaves us. This is a good way to explain it. This person, he&#039;s named Rob and Rob isn&#039;t very smart. Rob&#039;s upbringing history and track record to date shows that he isn&#039;t much of an achiever and his brain isn&#039;t as smart as other people&#039;s brains. Rob is introverted. He&#039;s shy. He&#039;s anxious. He doesn&#039;t know much and he&#039;s unable to change because that&#039;s just who Rob is.
+
+This is what society&#039;s current paradigm sees things is it sees things as we&#039;re unable to change and that&#039;s just who we are. Society has put such focus on defining individual&#039;s identities from such a young age that it has created an extremely strong self-image and sense of character. How we&#039;ve done this is things like driver&#039;s licenses. We&#039;ve got names, we&#039;ve got identity documents, birth certificates. They&#039;ve all got our images on them. Everything is documented. We&#039;ve got report cards from school and from college. We carry a GPA and everything.
+
+We&#039;ve got Facebook profiles which have timelines and histories and images of us and our friends and everything. You&#039;ve got Instagram with more images. Then we&#039;ve got all these forms, which we fill out at the doctor&#039;s office, on the internet all the time. All the time we&#039;ve got these forms. We have to check boxes, say different things about ourself. Then we&#039;ve got crowds and society and they&#039;re always saying things about it. They might be gossiping about us. They might have an opinion of us. We might have friends groups who know us as this particular person. We&#039;ve got all of these different things, which define our identities.
+
+This is Rob&#039;s history, all of these different things. Together, it forms Rob&#039;s identity. Identity has become so strong and defined over time that we believe that we are our identity. We believe that, &quot;This is me. Me is this collection of all of these things in the past. This is my identity. This is me.&quot; Here&#039;s the big question. What came first? The physical body and the brain and then human consciousness and life as we experience it or human consciousness and then the illusion of the physical body?
+
+Our current paradigm and worldview has a bias towards this one. It has a bias towards the physical body. It believes that we were born and then we have a consciousness. However, I propose a new paradigm and a new worldview and a new way of perceiving reality. I propose a new paradigm and worldview that sits more on the side of illusion, but without forgetting about the other one entirely.
+
+In my paradigm, in my worldview, I believe that consciousness came first and then the illusion of the physical body and that we can change anything in our physical reality with our minds. I&#039;ve proven that again and again and again and again. However, I am not extremely biased to the point where I say, &quot;You can just forget entirely about your physical body,&quot; because you can&#039;t. I mean, it still needs to be healthy. Otherwise before long, all your going to be thinking about is your physical body and it&#039;s going to ruin your thoughts and then it&#039;s going to ruin your reality.
+
+While society is hard-jammed bias on this side, I lean a bit more on the side, but in no way am I jammed on this side. I&#039;m just over the mark. If it was 50% in the middle, I&#039;m sitting on 40. This is the new paradigm and worldview that I propose. I want to introduce you to the Alchemy Paradigm and Worldview. This is my paradigm and worldview and it&#039;s what I&#039;ve used to completely change my life and make a lot of money, take control of things that were out of control and really have a ton of fun and change everything, really.
+
+The best way I can describe it in a sentence is that we spend our entire lives paralyzed as ourselves dreaming of being somebody who we are not. It&#039;s natural as humans to desire to become something more than who we are. We become ourself and there&#039;s nothing wrong with that. We go to school, we get these different friends, we believe all these different things and this is ourself. Then it&#039;s natural to desire to become something more than who we are.
+
+When we do that, these two selves are at war. This is who we want to be and this is who we are right now. This internal conflict causes a lot of pain. We&#039;re paralyzed by it. We can&#039;t take action because it&#039;s outside of our comfort zone. It&#039;s not in alignment with who we are, so we don&#039;t do anything about it, but we regret not doing anything about it. We spend our entire lives paralyzed as ourselves dreaming of being somebody who we are not.
+
+The greatest search of mankind is to learn how to transcend himself or herself, how to transcend itself and to be free from the bounds of itself. This really is the greatest search of mankind. Here&#039;s Maslow&#039;s hierarchy of needs. At the bottom, we&#039;ve got physiological needs like water, warmth, rest, safety needs, then belonging and love needs, then esteem needs and self-actualization and then at the top, we&#039;ve got transcendence, which is when we transcend all needs of ourself and all basic needs and we become whoever we want to be.
+
+Now, let&#039;s discuss the Alchemy Paradigm differences from society&#039;s current paradigm. Here were the seven things that says eight, but here were the different things. Now, we&#039;re going to go through each one. We&#039;ll start of with misunderstanding in the psychology of the self and creation of the identity. Society&#039;s current paradigm believes that the self is the person and they are born that way and can&#039;t change. You&#039;re just born and your genes define who you are and your genetics and everything. If your brain is stupid, then you&#039;re stupid.
+
+The Alchemy Paradigm believes that the self is nothing but the summation of mental programming to form beliefs. Whatever side you put rocks on on these scales in your mind, that is whatever you will believe and whatever you believe becomes yourself. Society believes the self is a physical thing and with the Alchemy Paradigm, the self is just programming. Society&#039;s current paradigm believes that the self is the person and that they are left brain or right brain. They&#039;re either creative or logical and they have a particular personality type like we did the Myers-Briggs test, the MBTI. You might be an ENTP or an ESTJ or all of these different things. That&#039;s just you. That&#039;s your personality. That&#039;s who you are. That&#039;s your character.
+
+The Alchemy Paradigm believes that the self is nothing but the summation of mental programming to form beliefs. Left brain or right brain and any personality is a learned response from programming. It doesn&#039;t matter if you&#039;re creative or logical. I mean, you can become the other one or you can become both. It doesn&#039;t matter what your Myers-Briggs test is because you can change it. Scientists in society believe that your personality is who you are. If you&#039;re left brain or right brain, that&#039;s just who you are, but you can change. It&#039;s just programming.
+
+The Alchemy Paradigm believes that the self is a character created by the mind, an illusion or a mask. You can change yourself and you can change your life from mental programming and stacking rocks on scales whatever way you like and that nothing is static. Here&#039;s the flawed psychology of the self and creation of identity. We&#039;ve come to believe that people are born with it. They&#039;re naturals. It&#039;s in the family. We&#039;ve come to believe that we are somebody specific with an identity and characteristics that define us as a person.
+
+We&#039;ve come to believe that we are ourselves unable to change and we should love ourselves just as we are without changing anything and people don&#039;t change. &quot;Be yourself. Stick to your roots. Don&#039;t forget who you are. Stay true to yourself. Be authentic.&quot; These are all the words that we say in Western civilization and society. This epidemic has been fueled by the Western world going through life trying to define the question, &quot;Who am I?&quot; People have been trying to find themselves by asking, &quot;Who am I?&quot; and seeking out things that are like them and they think, &quot;That&#039;s not me. This is me. These people are like me. I associate with this thing. I am this person.&quot;
+
+The sense of self and character gets very strong and defined over time. We form an identity and we build our entire lives around things that confirm its existence. The issue is as humans, it&#039;s natural to desire more than who we are. We dream of improving and growing and we form this image of our desired self. However, that&#039;s when all of the conflict comes. Every time we try to become this desired self, we are out of alignment with our current self. That&#039;s when the chaos comes. We live lives paralyzed as ourselves dreaming and full of regret about who we could have been. This is the Alchemy Paradigm and Worldview in it.
+
+The removal of the static self for the becoming self. The Western world has cemented beliefs like, &quot;Be yourself. Stick to your roots. Don&#039;t forget where you came from and don&#039;t lose yourself in the pursuit of success.&quot; Have you ever stopped to think about who you really are? Where is this thing you call the self? The self doesn&#039;t exist. It&#039;s merely you&#039;re clinging it to an identity built up of stories about the past. Every person in the world wants to improve and grow and that&#039;s impossible when you don&#039;t want to lose yourself.
+
+It&#039;s been my observation that the only way to achieve success is to become the person who deserves it. When we become this new person, we are no longer ourselves. You see this as the issue with Western philosophy. We believe we are something when we aren&#039;t anything. The only question that&#039;s important is who are we becoming. Who are you becoming? It&#039;s not who are you. It&#039;s not, &quot;Who am I?&quot; It&#039;s who are we becoming.
+
+That&#039;s the first one. Crossed off, misunderstanding in the psychology of the self and creation of the identity. I&#039;m sure you understand that one right now. It&#039;s not, &quot;Who am I?&quot; It&#039;s, &quot;Who am I becoming?&quot; The self doesn&#039;t exist. The self is just the summation of mental programming. It&#039;s just, your mind an on and off system. It&#039;s just whatever way you stacked the rocks and you can stack them different ways.
+
+Number two is a bias towards the material and the physical. Society&#039;s current paradigm believes that things are all physical. They&#039;re material. You can touch them and knock on them like this desk. It&#039;s hard, it&#039;s physical. I can touch this thing. We believed that that&#039;s a tree. A tree is a tree. They&#039;re hard, they&#039;re physical, they&#039;re there. Desk is a desk and a person is a person made up of flesh and blood and bone and all of that. We also believe that a person is separate from a tree. There&#039;s distance in between them. The person has nothing to do with the tree. The tree has nothing to do with the person. They&#039;re separate things.
+
+We believe that we are separate from objects. If you look at an object on your desk right now like I can look at this cup of tea here. I&#039;m looking at it and there&#039;s space in between me and the cup of tea. We&#039;re separate. I can&#039;t influence that cup of tea. That cup of tea can&#039;t influence me. Society&#039;s current paradigm leans on the bias of physical and material. It believes that the physical and the material is there and it believes that it&#039;s the most important. It believes that nothing is really mental, everything is just physical, material, mechanical.
+
+This leaves us feeling all alone in the world and at risk of things outside of our control. When I believe this, I was constantly afraid. I was constantly afraid of, &quot;What if I get sick? What if I&#039;m in some accident? What if I go somewhere dangerous? What if I slip over and hurt myself? What if my business fails? What if all of this different stuff?&quot; There are so many different things that could go wrong. I was horrified. It was terrifying. I was also like, &quot;Why am I so alone? I&#039;m in this huge world and so disconnected from everything.&quot;
+
+However, quantum physics shows us that these things aren&#039;t really things. What we see with our eyes is a tree and a desk and a person. However, if we zoom right in under a microscope, these things aren&#039;t really things at all. They&#039;re just a bunch of atoms spinning around. It&#039;s mostly nothing. It&#039;s 80% nothing. There&#039;s a lot of space in between these atoms. A desk, which we think is a desk and that we can touch and it&#039;s hard, if we zoom right in with a microscope, it&#039;s actually just a bunch of atoms spinning around.
+
+With the new Alchemy Paradigm and Worldview, I propose a new paradigm that views life as an illusion created by the mind that is built up from programming and beliefs. I believe when we look around that this cup of tea is nothing but particles just spinning around. It&#039;s just my mental programming that perceives this as something physical, which I can touch and feel and everything.
+
+All of life and what we see as reality is nothing but a magnificent illusion created by our own mind. When I walk around outside and I look around, I&#039;m like, &quot;Wow! This thing looks very real. This all looks very real. Isn&#039;t it magnificent how real it really is?&quot; Really, I know deep down inside and in my mind that it&#039;s not really real. It&#039;s an illusion. Not an illusion to the point where I&#039;m like, &quot;Oh, this is just stupid. There&#039;s no point in playing this game.&quot; This is life. You want to make the most of it.
+
+The awesome thing about realizing that life is nothing but an illusion is that you can change it, you can influence it. You can push it and it will move. When you view reality like this, it&#039;s like you&#039;ve hacked the game. It&#039;s like you can start changing things. You can change yourself. You can change your situation. If you&#039;re poor, you can make yourself wealthy. If you&#039;re shy, you can make yourself outgoing. If you&#039;re not very smart, you can make yourself a genius. You can change things around when you view reality as the illusion that it is. All of life and what we see as reality is nothing but a magnificent illusion created by our own mind.
+
+That is the second one. So far, I&#039;ve shown you two of society&#039;s biases and its current paradigm and I&#039;ve shown you the new Alchemy Paradigm and Worldview. Now, number three, false perceptions of entitlement and authority. We have grading systems that are limited, pass, fail, A, B, C, D, 0% to 100% and not achieved, achieved, merit, excellence, uneducated, high school educated, bachelors degree educated or masters degree or PHD or first in class out of 30 people and qualified or not qualified. We have these grading systems that are very limited. There&#039;s a cap, there&#039;s a ceiling.
+
+Most people think distribution looks like this. You&#039;ve got the lower class, the middle class and then the rich people. It&#039;s linear. We think that there&#039;s not that much of a gap between the lower and the middle and there&#039;s not much of a gap between the middle and the rich. It&#039;s like, &quot;Okay. That&#039;s it.&quot; We believe that there&#039;s just a linear curve in between non-educated, educated, MBA and PHD, but most people have no idea. MBAs and PHDs aren&#039;t even on the map.
+
+Any form of qualification is a false sense of entitlement because it makes the person think that they&#039;re qualified and deserve reward from the market. The market is a fair judge of value and it has a habit of rewarding those who have value and giving nothing to those that do not. When qualified people don&#039;t get what they want from the market, they say the system is vulgar and bankrupt and they deserve to be paid more, but they just don&#039;t get it. They need to wake up.
+
+Society&#039;s current paradigm falls on the bias of certificate-optimized education or degree-optimized education. It believes that certificates and degrees deserve financial reward and respect. That&#039;s the current bias. However, I propose with the new Alchemy Paradigm and Worldview, I propose a new paradigm which forgets certifications entirely. It optimizes education around market results. Our entire education system has been optimizing around certification.
+
+It&#039;s been like, &quot;We&#039;ve got to change the education system and we&#039;ve got to change the study habits.&quot; The people going into these education systems, they need to be mindful of the outcome, which is the certificate and that&#039;s what you optimize your study for and that&#039;s how students are optimizing their study. They&#039;re passing around past exam papers. They&#039;re trying to hack education to try and get the best grades. Then they go out into society and into the real world and it doesn&#039;t work very well for them. They wonder how people who are uneducated kick their ass.
+
+They&#039;re like, &quot;What? How does this happened? This isn&#039;t like getting test results.&quot; It&#039;s because the market is totally different than a certificate. The market doesn&#039;t care if you have a certificate or not. The market is the population of the world. It&#039;s like when you try to sell something or buy something, that&#039;s the market. My education systems like this program, they&#039;re optimized around the market. In my programs like Consulting Accelerator, I don&#039;t have a certification program nor will I ever have one because I&#039;m an activist against those and I&#039;m an activist towards market-optimized education.
+
+I want all of my students and all of us in this community to optimize our learning and our habits and our behaviors and everything around the market. That&#039;s what we optimize for. Through optimizing it to the market, that&#039;s how I&#039;ve been able to get people such profound results. As of right now, we&#039;ve had people from Yale, Stanford. What else have we had? Oxford, all the Ivy League things and not just normal degrees. We&#039;ve had people that did MBAs and PHDs from those Ivy League places. They&#039;ve come into this and said, &quot;This is way better.&quot; That blows me away.
+
+Now, dualism and the perception of one right and one wrong. Mankind&#039;s big question, &quot;What is right and what is wrong? What is the right way and the wrong way to live?&quot; Here&#039;s the current state of how we are divided. Right and wrong, we believe that making money and being a billionaire on Wall Street is wrong and just meditating is right. We believe that being at the beach is right and relaxing and nature is right, but being in the city is wrong. We believe that history is more right than visions of the future. History tells us everything, but visions of the future, they don&#039;t tell us anything.
+
+We believe that eating vegetables and fruits and all of this is healthy and right and that eating greasy cheeseburger like this is wrong. We believe that going to university and getting good grades and qualifying and graduating is right and that dropping out of college is wrong. We believe that being happy is right and being sad is wrong. We believe that science is right and religion is wrong. We believe that giving money to charity is right and that being a greedy billionaire, smoking cigars and walking around in $100,000 suits is wrong. We believe that going on adventures and nature and hiking up mountains is right and being in the office, grinding and making sales calls and making money and being behind the computer is wrong.
+
+Here&#039;s dualism and the perception of one right and one wrong. Our mind is a programmable on/off system that divides thoughts, memories and experiences into categories such as me or not me, right and wrong, for and against, good and evil, past and future, friend and enemy, true and false. This division of opposites is the only way we can make sense of things and it&#039;s called dualism or duality. We grow up thinking, &quot;Who am I?&quot; and every experience, memory and thought stacks a rock on one side of the scales, me or not me, right and wrong and good or bad.
+
+Over time, this sense of self and identity gets very strong and defined. We define ourselves as a particular person unable to change. Society develops the same way we do ourselves, except as a collective group of the individuals within it. Society develops over time thinking who are we and every experience, memory and thought stacks a rock on one side of the scale, right or wrong, good or bad, like us or our enemy. As a collective group, society develops a sense of identity unable to change.
+
+Dualism is the cause of all conflict within you as a person. Dualism is the cause of all conflict within the world as a society. The solution in the Alchemy Paradigm or Worldview way is to become non-binary in balancing your pulse. We must understand the nature of our own mind and the dualism experienced by the division of opposites. We must understand that all conflict within ourselves, society, business and everywhere else exists through resistance to change. We understand that the key to all evolution is variation and the thing that slows it down and causes problems is a clinging to identity built up from stories of the past.
+
+We must let go of who we currently are to become of who we want to be. That involves doing things which we have ignored, judged and victimized with our current self and its identity. We understand that holding a firm side on anything while ignoring the opposite will require us to eventually face the opposite. This is why we must understand the dualism that exists in our own mind and lose the binary stance of one true right and wrong and one true me and not me.
+
+If you want to evolve as a person and grow into a better version of yourself in life and in business, you must consider the side of you that is hidden in the dark and bring it into light. If you&#039;re an introvert, it&#039;s time to speak up. If you&#039;re an extrovert, it&#039;s time to quietly reflect. If you&#039;ve never been smart, it&#039;s time to become a genius. If you&#039;ve been anti-science, it&#039;s time to look at science. If you&#039;ve been anti-religion, it&#039;s time to look at religion. If you&#039;ve been money-obsessed, it&#039;s time to look at spirituality. If you&#039;ve only considered spirituality and ignored money, it&#039;s time to start making money.
+
+We have to balance our pulse because when we just do one thing and ignore the opposite, we are eventually forced to face the opposite. That is dualism and the perception of one right and one wrong.
+
+The contradiction of the two sciences. We&#039;ve got classical physics, which I&#039;ve told you about, which is things are things. That&#039;s a tree, that&#039;s a desk, that&#039;s a person. These are things and they&#039;re physical. We can touch them. Quantum physics says these things aren&#039;t really things. They&#039;re more atoms spinning around and they&#039;re mostly nothing at all. Classical physics is what we see with our eyes and touch with our hands. Quantum physics is what we see when we zoom right in with a microscope.
+
+The best way I can describe it is with this small analogy here. Imagine going into the woods and then observing a tree fall down right in front of you. You see it all happen and it makes a thud sound when it hits the ground. Now, imagine we could wind back time except this time, you don&#039;t go into the woods. You wait at the forest edge and hang out there for the day. Well, does that tree still fall over? Does it still make a sound? Well, society&#039;s current paradigm says, &quot;Yes, it most certainly does,&quot; but quantum physics says that particles are essentially everywhere and nowhere until somebody observes them. Only at the point of observation do particles take a specific state and position, which means that we actually don&#039;t know whether the tree falls down or not unless we are there to observe it, which we&#039;re not because we&#039;re at the forest edge.
+
+Only at the point of observation do particles take a specific state and position. What does this all mean? What does this have to do with business? Well, do you remember my obsession about discovering the interconnectedness of things? What makes one subject tied to another subject? What about my thoughts in the outcome of a call? How can one subject have anything to do with another subject? They&#039;re separate. How can what I think have any effect to the outcome of a call? How can me watching something have an effect on the actual ads performance? How can my results have an effect on the results of my clients if they&#039;re separate?
+
+Well, at a microscopic level, these are all particles, one subject, another subject, my thoughts and the outcome of a call and my observation and my ads performance and my results and my clients&#039; results. Society&#039;s current paradigm falls on the bias of classical physics and believes that we are physical beings separate from our environment with no interconnection. The Alchemy Paradigm, well, I propose a new paradigm which believes that we are not physical beings, but waveforms of light experiencing a consciousness and viewing reality as an illusion created by our mind and interconnected to everything in the universe. Pretty different stuff here. That&#039;s the contradiction of the two sciences.
+
+Now, we&#039;ve got birth of the victim and their story. Society&#039;s current paradigm believes that other people and other forces are the cause for all misfortune, suffering and pain. We have to see winning as something to be quiet about and people who discuss winning are seen as showoffs or up themselves. We&#039;ve come to see strugglers and losers as people who deserve our attention. We listen to their stories and we sympathize with them. We&#039;re like, &quot;It&#039;s okay that you didn&#039;t win. I understand. It was really hard. It&#039;s not your fault.&quot;
+
+Society&#039;s current paradigm falls on the bias of believing the victim and their story and giving them sympathy, as well as blaming others for their misfortune. I propose a new paradigm that views losers as people who need no sympathy and they need to pick themselves up off the floor and get back in the game to win. I believe that everyone can win. I believe that people who create a story about why they can&#039;t win, they&#039;ve made up an excuse about why they can&#039;t and now they&#039;re stuck there and they want to win. Everyone wants to win deep down. Everyone can, but as soon as you play the victim, as soon as you create the story, you lose forever.
+
+As soon as you start feeding the victim by giving them sympathy, it&#039;s literally just like feeding an addiction. It&#039;s like feeding a drug addict more drugs. It only makes it worse. You can&#039;t feed a victim sympathy. They have to pick themselves up off the floor and get back in the game. That&#039;s the Alchemy Paradigm. In society, if someone wins, we&#039;re like, &quot;Oh, that person&#039;s a showoff,&quot; and if someone loses, we give that person all the attention, but it should be the other way around. We should be giving the winners the attention and the people who aren&#039;t winning, they just need to make a decision to pick themselves up and get in the game.
+
+If life has you pinned up against the rope in a corner, you have to grow some teeth and fight back with all you&#039;ve got and don&#039;t ever play victim and believe the story. Don&#039;t believe the story. Don&#039;t create the story. Don&#039;t play the victim. You&#039;ve got to grow some teeth and get in the fight and fight back with everything that you&#039;ve got. That&#039;s the birth of the victim and their story.
+
+Then mistaken view of cause and effect. Society&#039;s current paradigm believes that a person is separate from a tree. There&#039;s space in between these things. They are separate. They are not interrelated. We believe that we are separate from an object and the space in between is distance. Society&#039;s current paradigm views what&#039;s out there as separate from what&#039;s in here in our own mind. We can&#039;t influence separate things from us with our minds. Society&#039;s current paradigm understands the concept of physical cause and effect, but not mental cause and effect.
+
+If you remember back to seeing for the first time that video in week two, we discussed quantum entanglement of particles and how for every action there&#039;s an equal and opposite reaction, action/reaction. If one particle has a negative spin, the other particle has a positive spin and so on and so forth. We discussed these things. For every action, there is an equal and opposite reaction. The mirror and how your judgments are simply an outwards reflection of your own insecurities and how people don&#039;t have business problems, they have personal problems that reflect in their business and the way you do one thing is the way you do everything. We become our lowest standards, not our highest dreams. As above, so below and so below, as above. It&#039;s just for every action, there&#039;s an equal and opposite reaction. This is how it works. This is how the universe works.
+
+There&#039;s also feedback loops, where cause and effect aren&#039;t separate from each other. They both feed each other. A cause will create an effect. An effect will feedback into a cause. Feedback loops occur when the effect from that killer cause loops around and feeds back in as another stronger or weaker cause. When this happens, the cause and effect relationship becomes self-fulfilling and it amplifies or weakens exponentially.
+
+Mental feedback loops occur when one thought causes an effect of more thought, which then creates more thought and sets off a vicious self-fulfilling cycle. What one thinks is what one thinks about and what one thinks about is what one thinks. It just keeps going around and around and around. A mental feedback loop can build you up to become invincible or it can break you down to the point where you&#039;re so depressed and sad that you consider taking your own life.
+
+Society&#039;s current paradigm falls on this heavy bias. Cause and effect is what we see when we whack a nail with a hammer. The cause is the hammer slamming and the effect is the nail driving into the wood. There is no cause and effect with the mind and feedback loops don&#039;t exist. However, the Alchemy Paradigm or Worldview and the way I believe things are is cause and effect is mental. What we observe in the outside world is a reflection of what we hold in our mind and as above, so below. For every action, there is an equal and opposite reaction. Judge others, others will judge you. Cause and effect goes in a feedback loop exponentially up or down. That is the mistaken view of cause and effect.
+
+That&#039;s the Alchemy Paradigm and Worldview. It&#039;s an entirely new paradigm to use to perceive reality in an entirely different way. It&#039;s so profound, it&#039;s like seeing for the first time. All of life and what we see as reality is nothing but a magnificent illusion created by our own mind. What we see and experience in life is not reality. It&#039;s more reality exposed to our method of questioning. Simply put, your hypothesis affects your outcome. Your current situation is your hypothesis.
+
+In life, you have to set a hypothesis. It&#039;s like what you think is going to happen. &quot;Well, my current situation is this and if I take this action, then I think I&#039;m going to get this outcome.&quot; Then that&#039;s your hypothesis. Then you&#039;ve got your action. Your action is the action that you take. Then the new situation is the outcome that you&#039;ve got from having your current situation and then applying your action and now you can experience it. Then you get to experience it and then you get feedback. The feedback is what happened. Then that feedback feeds back around into the cause. You listen to that feedback and then you adjust your belief and then you adjust your hypothesis and then you adjust your action.
+
+Each time you keep going around and around and around and around and each time you listen to that feedback, each time you change that current situation and that hypothesis and you change that action and each time you get closer and closer to the truth and each time you get closer and closer to what works and what doesn&#039;t and that&#039;s how you get successful, not just in life, but in sports and in everything. This is the master algorithm of everything, the universal theory of everything.
+
+To put this in perspective and to really cement this understanding, $500 in the bank could be your current situation and your hypothesis might be, &quot;I want to start a consulting business.&quot; Then the action is that you start a consulting business. Then you experience the reality and that you don&#039;t get clients yet, but you learn some lessons. With those new lessons, you get feedback and that feeds back around. Then the next time is you have a new hypothesis, &quot;I want to start a consulting business, but this time around I&#039;m going to have to get on the phone. I&#039;m going to have to do some sales calls.&quot;
+
+Then you do some sales calls and then your action is doing the sales calls. Then your new reality might be you got a sale this time. Okay. You received that feedback and it comes back around and now you&#039;re like, &quot;Okay. I&#039;m going to do more sales calls.&quot; This is how it happens. This is the most important statement that you can possibly understand and remember and write down. It doesn&#039;t matter is true. Only what you believe is true because with work, that will become true.
+
+We have this feedback loop thing like this in life, the master algorithm. You must intervene with your beliefs. You intervene here by changing your thoughts and then your beliefs. Then you take massive action here in confidence with your new beliefs. Then you experience your new reality becoming. Then you listen to the feedback and then you change your beliefs, then you change your actions to optimize and you go around and around and around and around. You keep repeating. You keep taking action. You keep adjusting your beliefs. You keep experiencing your reality and you keep listening to feedback. That is the master algorithm of everything in life. That&#039;s the master algorithm of business, success, everything. That is how you become an animal. That is how you become relentless and you achieve whatever you want to achieve.
+
+Here&#039;s where people have gone wrong. People don&#039;t set a hypothesis and they don&#039;t take any action and they don&#039;t listen to any feedback. Some people set a hypothesis and they don&#039;t take any action and they don&#039;t receive any feedback. Then some people set a hypothesis, then they take action, but they don&#039;t listen to any feedback. The correct way to do it, the correct way to govern the master algorithm of all evolution and everything is that you must set a hypothesis, then you must take action, then you must listen to the feedback and then iterate and improve by repeating. That is how you win, not just in business, in life and sports and everything. That is how you win.
+
+It doesn&#039;t matter what is true. Only what you believe is true because with work, that will become true. All you think you are is an identity that your mind created and the optimization engine is jammed. You have to learn to take off the mask and realize that you can become whoever you want to be in life. As Shakespeare said, &quot;All the world is a stage and we are merely actors. To be or not to be is the question you have to ask yourself when it comes to your mask and choice of character.&quot; The question is, &quot;Who are you becoming?&quot; It doesn&#039;t matter what is true. Only what you believe is true because with work, that will become true.
+
+This took me an entire lifetime to figure out and put together. When I did it, it changed my life more than I can possibly put into words or explain. I went from being someone who is shy and anxious and couldn&#039;t get out of bed and couldn&#039;t leave the house. I was completely broke. I thought I was stupid and history said that I was, so did everyone else. I was able to completely change it. The point now where I&#039;m making more than $20 million a year and Forbes put me in the Forbes 30 under 30 the other week and they valued my net worth at 65 million US dollars, which is almost 100 million New Zealand dollars. It&#039;s about 95 million.
+
+That&#039;s more than I could ever imagine. 65 million US, that&#039;s quite a lot of money for 27. I&#039;ll easily have more than 100 million by the time I&#039;m 28. I&#039;ll have way more than 500 million by the time I&#039;m 30. This isn&#039;t just some crazy paradigm which I just cooked up. This took me an entire lifetime. If I had to estimate how many hours of study and research I&#039;ve put into this, I would probably say around 30,000 or 20,000 hours. It&#039;s changed my life more than I can possibly imagine. It can really do the same for you. I&#039;m sure this new paradigm will change your life too.
+
+Welcome to your new reality. We&#039;ve discussed all the things about society&#039;s current paradigm. We&#039;ve gone through them all. We&#039;ve discussed why it&#039;s wrong, how it&#039;s limiting people, how it&#039;s limiting you, your life, your success, your finances, everything. Here is what I believe and here&#039;s the new paradigm which I&#039;m introducing to the world. The way I see it is that reality is an extremely popular delusion.
+
+What happens is when someone goes crazy, when someone goes insane, we say that that person is delusional. It&#039;s really how are we to know that they&#039;re delusional. How are we to know that we&#039;re not the delusional ones and they&#039;re not the sane ones? The only thing that really we can say is that why we&#039;re sane and why that person is insane is because a lot of us believe that we&#039;re sane. Just because a lot of us believe something doesn&#039;t mean that it&#039;s true. In fact, in a lot of studies, in a lot of things, the more people that believe something, the more it&#039;s likely to not be true.
+
+The way I see it, the world, the way I see it is that everything we believe is real and everything that we see and experience in reality, it&#039;s just an extremely popular delusion. All of life is a delusion. It&#039;s just this one&#039;s extremely popular and it&#039;s been built up of thousands and thousands of years of programming.
+
+Here&#039;s what I believe in the new Alchemy Paradigm and Worldview. The self is nothing but an illusion built from mental programming. All of life is simply a magnificent illusion created by your mind. The only true judge of success is when it is put to test in the market. There&#039;s no merit for certificates, no merit for qualifications, no merit for history. The only test is when you put something to the market and you test it. There is not one definitive right and wrong, just what is popular belief at the time.
+
+We can say, &quot;Sure, at this moment in time, in this society, this is considered right,&quot; but in another society, it might be considered wrong and at a different point in time, it might be considered wrong. There is no such thing as one right and one wrong. It changes. Physical science is an illusion of ... It&#039;s really a material. Everything material is essentially just the illusion. Quantum science is the mind&#039;s material in which it makes that illusion come real.
+
+The victim always has a story about why they can&#039;t do something, why they can&#039;t win. The victim is the worst person to play in this world because it&#039;s a character that gives away its own control. It&#039;s amazing to live this life as the character and the master because you get to control your character and get it do whatever you want to do. That&#039;s when you&#039;ve really conquered life and you can achieve anything you want.
+
+However, it&#039;s a very sad story when the character believes that the master is someone else and it isn&#039;t in control of itself. That&#039;s what a victim is and its story is the reason why it believes that. The winner never has a story. When the winner gets knocked down, it&#039;s their fault. When the winner is sad with their situation, they did it. The winner takes full responsibility for their life and their current situation and they take full responsibility for what they&#039;re going to achieve.
+
+Every action has an equal and opposite reaction, not just in the physical world, but in the mental world. Our inside thoughts reflect on the outside. If we judge others, others will judge us. If we believe someone&#039;s wrong about something, then we often need to do that thing which we think is wrong to achieve success. Every action has an equal and opposite reaction. As above, so below. So below, as above. It doesn&#039;t matter what is true. Only what you believe is true because with work, that will become true.
+
+This is my paradigm and worldview. It&#039;s taken me a lifetime to put together. I never I&#039;d share this, but the more I&#039;ve helped people in my mastermind and everything with this, the more I&#039;ve seen such profound changes. This truly changed my life more than I can possibly explain. I&#039;ve studied billionaires, I&#039;ve studied everything. I&#039;m like a dog with a bone when it comes to my thirst for knowledge and information. I have a thirst for knowledge and information like no one else on earth. It has taken me more hours than you can imagine to figure all of this stuff out.
+
+This is the new paradigm and worldview which I am bringing to the world and which I believe is the solution to all of our problems, which we have right now and also, all of society&#039;s problems and this world&#039;s problems. I hope you enjoy this new paradigm and worldview. I&#039;m sure it&#039;s going to change your life like nothing else for the better.
+
+This concludes this video where I&#039;ve introduced the new paradigm and worldview. The next video, Rolling God&#039;s Loaded Dice is where we talk about taking action on this. Rolling God&#039;s Loaded Dice, this video which is coming up, this is the most important video and the best video of them all in week two. In Rolling God&#039;s Loaded Dice, I tell you how you can play with the loaded dice and how you can really hack your own reality to achieve anything which you want to achieve. We&#039;re pretty much done with the theory now.
+
+In Rolling God&#039;s Loaded Dice, we&#039;re just talking about action. I&#039;m going to show you my routines, my habits. I&#039;m going to expose to you some of my programming, which I do to myself every morning and every night. I&#039;m going to show you my daily routine. I&#039;m going to show you how I structure my calendar. I&#039;m going to show you everything I do and everything which I do on a daily basis to get my mind into the state, so that I can go out there and win and so that I can be relentless and then I can do thing which are considered physically impossible by other people.
+
+Thanks for watching this video. I will see you in the next one. Make sure you watch the next one because it is a big one and it&#039;s where we&#039;re going to start putting this all into action for you and it&#039;s going to change your life. Thanks.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="#/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Two"
+    var moduleName = "6. New paradigm &amp; world view"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-127')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-127', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Two";
+    if (!moduleName) var moduleName = "6. New paradigm &amp; world view";
+    if (!file) var file = "media/1e9090caba72a032d0ac4cf314d321fa.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "#/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('#/products/mark-complete/127', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('#/products/mark-incomplete/127', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "h6mgud7vuu", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-127')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-127', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('#/products/mark-complete/127');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("20").style.display="none";
+	document.getElementById("21").style.display="block";
+	document.getElementById("40").style.display="none";
+	document.getElementById("41").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("20").style.display="block";
+	document.getElementById("21").style.display="none";
+	document.getElementById("40").style.display="block";
+	document.getElementById("41").style.display="none";
+	} 
+</script>  
+  </body>
+</html>

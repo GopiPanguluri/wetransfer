@@ -1,0 +1,922 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="#/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="#/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="#/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="#/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="#/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="#/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="#/assets/img/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">Alchemy of Client Conversion</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+        <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="22">22% Complete</small>
+              <small id="23" style="display:none;">23% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="22" aria-valuemin="0" aria-valuetext="22 percent" aria-valuemax="100" id="44">
+              <div class="progress-meter" style="width:22%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="23" aria-valuemin="0" aria-valuetext="23 percent" aria-valuemax="100" style="display:none;" id="45">
+              <div class="progress-meter" style="width:23%"></div>
+            </div>
+        </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+               <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+					<option value="week-Three-overview.html">Week Three</option>
+					<option value="welcome.html">Welcome!</option>
+					<option value="week-one.html">Week One</option>
+					<option value="week-two-overview.html">Week Two</option>
+					<option value="week-four-overview.html">Week Four</option>
+					<option value="week-five-overview">Week Five</option>
+					<option value="week-Six-overview">Week Six</option>
+					<option value="week-Seven-overview.html">Week Seven</option>
+					<option value="dm-1.html">DM Bonus</option>
+                </select>
+              </form>
+			 
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' completed'>
+                <a href='week-three-overview.html'>Overview</a>
+              </li>
+                            <li class='active '>
+                <a href='week-three-1.html'>1. The illusion of sales</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-three-2.html'>2. Alchemy of conversion</a>
+              </li>
+                            <li class=' '>
+                <a href='week-three-3.html'>3. Crafting your script</a>
+              </li>
+                            <li class=' '>
+                <a href='week-three-4.html'>4. Pendulum of doubt</a>
+              </li>
+                            <li class=' '>
+                <a href='week-three-5.html'>5. Igniting your flame </a>
+              </li>
+                            <li class=' '>
+                <a href='week-three-action.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-three-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Three</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>1. The illusion of sales</h1>
+                  </div>
+				  		<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+					<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">Alchemy of Client Conversion</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+				<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+					<option value="week-Three-overview.html">Week Three</option>
+					<option value="welcome.html">Welcome!</option>
+					<option value="week-one.html">Week One</option>
+					<option value="week-two-overview.html">Week Two</option>
+					<option value="week-four-overview.html">Week Four</option>
+					<option value="week-five-overview">Week Five</option>
+					<option value="week-Six-overview">Week Six</option>
+					<option value="week-Seven-overview.html">Week Seven</option>
+					<option value="dm-1.html">DM Bonus</option>
+                </select>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/18/259'>Overview</a>
+                          </li>
+                                                    <li class='active '>
+                            <a href='#/products/consulting-accelerator/18/131'>1. The illusion of sales</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/18/132'>2. Alchemy of conversion</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/18/133'>3. Crafting your script</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/18/134'>4. Pendulum of doubt</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/18/135'>5. Igniting your flame </a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/18/136'>Action items</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/18/137'>Questions</a>
+                          </li>
+                                                    
+                        </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "cy4": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/cy4ktn9gia.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_cy4ktn9gia videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-two-questions.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-three-2.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p><font color="#636363">In this video, we're going to discuss all of the different rumors, myths and illusions on the art and the science of sales.&nbsp;We are going to debunk all of the myths and then we will be getting down to business and teaching you the real stuff to make you an absolute master at sales.&nbsp;<br></font></p><p><font color="#636363">Here's what we cover:&nbsp;</font></p><ul><li><font color="#636363">What we’re going to cover in this weeks sales training </font></li><li><font color="#636363">Debunking the myths and illusions that surround salesmanship as a practice </font></li><li><font color="#636363">How I went from being terrified and useless at sales to one of the worlds best in a really short time </font></li><li><font color="#636363">How you can become a master at sales even faster than I did </font></li><li><font color="#636363">Important things to remember going into this weeks training</font><br></li></ul>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/173d8b90e78230b8dee86085933b84fc.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey everybody, Sam Ovens here. Welcome to week three of the consulting accelerator program. Now in week three, we&#039;re going to be discussing the alchemy of client conversion. Now what that means is how to, basically, turn someone from a total stranger, who&#039;s never met you before, never heard about you, doesn&#039;t know anything about you, so how to take a total stranger and convert them into a high paying customer. That&#039;s what the alchemy of client conversion is. In week three, we&#039;re going to take you through a series of training videos and we&#039;re going to teach you how to sell. We&#039;re going to teach you the art and the science to salesmanship. We&#039;re not just going to teach you how to sell. We&#039;re going to teach you how to sell extremely fucking well. I really mean that. I&#039;ve put a ton of effort into mastering the art of sales, and I&#039;ve really taken sales and refined it and boiled it down and turned it into a precise, exact science. That&#039;s exactly what I&#039;m going to be sharing with you in week three&#039;s training.
+
+So I&#039;m super excited to share all of this stuff with you, and I&#039;m super excited to turn you into a absolute beast when it comes to sales, because I&#039;ve taught so many people sales. Now I&#039;ve seen the most shy, most awkward, most introverted people who have never sold anything before in their entire life, I&#039;ve seen them totally transform themself into someone who is just systemically and reliably closing sales every single day. Anyone can become a master salesman. It&#039;s just a decision, and then it&#039;s just doing the work. In week three, we&#039;re going to show you exactly how to do that.
+
+Now this first video in week three is called the illusion of sales. In this video, we&#039;re going to discuss all of the different rumors and myths and illusions that are out there about the art and the science of sales. Because there&#039;s a lot of people shouting a lot of different messages about how to sell and what makes a good salesman, what makes a bad salesman. There&#039;s so much stuff out there, I don&#039;t blame you. I got super confused as well. I thought I wasn&#039;t cut out for sales. I thought salesmen were really tall, really out there, extroverted people or they were just born with it. All of these different things. We just need to get rid of all that. We need to debunk all of the myths and all of the illusions that surround the art of salesmanship, and then we need to get down to business and teach you the real stuff. Before we teach you the real stuff, we need to remove all of the myths and the illusions that surround sales, because I&#039;m sure a lot of you have these in your mind right now and it&#039;s going to play havoc with your ability to learn how to be a salesman. It&#039;s also going to play havoc with your ability to be able to sell and make money and profit in your consulting business. So let&#039;s jump right to it.
+
+Here&#039;s what we&#039;re going to cover in this training video right here. We&#039;re going to start off with what we&#039;re going to cover in this week&#039;s sales training. What I mean by this is we&#039;re going to explain each different module inside of week three, and what we&#039;re going to do in each module and how that&#039;s important. It&#039;s important to watch this one first because we&#039;re going to explain how to go about learning all of this information and how to go about putting it into practice. Then we&#039;re going to debunk the myths and illusion that ... Sorry. We&#039;re going to debunk the myths and illusions that surround salesmanship as a practice. Then I&#039;m going to show you how I went from being terrified and useless at sales to one of the worlds best in a really short amount of time. Then I&#039;m going to show you how you can become a master at sales even faster than I did. I&#039;m going to show you important things to remember going into this week&#039;s training.
+
+What we&#039;re going to cover in this week&#039;s training. Let&#039;s talk about the different modules and what is in each one and why it&#039;s important, what we&#039;re going to do and how you should go about completing week three&#039;s training. Here&#039;s what we&#039;re going to cover. This video right here is the illusion of sales, and we&#039;re going to cover debunking myths, shrouding the art of salesmanship and important things to remember. So we&#039;re going to really debunk all of that mythology. Then we&#039;re going to talk about the alchemy of client conversion. This is the art of converting a total stranger into a paying customer with one magic call. I know that might sound like pretty hype-y and not true, but I&#039;m [diddily 00:04:46] serious.
+
+I&#039;ve been able to refine the art of sales down to an exact science where we can actually convert a total stranger, who has never heard of us before, doesn&#039;t know anything, how to convert that person on one call. One phone call. That&#039;s what we&#039;re going to do in the alchemy of client conversion. I&#039;m going to show you the science and the art, how we go about it, why it works, the theory around it, and I&#039;m even going to show you my script. Word for word the script that I use and have honed and refined over time to make it this good. Just the script alone, just the sales training alone, is worth at least 10 times the price of admission into this program alone. Learning how to be a master salesman is so, so, so important, because if you can sell, you&#039;re never going to go hungry ever. It doesn&#039;t matter what happens in your life, what happens in your business, doesn&#039;t matter if you run out of money or anything. If you know how to sell, you know you&#039;ve always got yourself covered because it&#039;s a skill that will serve you for life and pay dividends for life.
+
+Then we&#039;re going to talk about crafting your script. In the alchemy of client conversion, I&#039;m going to show you my script and I&#039;m going to show you the science, the theory and everything behind it. But then you&#039;re going to take my script and you&#039;re going to hone it and refine it for yourself and your niche and your offer. Now my script works really well, but you yourself might have some words in there that you&#039;re not comfortable using. Or you might want to say some sentences a little bit different. Or maybe in your local market, people speak a little bit different than me. Or your niche might be different than me. Chances are, your niche is definitely different, and your offer is going to be different. I&#039;m going to show you how to take my script and then how to hone it and refine it to really make it your own. When you do this, when you really hone it and refine it to make it your own, it&#039;s going to feel like a part of you. It won&#039;t really feel like my script anymore, it&#039;s going to be your script and something that&#039;s really yours. That&#039;s important if you&#039;re going to have confidence on the phone and if you&#039;re going to make a lot of money in sales.
+
+Then we&#039;re going to discuss the pendulum of doubt. Now in salesmanship, one of the most important things is managing self doubt sales slumps and this really is salesman biggest issue. It&#039;s just managing himself and keeping his head in check, because if you have one bad call, that can quickly become two, three, four, five, six. You can get yourself into a real slump. Part of being an awesome salesman is keeping your head in check and managing self doubt. Just really feeding those feedback loops so that you&#039;re feeding the ups and starving the downs so you can have a nice even keel.
+
+Then we&#039;re going to discuss igniting your flame. That is how to get started making sales today. I&#039;m going to show you all the theory, all of the art and science to sales. Then we&#039;re going to make my script your own script, then we&#039;re going to get you to start practicing. We&#039;re going to get you to start reading it out loud. You&#039;re going to read it in front the mirror. You might even want to pair up with other people in the community and start practicing sales with them so you can get comfortable using the script and doing role play. Then once you&#039;re comfortable, then we&#039;re going to get you on real, live sales calls. We&#039;re going to actually get you talking to real people, real prospects, and closing them. Getting the deal, getting their credit card info, charging it, making some money. This is where the rubber really meets the road in this consulting accelerator training program. This is where your business is really going to ignite and it&#039;s really going to start taking off. This is going to be awesome.
+
+First of all, debunking the myths and illusions that surround salesmanship as a practice. Because like I said, there&#039;s a lot of information out there and there&#039;s a lot of rumors and ideas and everything that are just plain wrong. They scare everyone away from sales. I&#039;ve got on the screen here a picture of the Sea of Galilee, which is a really rough sea. That&#039;s really what sales is like for a lot of entrepreneurs. They feel like it&#039;s totally out of their control and the sea is just rocking them around and that sales is just something they can&#039;t master. Now a lot of that is just myth. I&#039;m going to show you how we can debunk a lot of those myths right now.
+
+Debunking the myths and illusions of sales. The first one; Salesmen are born, not made. This is one of the best, and it is not true. I was useless at sales, and then I taught myself to be dangerous at sales. I wasn&#039;t born good at sales. I was the worst person at sales you&#039;ve ever seen. I was too anxious to even get on the phone and make a call. I couldn&#039;t even get on the phone. I couldn&#039;t even be in the same room as a phone, let alone use it and, let alone, make a sale. If you think you don&#039;t know how to sell, believe me, when I got started I was worse than you. If you heard my sales calls when I got started, you would cringe. Armed with this training here in week three, and armed with the sales script I&#039;m going to provide you with, your years ahead of where I even began. Don&#039;t think, &quot;I&#039;m not a salesman. I&#039;m not good at sales.&quot; That&#039;s not true. You&#039;re not good at sales because you haven&#039;t decided to be good at sales. You haven&#039;t learned how to sell and you haven&#039;t practiced, you haven&#039;t trained. That is the first myth that we are debunking.
+
+The second one is that sales is only for smooth-talking, extroverted people. Not true. I&#039;m an introvert and I beat the extroverts at sales. Everyone&#039;s out there saying you have to be all hyped up and pumped up. It&#039;s pretty much like salesmen these days, everyone thinks they have to be on steroids and shouting at everybody, and that couldn&#039;t further from the truth. The truth is, is that if you&#039;re very calm and collected and quiet, you actually make a better salesmen than one of these all hyped up, steroided salesmen. I routinely beat, and I routinely eat the lunch, of extroverted salesmen because I maneuver myself with more grace and with more sophistication and I understand the dynamics of the conversation better than anybody else. So I can really just dance through the sales call without being an extrovert and really just pivot it towards the close. It&#039;s a masterful way of doing sales, and I&#039;m going to show you exactly how to do it.
+
+One of the myths is sales is high-energy, fast-taking and aggressive. Well, that&#039;s not true. I&#039;m calm, collected and I&#039;m quietly spoken, and it works for me and it works really well. Another one, sales is all about the follow-up. Well, that&#039;s not true. Sales is about closing on the first call and forgetting everything else. Everyone&#039;s out there saying, &quot;Sales is all about doing 20 follow-ups, 30 follow-ups, 100 follow-ups. You&#039;ve got to follow-up for six months.&quot; Well, why would you if you could close on the first call? Why would you want to worry about all of that stuff if you could close on the first call? I believe that people who make a big deal about follow-up just don&#039;t know how to sell very well, because if you knew how to sell well, you wouldn&#039;t have to follow-up. That&#039;s the truth.
+
+In this training, you&#039;re not going to learn about how to follow-up and how to do any of that dancing around because following up is for people that don&#039;t know how to close. In this training, you&#039;re going to learn how to close and forget about following up because the absence of a yes is a no, and in this training, all you&#039;re going to get is yeses. If you get a maybe or anything else, or a let me think about it, we&#039;re just going to let it go, because we&#039;re going to be able to get enough yeses that we won&#039;t need to worry about it.
+
+Another myth is sales is only for outgoing men. This is not true. I&#039;ve trained quiet, shy men and women to sell like masters. Like I&#039;ve said, I&#039;ve seen it all. I&#039;ve seen people who have stutters. I&#039;ve seen people where English is their second language. I&#039;ve seen people who have awkward, shy voices. I&#039;ve seen introverts. I&#039;ve seen people of all different types, shapes, everything, from all over the world, men and women, and I&#039;ve seen them become sales masters with this training. If you don&#039;t think you&#039;re a salesman, or if you don&#039;t think you can become a salesman, just let go of it all because it&#039;s just practice. You just need to do the work and you just need to have a methodology and some good training. That&#039;s what you&#039;re going to get in week three here. I&#039;m going to give you the best methodology that you can possibly find in the world to close like a master.
+
+Sales is absolutely mandatory in business. Like I said, sales is the most important thing because you can have the most awesome service or product in the world, but if you don&#039;t know how to sell, that thing isn&#039;t going to be moving off the shelf. Sales is extremely important. I&#039;d go as far as saying it is the most important thing in business because if you&#039;re not selling a product or service, you&#039;re selling investors. You&#039;re selling the bank. You&#039;re selling everyone in life. Every time you talk to someone and you want to influence their decision, you&#039;re selling, and sales is absolutely mandatory in business.
+
+Without strong salesmanship, you and your business will experience nothing but rough seas. I&#039;ve got this animation on the screen here because this is what sales is like for most businesses. It&#039;s just they&#039;re constantly battling the elements and they&#039;re getting rocked around and everything&#039;s getting thrown at them. It&#039;s a state of disaster. That&#039;s what it&#039;s like when you don&#039;t know how to sell. In week three of this training program, I&#039;m going to show you how. I&#039;m going to show you exactly how.
+
+Now let&#039;s discuss how I went from being terrified and useless at sales to one of the world&#039;s best in a really short amount of time. Here&#039;s how I transformed myself into a master salesman: I decided to become a master salesmen. I know that sounds simple, but that&#039;s the first step. If you&#039;re not good at sales right now or if you&#039;re freaked out at sales, you don&#039;t think you&#039;re going to be good at it, the first step is to just decide that you&#039;re going to become a master salesman. So you want to do that right now. Just make that commitment to yourself. Just think to yourself, &quot;That&#039;s right. I&#039;m going to decide to become a master salesman. Sam and this consulting.com program right here, this program&#039;s going to show me how to become a master salesman. Everything&#039;s laid out in front of me here, and I know it can be done because it&#039;s been done with so many thousands of other people and Sam was able to do it to himself, so I can do it too. All I need to do is decide to become a master salesman.&quot; Do that right now. Boom.
+
+The second one is I worked on my mindset and everything we covered in week two. Like I said, business is just as much about the tactics and the strategies and the action as it is your mindset and your paradigm and your world view. As we&#039;re working on sales, you also want to work on your mindset. If you start to notice that you&#039;re not comfortable talking to strangers, we probably want to put that into your mindset document and into your affirmations. You want to have some affirmations around you being really comfortable talking to strangers. If you have lots of negative emotions surrounding money and asking other people for money, then we probably want to put some money things in your mindset so that we can start having some affirmations about that. Because if you start to notice yourself being uncomfortable in different situations when it comes to sales, well think about that. Write it down and put it into your mindset work so we can start programing your mind so that you&#039;re not uncomfortable around these topics.
+
+When we&#039;re turning you into a master salesman, we&#039;re going to be working on learning the script and learning the science and the art of sales. But at the same time, we&#039;re also going to be working on reprogramming your brain so that you don&#039;t have any of these issues, which a lot of people have. You know, a lot of people have issues about money. Talking about money, asking people for money. A lot of people have a feeling like they&#039;re unworthy. A lot of people have feelings like they shouldn&#039;t be talking to strangers. All of this different stuff. That&#039;s totally fine. We&#039;ll reprogram your mind with all of our mindset training, which we covered in week two, and we&#039;ll also get you to start mastering the art of sales. Both of these things will be happening at the same time.
+
+So the third thing I did is I researched the art of salesmanship and figured out how it works. I read probably ... How many books? I actually don&#039;t know how many books, so I can&#039;t say a number. If I was to give a range, it would be in between 30 and ... No, 30 and 40 books on salesmanship. I made sure I read the best books, and I did a lot of training and I really dug into sales and figured out how it works. In this training, you&#039;re going to get just the absolute best sales training there is. I took everything that is really out there on sales and I really boiled it down and distilled it and turned into this training. You don&#039;t have to do all this research, which I went through. I&#039;ve made the process a massive shortcut for you. So you can just go through what&#039;s in week three, and you will know the best of the best information when it comes to selling.
+
+Now this is a big one, the fourth one. I did over 1,600 sales calls. I just did a lot of sales calls. I was doing like six sales calls every single day Monday to Sunday. I was even doing sales calls on the weekend. I just did them again, and again, and again, and again, and again. I kept working on my script and I just kept getting better, and better, and better. If you&#039;re thinking, &quot;I&#039;m no good at sales.&quot; Well, how many sales calls have you done? Because it takes practice and it takes action to get good.
+
+I also recorded my calls, listened to them and figured out how to improve. I used call recording software, and I&#039;m going to talk to you about that and how to use it and how it works, all that stuff, throughout week three&#039;s sales training. But I would record all of my calls and then I&#039;d save it to my computer and I&#039;d listen to them after the call and I&#039;d think, &quot;What did I say that made that go well?&quot; Or, &quot;What did I say that really made that call go bad?&quot; I figured out what not to say, and I figure out what to say. It was an iterative process where I really listened to my calls and I did a lot of research, I worked on my mindset and I started to get really good.
+
+If you&#039;re thinking, &quot;I&#039;m not good at sales.&quot; If you&#039;re thinking, &quot;I don&#039;t know how to sell.&quot; Or, &quot;Sales isn&#039;t me. I&#039;m definitely not a salesman.&quot; Answer me this: How many sales calls have you done? Seriously. How many sales calls have you made? That&#039;s exactly my point. If you haven&#039;t made more than 30 sales calls, well of course you&#039;re no good. Of course you&#039;re no good at sales if you&#039;ve only made ... Well, if you&#039;ve made zero sales calls, of course you&#039;re no good at it. I mean, how could you ever be good at riding a bike without ever riding a bike? That&#039;s exactly my point. Salesmen aren&#039;t born, they&#039;re created. In week three, I&#039;m going to show you how to become a master salesmen. Sales takes training and practice. If you&#039;re wondering how I got good at sales, I did 1,600 sales calls. I might have done more than that. Week three of this program is going to provide everything you need to become a sales master, but you have to be willing to practice and do the work.
+
+Now let&#039;s discuss important things to remember going into this week&#039;s sales training. First of all, nobody is a natural salesmen. Salesmen are made through practice and training. In this program, I&#039;m going to give you the training and I&#039;m going to show you how you can practice. You can learn how to become a dangerously effective salesmen using week three of this training. That is a fact. You must be willing to practice, you must be willing to take action, and you must be willing to do the work. Like everything in this training program, nothing is going to work for you unless you do the work. You&#039;ve got to watch the videos, you&#039;ve got to complete the worksheets, you&#039;ve got to understand everything, and then you&#039;ve got to do the work. You&#039;ve got to put in the action.
+
+Sales is a combination of mindset work and real world practice. As you&#039;re doing the real world practice and you&#039;re practicing with other members, you&#039;re reading your script in the mirror and you&#039;re actually doing live sales calls with people and you&#039;re closing deals, you want to be aware of the parts where you get uncomfortable. The parts where you get uncomfortable are probably mindset issues. You want to write those down and then work on removing that bad programing with your mindset. Like I said, it took me 1,600 calls to get to my skill level. You&#039;ll have to do multiple calls, too. Now I&#039;m not saying you have to do 1,600 calls before you actually start making money. I mean, you&#039;ll start closing people within your first five, 10 calls. There&#039;s people in the program who close customers on their first call. Now that is not normal. Most people bomb their first sales call, but it happens. So don&#039;t feel like you have to do 1,600 of them before it&#039;s going to work. It&#039;s going to start working very quickly, but don&#039;t be surprised if you&#039;re not totally fluent and totally comfortable and just totally an amazing salesmen until you start getting some calls under your belt, until you start getting some practice.
+
+Now let&#039;s discuss ways to practice sales and become a absolute master. First and foremost, come back and watch week three&#039;s training again and again. I always say, the sales training, you can watch it once, you can watch it in a day. However, mastery takes a lifetime. You&#039;re going to come back and watch this training again, and again, and again. Most successful people watch the alchemy of conversion video, which is the next video in week three, most successful people watch that video like five to 10 times. Then they tell me that they keep coming back every single week and watching it again, and again, and again. They just make it a repetitive pattern. They really want to understand the alchemy of client conversion so well that it just becomes a part of them and it becomes second in nature. That&#039;s what you&#039;re going to want to do, too.
+
+You want to come back and constantly refer to this training, because you&#039;ll go through this training and then you&#039;ll go out and make sales calls, and then if you come back to it, you&#039;ll notice that there&#039;s things you missed because you&#039;ve evolved and you&#039;ve had your sales calls go a couple of different ways. Then you come back to the training and you pick up on different parts, which you didn&#039;t pick up on the first time. Make it a habit and a duty to come back and watch this training again, and again, and again. Especially the second video, the alchemy of client conversion.
+
+Now the second one is to print out the sales script and read it over and over every single day. You want to make it a part of you. When I discussed the alchemy of client conversion, I&#039;m going to give you my exact script. Then you&#039;re going to take my script and you&#039;re going to make it your own. When you make it your own, read it every single day. Make it a part of you. Also, say your script in front of the mirror. I used to do this. I used to have my script in front of me and I&#039;d just say the different phrases and the different words in front of the mirror. I&#039;d just look at myself and I&#039;d get to the point where I could say the words really strongly with a lot of power and a lot of conviction. I got the sentences running smoothly out of my mouth. It&#039;s like kind of practicing lines for a movie script. You want to treat it like that. You just want to get really comfortable using it.
+
+Then you&#039;re going to want to pair up with others in the consulting community so that you can role play and help each other get better. Now this is a common practice of really successful students. What they do is they go through week three&#039;s training, they practice on their own, but then they post in the Facebook group and they pair up with others. They say, &quot;Hey, look, I&#039;m looking to practice the sales training. Is anyone free tonight or tomorrow to jump on a call and practice?&quot; What they do is they role play. Someone takes the part of being the buyer, and someone takes the part of being the seller. They role play and they practice. Practice makes perfect. The people who practice in front of the mirror, read it every day and then they practice with other people, they get really good.
+
+Then record all of your sales calls, and then listen to them after each call so you can learn and improve. When you&#039;re doing real world sales calls, make sure you record them because you want to listen to your calls afterwards and think, &quot;Ah, that&#039;s where I messed that up.&quot; Or, &quot;Oh, I said that word and it really evoked a lot of emotion in him. The conversation totally changed dynamics when I said that one thing. Okay, well I&#039;m going to remember that one thing and I&#039;m going to make sure to use it next time, because this is a powerful little word or powerful little sentence to use. However, I said this and it took the conversation off onto a totally different tangent and the guy didn&#039;t buy. Okay. Well I want to circle this. Remember, I&#039;m not going to say this again. I&#039;m not going to use this word, or I&#039;m not going to use that sentence.&quot; That&#039;s an optimization process. You&#039;re going to listen to your calls and figure out what works and what doesn&#039;t work and do more of what works and do less of what doesn&#039;t work. Sounds really simple, but most people don&#039;t do it. However, the people that make millions, and the people that make lots and lots of millions, they do this. So make sure you do it, too.
+
+That&#039;s it for this introductory video called the illusion of sales. This is just a real quick video to tell you what&#039;s going to happen in week three of this training program, and also to really debunk a lot of the myths and a lot of the illusions that shroud the topic of salesmanship. Because a lot of these different things, which people say about sales, are just flat out wrong. Anyone can become a master salesman. Salesmen are made, they are not born. There&#039;s no such thing as a natural salesman. A natural salesman just did a lot of practice and did the work. So you can become a sales master, and you can become a sales master in an extremely short amount of time. You&#039;ll be surprised at how little amount of time it takes before you can run laps around your competition.
+
+In week three of this training, I&#039;m going to show you exactly how to become a sales master, regardless of your background and regardless of if you&#039;ve never sold anything in your entire life. It doesn&#039;t matter. Week three is going to show you how to become a master. That&#039;s what we&#039;re going to do in week three. Now let&#039;s get to work. I&#039;ll see you in this next training video, which is number two, which is the alchemy of client conversion. Let&#039;s do it.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="#/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Three"
+    var moduleName = "1. The illusion of sales"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-131')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-131', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Three";
+    if (!moduleName) var moduleName = "1. The illusion of sales";
+    if (!file) var file = "media/173d8b90e78230b8dee86085933b84fc.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "#/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('#/products/mark-complete/131', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('#/products/mark-incomplete/131', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "cy4ktn9gia", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-131')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-131', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('#/products/mark-complete/131');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("22").style.display="none";
+	document.getElementById("23").style.display="block";
+	document.getElementById("44").style.display="none";
+	document.getElementById("45").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("22").style.display="block";
+	document.getElementById("23").style.display="none";
+	document.getElementById("44").style.display="block";
+	document.getElementById("45").style.display="none";
+	} 
+</script>
+  </body>
+</html>

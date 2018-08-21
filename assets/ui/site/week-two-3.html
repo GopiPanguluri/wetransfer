@@ -1,0 +1,1221 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="#/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="#/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="#/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="#/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="#/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="#/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">New Paradigm &amp; World View</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+	   <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="17">17% Complete</small>
+              <small id="18" style="display:none;">18% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="17" aria-valuemin="0" aria-valuetext="17 percent" aria-valuemax="100" id="37">
+              <div class="progress-meter" style="width:17%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="18" aria-valuemin="0" aria-valuetext="18 percent" aria-valuemax="100" style="display:none;" id="38">
+              <div class="progress-meter" style="width:18%"></div>
+            </div>
+        </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+                  <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+						   <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-two-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-1.html'>1. The dark force holding your heels</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-2.html'>2. Face off with the devil</a>
+              </li>
+                            <li class='active completed'>
+                <a href='week-two-3.html'>3. Duality &amp; conflict of man</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-4.html'>4. Seeing for the first time</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-5.html'>5. Alchemy of self</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-6.html'>6. New paradigm &amp; world view</a>
+              </li>
+                            <li class=' completed'>
+                <a href='week-two-7.html'>7. Rolling Gods loaded dice</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-action.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-two-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-incomplete' class="button mobile-lesson-complete active">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Two</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>3. Duality &amp; conflict of man</h1>
+                  </div>
+
+				  
+				  
+				  
+				  
+				  		<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+					<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">New Paradigm &amp; World View</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#/progress/product" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+                          <select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+                  <option value="week-Two-overview.html"><option value="week-two-overview.html">Week Two</option>
+						   <option value="welcome.html">Welcome!</option>
+							<option value="week-one.html">Week One</option>
+							<option value="week-Three-overview.html">Week Three</option>
+							<option value="week-four-overview.html">Week Four</option>
+							<option value="week-five-overview">Week Five</option>
+							<option value="week-Six-overview">Week Six</option>
+							<option value="week-Seven-overview.html">Week Seven</option>
+							<option value="dm-1.html">DM Bonus</option>
+                                    
+                </select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/258'>Overview</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/120'>1. The dark force holding your heels</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/123'>2. Face off with the devil</a>
+                          </li>
+                                                    <li class='active completed'>
+                            <a href='#/products/consulting-accelerator/3/124'>3. Duality &amp; conflict of man</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/125'>4. Seeing for the first time</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/126'>5. Alchemy of self</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/127'>6. New paradigm &amp; world view</a>
+                          </li>
+                                                    <li class=' completed'>
+                            <a href='#/products/consulting-accelerator/3/128'>7. Rolling Gods loaded dice</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/129'>Action items</a>
+                          </li>
+                                                    <li class=' '>
+                            <a href='#/products/consulting-accelerator/3/130'>Questions</a>
+                          </li>
+                                                    
+                        </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "1a6": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/1a6tqzq3al.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_1a6tqzq3al videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-two-2.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-two-4.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">In this video we show you how your mind works and how you make decisions. We discuss duality and how your brain can't understand anything without comparing it to an opposite. This video will awaken you to a higher level of consciousness and help you see the world in a new light. The things you'll learn about yourself in this module will blow your mind. </font></span></p><p style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Here's what we cover: </font></span></p><ul><li style="border: 0px; line-height: 28px;"><font color="#636363"><span style="letter-spacing: -0.19px;">What is the duality and conflict of man? </span>Why is it important?</font></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">How your mind works and how you make decisions </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">The devision of opposites and the two poles of nature </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Who are you? The definitive answer and summation of mental programming </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Societies conflict of opposites and perceived right and wrong </font></span></li><li style="border: 0px; line-height: 28px;"><span style="letter-spacing: -0.19px;"><font color="#636363">Mankind’s big question</font></span></li></ul><p style="border: 0px; color: rgb(120, 126, 130); line-height: 28px; letter-spacing: -0.19px; "><br></p>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                        <h2>Resources</h2>
+                    <ul class="no-bullet">
+                                            <li>
+                        <a target='_blank' href="#/resources/22">Binary poles worksheet</a>
+                      </li>                    
+                                            <li>
+                        <a target='_blank' href="#/resources/23">To be or not to be pinup</a>
+                      </li>                    
+                        
+                    </ul>
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/15c7cf4003d10a1dc9e2154fc0139b90.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey, everyone. Sam Ovens here and welcome to this training in the Consulting Accelerator Program Week Two. This one is called Duality and the Conflict of Man. Don&#039;t worry if this title sounds a little bit strange or you don&#039;t know what it means because pretty much like everything in week two, you won&#039;t understand what these names are and you won&#039;t understand this concept until you&#039;ve gone through the video, but I&#039;m sure if you&#039;ve gone through the first two videos, you&#039;ve noticed the profound changes and everything that have started to happen by going through them. You definitely want to go through this one. This one is seriously powerful and once you understand this, you&#039;ll be able to make massive transformations to yourself, to your life, to your financial state, to pretty much everything. Once you learn this, you pretty much will be able to take control of anything in your life and so this is a really important one.
+
+Here&#039;s what we&#039;re going to cover. We&#039;re going to cover what is the Duality and Conflict of Man and why is it important? Then we&#039;re going to go into how your mind works and how you make decisions. If you&#039;ve ever wanted to know like how your brain actually works ... No one has really been able to tell us how our brain works. Why do you have random thoughts that just pop into your brain? Why are you scared of doing some things but some things are totally easy for you to do? Why do we have emotions about certain things like why are we afraid to do stuff? Why are we excited to do stuff? I mean, everyone&#039;s quite different and somebody&#039;s fear are often another person&#039;s favorite thing to do, but somebody&#039;s favorite thing to do is often somebody else&#039;s biggest fear. It&#039;s quite amazing how this all happens.
+
+I&#039;m sure you&#039;ve wondered like how does your brain actually work? Well, in this video I&#039;m going to show you exactly how it works and you&#039;re going to be able to understand this, and then you&#039;re going to be able to understand why things are the way they are for you and your life, and why things are the way they are for other people and their lives, and be able to consciously be aware of all of this stuff, and be able to change it for yourself, and help other people change it too if they want to, and the division of opposites and the two poles of nature.
+
+We have two poles on the world. We have the North Pole and the South Pole. A magnet has poles too. It&#039;s the positive and negative force. Same with a battery, there&#039;s a positive and a negative. With pretty much everything in the world, everything in the observable universe it&#039;s got poles like night and day, darkness and light, hot and cold. There&#039;s all of this ... Everything in the observable universe has an opposite and we call these the poles of nature and I&#039;m going to explain those to you and how it&#039;s really important to understand.
+
+Then who are you? The definitive answer and a summation of mental programming. I&#039;m going to show you how you have defined who you are. I&#039;m going to show you how you&#039;ve formed your identity. This person who you think you are right now, this self which you have defined and this identity and this ID that you&#039;re currently walking through the world with, I&#039;m going to show you how that was put there, and I&#039;m going to show you who you are and how that was created. Most importantly, I&#039;m going to show you how to change it, which is massively powerful.
+
+Then I&#039;m going to discuss society&#039;s conflict of opposites and perceived right and wrong. I&#039;m sure you&#039;ve noticed that there&#039;s a lot of conflict like within groups, within yourself. You might want to do something but you&#039;ve got internal conflict. One side of you says you should do it, the other side says you shouldn&#039;t and you&#039;re internally conflicted. Groups have that. There&#039;s one person that wants to do things differently and everyone else wants to do something else. There&#039;s conflict. Within society there&#039;s conflicts too. There&#039;s different races. There&#039;s different religions. There&#039;s different classes. The people who are poor say that the rich shouldn&#039;t be rich. There&#039;s all this conflict, there&#039;s all of these different sides facing off and it&#039;s gotten quite bad right now. I want to explain how that all happens and exactly how that was created and how we can change that and everything.
+
+Then mankind&#039;s big question. This is the big question that civilization has tried the answer forever and it&#039;s the big question which everyone is trying to find like right now. I&#039;m going to show you what mankind&#039;s big question is and then I&#039;m going to answer it. This is a really, really, really important video. Probably one of the most important in week two of the New Paradigm and World View Training, so you definitely want to watch this right through to the end. We&#039;ve got some action items in this module as well, so I&#039;m going to show you what those are and how to complete them. It&#039;s going to be a really transformative training module, this one, so you definitely want to pay close attention and you want to complete these action items at the end too.
+
+What is the duality and the conflict of man? The duality is our mind&#039;s way of understanding things. Actually, it&#039;s how we think. It&#039;s like you want to picture your mind as a computer and it&#039;s got this programming in it. It&#039;s like it&#039;s got this special software in it that understands things a certain way and this is how we think. The duality is how we think. What I want to do right now is to do something fun, just a little exercise. I want you to pay close attention and I&#039;m going to show you some different things. I&#039;m going to show you some pictures of things and what I want you to do is feel the emotions in your body and just pay attention to the thoughts that pop into your head as I show you each picture. Don&#039;t try and think too hard about this or anything. Just relax and the first emotion or feeling or thought comes into your head, just pay attention to that and notice what it is as I run through these different pictures. Let&#039;s go.
+
+Donald trump. What do you feel? What do you think? Hillary Clinton. What do you feel? What do you think? The devil. Jesus. A billionaire smoking cigar on Wall Street with a burning hundred-dollar bill. A girl in California meditating and being spiritual. An American family in the middle of America with a whole bunch of guns. Some Muslims. Some lettuce, and vegetables, and some healthy food. A greasy burger with tons of fat and cheese in it. Here&#039;s a gangster rapper with two guns and here&#039;s Taylor Swift. Now, here is Gordon Gekko, the guy from Wall Street who says greed is good. Here he is smoking a cigar, and making lots of money, and drinking a scotch. Here&#039;s a rich billionaire dude smoking a cigar. Here is some poverty. Here are some poor kids.
+
+What did you experience? When I showed you all of those different images, what feeling did you get inside your body or what emotion or what thoughts popped into mind? You see, the only way the human brain can understand something is to compare it to something else or to compare it to an opposite and without darkness, there can be no light. I don&#039;t think anyone ever stops to understand this, but just try to imagine if we just had light without any darkness. Like if it was just permanently daytime without any night, we wouldn&#039;t know what light, was and if there was no light, then we wouldn&#039;t know what dark was. Just try to think about it for a moment. Without darkness, there really can be no light and without light there can be no darkness. Without on there can be no off and without off there can be no on. Without healthy there can be no unhealthy. If we remove unhealthy, then we don&#039;t even know that we&#039;re healthy.
+
+The only way the human brain can understand something is to compare it to an opposite. If you don&#039;t believe me, if I was to tell you right now that in my office it&#039;s 456 purple monkey degrees, so is it hot or cold? Tell me right now. Is that a hot temperature or a cold temperature? Well, you see, you just don&#039;t know because purple monkey degrees, you don&#039;t know what sort of scale that temperature operates on and it&#039;s impossible for you to find out because I just made it up. The first thing your mind tries to do is try and compare 456 purple monkey degrees to the temperature system that you understand. If you understand degree Celsius or if you understand degrees Fahrenheit, then you&#039;re going to want to compare it to that. You need to have a comparison in order to understand.
+
+Could you buy an iPhone with 38,769 Rupees? Without using a currency converter, without Googling it, could you buy one or not? You just don&#039;t know unless you understand Rupees, but the first thing your brain is going to do is try and compare Rupees to your currency. You&#039;re going to try and compare it to U.S. dollars, to Australian dollars, to GBP, to Pounds. We don&#039;t know Rupees so we don&#039;t know if we can buy an iPhone with it. We have to make a comparison and this is my point. The human mind can&#039;t understand something without comparing it to something else or without comparing it to an opposite. This is the human mind and it can&#039;t comprehend something without comparing it to something else.
+
+This division of opposites is called duality or dualism. Now, what I&#039;m going to show you is how your mind works and how you make decisions. I&#039;ve shown you this duality and how we need to compare things, but now I&#039;m going to show you how your mind actually works and how you make decisions. As you&#039;re walking through life and you&#039;re confronted with a situation where you have to make a decision and you have to decide something, I&#039;ll show you how your brain works here.
+
+First of all, couple of questions. Just say out loud as I go through each one of these what you think the answer is. What do you use to see things? What do you use to hear things? What do you use to touch things? What do you use to smell things? What do you use to taste things? If you think it&#039;s these things, you&#039;re wrong. If you said touch, we use our hands, to hear we use our ears, to see we use our eyes, to taste we use our tongue or our mouth, and to smell we use our nose, it&#039;s actually the wrong answer.
+
+You see, this is the human mind and what people don&#039;t understand is that we don&#039;t actually see, and smell, and hear, and taste, and do all of that with those body parts. All of those parts do is just to take in information and then the information is processed in the brain. When it&#039;s processed in the brain we form perception and perception is our experience. It&#039;s actually what we see, hear, smell, taste, touch. All of that is perception. What we do is we take in information and we use the eyes and everything to do that, but where it&#039;s actually turned into an experience is all in the brain.
+
+This is what a lot of people don&#039;t understand. Everything we experience is the perception of information and all perception is carried out in the brain. This can actually come from two places. It can come from your environment. As go around, you can walk around outside or you can read a book or whatever and you&#039;re going to be taking in information from your environment. You&#039;re going to be seeing things, smelling things, touching things, hearing things. That&#039;s one way to take in information and people believe that the only way to take in information is from the environment, but there&#039;s another way to take in information and that&#039;s through your memory and your imagination. If your memory is when you&#039;re recalling something from the past, if you&#039;re thinking back into past time of an experience or a memory there, that is another way of perceiving things. Another way is your imagination. Thinking into the future or thinking of new things.
+
+There&#039;s two ways we can take in information: from our memory and from our environment and both of these will create perception. Here&#039;s what nobody can understand. The mind doesn&#039;t know the difference between something that happened in real life and something that happened in the imagination. That might sound a little bit strange to you right now but seriously, this is actually what happens. We come to believe that our brain only understands real life. We walk around, we see something happened for real, we see it really happen, and then that&#039;s going to go into our brain and that&#039;s going to fall into belief.
+
+Really, we can also feed the brain from our memory and imagination. If we replay a memory of the past, the brain is going to just treat that like it happened in real life. We can feed the mind information from memory, imagination, and the environment. We can feed it of thoughts of the past, thoughts of the future, or thoughts of right now as we walk around outside. What we don&#039;t understand, what we don&#039;t get is that the brain treats everything the same way. It doesn&#039;t know the difference. I&#039;ll prove it with something very simple here.
+
+Have you ever thought of a painful memory and experienced the exact same emotions and feelings in your body as if it happened again? Have you done something embarrassing in the past? I&#039;m sure everyone has. Everyone&#039;s done something embarrassing. Think of something you&#039;ve done that&#039;s embarrassing in the past and then just replay that movie right now in your mind about that thing you did. Then what happens is you start to feel the emotions. You start to feel embarrassed and anxious. Sometimes your face might go red or you literally start to feel sick or full of worry again. What&#039;s crazy is that when we replay this memory of the past, our body experiences the exact same emotions and feelings as if it happened again in real life. This should be some sort of evidence to you that your mind doesn&#039;t know the difference. If your brain did now the difference between something that happened right now in real life and something that happened in the past, and through imagination, and memory, then it wouldn&#039;t let those emotions run through your body, but it does.
+
+We come to believe that our mind only takes in information through our eyes, and through our ears, and through nose, and everything, but that can&#039;t be true if we can replay something in our memory and no information is feeding through our eyes, no information is feeding through our ears or through our mouth or anything. There is no information feeding through these pieces on our body. However, we can feel the same emotions all over again as if it happened. That is evidence that the mind doesn&#039;t know the difference. It really does not know the difference between something that happened in real life from experiencing an environment and something which happens in your mind through imagination or a memory of the past.
+
+This sort of stuff happens all the time. I&#039;m sure you can tell for yourself and I&#039;m sure you can tell for others as I tell you this. This happens all the time. What we&#039;re talking about here isn&#039;t even rare. One person tells somebody one time, &quot;You&#039;re dumb,&quot; or, &quot;You can&#039;t do that,&quot; and then that person replays that movie again, and again, and again in their imagination and they do it until they cement a belief deep in their brain. That then becomes really, really strong.
+
+I&#039;ll give you an example with me. One time, a teacher told me I was dumb at times tables and this was back at school. It was primary school and I was just a little kid. The teacher told me I was dumb at times tables and so then I thought, &quot;Oh, the teacher should know so I must be dumb at times tables.&quot; This experience only happened one time. However, I replayed that movie again and again in my mind. That day I just couldn&#039;t get it out of my head. I just kept playing like I&#039;m dumb at times. I just kept playing it. Each time I played it I felt those emotions of embarrassment again, and I just kept playing it, and kept playing it. I kept playing it for years and what happened is I truly started to believe that I was dumb at times tables. This became my entire belief of everything. I thought I couldn&#039;t do math.
+
+Throughout the rest of school, throughout the rest of college, and pretty much throughout the rest of my life, I thought I couldn&#039;t do math, so whenever I came across math I just thought I couldn&#039;t do it, and I would fail it all the time and it became really, really hard for me to do. You see, this is what people do. This is what happens to everybody. One person will tell them something one time which doesn&#039;t mean anything and they might tell them they can&#039;t do something or they are this or they aren&#039;t that. Then that person, if it catches on, they&#039;ll replay it again, and again, and again in their mind until it cements a belief deep in their brain.
+
+They&#039;ve actually done tests and experiments on people. They had somebody and they had a hot coal, a heated up hot coal. It was like red hot, piping hot. The person was standing blindfolded and they held the coal up next to their back. They didn&#039;t push it onto his skin. They just held it there a few inches away and they said, &quot;okay, well I&#039;m holding a hot coal behind your back right now. Can you feel that heat there?&quot; The person was like, &quot;Yes, I can feel it.&quot; They&#039;re like, &quot;Can you feel it getting close now?&quot; The person was like, &quot;Yes.&quot; They&#039;re like, &quot;Can you feel it getting further away?&quot; The person was like, &quot;Yes.&quot;
+
+They were holding this hot coal there and then what they did is they moved the hot coal down then they got a block, a cube of ice and then moved the hot coal closer to his skin, closer, closer, almost touching, and then they swapped it out with the cube of ice and pushed that against his back. The dude thought that he had just a hot coal pushed against his back, as anyone would, and just totally freaked out, went into panic. In his mind, he thought the hot coal was on his back and that it was burning him.
+
+What really blew me away is that it wasn&#039;t just what he thought but his skin started to blister. The body actually was reacting to it and it blistered up as if it was getting burnt by a hot coal. This really proved it for me. Not only did this happen in the mind, not only was it emotional reaction and a mental reaction, his experience was as if it was happening, but body, the physical body reacted as well that there for me was proof that the mind doesn&#039;t know the difference between something that happened in real life and something that happened in the imagination. This is what happens. One person will tell someone one thing on time and if they truly believe it or if they keep replaying that memory again and again and really get to them, then they&#039;re going to cement a belief deep in their brain that that actually is the truth and that that actually happened.
+
+One thing said one time becomes somebody&#039;s belief of reality. Just as easy as that. Here&#039;s how your mind forms beliefs. I&#039;ve told you about the duality, and how that works and I showed you how your brain works through information and perception, and how all perception is actually carried out by the brain. Now, I&#039;m going to show you how you form beliefs. Right now, as a person and in your brain, you hold beliefs about a ton of things. What&#039;s right, what&#039;s wrong. What&#039;s true and what&#039;s false, all sorts of things you hold beliefs about. Now, I&#039;m going to show you how your mind actually forms beliefs. How they got there, how they became the way they are, and how you can change them.
+
+You want to think of your mind like this, you want to think of it as a set of scales and there&#039;s two sides of the scales, the left side and the right side. You want to think of one as positive experiences and the other is negative experiences. What your mind has is it&#039;s got of different scales in it and basically, for each thing that you experience you form a belief using positive or negative experiences. What happens is you put rocks on this.
+
+The best way to describe this is imagine that you&#039;ve got this belief that you&#039;re bad at times tables like I did when I was at school. The subject or this topic which we&#039;re talking about is called times tables or mathematics. Because my teacher told me I was bad at times tables, I put rocks on this negative experience. I thought times tables, teacher told me that I was bad at it, I felt embarrassed. It was the most embarrassing thing that ever happened to me, kids laughed at me, so we stack a negative rock on this side. What happens is that if we have a positive experience with something, like if we did times tables and we&#039;ve got the best in the class at that, then we might think, &quot;Well, I&#039;m really good at times tables,&quot; and then we&#039;re going to put a rock on the positive side of these scales. The name of these scales in your mind is called times tables and depending on positive or negative experiences, we put a rock there.
+
+We have a different scale for everything - math, spelling, history, everything, all the different subjects and then all of everything else in the world. Whether we like sushi, whether we like pad Thai, whether we like steak, whether we&#039;re a vegetarian or not, all of these different things, we&#039;ve just got different scales in our mind and we just stack rocks on either side depending if they are negative experiences or positive experiences. What no one understands is that we can put rocks on these scales not just through experiences of real life like when that teacher actually told me you&#039;re bad at times tables. We can actually put rocks on these scales through our imagination and through our memories of the past.
+
+One teacher only told me that I was bad at times tables one time. That experience in real life only happened once. However, I put that in my memory and I just replayed it again, and again, and again, and again. I just couldn&#039;t stop replaying that mental movie. Throughout the rest of that day, I played that negative movie and then pretty much for the rest of my life, I replayed that negative movie and I replayed it so many times that I placed thousands of negative rocks or I placed thousands of rocks on the negative side of the scale for times tables. What do you think happened? Every time I came across maths or times tables or anything with numbers really for the rest of my life, I just thought, &quot;Oh, I can&#039;t do this,&quot; or, &quot;There&#039;s no way I can do this.&quot; That is what happens.
+
+What no one can understand is that we place rocks every time we think about something not just when we experience it. This is a huge, huge thing to understand because I think a lot of people think that their mind only builds belief about experiences that happened in real life, but your mind forms beliefs more about what happens throughout its imagination because each time you play a mental movie whether it&#039;s into the future, whether it&#039;s from the past, you&#039;re adding more rocks to whatever side, negative or positive, and you&#039;re heavily influencing and creating your own beliefs.
+
+Your mind is an on-off system programmed by environment, memory, and imagination. Thinking of the past, and then imagination of what could happen in the future, and then your environment which is what you&#039;re experiencing right now. Whatever way you stack the scales for each thing, like for times tables, for spelling, for whatever, whatever way you stack the scales, it will become your belief. Just like whenever I came across times tables, I thought I can&#039;t do that. There&#039;s no way I can&#039;t do that. That&#039;s because I&#039;d stacked the scales that way. Whatever way you&#039;ve stacked your scales, that will become your belief.
+
+All the beliefs you have right now, things that you can&#039;t do, things that you can do, things that you&#039;re bad at, and things that you&#039;re really good at, and your belief about everything, what&#039;s right, what&#039;s wrong, who you are as a person, everything, your beliefs about everything, you&#039;ve just basically stacked your mental scales that particular way. Whatever way you stack the scales, it will become your belief and then, whatever your beliefs are, it will become your reality. Your beliefs become your reality.
+
+Nobody understands this either because when my teacher told me that I was bad at times tables, that formed my belief because I played it over, and over, and over again in my mind. When I did that in so many times, whenever I came across times tables again, I said I couldn&#039;t do it and if someone made me do it like if it was a mandatory thing I had to do, I always stuffed it up and I always failed it. My belief became my reality and I really did think that I was bad at times tables and I was bad at maths. Every teacher thought I was and if you ask anyone who knew me throughout school and everything, they&#039;d be like, &quot;Sam is bad at math.&quot; It&#039;s because my belief became my reality. Whatever way you stack the scales will be your belief, and whatever your belief is, it will become your reality.
+
+This is why I showed you images that draw strong responses. How have you stacked these scales? How do you feel with the picture of Trump like that and how do you feel of the picture of Hillary like that? Why I showed you these images is because these are ones which people generally stack quite heavily. It&#039;ll draw strong responses, strong emotional responses like outrage or shock and all of these things because these are things that right now in society and everything, there&#039;s a lot of things associated with each one of these different images.
+
+How have you stacked these scales? How do you feel about each one? The way that exists for you, why your belief is that way, why you feel that way is because you have stacked the scales that way in your mind and not just through experiences in the real life, through experiences which you&#039;ve had about thoughts of the past and thoughts of the future, and ow many times you&#039;ve played that mental movie over and over again in your brain. That&#039;s how you&#039;ve stacked the scales and this is how your mind works. It really is. It should be obvious too because everyone&#039;s got different opinions and different beliefs and thoughts on this one.
+
+Some people, if you show them Trump they&#039;ll be like, &quot;That&#039;s my hero. That guy is the best person in the world. That guy is going to save everyone,&quot; and someone would think that that was the precise opposite. Same if I showed an image of Hillary. They&#039;d think, &quot;That woman is actually going to save the world. She&#039;s going to do everything right which we need.&quot; Depending on which one you have, that is just the way that you have stacked the scales and that&#039;s why I showed you all of those different images and I used those particular images because they elicit very strong responses and this is really how your mind works.
+
+Now, what I wanted to show you is this division of opposites and the two poles of nature. I told you that the world has two poles. We&#039;ve to the North Pole and the South Pole. Throughout the nature, throughout everything in the perceivable universe, there are poles. There is duality and dualism. There is a positive and a negative. That is the way everything is. That&#039;s the only way our mind can understand something. Let&#039;s talk about this division of opposites and the two poles of nature.
+
+Like I&#039;ve said, the only way our mind can experience something is to have an opposite. Here is the division of opposites and the two poles of nature. Now, there is tons of them. This is by no means all of them, but here are just some of the big ones so that you can understand this right now. We&#039;ve got the North Pole and we&#039;ve got the South Pole and just like on a compass you&#039;ve got north and south and then you&#039;ve got east and west. Everything has its opposite.
+
+Then with time we have past and future. We&#039;ve got thinking back, what happened back then that&#039;s history, that&#039;s the past, and then we&#039;ve got the future that&#039;s like imagination and what&#039;s going to happen in the future. The opposite of past is future and then the opposite of positive is negative, just like on a battery, positive and negative. Then the opposite of darkness is light and the opposite of light is darkness. Then in the world we&#039;ve got days and nights. We have the daytime and then we have the nighttime. Then we have hot and cold, they&#039;re the opposites. On and off. Then we have good and evil and then we have right and wrong. Then we have sad and happy and then we have failure and success. Then we have beautiful and ugly, smart and dumb, fat and skinny.
+
+For everything we&#039;ve got, there is an opposite. Healthy, unhealthy. It doesn&#039;t matter what thing it is. You can think of anything and it will have an opposite because it&#039;s the only way our mind can understand something. Try to think of some right now on your own. You can just pause this video for a second and try and think of a few. Think of some things and then think about what their opposites would be. Everything in this perceivable universe must have an opposite, otherwise our mind cannot understand it. Just like I showed you in those examples before, when I asked you how hot or cold would it be if I told you it was 456 purple monkey degrees or could you buy an iPhone with this amount of Rupees. You don&#039;t know. You need to be able to compare it to something. Everything in the perceivable universe must have an opposite for us to comprehend.
+
+Now, let&#039;s talk about you. We&#039;ve talked about your mind, and we&#039;ve talked about how your brain works, and we&#039;ve talked about the duality, and then we&#039;ve talked about the two poles of nature. Now, let&#039;s talk about you. You as a person. Who are you? I&#039;m sure this is a big question that we all try to really figure out. Who are we? Who are you? I want to show the definitive answer to this. We tend to believe that we are this person, and that we&#039;re born this way, and then that&#039;s it. That&#039;s it. We&#039;ve got to just take what we&#039;ve got, we&#039;ve got to deal with it, and that&#039;s just the way things are, and we&#039;re just born with it. We&#039;re just born that way and then that&#039;s it.
+
+We go through life asking the question, &quot;Who am I?&quot; We&#039;re going through life, we&#039;re experiencing all of these different things and we&#039;re like, &quot;Who am I? Is this me or is this not me? Are these people like me? Do I associate with this or do I not associate with this? Am I for this? Am I against this?&quot; We go through life asking this question, &quot;Who am I,&quot; but as we answer that question we naturally define who am I not because there is no way to define who I am without defining who I am not. It&#039;s just the very nature of it and so we stack the scales just like we stack the scales with our beliefs of how good we are at math or how good we are at using computer or how good we are with technology or how good we are with anything, we stack the scales. We do this with ourselves. We go through life thinking who am I and then who am I not.
+
+As we experience different things, we pull some things closer and we reject other things. We&#039;re like, &quot;I am this and then I&#039;m not this,&quot; but the problem is with saying that you are something, then you&#039;re saying that you aren&#039;t something because there is no other way to do it. If you are for something, then you&#039;re against something. If you&#039;re against something then you&#039;re for something. That&#039;s just the way it works. We stack rocks on either side of the scales and we form our belief about who we are. Who we are as person.
+
+Imagine your entire life, every single experience you&#039;ve ever had. Then imagine every thought you&#039;ve had of the past, so every time you&#039;ve looked into your memory. Then imagine every imagination and every thought you&#039;ve ever had about the future. Then imagine that you&#039;ve stacked the scales for everything. Every time you&#039;ve had an experience, every time that you&#039;ve had a thought of the past, and every time that you&#039;ve had a thought of the future, literally every thought you have is stacking the scales and literally every experience you have is stacking the scales. There is no other way to do it. You can&#039;t have a thought without stacking the scales and you can&#039;t have an experience without stacking the scales. That is just how it works.
+
+What basically happens is the summation of every scale you&#039;ve ever stepped becomes your identity. Every single experience you&#039;ve had, every thought of the past you&#039;ve had, every thought of the future you&#039;ve had, all of them throughout your entire life, the summation of all of this put together, just imagine them, there must be millions and millions, they&#039;re just all stacked one way or the other. The sum of all of these things together becomes your identity. This becomes the person who you think you are. Who you think you are right now and who you think you are not right now is quite simply the summation of every scale you&#039;ve ever stacked. This is your identity and your beliefs become your reality. The way you have formed your identity, who you are right now, that is the way you experience reality. It is your reality.
+
+The tragic thing is that the world has come to believe that we are somebody and we&#039;re unable to change. We come to believe that we are this person. The sense of self gets very strong and defined overtime and we answer who we are so many times that it gets very strong. Then all of a sudden, we think, &quot;Okay, I am this.&quot; When we are something, then we aren&#039;t able to do other things. If we say we&#039;re not good at times tables, then we can&#039;t do anything to do with times tables or if we say we&#039;re dumb, well then, we can&#039;t do anything that involves using our brain and trying to solve problems. If we say we can&#039;t catch, then we&#039;re never going to be able to catch. If someone tries to throw us keys, we&#039;re going to fumble them and we&#039;re going to drop them. This is the way it happens.
+
+If we don&#039;t like the hot, then we&#039;re never going to go anywhere where it&#039;s hot and if somebody invites us to go where it&#039;s hot, we don&#039;t want to go there. If we don&#039;t like the cold, we&#039;re going to avoid every place that&#039;s cold because we don&#039;t like the cold. The tragic thing is is that the whole world has come to believe that we are this person and that way we have stacked the scales, it forms our identity. Once we form this identity, we believe that we can&#039;t do anything else. We&#039;re stuck. Unable to change. We have to find who I am when the real question is who am I becoming because you&#039;re not somebody then that&#039;s it. You&#039;re not born, and then you&#039;re a someone, and then that&#039;s it, and then you&#039;ve just got to deal with it, and be yourself and all of this stuff.
+
+When Michael Jordan was born, he wasn&#039;t born with a basketball in his hand and able to be the best sports player in the world, the best basketball player in the world. That didn&#039;t happen. He had to become the best basketball player in the world and actually, everyone, including his coaches, and teammates, and everything thought that he shouldn&#039;t be a basketball player and told him to quit for a long time. We are not someone and then that&#039;s it. We are always becoming someone.
+
+This program is going to show you how to become anything you want and let go of the self that you currently think you are. The limitation of who you can become is the self and your identity which you have defined as who you are right now. The way you&#039;ve defined that self and that identity is just you stacking the scales. You&#039;ve had experiences in real life. You&#039;ve had thoughts in the past and you&#039;ve had thoughts of the future. Every time you&#039;ve had a thought of the past or thought of the future or you&#039;ve experienced something in real life, you have stacked the scales. The summation of all of those scales forms your identity. Your identity forms your reality. This is who you are and this is the way things are.
+
+Now, let&#039;s talk about society. Let&#039;s talk about society&#039;s conflict of opposites and the perceived right and wrong because I&#039;m sure you&#039;ve noticed that in society, there&#039;s always conflict. There&#039;s always things going on. There&#039;s always bad and good and there&#039;s always a lot of conflict. Just as you defined who am I and you came up with an answer to that, and this forms your identity, and the sense of self, and this collection of beliefs that you have about everything and it really became your reality, just as you defined who am I, as a collective group, society has defined who are we.
+
+Think about what society is. Society is just a collection of individuals and as a collective group of those individuals, society has defined who are we as the group. When defining who are we, society naturally defines who are we not because there&#039;s no possible way to be somebody without not being somebody. When we define who we are, we define who we aren&#039;t. When we define am I, we define who am I not. This is what&#039;s happened with society. When we&#039;ve defined and formed the sense of identity for society, who are we, we have naturally defined who are we not. When we define what is right, we naturally define what is wrong.
+
+In our minds, if we think that eating meat is wrong, that means that eating vegetables is right. If we think that eating vegetables is the only right, then we think of eating meat is wrong. This is the way it happens. When we define a right and a wrong, when we define either a right or a wrong, we naturally define the opposite. Society has stacked the scales. The society, just like you and your brain and everything, it has all of these different scales in it. Instead of being like do I like this or do I not like this, society has collectively said who are we and who are we not. Are we like this or are we not like this? The nature of saying that we are like this, we, at the same time, say we&#039;re not like this. That is just the way it happens.
+
+Collectively, society has stacked the scales with rocks and these rocks don&#039;t have to exist with real life. They can also happen from thoughts of the past and thoughts of the future. Just like you yourself form your beliefs by thoughts of the past, thoughts of the future, and experiences right now, society does that too. Society stacks scales as well and it forms beliefs. Society stacks scales about what is right and what is wrong. Every time as an experience or a thought of the past or a thought of the future, it puts a rock on these scales and it forms a belief about something and it comes up with all of these rights and wrongs. No, people should be doing this, people shouldn&#039;t be doing this, and this is how it&#039;s all formed.
+
+He who is not with me is against me. With society, it&#039;s like if you&#039;re not like society, then you&#039;re against the society. He who is not with me is against me and he who is not like us is our enemy. As a society, if someone isn&#039;t like us, and coming to the party, and standing to with us, and uniting with us, well then, they&#039;re our enemy. He who is not like us is our enemy. Imagine multiple generations, every collective experience, every collective thought of the past, every collective thought of the future, imagine how much stuff that is.
+
+Society stacked the scales for everything that you can&#039;t have a thought of the future or a thought of the past or an experience right now without placing a rock on a scale. As a collective group, multiple generations, you just imagine that. That collective experience, and thought of the past, and thought of the future, it stacks the scales as a society. The summation of every scale society ever stacked, this becomes its identity. This becomes who society is and who it&#039;s not and societies beliefs become its reality. Just like how with thought I was bad at times tables and that was my actual reality. Someone couldn&#039;t tell me that I was just believing that, and I&#039;d made it up, and I could change, I was like, &quot;No, no, no, no, no. Trust me, I cannot do times tables. You put something in front of me I wouldn&#039;t be able to do them.&quot; I can&#039;t do times tables and I can remember like a million times I&#039;ve tried them and [inaudible 00:50:52] do them. That was my reality.
+
+Our beliefs become reality and not just as a person but as a society. Society&#039;s beliefs become its reality. This is quite remarkable and no one really understands this. The tragic thing is that society has come to belief that it is something and anything different is its enemy. Society has defined who are we when the real question is who are we becoming. This is the cause of all conflict, not only as ourselves. You yourself, you&#039;ve defined this person who you are, like I am someone, and that means that you&#039;re going to be in a lot of conflict because whenever something comes to you which isn&#039;t you, you&#039;re going to be like, &quot;Oh, I can&#039;t do that,&quot; or it&#039;s going to freak you out. You&#039;re going to be scared, stressed, whatever because that isn&#039;t you and you can&#039;t do anything which isn&#039;t you. All conflict inside a person is caused by defining who we are and then all conflict within society that comes about by collectively defining who are we. This is the cause of all conflict, not only within ourselves but within the entire world, within all society. The real question is who are we becoming?
+
+This brings us to the big question, mankind&#039;s big question which it&#039;s been trying to answer forever and it&#039;s still trying to answer today. Everyone is looking everywhere trying to find these answers. The real question is what is right and what is wrong? If we can program these scales to go one way or the other, and believe one thing or believe another thing, or be someone or not be someone, what is right and what is wrong? What is the right way and what is the wrong way to live? This is what the whole world has been trying to figure out. What&#039;s the right way to live and what&#039;s the wrong way to live? We want to be right. We don&#039;t want to be wrong and this has been mankind&#039;s big question forever really.
+
+Here is the current state of how we are divided. As a society, this is pretty much how it sits right now. This is how the scales sit. We believe that making money on Wall Street, and being a billionaire, and having all this money, if there was a dude wearing a suit on Wall Street walking around, smoking a cigar, burning $100 bills and just throwing money around like it didn&#039;t mean anything, we&#039;d think, &quot;Wow, that guy is wrong. That&#039;s greed. That&#039;s bad.&quot; This is typically what we see. If someone&#039;s really wealthy and everything, everyone&#039;s like, &quot;Shame on you. You shouldn&#039;t be like that.&quot; Then we believe that it&#039;s right to be meditating, or being over in California on the beach and doing yoga, and doing wellness stuff, and being real spiritual, and wearing yoga pants and stuff. This is how we&#039;ve divided it. We think if someone&#039;s in New York wearing a suit on Wall Street making a ton of money, smoking cigars that that&#039;s wrong and that really he should be over in California doing yoga and meditating. This is how we&#039;ve stacked it, right and wrong.
+
+We believe that being at the beach or being in the nature, in the forest, or going on hikes or something, and relaxing, we believe that that&#039;s rights and we believe that being in a polluted city surrounded by noise, and tons of people, and flashing sites and everything, we believe that&#039;s wrong. We believe that the past is more accurate than the future and we believe that the past is more right than the future. Whenever things are changing, everyone&#039;s always trying to resist change. They&#039;re all looking back in the past all the time.
+
+As a society, we are always looking in the past more than we are looking in the future because we believe the past is the ultimate truth. We believe that the past definitely did happen. Everything that happened in the past, that is a fact. Every thought of the future, all that is just some stuff that doesn&#039;t really matter. It&#039;s all about the past. As people, ourselves, we look in the past more than we look in the future, so if we have to define who we are, we have to look I the past. We have to pull up all of the memories we&#039;ve got about ourselves in the past to really define who we are. Not only as individuals but as an entire society and as a whole world, we tend to favor history over future and past over future. That&#039;s just how we&#039;ve stacked it, right and wrong. One is more accurate than the other.
+
+We&#039;ve come to define vegetables, and heating healthy, and everything like this, all these greens and all these organic things as right and wrong as eating big greasy burgers full of cheese, and meat, and everything. Then we&#039;ve come to define university, and having a degree, and being qualified as right and being a dropout without any qualifications at all as being wrong. Don&#039;t listen to someone if they&#039;re not qualified. Show us your qualifications. What certificates do you have? This is how we&#039;ve come to define right and wrong.
+
+Happiness and unhappiness. Happiness and depression. We come to think that being happy and smiley, that&#039;s the right way, and being depressed, and sad, and crying, that&#039;s wrong. Then we&#039;ve come to believe that science is more accurate and everything then religion is. Everyone&#039;s looking at science and looking at what they&#039;re finding out about space and what they&#039;re finding out through all of these different experiments, science is being taken more right at this moment of time than religion.
+
+His charity and being a billionaire. Here&#039;s Gordon Gekko from the movie Wall Street where he says, &quot;Greed is good.&quot; He is Gordon Gekko. He [inaudible 00:57:46] wearing a suit, smoking a cigar, making billions of dollars, just caring about himself and then his charity. We believe that giving money to charity and giving money to the poor is the right thing to do and making a ton of money, and being a billionaire, and smoking cigars, that&#039;s the wrong thing to do. Whenever there&#039;s a piece in the news about some billionaire, everyone&#039;s always like, &quot;Shame on you. You should be giving to charity.&quot; This is how it happens.
+
+Here&#039;s work and play. We believe that playing and taking a vacation and taking a break is more right than working. We come to believe the people who are always on a break, they&#039;re always looking at the people who are working all the time and they&#039;re like, &quot;You guys, you should really be coming, and out into nature, and exploring things, and walking around, going outside more.&quot; We currently believe that that is more right than working.
+
+What we&#039;ve done is we must choose a side. That&#039;s the way that our society, and ourselves, and everything has become divided. Everyone has been brought up, and educated, and taught that you must choose a side. You have to be for something and against something. You have to choose Hillary or Trump. You have to choose something. I mean, we all think that it&#039;s right to be awake during the daytime walking around while it&#039;s day and asleep when it&#039;s nighttime. That is the perceived right and wrong. If you&#039;re up all night and sleeping all day, you&#039;re doing something wrong. This is the way that we&#039;ve been brought up, and educated, and programed over time as individuals and as a society, that we must choose a side. There must be a right and a wrong. We have one perceived right and one perceived wrong. That&#039;s the way that we&#039;ve been programmed.
+
+This is the issue with society&#039;s current paradigm. This is what causes all conflict within you as a person, within yourself because you&#039;ve got this person who you are right now and then you desire to be someone else. You desire to a better, bigger version of yourself, but there&#039;s so much conflict internally because these two selves are at war. Who you are right now is fighting who you want to become and this causes all sorts of unhappiness, stress, fear, dissatisfaction, everything. Then in society, this happens too. When a society forms a very strong identity of who it is, then if anything isn&#039;t like that, then it&#039;s its enemy and it gets all upset because something isn&#039;t like it and it must be wrong. This is what happens with religions and everything. If something isn&#039;t for it, then it&#039;s against it. This is the issue with society&#039;s current paradigm.
+
+Here are the lists of all the different things that I&#039;m walking you through and this week to New Paradigm and World View Training in this program. We covered number one which was misunderstanding and the psychology of the self and creation of the identity. We already covered that in the first video and if you ever watched the first video or the second video, go back and watch those right now. This program is being designed to watch each video in order.
+
+Number two is dualism and the perception of one right and one wrong. This is what I&#039;m going to show you right now. This is the issue with society right now. We have divided everything. We have a duality and a dualism, and we have a perception of one true right and one true wrong. We have this for ourselves. We have this is me and this is not me, but then all of a sudden, we want to become something bigger and that&#039;s when we have conflict. As a society, we have who we are and then who we are not, and we have enemies and conflict. This is all caused by dualism and duality, and the perception of one right and one wrong.
+
+Here is how things currently are. This is the problem with society&#039;s current way and current paradigm. Our mind is a programmable on-off system that divides thoughts, memories, and experiences into categories such as me or not me, right or wrong, for or against, good or evil, past or future, friend or enemy, true or false, and this division of opposites is the only way we can make sense of things and it&#039;s called dualism or duality. We grow up thinking who am I and every experience, memory, and thought stacks a rock on one side of the scales. Me, not me. Right, wrong. Good, bad. Over time, the sense of self and identity gets very strong and defined and we defined ourselves as a particular person unable to change.
+
+Society develops the same way we do ourselves except instead of as an individual, it develops as a collective group of individuals within it. Society develops over time thinking who are we. Every experience, memory, and thought stacks a rock on one side of the scales. Right or wrong, good or bad, like us or enemy. As a collective group, society develops a sense of identity and it&#039;s unable to change. What we have to understand is this is the problem with the current paradigm that society has and most of the world has. Dualism is the cause of all of conflict within you as a person. Dualism is the cause of all conflict within the world as a society.
+
+What is answer? What is the answer to all of this? This is what society has done wrong and this is fascinating. In trying to form an identity ourselves as individuals, we somehow dream of being who our identity is not. Everyone has this current self, who they are, and this desired self, but somehow, who we desire to be isn&#039;t who we currently are. We desire to become who we&#039;re not after a while and then we&#039;re in conflict. In trying to form an identity, we dream of being something which our identity isn&#039;t. In trying to form an identity as a society, we end up creating an enemy as a society.
+
+In trying to destroy depression with anti-depressants, which is something what the whole world is doing right now like in America, I read a statistics that&#039;s like more than 50% of America is on anti-depressants. The answer to being sad these days is to go and get anti-depressants and then okay, you&#039;re not going to be sad anymore. In trying to destroy depression with anti-depressants, we destroyed happiness through anti-depressants because when you remove depression, you&#039;re going to remove happiness and this is what we&#039;ve done.
+
+In trying to remove religion through science, we turn science into a religion. A lot of people came out and they&#039;re like, &quot;Science is more accurate than religion. Religion is all of this mambo jumbo. We don&#039;t listen to that at all because it&#039;s silliness and we&#039;re going to look at science. Science is true. Science is fact.&quot; What we&#039;ve done over time is we&#039;ve turned science into a religion and it&#039;s amazing because if you look at the definition of religion, it&#039;s one source of truth, one universal source of truth which must be obeyed.
+
+In the past, if you spoke out against religion everyone would shut you down. If you spoke out about religion, that was blasphemy. Now, if you speak out about science, it&#039;s blasphemy. It&#039;s like that&#039;s anti-science or you&#039;re going against science. We&#039;ve even got these sayings these days that he&#039;s anti-science, he&#039;s against science or he doesn&#039;t believe in science. In trying to remove religion through science, we turned science into a religion. A lot of people think that, &quot;I don&#039;t believe in religion. I&#039;m an atheist and I believe in science.&quot; What they don&#039;t understand is that they actually believe in religion because science has become a religion.
+
+In trying to remove non-education through university ... As a society, we try to educate everyone and make it all universal and everything, and in trying to remove non-education through university we have come to introduce non-education through university, which is fascinating to see because now if you go to university, you end up coming out of it really not knowing anything. This is what&#039;s happened. People go into university, they spend like $300,000 on a degree, and then they can&#039;t get a job. What we&#039;re finding these days is that people are coming out of university non-educated. The thing that was created to remove non-education is the thing that is now producing non-education.
+
+In trying to forget money to achieve spiritual wellness and happiness ... We see this a lot right now, it&#039;s a fascinating one to watch that I&#039;d been watching for a long time. We have this division between like New York and California where it&#039;s like people who are on Wall Street and New York wearing suits, and making millions and billions of dollars, and smoking cigars, they&#039;re wrong. The way they&#039;re living life, it&#039;s not right. The right way to live life is to be in California, and to be peaceful, and to be doing yoga, and meditation, and being to wellness and all of this.
+
+In trying to forget about money to achieve spiritual happiness, we end up unhappy because we need money. This fascinates me to watch all of the time because there&#039;s all of these people, I follow these people just to track all of the stuff and see what&#039;s going on with the world, but there&#039;s a lot of people who talk about being peaceful, and being spiritual, and being happy, and controlling your state and not letting affect you, but then they end up so unhappy and stressed out because they don&#039;t have any money or their car breaks down and they can&#039;t afford to fix it. They forget about something to be happy, but then they end up being unhappy because they need that something.
+
+I witnessed happen as well with all these people in California who do yoga or meditation and everything, and who are all about spirituality and happiness, and then as soon as Donald Trump became president, they became totally unhappy, and stressed, and panicking because of something else. When we totally forget about one thing, and we try and ignore it, and we obsess over the other, we end up creating the opposite. This is what happens. Just like in trying to remove non-education through university, we introduce non-education through university. It is just what happens when we take one thing to the extreme and we totally ignore the other.
+
+People used to get a nine to five job to have security. Everyone talks about job security. You don&#039;t start a business, no, no, you don&#039;t do that. You get a job because you want security. Now, these days, having a job is the most insecure thing you can do. As an employee, you can get fired by anyone at any time for any reason, pretty much. Having a job is not what it used to be. We used to have jobs for 40, 50 years. Now, people don&#039;t have job for two years. What people used to do to have security is now the least secure thing.
+
+People used to start a business to gain freedom and not have a job. However, the school of thought [inaudible 01:10:58] that when you start a business, the first thing you should do is go out and raise money and get all of these investors. That&#039;s what we&#039;ve got over in Silicon Valley. We&#039;ve got all these kids who go out and the first thing they do before creating a product or before doing anything is they go out and they raise money. People used to start businesses to gain freedom and not have a job, but now businesses who raise money have less freedom and more of a job than a job because they&#039;ve got all of these investors breathing down their neck asking what&#039;s going on and they have to do things and they don&#039;t have control. Most people who created a business to not have a job now have more of a job than they used to.
+
+It really is because people have tried to completely remove one thing. What would light be without darkness? Just trying to imagine that for a moment. Imagine daytime without nighttime. If we totally removed nighttime, we just destroyed it, disintegrated it somehow. How would we know that it was light, it was daytime that we were actually experiencing? We made one to have the other. What would light be without darkness and what would hot be without cold? Try to imagine what hot is without cold. Try to imagine what nature would be without a city and try to imagine what a city would be without nature. These two things don&#039;t exist without having an opposite. This is the only way the human brain can understand things.
+
+This is the issue with society&#039;s current paradigm. I&#039;ve been sitting quietly watching this happen, waiting for the perfect moment. I&#039;ve been tracking this stuff for a long time. I&#039;ve been following these different things, tracking them, looking at all the markers, and waiting for the perfect moment to move on this one and that moment is right now. What&#039;s happened is the paradoxes have flipped. We call this a paradox when you try, and do one thing and you take it to the extreme, and then it becomes the other. It contradicts itself and it&#039;s called a paradox. I&#039;m sure you&#039;ve probably noticed some strange things that have been happening in society and everything recently. Well, what happened is the paradox has just flipped out. They flipped over. This is the dawn of the new era and the consulting revolution is here. I&#039;ve been waiting to introduce this until this perfect moment.
+
+What is the answer to mankind&#039;s big question? It really is the only way to be wrong is to choose a side. We&#039;ve been taught and brought up, and the current paradigm is that you have to choose a side, and that there must be one right and there must be one wrong. There must be ourself and there must be a not ourself. Really, the only way to be wrong is to choose a side because if we create something and we say, &quot;That is beautiful,&quot; at the same time that we create beauty, we create ugliness. At the same time, if we create hot, we create cold. If we create cold, we create hot. The only way to be wrong really is to choose a side. Everything in this universe is forever changing, moving, and evolving, that is for sure. The only way to lose is to resist change.
+
+Do you remember the equation of all human evolution? In the Accelerator Program in week one, I showed you natural law and the equation. I showed you this equation right here and I showed you this is how everything in the perceivable universe evolves. This is the equation of all human evolution, all evolution of everything and it looks like this. We have a thesis, an antithesis, and a synthesis. Basically, a thesis is like current situation right now, like you right now. Then an antithesis is something which comes in contact with the thesis. If you&#039;re the thesis and then the sun is the antithesis, then the synthesis, which is what happens when these two combine, is that that&#039;s going to be you and you might be sunburnt because you interacted with the sun or you and you might be tanned because you interacted with the sun or you and you might be overheated because you interacted with the sun. This becomes the new thesis and this is really the governing equation of all evolution.
+
+Let&#039;s look at the evolution of yourself and I&#039;m going to show you how this current paradigm we have in the society is wrong and I&#039;m going to introduce you this new way of thinking. We have our current self, this is who we think we are, and this comes by defining who am I. We&#039;re like, &quot;Is this thing me? Is this not me? Are these people like me? are they not like me? Am I for this? Am I against this? Do I believe in this thing? Do I not?&quot; We create this self, this current self.
+
+Then naturally, as humans, it&#039;s totally natural to desire something else which is more than who we are and that is our desired self. You&#039;ve got who you are right now in this given moment and then you&#039;ve got who you want to be. You&#039;ve got this person or who you want to be and that might be more wealthy, it might be more fit, it might be more tanned, you might have a six-pack, it might be whatever. Different people have different desired selves. We&#039;ve got the current self and then we&#039;ve got the desired self.
+
+Then we&#039;ve got the gap between the two, which I&#039;ve got in this gray box. The gap between these two is the cause of all unhappiness. This division between the two inside ourself is the cause of all of our struggle, all of our conflict, and all of our unhappiness because we want to become this other person, but we can&#039;t because we&#039;ve got our current self and the person who we want to be is in conflict with who we currently are and that&#039;s the cause of all unhappiness. We have come to believe that this is the shitty truth of our existence.
+
+This is what we&#039;ve come to believe as a society with our current paradigm is that that&#039;s just the way it is and you&#039;ve just got to take the card that you&#039;re dealt. We&#039;ve got all these sayings like be yourself, be authentic. Don&#039;t try to be somebody else. Stick to your roots. Don&#039;t forget who you are. Don&#039;t forget where you came from. All of these different things. We believe that we really are a person and self, that it&#039;s bad to desire stuff and that all unhappiness is caused by desire and all of this. We&#039;ve come to believe that this is the shitty truth of our existence, but it&#039;s not.
+
+Remember how I showed you this? This is the equation for all evolution. We&#039;ve got our current self, that&#039;s the thesis. Then we&#039;ve got our desired self, that&#039;s the antithesis. Then we have our new self and that&#039;s the synthesis. The new self is a combination of our old self and our desired self and when we become our new self, that new self becomes the current self again and this equation repeats itself over and over again. That is why there is an arrow that goes from the pink back around to the blue because once we form a new self, it will be natural that after a while, we will start to desire a desired self again.
+
+Just like when I transformed myself into somebody who was broke and to someone who made $100,000 a year, I moved my desire to become someone who made $500,000 a year. Then I fulfilled that one. I did the synthesis and I evolved to become someone who made a million. Then it was all the way up now and made more than $20 million. It&#039;s never ending. We come to believe that we are this person, that we are this self, and that we can&#039;t change, but that couldn&#039;t be further from the truth. I mean, if you look at everything in the perceivable universe, it follows this equation and this shows us that we can transform and evolve into whoever we want to be.
+
+This is the new alchemy paradigm and world view. I&#039;m going to show you these different things and I&#039;m going to show you how the alchemy paradigm perceives these things because right now they&#039;ve gotten a bit out of control, I think. We believe that if you&#039;re on Wall Street, smoking cigars with hundred dollar bills, making billions of dollars, that that&#039;s wrong and that being over in California is right doing meditation and everything. Well, the alchemy paradigm would combine the two. It would be a balance between the two. It would be being rich, but also being spiritual and doing meditation. There&#039;s nothing wrong with doing spiritual stuff and meditation, but there&#039;s also nothing wrong with making a whole bunch of money and smoking cigars. It&#039;s the combination of the two, spirit and money.
+
+We believe that the city is wrong and being in the middle of the city is wrong and that you should be out in nature. It&#039;s city and nature. You&#039;ll find that if you got out and you visit people who live in the country and everything, they want to go to the city. If you visit everyone that lives in the city, they want to go to nature and the beach. This is what I&#039;ve realized for myself is I like both. I want to have a place in the middle of Manhattan and I want to have a place in the middle of the Caribbean.
+
+I&#039;m looking at buying a massive block land right now right on the water and I&#039;m going to have that next week. I&#039;m going to build this retreat place called Atlantis and I&#039;m going to go between the two because sometimes I want to be in nature and swimming around in at the beach where it&#039;s so quiet and peaceful. Then other times I want to be right in the middle of it. There is not really one right and wrong. The only wrong is really to choose one side and say the other was wrong and it&#039;s a balance between the two.
+
+We believe that the history is more right than the future and that history has facts in it and the future is just up to imagination and it&#039;s not true at all. We perfectly value the history now and the future, so we look at it right now, we look at history and we look into the future, and we hold them all equally. We merge them all together. We believe that if eating healthy is right and eating burgers is wrong, we want to eat healthy and unhealthy because the truth is is if you only eat healthy food, then your body actually forgets that it&#039;s eating healthy food. I&#039;m not joking at all. You can ask anyone who does anything to do with biology or science or anything.
+
+If someone tries to completely remove germs, if they try and use hand sanitizer, and if they wash their hands like crazy, and they&#039;re really scared of germs, guess what? They end up getting sick because their immune system, it hasn&#039;t built up tolerance. It doesn&#039;t have any germs and so the second they meet a tiny little germ, it wipes them out. This happens with people who eat healthy food. This is why in bodybuilding and stuff and in fitness, there&#039;s such a thing as a cheat day. It&#039;s like you want to eat well and everything, but every now and then, it&#039;s good to binge out and just eat a whole bunch of KFC, and burgers, and thick shakes.
+
+It&#039;s because your body needs to be shocked back to understand that it actually had things good. Just like the people who live on the islands, they need to go to the city to understand that okay, I like the city, or people who like the city and become immune to it, they need to go to the islands to understand that they like the city. This is the way it works. We combine healthy and unhealthy. We want to eat both. If we&#039;re all unhealthy, that&#039;s not good. If we&#039;re all healthy, it&#039;s not good either.
+
+We had university and college dropouts. We said college was wrong, and we said dropping out was wrong, and going to college and being qualified is right. What about education as a dropout? Why can&#039;t you drop out and be educated? What&#039;s happening is people who drop out and educate themselves, they&#039;re way better educated than people who don&#039;t drop out and actually get what we call educated. We&#039;ve got right and wrong. We&#039;re saying that it&#039;s right to be happy and it&#039;s wrong to be unhappy, and sad, and depressed and so we&#039;ve tried to abolish unhappiness with anti-depressants and in doing that, we&#039;ve pretty much abolished happiness.
+
+The right thing really is to combine the two and learn it to enjoy struggle. Learn to enjoy pain. I used to be afraid of everything and then I came to actually quite enjoy the fear and the pain because I didn&#039;t like being outside of my comfort zone, so I never went outside of my comfort zone and I tried to completely abolish going outside of my comfort zone, but then I ended up totally unhappy because I was stuck in my comfort zone. What we&#039;ve really got to do is learn to enjoy the struggle. There&#039;s nothing better in the world when you enjoy a challenge, when you enjoy struggle, when you enjoy some pain and some fear. There&#039;s nothing really better because that is all part of being alive. You wouldn&#039;t know that you are happy unless you had been sad and you wouldn&#039;t know that you are sad unless you had been happy. This is the way it works.
+
+Then we have science which we perceive to be the right and the source of all truth, and religion which is wrong. However, it&#039;s really spirituality and science. It&#039;s looking at both of them, not just one and ignoring the other because if we look at one and not the other, if we choose a side, that&#039;s when we really get it wrong. We have to have a balance. We&#039;ve got work and play. We think it&#039;s right to be adventuring and playing, and we think it&#039;s wrong to be working all the time and behind the computer inside. Well, that&#039;s work as play. People are like, &quot;Why don&#039;t you have a work-life balance or something?&quot; They&#039;re like, &quot;You&#039;re living the wrong way because all you&#039;re doing is working.&quot;
+
+What if living for someone was working? What if working for someone was the most satisfying thing that they could possibly do? A lot of people ask me that. They&#039;re like, &quot;Why aren&#039;t you out on the beach taking a vacation or something?&quot; I was like, &quot;I&#039;d rather be working than on the beach.&quot; I&#039;m helping tons of people and I&#039;m having the time of my life doing this. It&#039;s like I&#039;m painting the Sistine Chapel doing this thing. It&#039;s like art for me or making music. It is the most enjoyable thing that I could possibly do and it is play for me. Why can&#039;t we make work play and play work? Why do we have to divide them?
+
+We have giving to charity as right and then we&#039;ve got being rich as wrong. A lot of the time, I always talk about making money because we&#039;ve turned it into a taboo topic like as a society, we think we shouldn&#039;t talk about money. Someone&#039;s like, &quot;Yeah, I made a million bucks here. I made a million bucks there,&quot; and society looks at you like, &quot;What are you saying, man? You&#039;re not supposed to say anything like that. Don&#039;t talk about money. Money is bad. Don&#039;t talk about it. Money is evil.&quot; If you do talk about it, everyone&#039;s like, &quot;Shame on you,&quot; or they&#039;re like, &quot;Why aren&#039;t you giving to charity?&quot; Every Facebook ad I&#039;ve ever run has about a thousand people on it just saying, &quot;Shame on you. You should be giving to charity.&quot;
+
+It&#039;s because we&#039;ve got these binaries here. We&#039;ve got this perceived right and wrong. With the new way of thinking, with the new alchemy or paradigm and world view, we combine these two and we think, &quot;What if we could get rich by giving back?&quot; I don&#039;t think a lot of these people look at the nature of my business and that I&#039;m helping people make money. I&#039;m helping a lot of people who would usually be the people who would receive charity. I&#039;m helping them make money for themselves. The very nature of my business is helping people and how I get rich is by helping others get rich.
+
+I really am getting rich by giving back. It&#039;s the combination of charity and getting rich, but we come to believe that just because I&#039;m making money or just because someone else is making money that it&#039;s wrong and they should be giving that money to charity. Really, the division of making money in charity is the wrong because we shouldn&#039;t have divided this two. The nature of making money is to add value and generally, to add value, we must help people.
+
+That&#039;s what a lot of people have just forgotten. They think that the only way to help people is to just give them some money, but if we give someone money then they&#039;re going to want more and they&#039;re never going to be able to fish for themselves. If you just give someone fish, then they can only feed themselves for one day, but if you teach them how, then they&#039;re good for life. Getting rich by giving back. We&#039;ve got our friend and our enemy. We say like, &quot;Our friend is right. We should put [inaudible 01:30:42] in our friend, but our enemy, we ignore the enemy. We should hide from them. They&#039;re wrong. We should say bad things about them.&quot; What about loving your enemy? What about making your enemy your best friend?
+
+The key to all evolution is variation and when you start to grow tired of what is in the light, you must consider what is in the dark. By this I mean we all have a light side and a dark side. Our current self is the self that we have chosen to put into the light. This is who we are. The side of us that we are not is in the dark. This is how it works. When we grow tired of what&#039;s in the light, the only way we can really achieve our new self and our desired self is to consider what is in the dark.
+
+You&#039;ve got to remember this equation, the governing equation of really all evolution, the thesis, the antithesis, and the synthesis, which becomes the new thesis. Here&#039;s the issue with society&#039;s current paradigm and the way everybody thinks and believes. It says, number two, dualism and perception of one right and one wrong. Our mind is a programmable on-off system that divides thoughts, memories, experiences into categories such as me-not me, right-wrong, for-against, past-future, friend-enemy, true-false. This division of opposites is the only way we can make sense of things and it&#039;s called dualism or duality. We grow up thinking, &quot;Who am I?&quot; From every experience, memory, and thought stacks a rack on one side of these scales. We&#039;ve got me and not me, right and wrong, good and bad, and over time, this sense of self and this identity gets very strong and defined. We define ourselves as a particular person unable to change.
+
+Society develops the same way we do ourselves because society is made up for individuals like ourselves. Society develops the same we do ourselves except as a collective group of individuals within it. Society develops over time thinking, &quot;Who are we?&quot; Every experience, memory, and thought stacks a rack on one side of these scales: right-wrong, good-bad, like us-our enemy. As a collective group, society develops a sense of identity and they are unable to change. They get stagnant and they don&#039;t want to change. This is called dualism or duality.
+
+Dualism is the cause of all conflict within you as person. You&#039;ve got who you are and who you want to be and that&#039;s the cause of all unhappiness. Then you&#039;ve got dualism and it is the cause of all conflict within the world as a society as well because once there is a well-formed society, there is its enemy because he who is not like us is against us and he who is not with me is against me. He who is not like us is our enemy. Becoming non-binary and balancing the poles, this is the new way of thinking. This is the new paradigm. This is number two, one of the new laws in the alchemy paradigm and world view.
+
+We must understand the nature of our own mind and the dualism experienced by the division of opposites. We must understand that all conflict within ourselves, society, business, and everywhere else exists through resistance to change. We understand that the key to all evolution is a variation and thing that slows it down and causes problems is clinging to an identity built up from stories of the past. We must let go of who we currently are to become who we want to be. That involves doing things which we have ignored, judged, and victimized with our current self and its identity. We understand that holding a firm side on anything while ignoring the opposite will require us to eventually face the opposite. If we take one to the extreme, then we flip over the paradox and we face the other, which is what university, and all the science, and all of these different things have done. They flipped the paradox.
+
+This is why we must understand the dualism that exists in our mind and lose the binary stance of one true right and wrong, and one true me and not me. If you want to evolve as a person and grow into a better version of yourself in life and in business, you must consider the side of you that is hidden in the dark and bring it into the light. If you&#039;re an introvert, it&#039;s time to speak up. If you&#039;re an extrovert, it&#039;s time to quietly reflect and be by yourself a little bit. If you&#039;ve never been smart, well it&#039;s time to become a genius. If you&#039;ve been anti-science, and been against it, and never looked at it, and thought it&#039;s all bad, then it&#039;s time to look at science.
+
+If you&#039;ve been anti-religion, and never touched it, and thought it&#039;s all taboo and everything, then it&#039;s time to look at religion. If you&#039;ve been money-obsessed, and all you&#039;ve ever cared about is money, and it&#039;s just always been money, money, money and materialistic stuff, well it&#039;s time to look at spirituality, and yourself, and your soul. If you&#039;ve only considered spirituality and you&#039;ve only been working on that sort of stuff, it&#039;s time to start making some money and it&#039;s time to start carrying a little bit about some money because this is what I see in the world right now. It&#039;s happened a lot. I noticed it especially with women because there&#039;s a ton of ... I&#039;m now getting more female customers than men because I talk about making money and everything.
+
+What&#039;s happened is a lot of the female teachers out there, they&#039;ve talked about the warm, fluffy feelings stuff, and they&#039;ve talked about being spiritual, and making things look pretty and all of this, and there&#039;s nothing wrong with doing that at all, but it&#039;s gone to an extreme now where they&#039;ve got all of these pretty looking websites and they&#039;re not making any money. It&#039;s gone to the extreme now, we&#039;ve got people out in California doing meditation, and yoga, and eating all this healthy food and everything, and being really relaxed until they need some money to pay they rent and then they&#039;re totally not relaxed.
+
+You see, this is how it happens. If you choose a side and think the other is wrong, you&#039;re going to have to face the one that you thin is wrong and the only way to really be wrong is to choose a side. This is the paradox that binary introduces to us. If we choose a side, then we make the other side appear. The real way to do it is to become non-binary and balance the poles. Whatever way your poles are really stacked right now, whatever way your scales are stacked, the real way to evolve and to achieve whatever you want is to remove the binary stackings of all of those things. The hard jammed, on and off, me and not me, this is right and this is wrong. You need to remove those jams on everything. This is the new alchemy paradigm and world view.
+
+Here&#039;s a pin-up which is available for download below this video. This one is called the to be or not to be pin-up. It says here, &quot;To be or not to be? That is the question.&quot; The key to all evolution is variation and when you start to grow tired of what is in the light, you must face what is in the dark. We must understand that dualism, that the dualism that exists in our own mind, and lose the binary stance of one true right and one wrong, and one true me and not me. Shakespeare&#039;s famous quote is, &quot;To be or not to be? That is the question.&quot; I guess he never really figured out that nothing is static and everything in this universe is forever moving, changing, and becoming.
+
+The real question is, &quot;Who am I becoming?&quot; That is the question. That&#039;s a quote [inaudible 01:39:43] want to print this out and pin it up if this is something you want to remind yourself of because when we get stuck in the binaries of to be or not to be and we are someone, then we are not to be the other, it&#039;s because we have got stuck on these two things. We&#039;ve got stuck here as a society, as people, as everything, and I&#039;ve been quietly sitting back and watching this stuff happen for quite a long time, waiting for the perfect moment to move on it. I watched these paradoxes flip all very recently and this is why I&#039;m coming out and introducing this new paradigm and new world view because the current way of thinking is wrong and we&#039;ve gotten ourselves into quite a lot of trouble with it.
+
+We&#039;ve got some action items for this video here. These ones are really awesome and seriously, you&#039;re going to thoroughly enjoy completing these ones. This is fun stuff to do. I think this sort of stuff is more fun to do than really anything because you&#039;re discovering who you are, like as your identity, and you&#039;re discovering that you can pretty much do anything you want and this stuff is the most fun in the world for me, I think, or it should be for anyone.
+
+Here they are. The first one is to discover your identity and who you are. We do this thing called the Myers-Briggs test and you go to this URL to find the Myers-Briggs test. It&#039;s consulting.com/mbti. The link is on the screen and you can type it in. I&#039;ll show you really quickly right now. You go to consulting.com/mbti and it looks like this. Very simple page here. This thing is really, really simple and it&#039;s free to do. All you do is you go through and you just choose one of these for each question. The only way you can mess this up is if you just over think it. There is no right and wrong answer to this test. That&#039;s the big thing. You&#039;re not doing an IQ test and no one&#039;s going to say you&#039;re smart or you&#039;re stupid or anything like that. There is no right and wrong answer to this test.
+
+Remove any belief you&#039;ve got about it and just do the test and answer the questions honestly with the first thing that really comes to mind for each one. Then take note of the result which you get. It&#039;ll be a four-letter word and you just want to write that down. Do this test and do this honestly. That&#039;s the first one. What I want you to do right now is pause this video and do this section item. Find out what your Myers-Briggs result is, the four-letter word, write it down.
+
+Now, the next one is to discover the binary poles for your current programming. The way you are currently programmed. We want to discover the binary poles that exist there. To do that, you want to complete the binary poles worksheet. It&#039;s available for download below this video or you can download it, and then click this link here, and you can open it in Google Docs and complete it in Google Docs so you&#039;ve got a digital copy or can print it out and complete it as PDF.
+
+The first question is who are three people you idolize, look up to or admire? Who are these people? Everyone&#039;s got them. Don&#039;t be one of those people who&#039;s like, &quot;I don&#039;t have one.&quot; Everybody really has these things, so you want to write them down. You want to write three down. Then what traits, characteristics or things do you like about these people? Write them down.
+
+Who are three people who you despise, dislike, and think are wrong? Write them down. I noticed when I try to do this one with people, a lot of people were like, &quot;There&#039;s no one.&quot; You&#039;ve got to be really, really honest with yourself. The only person who you&#039;re really going to fool with this is ... No one&#039;s going to be looking at your answers or anything, so the only person you&#039;re really going to fool is you. Make sure you write them down. Be honest with it. What traits, characteristics or things do you not like about these three people? What things do they do that really piss you off and get you all agitated?
+
+Now, what things do you love doing and could happily do every day? What are your favorite things to do that you&#039;d just be having the time of your life if you&#039;re just doing them all day? Write them down. What things do you hate doing, totally detest, and never wanted to do ever in your entire life? Write those down. Things which totally suck. Write them down.
+
+Question seven: Now, you want to circle the one which best describes you for all of the following. We&#039;ve got logic and intuition, tight with money and lose with money, masculine and feminine, so on and so forth. You want to go through this and you got to just circle one. Whatever one you think best suits you. Take the time to do that for each one. Question eight: What is your dream? What do you really want to achieve in life and how do you want to live? Take a moment to really think about what you really want. What would be everything you&#039;d ever wanted? Like where would you want to live? What would you want to do? How much money would you have in your bank account? What car would you have? Just dream. What would you want? What would be totally awesome and everything you&#039;d ever wanted?
+
+Now, do you see how your current binary poles are in direct conflict with the dream you have for yourself? Do you see the things that you dislike other people for and judge them by are the exact things you need yourself to achieve your dreams? It&#039;s funny how this happens because what happens is whatever side of ourselves which we ignore, whatever side of ourselves which we put into the darkness, and bottle up, and hide, after long enough, that side of us wants to come out. That&#039;s just the way it exists.
+
+What happened is for me, I grew up poor so I wanted to make a lot of money, but when I was young, my parents had always said that money is not good and people who are rich are bad people. That&#039;s what society said and everything. I thought that people who were rich were bad, and I thought that talking to strangers was bad, and all of this stuff and so I judged a lot of people. If people were rich and they were talking about money, I would judge them. What happens is when I judge people who make money, then now I&#039;m too afraid to make money because I might be judged. You see, this is how it happens. Often, it&#039;s amazing. I&#039;ve done this with lots of people.
+
+I did this with this girl the other day and she put down who she really liked and it was these different people in California who were these different stores and they would make different colored dresses and stuff. They lived in the forest and they lived in nature, and they were really spiritual and they did meditation and all of this stuff, and so she really liked them. They were like who she aspired. Then I said, &quot;Okay, which ones do you don&#039;t like? Which people do you think are wrong?&quot; She chose Kourtney Kardashian or whatever that young one&#039;s called because she was really bold and standing in front of Ferraris, and Lamborghinis, and stuff, and totally different to these very humble people who are living in for forest. I was like, &quot;Oh wow, this is fascinating.&quot; Then I asked her what her dream was and everything and it was to become a famous artist and all of this. She&#039;s too scared to become a famous artist because of being judged. It&#039;s because she judges the bold one.
+
+It&#039;s fascinating. Whenever you have a jamming of these sides, whenever you have a perception that one is the absolute right way to live and one is the absolute wrong way to live, then you&#039;re paralyzed and you need some of the characteristics and traits that the people who you judge have and so you freeze yourself and you end up not being able to do anything. You&#039;ll notice, if you scroll up here and if you go to what you&#039;ve chosen here, all of these different things, and if you look at the people who you like and their characteristics, and the people you don&#039;t like and their characteristics, you&#039;ll notice that what&#039;s necessary to achieve your biggest dream is actually in conflict with your current binaries, which is amazing, and this is what happens every time.
+
+I can confidently say this because this happens every single time. Every action has an equal and opposite reaction. It&#039;s like there is no other way these things exist in the perceivable universe. If one thing happens, if there&#039;s one extreme on the other, it will create the other and this is just how it happens. We need to do this. We need to see that the binaries that we currently have are in direct conflict with who we want to become and who we want to be so that we can really be happy.
+
+The way you exist at this moment makes it impossible to achieve your dreams. In the previous mindset videos in week two, I told you that who you are right now, yourself, you&#039;ll never achieve your dreams. Impossible. It&#039;s a flat out zero chance game because the person who you are right now will not achieve those dreams. To achieve our dreams, we have to become the person who deserves them and who just reaches out and grabs them. We have to become a new person. The way you exist at this moment makes impossible to achieve your dreams. Who you are right now will never achieve your dreams. You must evolve to achieve your dreams and that&#039;s means facing the dark side of you and removing all the binaries of your mental programming.
+
+We&#039;ve got this on-off, on-off, on-off programming which we have programmed into our brain from the very beginning of our consciousness and its chosen sides for all these different scales and all these different beliefs. This forms our self, our identity. This forms our beliefs. Our beliefs and our identity, they form our reality. If we walk around, this is what we see. This is everything. This stuff is fundamentally important.
+
+Now, what you need to do is write below that you are committed to facing these things in achieving your dreams. If you want to achieve your dreams, if you want everything that you&#039;ve ever wanted and if you want to become the person who you really want to become, then make a commitment right now. Write it down in your own words. Just say like I am committed to achieving my dreams and facing these binaries which I have. Just write it down. Make a commitment to yourself.
+
+Number 11: Judging others make it impossible to do anything bold yourself because of the fear that you will be judged. It&#039;s funny how that one happens, huh? It&#039;s like if anyone is too afraid to do anything because of what others might say or think about them, I&#039;m like, &quot;Okay. Well, thanks for telling me that you have quietly, in your own head, been judging everybody that is doing something.&quot; It is so amazing. It&#039;s like I can just see a different thing than everyone else can see because I&#039;ve been able to evolve my consciousness so much. It&#039;s like if someone says something, I&#039;m like, &quot;Bam! I know what it is.&quot; If someone does something, I&#039;m like, &quot;Okay, I know what your problem is.&quot;
+
+It&#039;s just because for every action, there&#039;s an equal and opposite reaction. If someone is too afraid to do something because of something, that means that they&#039;re judging others for that thing. It&#039;s fascinating and it&#039;s impossible for this thing to not be right because it&#039;s the way the whole universe works. Take a look at the people you dislike and why. What you&#039;ll understand is that the reason why you dislike them and the thing you&#039;re judging them for, that&#039;s the thing that you need to do to achieve what you want to achieve. If you want to be free of your fear, then you have to stop judging other people.
+
+What you want to do right now is make a conscious decision to stop judging them and start loving them by taking the time to understand their point of view and agreeing with it. Let go of everything you&#039;re holding onto. When I finally became free of the fear of being judged and worrying about what people said about me on the internet or worrying about what someone commented on one of my ads or something, I wasn&#039;t free of that fear until I&#039;d stopped doing it to other people. When I stopped doing it to other people, I had no fear at all. I don&#039;t care what anyone says about me on the internet at all. I just have zero care in the world and it&#039;s awesome because there&#039;s no better way to live than without fear of what other people are going to think and the only way to achieve that state of consciousness is to stop doing it to other people. For every action, there&#039;s an equal and opposite reaction. Let go of everything you&#039;re holding onto.
+
+I told you a story about how I [inaudible 01:55:03] this with Andrew [Argue 01:55:04], he had this very strong sense of self and who he was. In order to help him grow as a person, and grow his business, and his amount of money he was making, we had to start eroding his sense of self. He didn&#039;t like germs. He was afraid of them. I told him that he needed to drop food on the floor and purposefully put germs on them. He didn&#039;t like cat hair in my apartment. I told him to get a cat. He was a vegan for seven years. I told him to start eating meat and he did. It took a long time. It took about a year to get through all of these different things, all of these different binaries which I had to break, but by the time he had broken all of the binaries, he went from making $17,000 a month to $400,000 a month. It&#039;s not just about money. He is so much happier, so much more relaxed, so much healthier, so much everything because he was hard jammed on all of these different sides.
+
+Growing up, because I was in a poor family and my parents always said people who have money are evil or wrong or they&#039;re doing bad things, and that they should give their money to the poor, and they should give money to charity, I grew up thinking that those people were bad. If I ever I saw a rich person or something, I was like, &quot;That guy is bad,&quot; or if ever I saw a movie with a rich guy, I was like, &quot;That guy is bad.&quot; Then if there was ever a president, someone like Donald Trump, I&#039;d think, &quot;Oh that guy is bad because he&#039;s about money. Bad.&quot; That&#039;s just the way I was programmed.
+
+Then I went into business and I tried to make money. What do you think happened? I couldn&#039;t make any money. I couldn&#039;t ask anyone for money. I couldn&#039;t even ask because I thought that was like a sin. Here we go, I&#039;m now screwed. I believe that making money is bad so I can&#039;t make any money because I&#039;m scared that it&#039;s bad. This was the first one I had to face. I had to remove this binary I had of it. Then what I did is I jammed it a bit too far the other way. I went and jammed it a bit too far, and making money is everything, and jammed it the other way of how I used to have it. Then I thought that making money was the only thing that was important and anything else is not important at all. Then I got jammed again. Then I got jammed on the other side and if I saw a president like Donald Trump I&#039;d think, &quot;That guy is everything.&quot; Now, I&#039;m on the opposite side of the binary, and I fell into another trap, and I got stuck again.
+
+Then I had to really realize, I had to understand all of this and it took me so long to understand. I can&#039;t tell you how many thousands of books and everything I&#039;ve read to understand this. Words can&#039;t even describe, but I was able to figure out everything - everything inside my own consciousness, and the universe, and everything. I was able to understand what I had done wrong and how it was the jamming of these binaries. Then I had to become pretty much neutral. I had to see both point of views and I had to understand that the only way you could really get it wrong was to get stuck on one of the sides. Sitting pretty much perfectly in the middle is the right way to be. Most people, they&#039;re jammed a bit far left or a bit far right on all sorts of different things. You need to bring them into balance really to be able to make progress, and evolve, and move forward. You really need to let go of everything you&#039;re holding onto.
+
+I know a lot of women who are into spirituality and everything, and who are into meditation, and yoga, and all of that, there&#039;s nothing wrong with that at all, but it becomes a problem when they think that that&#039;s the right way to live and that making money and being in the city is the wrong way to live. That&#039;s how it&#039;s gotten jammed these days. The people in California who are meditating, and eating healthy food, and wearing yoga pants, and doing all of that, they believe that people like me, sitting in a skyscraper in Manhattan, making money, and talking about making money, they believe that I&#039;m living the wrong way. What&#039;s fascinating is they actually say that on my Facebook page. They&#039;re like, &quot;Oh, shame on you. You should be at the beach and being relaxed and everything.&quot; I&#039;m like, &quot;Geez, she can&#039;t be that happy if she&#039;s actually coming after me.&quot; Trying to say that the way I live is wrong. Really saying the way anyone&#039;s living is wrong, that&#039;s the only wrong you can really do.
+
+I know that a lot of women who have ignored making money, and charging for stuff, and this whole topic of money, it&#039;s been turned into a taboo topic and it&#039;s been put in the dark side. A lot of women needs to get a bit greedier, really. They need to start making some money because there is no point in ... We can&#039;t ignore one thing because eventually, if we do ignore it, we&#039;re going to need it. If you want to become happy, and spiritual, and peaceful, and everything, and you go off and you totally forget about money and just obsessed over that stuff, you&#039;re eventually going to end up needing money. If you go onto the other side and all you obsess about is money and you forget about everything else, well all of a sudden, you&#039;re going to realize that there&#039;s more to life than money. You&#039;re just going to keep experiencing the paradox and you&#039;re going to keep flipping between these two things until you figure this out.
+
+A good one to flip for a lot of people is Donald Trump and Hillary Clinton. There&#039;s a lot of people that think Trump is the most evil person in the world and there&#039;s a lot of people that think Hillary Clinton is the most evil person in the world. There is people who think these different things. I mean, the only way you can really be wrong is by thinking that one is absolutely right and the other is absolutely wrong. If you have a binary pole on one of those things, it&#039;s probably an indication that you&#039;re stuck on one side on a lot of things.
+
+Throughout my entire life, I&#039;ve had these different things and I started to learn that both people have a point. Both people say a lot of stuff that is absolutely true. Both people say a lot of things which need addressing and both people have issues too. Both people have things that are wrong and they both have things that are right. You have to acknowledge that. The only way you can really get it wrong is by absolutely judging and victimizing one and then absolutely believing the other is perfectly fine. That&#039;s what binary thinking is. That&#039;s what binary logic is and that&#039;s when we jam the things.
+
+If you&#039;ve been an avid Trump supporter, well you should take a look at the things that Hillary is saying. If you&#039;ve been an avid Hillary supporter, you should take a look at the things Trump is saying. I&#039;m not telling you that you have to believe one or the other and if you want to know my stance on it, I don&#039;t have one at all, absolutely zero, and I can&#039;t vote anyway because I&#039;m not a U.S. citizen, so I don&#039;t have a stance on it at all and I don&#039;t judge anyone that does. That&#039;s my answer. I&#039;m not forcing you to believe one or the other. I&#039;m just saying you need to understand both points of view because it&#039;s the way that you evolve yourself.
+
+It&#039;s like if you think that you&#039;re an introvert and you can never do anything extroverted, that&#039;s the only wrong way to think. Introverts can become extroverts. They can turn it on and turn it off. Extroverts can become introverts. The only way an introvert is wrong is if they refuse to ever be an extrovert. The only way an extrovert can be wrong is if they refuse to ever be an introvert. I learned, naturally, I grew up as an introvert, but then I went into business and I&#039;ve pretty much figured out immediately that I had to talk to people and do some things which push me out of some of my comfort zone.
+
+I can flip between introvert and extrovert. I can turn it on and turn it off. I can flip between all of the different things. I&#039;m like a chameleon. I can just flip between any different one I want depending on what I need to do. I do have one which I prefer, but I absolutely flip through all of these different things to get different things done and achieve what I want to achieve. If you&#039;re always out as an extrovert talking about stuff, well you really need to reflect a little bit and take some time to think and take some alone and quiet time. If you&#039;re an introvert, you need to get yourself out there a bit more. The only way you can really get it wrong is by choosing a side and thinking that&#039;s it.
+
+What are some of the things that you dislike and would never do? Think about some things which you would never do in a million years that you&#039;re totally afraid of and list three to four of them that you can do this week. List three to four of them down here below which you can do this week. Then list one thing that you would never do but you&#039;re going to do right now. Something simple. Like if you&#039;ve never eaten meat, write down I&#039;m going to go eat a pie. Write down you&#039;re going to go eat a burger. That might be a bit too extreme for you to do right away.
+
+It took me about 14 months to make Andrew Argue do that. If you had asked him the beginning would he do that, he would have beat you a million dollars that he would never do that in his entire life, but then he did it. He understands now how this stuff is important. You might be thinking, &quot;Sam, what on earth are you doing? What does this got to do with making money?&quot; This has more to do with making money than you can possibly imagine because in order to make money, we have to become someone who we are not. We have to acquire the skills which we don&#039;t have. We have to evolve and in order to evolve, we need to do these things to become our new self and let go of the old self. Write down one thing you would never do but are going to do right now. Write it down, and then pause this video right now, and then do it. Actually do it and then take it off, say, &quot;I did it.&quot;
+
+Question 13: What four-letter result did you get for the Myers-Briggs Test? Consulting.com/mbti. Do the test and then what did you get? It should be four letters. Write it down. Write it down here. Then the opposite of each type for Myers-Briggs is below and here they are. In Myers-Briggs, I love it because it&#039;s designed perfectly to figure out what way your programming is. This is why scientists have gotten a bit mad is because science rejects Myers-Briggs because people get different results over time. Scientists and all of their intelligence together, they say that Myers-Briggs, therefore, isn&#039;t an accurate test. I&#039;m like, &quot;Oh my god, you scientists. They&#039;re dumb.&quot; All of scientists [inaudible 02:07:50].
+
+The reason why they get different results is because people actually change. In an experiment, you need a constant and a variable and scientists are so smart that they consider people constant. I don&#039;t know if you&#039;ve ever noticed people, and observed their behavior, and how they change over time, but they are certainly not a constant. Forget all of that stuff that science said about it because science has gotten a bit crazy. There&#039;s reason why people get different results at different times is because people do change. People can change depending on different circumstances, depending on all sorts of different stuff.
+
+What you want to do is you want to do this test now because you can identify how you&#039;re currently programmed right now. It&#039;s going to give you these four different letters and there&#039;s two options for each letter. You can have an I or an E, that&#039;s the first letter. Then you can have an N or an S, that&#039;s the second letter. Then you can have an F or a T and that&#039;s the third letter. Then you have a P or a J and that&#039;s the fourth letter. The combination of these four things builds up what your thing is. You could be an ESTJ or an INFP. There&#039;s all these different things. I think there&#039;s 16 in total, 16 different possibilities. None of them are right or wrong. It just shows you how you&#039;re currently programmed.
+
+If you&#039;ve got an I, that means you&#039;re introverted, and you&#039;re quiet, and you&#039;re reserved. If you&#039;ve got an E, that means that you&#039;re extroverted, and loud, and outgoing. If you get an N, it means you&#039;re intuitive. It means you use your intuition a lot. You use intuition. That means you don&#039;t really use logic. You know what to do. You&#039;re random and you don&#039;t really have rules. You don&#039;t like rules and you do a lot of stuff at random. Unstructured. S, that means you really love structure. You&#039;re really organized, you plan out your whole day and everything and you like things being predictable, and you&#039;re always on time, and you love rules.
+
+You&#039;re either an N or an S or an I or an E and then you&#039;ve got an F or a T. An F is a feeling and emotion. That means that you tend to make decisions a lot with how you feel. You feel what&#039;s in your body and then you make a decision. T is when you use thinking, logic, and reason, and rationale. You&#039;re very rational. That&#039;s when you use T. Generally, men are more T than women and generally, women are more F. That&#039;s because the energy of feminine is more intuitive and emotional, and the energy of men is more rational and logical. That&#039;s how it goes. Then there&#039;s P and then there&#039;s J. P is when you&#039;re perceiving and you&#039;re quite indecisive. You like to keep your options open and you like to not really make a decision. J is when you are very decisive. Everything is black and white. You&#039;re very decisive. These are the different letters which you can have and you want to take note of what yours it. Write it down here in question 13.
+
+Then in question 14, you want to identify your opposites and see how you&#039;re going to need them to achieve your goals. If you&#039;re an ESTJ, then you&#039;re going to circle INFP because those are your opposites. Go through these different letters and circle your opposites of what you are. If you&#039;re an E select an I. If you&#039;re an F select a T. What you need to understand is that this is how people got Myers-Briggs wrong. People thought that when you did this test and you found out your result that were stuck being what it was. They thought, &quot;Oh, this is me. This is me,&quot; and that&#039;s it. &quot;Oh no, I&#039;m introverted. That means I can&#039;t be extroverted. That&#039;s a shame.&quot;
+
+I&#039;m not joking. Everyone in the whole world believes this is how Myers-Briggs work. That&#039;s totally wrong. It&#039;s just the way you&#039;re currently programmed and you can change it. You can totally change it. If you&#039;re an INFP, you can become an ESTJ. If you&#039;re and ESTJ, you can become an INFP and you can totally do whatever you want. Remember, it&#039;s not who am I, it&#039;s who am I becoming. This just identifies who you are so that you can now identify what you need to change to become who you want to become. Real simple.
+
+When we identify the opposites, we can see which ones we&#039;re going to need to achieve our goals. If you&#039;re an introvert, chances are you&#039;re going to have to get a little bit more extroverted. If you&#039;re really intuitive and random, you&#039;re probably going to need to get a bit more structured. If you&#039;re really structured, you&#039;re probably going to need to get a little bit more intuitive and random. If you&#039;re extroverted, you&#039;re probably going to need to get a bit more introverted. If you&#039;re really emotional, you&#039;re going to need to use more logic. A lot of females, a lot of women, they are far too intuitive, then they end up not having any money, and being all stressed out, and worried, and everything.
+
+There&#039;s nothing wrong with intuition and being really intuitive except when you only use intuition and never logic. That&#039;s how you can get yourself into trouble. I know a lot of women, they need to start using some more logic. They don&#039;t need to completely forget intuition because there&#039;s a lot of men, and this was me too, I went way too far on the logic. I thought everything had to have logic, and reason, and rationale. I was a logical mastermind. I could do everything in logic, but logic can only get you so far. Logic is far from perfect. Logic can take you so far, but then you need intuition to make the final call on it.
+
+This is what it is. If you&#039;re an F then you probably need a bit of T. If you&#039;re a T, you probably need a bit of F. If you are a P, then you probably need a J and if you&#039;re a J, you probably need a bit of P. This is how it works and what I&#039;m telling you here is not what other people tell you about Myers-Briggs, so don&#039;t be surprised if everywhere else on the internet and every other person on the internet says something totally different because the world has gotten confused. Everyone else is saying that&#039;s who you are and it&#039;s okay. This is who you are. Forget about it. Just make the most of your strengths and everything and forget about it, but seriously, we aren&#039;t anybody. We are only becoming someone. This is just how we&#039;re currently programmed right now.
+
+You can forget about what everyone else says about this test in the entire world because, I&#039;m telling you, this is actually how it was all created and everything. I had to go back to Carl Jung way, way, way, way, way, way back through history and really study the mane and understand everything to actually understand how this was created in the first place. Our current perception in the society of how this test works and everything is wrong. Imagine Carl Jung way back in history playing Chinese whispers throughout however many years. I&#039;m sure you&#039;ve played Chinese whispers before. The message gets distorted. Over 50 to 100 years or something, information gets distorted. This is really the way the Myers-Briggs test is supposed to be done and supposed to work and everything.
+
+You want to identify your opposites and then you want to try to introduce more of your opposites into your life and business and be aware that problems will exist due to these things being too binary or jammed on one side. There&#039;s nothing wrong with being an introvert. Only when you are too nervous to speak that you&#039;re unhappy because you can&#039;t speak. There&#039;s nothing wrong with being an extrovert until all you do is speak and you don&#039;t seem to really ever think about you&#039;re always speaking all the time. That&#039;s my point here. There needs to be a balance between these different things and a problem in your life. When you become paralyzed in any area of your life, it&#039;s typically when one of these is overdeveloped and become a really jammed binary pole or position on something. That&#039;s how this is supposed to work.
+
+What I want you to do is complete those two action items and then upload them in the action items section of this week. Scroll down, just click on action items, complete them, and then upload them. Make sure you upload your action items. You&#039;ve got them saved and stored somewhere because seriously, people forget stuff all the time. If there&#039;s one thing that you&#039;ve learned through going through this training and learning about your mind is that your memory sucks. Do the work, do it now because if you say you&#039;re going to do it later, you&#039;re not. If you say you&#039;ll do it tomorrow, you won&#039;t. Do it now, and save it, and then upload it in the action items section.
+
+Then the third one is really easy, fun exercise to start evolving yourself. Do something which you wouldn&#039;t usually do. If you only listen to rap music, listen to some rock music. If you only listen to rock music, try listening to some rap. If you only listen do dance, try listening to some Mozart. If you&#039;re only listening to Mozart, try listening to some drum and base or something. If you&#039;ve always had your haircut a certain way, change it. If you&#039;ve always worn the same thing, you&#039;ve always had the same style or fashion sense or whatever, change it. If you&#039;ve always been someone who goes to bed super early and wakes up really early, try staying up a bit later. If you&#039;ve only ever eaten one type of food, try eating something else. If you&#039;ve been a religious breakfast person and eaten breakfast every day for the last 10 years, try skipping it.
+
+We come to believe that there&#039;s one best way to live and there isn&#039;t. The only wrong way to do anything is to just believe that it is right and not change because a lack of variation and evolution causes all issues. A lack of variation and evolution causes [inaudible 02:19:39] species. It causes diseases. It causes everything wrong. The key to evolution is variation. When I really figured all of this stuff out, I decided, &quot;Man, this is fun,&quot; because I started to eat dessert before dinner. I&#039;m not even joking you. Don&#039;t even think like, &quot;Sam is just telling us something extreme to make us laugh or something.&quot; I&#039;m not kidding. I would eat dessert first and then eat dinner because who said that it couldn&#039;t go the other way around? Sometimes I&#039;d eat dessert for lunch. I could eat a cookie and just a whole bunch of ice cream for lunch. I was just like, &quot;Screw it. Why not?&quot;
+
+Then I decided to start working at night and sleeping during the day for a good six months and you can ask anyone in my Mastermind about this. I would wake up at about 3 p.m. in the day and then be working all through the night because I was like, &quot;I&#039;m going to try it out. Why not?&quot; No one can really say that&#039;s the wrong thing to do. I&#039;m just going to try it out and see what it&#039;s like. Through doing these different things, you&#039;re able to evolve yourself. You&#039;re able to show yourself that you&#039;re not hardwired and hard jammed on one particular thing. I used to be an introvert and I was paralyzed because I couldn&#039;t do anything outgoing. I had to learn how to do stuff that was outgoing. I used to be hard jammed on logic I had to develop some intuition.
+
+You need to do these things. You need to start evolving yourself just like eating dessert before dinner. That&#039;s a fun one to do. You really should do it. Even for a while, for about a month I decided to become a vegetarian because I figured I&#039;ve never really tried that, so I decided I want to try it out, but I also didn&#039;t want to become a vegetarian only because the only way you can really get any of this stuff wrong is if you get hard jammed on one side. I also do meditation and I take myself and my wellness and everything very seriously, but I also take making money very seriously. When I only cared about money, I ended up in a bad place. If you only care about wellness, then you end up being in a bad place. You need to have a balance of these two things.
+
+A lot of women and a lot of spirituality people out there, it&#039;s going to be awesome because I want you to print out a picture of Gordon Gekko who&#039;s that dude of Wall Street who&#039;s smoking a cigar and he&#039;s like, &quot;Greed is good,&quot; and everything. That is probably the enemy of everyone who is in California and does yoga, and meditation, and everything. He&#039;s a dude who smokes cigars and he says, &quot;Greed is good.&quot; He&#039;s in the movie Wall Street. He&#039;s the personification of the opposite of what people would like to do in California. Print off a picture of him and put them on your desk and think, &quot;I need to be a bit more like that guy,&quot; because if you&#039;re not making any money, and you&#039;re struggling, and you&#039;re sad, and the only thing that&#039;s dawning on your mind all the time is that you need money, well, you&#039;ve let things get out of balance. I&#039;m not saying to become money-obsessed. I&#039;m saying you need to make some money. If you&#039;ve been money-obsessed, print out a picture of someone doing meditation or Buddha or something because that&#039;s pretty much the opposite of that.
+
+You want to become a little bit more aware and everything like that because the only way you can get things wrong is by choosing a side. This is a very, very powerful and very, very transformative way to achieve what you want and not only with money, not only with business, but with your entire life. This stuff I&#039;m showing you isn&#039;t just about how to get rich quick. It&#039;s about how to have an amazing life at the same time. No one else is talking about anything like this stuff. Don&#039;t be surprised if what I&#039;m talking about totally you&#039;ve never heard before or totally no one else is talking about because, like I said, this is revolutionary, new stuff.
+
+I&#039;ve been waiting for the right time until these paradoxes flipped to introduce this new paradigm, and this new world view, and this new way of thinking. Right now, this is the perfect time for this. This new revolution which is going on, this is going to set off the new revolution. Ignoring this information and everything, you&#039;ll end up in a bad place. This is what you need to adopt if you want to thrive and do well in this new revolution which is happening throughout the world right now. Very powerful information. Complete these different exercises, upload them to the action items section in the training, and then I will see you in the next video. Thanks.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="#/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Two"
+    var moduleName = "3. Duality &amp; conflict of man"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-124')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-124', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Two";
+    if (!moduleName) var moduleName = "3. Duality &amp; conflict of man";
+    if (!file) var file = "media/15c7cf4003d10a1dc9e2154fc0139b90.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "#/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('#/products/mark-complete/124', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('#/products/mark-incomplete/124', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "1a6tqzq3al", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-124')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-124', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('#/products/mark-complete/124');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("17").style.display="none";
+	document.getElementById("18").style.display="block";
+	document.getElementById("37").style.display="none";
+	document.getElementById("38").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("17").style.display="block";
+	document.getElementById("18").style.display="none";
+	document.getElementById("37").style.display="block";
+	document.getElementById("38").style.display="none";
+	} 
+</script>  
+  </body>
+</html>

@@ -1,0 +1,1003 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Refer a friend | Consulting.com</title>
+
+  
+  <script>
+    var docCookies = {
+        getItem: function (sKey) {
+            if (!sKey) { return null; }
+            return document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + sKey.replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1") || null;
+        },
+        setItem: function (sKey, sValue, vEnd = Infinity, sPath = "/", sDomain = ".consulting.com", bSecure) {
+            if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
+            var sExpires = "";
+            if (vEnd) {
+                switch (vEnd.constructor) {
+                    case Number:
+                        sExpires = vEnd === Infinity ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; expires=" + (new Date(vEnd * 1e3 + Date.now())).toUTCString();
+                        break;
+                    case String:
+                        sExpires = "; expires=" + vEnd;
+                        break;
+                    case Date:
+                        sExpires = "; expires=" + vEnd.toUTCString();
+                        break;
+                }
+            }
+            document.cookie = sKey + "=" + sValue + sExpires + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "") + (bSecure ? "; secure" : "");
+            return true;
+        },
+        removeItem: function (sKey, sPath, sDomain) {
+            if (!this.hasItem(sKey)) { return false; }
+            document.cookie = sKey + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT" + (sDomain ? "; domain=" + sDomain : "") + (sPath ? "; path=" + sPath : "");
+            return true;
+        },
+        hasItem: function (sKey) {
+            if (!sKey || /^(?:expires|max\-age|path|domain|secure)$/i.test(sKey)) { return false; }
+            return (new RegExp("(?:^|;\\s*)" + sKey.replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie);
+        },
+        keys: function () {
+            var aKeys = document.cookie.replace(/((?:^|\s*;)[^\=]+)(?=;|$)|^\s*|\s*(?:\=[^;]*)?(?:\1|$)/g, "").split(/\s*(?:\=[^;]*)?;\s*/);
+            for (var nLen = aKeys.length, nIdx = 0; nIdx < nLen; nIdx++) { aKeys[nIdx] = aKeys[nIdx]; }
+            return aKeys;
+        }
+    };
+</script>
+    <script>
+        docCookies.setItem('user_id', 2551936);
+        docCookies.setItem('email', "christophertduffee@gmail.com");
+        docCookies.setItem('first-name', "christopher");
+        docCookies.setItem('last-name', "duffee");
+    </script>
+
+  <!-------------------- Segment------------------>
+    <script>
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+        analytics.load("euSy7lJFZ2bcfdDdoYsP0QsyurttreR4");
+        analytics.page();
+      }}();
+
+            
+      analytics.identify("2551936", {
+          email: "christophertduffee@gmail.com",
+          name: "christopher duffee",
+          firstName: "christopher",
+          lastName: "duffee",
+          description: "Purchase",
+          level: "Consulting Accelerator™",
+          created_at: "1520445436",
+          trial: "false"
+        }, {
+          Intercom: {
+            user_hash: "ae6ff31e975c9d2b0ffa74695d3b6bb7e2ec794f68c072ac9cdcecfc3a46979c"
+          }
+        }
+      );
+      
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://app.consulting.com/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://app.consulting.com/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://app.consulting.com/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="https://app.consulting.com/assets/img/manifest.json">
+    <link rel="mask-icon" href="https://app.consulting.com/assets/img/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="https://app.consulting.com/assets/img/favicon.ico">
+    <meta name="msapplication-config" content="https://app.consulting.com/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://app.consulting.com/assets/css/app.css">
+        <style>
+        input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
+            color: #000;
+            background-color: transparent;
+        }
+    </style>
+
+    <script>
+        analytics.track('Landed on RaF', {
+            feature: 'Refer a Friend'
+        });
+    </script>
+  </head>
+  <body class="referral">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="https://app.consulting.com/assets/img/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="https://app.consulting.com/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="https://app.consulting.com/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="https://app.consulting.com/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="https://app.consulting.com/referral">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="https://app.consulting.com/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="https://app.consulting.com/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="https://app.consulting.com/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="https://app.consulting.com"><img src="https://app.consulting.com/assets/img/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="https://app.consulting.com"><img src="https://app.consulting.com/assets/img/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="https://app.consulting.com/referral">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="https://app.consulting.com/programs"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="https://app.consulting.com/progress"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="https://app.consulting.com/profile"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="https://app.consulting.com/referral"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="https://app.consulting.com/logout"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="https://app.consulting.com/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="https://app.consulting.com/how-to-get-help"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="https://support.consulting.com"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+          <div class="row site-content-container  medium-uncollapse">
+
+        <aside class="columns large-3">
+
+    <!-- <div class="block menu-block options">
+        <ul class="menu vertical">
+            <li class="active">
+                <a href="https://app.consulting.com/referral">
+                    Refer a Friend
+                </a>
+            </li>
+            <li >
+                <a href="https://app.consulting.com/referral/your-earnings">
+                    Your Earnings
+                </a>
+            </li>
+        </ul>
+    </div> -->
+       <!--  <div class="block">
+        <div class="leaderboard-block row">
+            <div class="columns large-6">
+                <h3 class="title-small">Leaderboard</h3>
+            </div>
+            <div class="columns large-6">
+                <select id="leaderboard-filter" class="chosen-select" data-placeholder="Choose a filter">
+                    <option value="" id="period-all">All time</option>
+                    <option value="30" id="period-30">30 days</option>
+                    <option value="60" id="period-60">60 days</option>
+                </select>
+            </div>
+        </div>
+        <div class="leaderboard-table-block">
+            <ul class="no-bullet">
+                                                    <li class="row">
+                        <div class="columns small-2 rank">#1</div>
+                        <div class="columns small-3 user-thumbnail">
+                            <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/1491331.png" alt="Jacob McMillen">
+                        </div>
+                        <div class="columns small-7">
+                            <div class="name">Jacob McMillen</div>
+                            <div class="earning">$81,500</div>
+                            <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/2dsq2xthol.jpg"
+    data-video="2dsq2xthol"
+    data-title="How Jacob does it"
+    data-full-name="Jacob McMillen"
+    data-user-id="1491331"
+    data-earnings="$81,500"
+    data-method="1. Write a long detailed review of the program.<br>
+                  2. Optimize the page for SEO rankings.<br>
+                  3. Offer the free trial + $500 discount in the review.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $25,500+ per month like Jacob? All you need to do is write a long, detailed, honest review of the program. Write it up like he did and include images and videos too. If you have a block and know SEO, that's a bonus!"
+>See how they do it</a>                        </div>
+                    </li>
+                                    <li class="row">
+                        <div class="columns small-2 rank">#2</div>
+                        <div class="columns small-3 user-thumbnail">
+                            <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/129109.jpeg" alt="Alexander Way">
+                        </div>
+                        <div class="columns small-7">
+                            <div class="name">Alexander Way</div>
+                            <div class="earning">$39,000</div>
+                            <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/yyhue6pzmh.jpg"
+    data-video="yyhue6pzmh"
+    data-title="How Alexander does it"
+    data-full-name="Alexander Way"
+    data-user-id="129109"
+    data-earnings="$39,000"
+    data-method="1. Made a Clickfunnels landing page with Niche Bonus.<br>
+                  2. Drives traffic via Google Search + FB retargeting.<br>
+                  3. Offers the $500 discount or watch a webinar.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $18,500+ per month like Alexander? All you need to do is build a simple Click funnels landing page.  Then, bid on keywords on Google search of relevant terms. If you have experience buying Google Adwords, this is a great strategy."
+>See how they do it</a>                        </div>
+                    </li>
+                                    <li class="row">
+                        <div class="columns small-2 rank">#3</div>
+                        <div class="columns small-3 user-thumbnail">
+                            <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/2578088.png" alt="Nolan Ronayne">
+                        </div>
+                        <div class="columns small-7">
+                            <div class="name">Nolan Ronayne</div>
+                            <div class="earning">$33,500</div>
+                            <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/2davl6k1bw.jpg"
+    data-video="2davl6k1bw"
+    data-title="How Nolan does it"
+    data-full-name="Nolan Ronayne"
+    data-user-id="2578088"
+    data-earnings="$33,500"
+    data-method="1. Made a short form Clickfunnels landing page.<br>
+                  2. Driving traffic via Google Search + FB retargeting.<br>
+                  3. Offer the free trial + $500 discount in the review.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $10,500+ per month like Nolan? All you need to do is build a simple Click funnels landing page.  Then, bid on keywords on Google search of relevant terms. If you have experience buying Google Adwords, this is a great strategy."
+>See how they do it</a>                        </div>
+                    </li>
+                                    <li class="row">
+                        <div class="columns small-2 rank">#4</div>
+                        <div class="columns small-3 user-thumbnail">
+                            <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/1477153.png" alt="Jacob Farrell">
+                        </div>
+                        <div class="columns small-7">
+                            <div class="name">Jacob Farrell</div>
+                            <div class="earning">$22,000</div>
+                            <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/cev9sjuub7.jpg"
+    data-video="cev9sjuub7"
+    data-title="How Jacob does it"
+    data-full-name="Jacob Farrell"
+    data-user-id="1477153"
+    data-earnings="$22,000"
+    data-method="1. Finds prospective customers in the Consulting Community.<br>
+                  2. Adds them to his Consulting Revolution FB group.<br>
+                  3. Posts exclusive and valuable content.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $3,000+ per month like Jacob? All you need to do is make your own Facebook group and post valuable content about the program. Then friend request people who you believe would be interested in the program and tell them about the group. If you like the idea of building your own community and platform, this is a great strategy."
+>See how they do it</a>                        </div>
+                    </li>
+                                    <li class="row">
+                        <div class="columns small-2 rank">#5</div>
+                        <div class="columns small-3 user-thumbnail">
+                            <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/200071.png" alt="Rhett Coots">
+                        </div>
+                        <div class="columns small-7">
+                            <div class="name">Rhett Coots</div>
+                            <div class="earning">$17,500</div>
+                            <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/d39mure38g.jpg"
+    data-video="d39mure38g"
+    data-title="How Rhett does it"
+    data-full-name="Rhett Coots"
+    data-user-id="200071"
+    data-earnings="$17,500"
+    data-method="1. Made a Clickfunnels landing page.<br>
+                  2. Traffic comes from Sam's Instagram stories.<br>
+                  3. Offer the $500 discount or free trial.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $5,500+ per month like Rhett? All you need to do is build a simple Click funnels landing page.  Then, include that link in your Instagram bio. If you have an Instagram following, this is a great strategy."
+>See how they do it</a>                        </div>
+                    </li>
+                            </ul>
+        </div>
+    </div> -->
+
+ <!--    <div class="reveal large testimonial" id="reveal-leaderboard" data-reveal>
+
+    </div> -->
+
+
+    <!-- <template id="template-reveal-leaderboard">
+
+        <header class="row reveal-header">
+            <div class="columns large-6 large-push-6">
+                <h2>{TITLE}</h2>
+            </div>
+        </header>
+
+
+        <div class="row testimonial-container">
+            <div class="columns large-6 testimonial-content">
+
+                <div class="testimonial-video-container">
+                    <div class="video-container">
+                        <div class="video-loading-container">
+                            <div class="video-loading"></div>
+                            <div class="video-loading-overlay"  style="background-image: url('{THUMBNAIL}');"></div>
+                        </div>
+                        <script src="https://fast.wistia.com/embed/medias/{VIDEO}.jsonp" async></script>
+                        <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                        <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                <div class="wistia_embed wistia_async_{VIDEO} videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal-leaderboard-list">
+                    <h5 class="title-small">See how others are doing it</h5>
+                    <ul class="no-bullet">
+                                                <li class="row" id="referrer-1491331">
+                            <div class="columns medium-2">
+                                <div class="testimony-meta">
+                                    <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/1491331.png" alt="Jacob McMillen" class="testimony-thumbnail rounded">
+                                </div>
+                            </div>
+                            <div class="columns medium-10 testimony-content">
+                                <div class="testimony-name">
+                                    Jacob McMillen has earned $81,500
+                                </div>
+                                <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/2dsq2xthol.jpg"
+    data-video="2dsq2xthol"
+    data-title="How Jacob does it"
+    data-full-name="Jacob McMillen"
+    data-user-id="1491331"
+    data-earnings="$81,500"
+    data-method="1. Write a long detailed review of the program.<br>
+                  2. Optimize the page for SEO rankings.<br>
+                  3. Offer the free trial + $500 discount in the review.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $25,500+ per month like Jacob? All you need to do is write a long, detailed, honest review of the program. Write it up like he did and include images and videos too. If you have a block and know SEO, that's a bonus!"
+>See how they do it</a>                            </div>
+                        </li>
+                                                <li class="row" id="referrer-129109">
+                            <div class="columns medium-2">
+                                <div class="testimony-meta">
+                                    <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/129109.jpeg" alt="Alexander Way" class="testimony-thumbnail rounded">
+                                </div>
+                            </div>
+                            <div class="columns medium-10 testimony-content">
+                                <div class="testimony-name">
+                                    Alexander Way has earned $39,000
+                                </div>
+                                <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/yyhue6pzmh.jpg"
+    data-video="yyhue6pzmh"
+    data-title="How Alexander does it"
+    data-full-name="Alexander Way"
+    data-user-id="129109"
+    data-earnings="$39,000"
+    data-method="1. Made a Clickfunnels landing page with Niche Bonus.<br>
+                  2. Drives traffic via Google Search + FB retargeting.<br>
+                  3. Offers the $500 discount or watch a webinar.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $18,500+ per month like Alexander? All you need to do is build a simple Click funnels landing page.  Then, bid on keywords on Google search of relevant terms. If you have experience buying Google Adwords, this is a great strategy."
+>See how they do it</a>                            </div>
+                        </li>
+                                                <li class="row" id="referrer-2578088">
+                            <div class="columns medium-2">
+                                <div class="testimony-meta">
+                                    <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/2578088.png" alt="Nolan Ronayne" class="testimony-thumbnail rounded">
+                                </div>
+                            </div>
+                            <div class="columns medium-10 testimony-content">
+                                <div class="testimony-name">
+                                    Nolan Ronayne has earned $33,500
+                                </div>
+                                <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/2davl6k1bw.jpg"
+    data-video="2davl6k1bw"
+    data-title="How Nolan does it"
+    data-full-name="Nolan Ronayne"
+    data-user-id="2578088"
+    data-earnings="$33,500"
+    data-method="1. Made a short form Clickfunnels landing page.<br>
+                  2. Driving traffic via Google Search + FB retargeting.<br>
+                  3. Offer the free trial + $500 discount in the review.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $10,500+ per month like Nolan? All you need to do is build a simple Click funnels landing page.  Then, bid on keywords on Google search of relevant terms. If you have experience buying Google Adwords, this is a great strategy."
+>See how they do it</a>                            </div>
+                        </li>
+                                                <li class="row" id="referrer-1477153">
+                            <div class="columns medium-2">
+                                <div class="testimony-meta">
+                                    <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/1477153.png" alt="Jacob Farrell" class="testimony-thumbnail rounded">
+                                </div>
+                            </div>
+                            <div class="columns medium-10 testimony-content">
+                                <div class="testimony-name">
+                                    Jacob Farrell has earned $22,000
+                                </div>
+                                <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/cev9sjuub7.jpg"
+    data-video="cev9sjuub7"
+    data-title="How Jacob does it"
+    data-full-name="Jacob Farrell"
+    data-user-id="1477153"
+    data-earnings="$22,000"
+    data-method="1. Finds prospective customers in the Consulting Community.<br>
+                  2. Adds them to his Consulting Revolution FB group.<br>
+                  3. Posts exclusive and valuable content.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $3,000+ per month like Jacob? All you need to do is make your own Facebook group and post valuable content about the program. Then friend request people who you believe would be interested in the program and tell them about the group. If you like the idea of building your own community and platform, this is a great strategy."
+>See how they do it</a>                            </div>
+                        </li>
+                                                <li class="row" id="referrer-200071">
+                            <div class="columns medium-2">
+                                <div class="testimony-meta">
+                                    <img src="https://s3.amazonaws.com/consulting-training-vault/profile-pics/200071.png" alt="Rhett Coots" class="testimony-thumbnail rounded">
+                                </div>
+                            </div>
+                            <div class="columns medium-10 testimony-content">
+                                <div class="testimony-name">
+                                    Rhett Coots has earned $17,500
+                                </div>
+                                <a
+    href="#"
+    class="leaderboard-link"
+    data-thumbnail="https://embed-ssl.wistia.com/deliveries/d39mure38g.jpg"
+    data-video="d39mure38g"
+    data-title="How Rhett does it"
+    data-full-name="Rhett Coots"
+    data-user-id="200071"
+    data-earnings="$17,500"
+    data-method="1. Made a Clickfunnels landing page.<br>
+                  2. Traffic comes from Sam's Instagram stories.<br>
+                  3. Offer the $500 discount or free trial.<br>
+                  4. Assist people so they can make a decision to buy."
+    data-description="Wanna start earning another $5,500+ per month like Rhett? All you need to do is build a simple Click funnels landing page.  Then, include that link in your Instagram bio. If you have an Instagram following, this is a great strategy."
+>See how they do it</a>                            </div>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="columns large-6 testimony-details">
+
+                <ul class="no-bullet client-details">
+                    <li><span class="title-small">Name:</span> <span class="client-name" itemprop="name">{FULLNAME}</span></li>
+                    <li><span class="title-small">Earnings:</span> <span class="client-category">{EARNINGS}</span></li>
+                </ul>
+
+                <div class="client-description-container">
+                    <h5 class="title-small">Method</h5>
+                    <p class="client-description">
+                        {METHOD}
+                    </p>
+                </div>
+
+                <div class="client-description-container">
+                    <h5 class="title-small">christopher - CAN YOU DO THE SAME?</h5>
+                    <p class="client-description">
+                        {DESCRIPTION}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&#10005;</span>
+        </button>
+    </template> -->
+    </aside>
+        <main class="columns large-9" role="main">
+            <article class="block block-content-container">
+                <header class="row page-header">
+
+                    <div class="column small-12 title-container">
+                        <div class="row collapse">
+                            <div class="columns">
+                                <h1>Give Your Friends a FREE Trial & $500 Off</h1>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+
+                <div class="block-content">
+                    <div class="module-container">
+
+                        <div class="row lesson-description">
+                            <div class="columns large-8">
+                                <p>Give your friends a free trial and $500 off. If they sign up we'll pay you $500 too!</p>
+
+                                <p>Here’s how it works:</p>
+
+                                <ol>
+                                    <li>Invite your friend to a free trial by entering their name and email below.</li>
+                                    <li>Your friend will get an email inviting them to start a free trial & get $500 off.</li>
+                                    <li>If your friend signs up you'll earn $500 too.</li>
+                                </ol>
+
+                                <p>Refer-a-friend used to be capped to 3 invites only but now is UNLIMITED! Refer as many people as you want! Some students are making $500-$2,000/day just by referring friends... If you want to make some seriously easy money, this is for you!</p>
+
+                            </div>
+
+                            <aside class="columns large-3 help-aside">
+                                <div class="help-video-thumbnail">
+                                    <script src="https://fast.wistia.com/embed/medias/smmxc85nwo.jsonp" async></script>
+                                    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+                                    <div class="wistia_responsive_padding"
+                                         style="padding:56.25% 0 0 0;position:relative;">
+                                        <div class="wistia_responsive_wrapper"
+                                             style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                            <span class="wistia_embed wistia_async_smmxc85nwo popover=true popoverAnimateThumbnail=true videoFoam=true"
+                                                  style="display:inline-block;height:100%;width:100%">&nbsp;
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / .help-video-thumbnail -->
+                                <p>Watch this tutorial video to see how it works.</p>
+                            </aside>
+                        </div>
+                        <!-- /.lesson-description -->
+
+                        <div class="row">
+                            <div class="columns lesson-section referral-contaienr">
+                                                                <h2>Invite a friend</h2>
+                                                                <form action="https://app.consulting.com/referral"
+                                      method="POST"
+                                      id="referralForm"
+                                      data-abide novalidate
+                                >
+                                    <fieldset >
+                                        <div class="row">
+                                            <div class="columns large-10">
+
+                                                <div class="row">
+                                                    <div class="columns medium-2 large-3">
+                                                        <label for="first-name">First name</label>
+                                                    </div>
+                                                    <div class="columns medium-8 end" id="input-name">
+                                                        <input name="name"
+                                                               id="first-name"
+                                                               class="referral-first-name "
+                                                               type="text"
+                                                               placeholder="Friend's first name"
+                                                               value=""
+                                                               autofocus
+                                                               required>
+                                                        <div class="form-error ">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="columns medium-2 large-3">
+                                                        <label for="email">Email address</label>
+                                                    </div>
+                                                    <div class="columns medium-8 end" id="input-email">
+                                                        <input name="email"
+                                                               id="email"
+                                                               class="refferal-email "
+                                                               type="email"
+                                                               placeholder="Friend's email address"
+                                                               pattern="email"
+                                                               value=""
+                                                               data-hj-masked
+                                                               required>
+                                                        <div class="form-error ">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="columns medium-2 large-3">
+                                                        <label for="email-body">Message</label>
+                                                    </div>
+                                                    <div class="columns medium-8 end" id="input-body">
+                                                        <div class="email-container">
+                                                            <div class="email-uneditable-section">
+                                                                <p>Hey <span id="email-first-name">[Name]</span>,</p>
+                                                                --------------------------------------------------------------------------------
+                                                            </div>
+
+                                                            <textarea name="body"
+                                                                      id="email-body"
+                                                                      class="email-body "
+                                                                      rows="8"
+                                                                      cols="80"
+                                                                      required
+                                                            ></textarea>
+                                                                                                                                    I
+                                                            
+                                                            <div class="email-uneditable-section">
+                                                                --------------------------------------------------------------------------------
+                                                                <p>Click the button below to accept my invitation and
+                                                                    learn more.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-error ">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="columns medium-2 large-3">&nbsp;</div>
+                                                    <div class="column medium-8 end">
+                                                        <button class="button small success send-referral"
+                                                                                                                        >
+                                                            Refer Friend #2
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- / .columns .xlarge-10 -->
+                                        </div>
+                                        <!-- /.row -->
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.module-container -->
+                </div>
+                <!-- /.block-content -->
+            </article>
+        </main>
+
+    </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="https://app.consulting.com/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="https://app.consulting.com/products/consulting-accelerator/qa-calls">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="https://facebook.com/groups/consulting-accelerator">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="https://app.consulting.com/assets/js/app.js"></script>
+
+        <script>
+        $('#referralEmailSentReveal').on('closed.zf.reveal', function() {
+            location.reload();
+        });
+
+      var emailFirstName = $('#email-first-name'),
+        emailBody =  $('#email-body'),
+        emailContainer = $('.email-container');
+
+      $('#first-name').keyup(function() {
+        if( !$(this).val() ) {
+          emailFirstName.html("[Name]");
+        } else {
+          emailFirstName.text( $(this).val() );
+        }
+      });
+
+      emailBody.on('focusin', function() {
+        emailContainer.addClass('focus');
+      });
+
+      emailBody.focusout(function() {
+        emailContainer.removeClass('focus');
+      });
+
+      $('.help-video-thumbnail').on('click', function(e) {
+          analytics.track('Played RaF Help Video', {
+              feature: 'Refer a Friend'
+          });
+      });
+
+    </script>
+
+<script>
+    $(document).ready(function () {
+
+        var periodParameter = new RegExp('[\?&]period=([^&#]*)').exec(window.location.href);
+        periodParameter = periodParameter ? periodParameter[1] : false;
+
+        if (periodParameter) {
+            $('#leaderboard-filter').val(periodParameter).trigger('chosen:updated');
+        } else {
+            $('#leaderboard-filter').val('').trigger('chosen:updated');
+        }
+
+        $('#leaderboard-filter').on('change', function (e) {
+            var period = $(this).val();
+            var url = location.protocol + '//' + location.host + location.pathname;
+            if (period !== "") {
+                url += '?period=' + period;
+            }
+            window.location.href = url;
+        })
+    })
+</script><script>
+    // Leaderboard Reveal
+    $(document).on('click', '.leaderboard-link', function(e){
+        e.preventDefault();
+        $('.reveal-leaderboard-list .li').removeClass('hide');
+
+        var data = $(this).data(),
+            revealLeaderboardTemplate = $('#template-reveal-leaderboard').html(),
+            revealLeaderboard = $('#reveal-leaderboard');
+
+        for(var i in data) {
+            revealLeaderboardTemplate = revealLeaderboardTemplate.replaceAll("{" + i.toUpperCase() + "}", data[i]);
+        }
+
+        revealLeaderboard.html(revealLeaderboardTemplate);
+
+        $('#referrer2-' + data['userId']).addClass('hide');
+
+        revealLeaderboard.foundation('open');
+
+        adjustTestimonialRevealTitle();
+    });
+</script>
+
+  </body>
+</html>

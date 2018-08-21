@@ -1,0 +1,95 @@
+SALES TEAM SIDE
+
+1. Can we have an additional login portal for the "Sales team" Only the admin will be able to create sales team logins
+
+2. They are going to have a login that only allows them to access “User management” just like on the admin side to generate profiles from the sales
+
+3. Can we add an auto generation of username and password using their first and last name, for example my name is FIRST: Chris   LAST: Stanbridge, 
+so the user would be ChrisStanbridge (Random set of numbers) for example ChrisStanbridge1432 and password is LAST NAME: Stanbridge (Random set of numbers) 
+For example Stanbridge2342
+
+4. Type of payment method if it is financed we want the user to be able to be noticed that their billing date is a week before payment, day before payment day of 
+payment and then late payment, we want a notice
+
+5. We need on the “User management” to be able to once the information is filled out by the sales team, we want them to click a button that send the user the an 
+email with the login and password along with a list. ENTER COPY HERE -> Need To Ask
+
+6. When somebody purchases an upsell on the sales and admin side we want to be able to have an opton -> NOT NOW
+
+ADMIN SIDE
+
+7. The "Video tutorials" Looks like a duplicate button of the "Lessons” correct me if I'm wrong. -> No need
+
+8. on the top right corner, the "WE" logo looks a little distorted, like stretched up.  
+
+9. All the functionality on the sales team side can be merged with the admin side, because the admin has ultimate control 
+
+10. Where it says “Name” under the “Users Management” tab to have “First Name” and “Last Name” textboxes that replaces “Name” so that way we can track their 
+profile at all times
+
+Can we have the ability to adjust the color of the Theme of the User side, for example change the black to blue or enter in an image.  
+
+We want to be able to add photos or videos in the Black boxes above the the make sure that we can put a vimeo link, so that they can hit the button to have 
+them expand -> Need To Implement Option to Add Photos and Videos
+
+USER SIDE 
+
+We don’t want the users to be able to edit their first and last name for legal reasons 
+
+Can you update the text on the “Your Training Programs” section…. 
+
+a. WE Transformation ™?:  
+
+“The core program and simple systems that gives you the real wealth, health, and happiness you want.”   
+
+b. WE Accelerator ™?: 
+
+“The intensive training that builds your 7 figure business, and rapidly develop the skills that separate the REAL entrepreneurs from the WANT-trepreneurs.”  
+
+c. WE Experience ™?: 
+
+“Now you can finally rub elbows with the industry leaders who’ve scaled multiple billion dollar businesses… and learn how to shake hands with them on your next 
+deal.” 
+
+Under the “User” drop down menu under “your progress”, on the “Your Level Of Play Tab”  
+
+On the “Help” drop down menu, we would like to remove the link “help center” and just leave “How to get help”  
+
+On the “Community” drop down menu, we would like to remove the link “How to Get Help” 
+
+Where it says “Hi User” on the left side can we have it to where the Users Logo is there instead of a little person  
+
+Have the Black Boxes for the training modules stretched to 181 pixels.(250PX)
+
+center “Your Training Programs” Text And the bottom of the  
+
+Search: Pick the “Wealth Entourage Mind” by searching through all of our content including training videos, Q&A video calls & more.    CONTINUE: same 
+
+Facebook Group: Join our active community of customers who are all on the same path, ask questions, join in!   CONTINUE: https://bit.ly/2m1KIw4  
+
+Q&A Call: Attend weekly Q&A video calls, ask questions and get answers live from our expert coaches.   CONTINUE: https://zoom.us/j/134971836 
+
+Help Center: If you have any issues that cannot be answered inside of the Facebook group write us an email here and we’ll get to you as soon as we can.
+CONTINUE: mailto:mycreditmasterysolutions@gmail.com
+
+
+
+1) No need of pop-up in videos - completed
+2) Text need to be visible in programs - completed
+3) Space need to be remove in user home page - completed
+4) Color configuration need to remove for the user admin part - completed
+5) search need to functional for all the modules - completed
+6) Week theme part need to removed in details program part - completed
+7) Consulting need to remove in admin login page - completed
+8) Register button need to remove in user login page - completed
+9) Programs need to enable & disable dynamically based on the selection - completed
+10)Need replace "TH" with "TM" - completed
+11)Background color need to configurable to the login pages from admin section. - completed
+
+
+Welcome to the E-HAWK Customer Portal
+An account has been created for you to access the portal.
+Login at https://portal.e-hawk.net/ with the following:
+
+Username: mouhamed@mskinternetads.com
+Password: 50a3cc759318b

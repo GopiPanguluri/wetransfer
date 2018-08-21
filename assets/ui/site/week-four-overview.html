@@ -1,0 +1,896 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  
+<style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>	  	  
+	  
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">Alchemy of Client Attraction</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+            <div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="38">38% Complete</small>
+              <small id="39" style="display:none;">39% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="38" aria-valuemin="0" aria-valuetext="38 percent" aria-valuemax="100" id="58">
+              <div class="progress-meter" style="width:38%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="39" aria-valuemin="0" aria-valuetext="39 percent" aria-valuemax="100" style="display:none;" id="59">
+              <div class="progress-meter" style="width:39%"></div>
+            </div>
+        </div>
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+			<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+				<option value="week-four-overview.html">Week Four</option>
+				<option value="welcome.html">Welcome!</option>
+				<option value="week-one.html">Week One</option>
+				<option value="week-two-overview.html">Week Two</option>
+				<option value="week-Three-overview.html">Week Three</option>
+				<option value="week-five-overview">Week Five</option>
+				<option value="week-Six-overview">Week Six</option>
+				<option value="week-Seven-overview.html">Week Seven</option>
+				<option value="dm-1.html">DM Bonus</option>
+			</select>
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class='active '>
+                <a href='week-four-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-1.html'>1. Falling for the trap</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-2.html'>2. Alchemy of client attraction</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-3.html'>3. Organic attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-4.html'>4. Paid attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-5.html'>5. Assembling the war machine</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-6.html'>6. Planning your 30d attack</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-7.html'>7. Conquering paralysis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Four</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>Overview</h1>
+                  </div>
+			<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+		<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">Alchemy of Client Attraction</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+			<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+				<option value="week-four-overview.html">Week Four</option>
+				<option value="welcome.html">Welcome!</option>
+				<option value="week-one.html">Week One</option>
+				<option value="week-two-overview.html">Week Two</option>
+				<option value="week-Three-overview.html">Week Three</option>
+				<option value="week-five-overview">Week Five</option>
+				<option value="week-Six-overview">Week Six</option>
+				<option value="week-Seven-overview.html">Week Seven</option>
+				<option value="dm-1.html">DM Bonus</option>
+			</select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                            <li class='active '>
+                <a href='week-four-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-1.html'>1. Falling for the trap</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-2.html'>2. Alchemy of client attraction</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-3.html'>3. Organic attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-4.html'>4. Paid attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-5.html'>5. Assembling the war machine</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-6.html'>6. Planning your 30d attack</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-7.html'>7. Conquering paralysis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "otm": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/otmnjq45zx.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_otmnjq45zx videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-three-questions.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-four-1.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p>In week four we discuss the art and science of attracting clients to your business with free and paid strategies. </p><p>From grass roots strategies you can implement immediately and for free through to world class 8-figure lead generation campaigns. Week four shows you how to attract hot, ready to buy customers to your consulting business in droves.  </p>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/a9a937a9150f7c3c9d6a3ef9c0c31b39.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey everyone, Sam Ovens here, and welcome to week four of the Consultant Accelerator Program. Now in week four we&#039;re going to cover the alchemy of client attraction. In week three we covered the alchemy of client conversion, and that&#039;s how we take a total stranger to a paying client with one phone call, and that really is the salesmanship and the art in the science of sales.
+
+Now what we&#039;re going to do in this week, alchemy of client attraction, is we&#039;re going to cover the other side of it, which is how do we attract people to us and get them on to phone calls, because once we have mastered the sales process, that&#039;s awesome, but how are we going to get applications and appointments of people to have sales conversations with. There&#039;s really two sides, the attraction and the conversion. We&#039;ve already mastered the conversion, so now what we&#039;re going to do is we&#039;re going to start discussing attraction.
+
+The alchemy of client attraction really is the art and the science of attracting people to your consulting business, and we do that with a concept called the natural selection, which is something which it pretty much drives human evolution. When you learn about this it&#039;s really going to blow your mind and it&#039;s going to totally change your perspective on how to market and how to advertise your business and how to attract clients to you.
+
+As we work through this week we&#039;re going to start off by teaching you the art and the science of it, which is really understanding why do people get attracted to some things and why are people just numb to other things. Some people&#039;s marketing messages are so bland that people just don&#039;t even notice them. Even if you were to slap them in the face and really put it in front of them, they still pay no attention. However, other people&#039;s marketing messages are so profound that it doesn&#039;t matter how far away they are from someone, people are just drawn to them like a magnet. There&#039;s this massive difference and this massive divide when it comes to people&#039;s marketing messages and how people attract clients to their consulting businesses. In this week I&#039;m really going to show you what separates the winners from the losers when it comes to attracting people into your consulting business.
+
+Once we&#039;ve got a clear understanding of the theory and the concepts and the art and the science of it, then we&#039;re going to get to work and actually start taking some action. Then what I&#039;m going to show you is I&#039;m going to show you two different types of client attraction methods. Now the first type is something that we call organic attraction methods. These are methods that are free or close to free that you can start using right away to attract clients into your consulting business.
+
+These things are like using Facebook and just doing organic posts, direct outreach, messaging people on Facebook, LinkedIn, or via email, also how to use Lumpy Mail which is a version of direct mail which works really well which you&#039;re going to be excited to see. Those are some of, I think we&#039;ve got five organic attraction methods. Then I&#039;m going to show you a different type of attraction method which is paid attraction methods. Paid attraction methods are basically methods that we can use to attract clients to us using paid advertising such as Facebook ads or targeting ads.
+
+Now here is the most crucial thing that you can hear at this stage of the training program. You want to start with organic methods first before you even touch or think about touching paid methods. I see people make this absolutely crucial and fatal mistake every single day. People rush into Facebook ads because it&#039;s trendy, it&#039;s a hot topic, and it&#039;s a big gimmick right now. I mean don&#039;t get me wrong, it works well, but it is very hyped up.
+
+Most people just rush right to Facebook ads and they forget all of the most important things, and they just mess it up, they absolutely botch it and they don&#039;t end up making any money and that really disintegrates their confidence, and it really puts them in a bad position.
+
+Now you don&#039;t want to do that. You want to do organic methods first because these methods keep you focused on the most important things. There&#039;s not all of this technology to master, there&#039;s not all of these complex things to get your head around and learn, and it really keeps things simple, it keeps things cheap, and it keeps things fast. These are three very important things when you&#039;re getting started.
+
+When you&#039;re getting started you want to get that first client quick, and you want to get that first client with as little complexity as possible, and you want to get that first client with as little expense and as little cost as possible. If you want to do that, organic methods is how you&#039;re going to do it.
+
+I can tell you that of all the people who have come through this program, all of the millionaires, they started with organic methods first and got everything working there before they transitioned to Facebook ads. I can tell you that there is not one person on the millionaire list for this program who just went straight to Facebook ads. Not one person. However, I can name hundreds of them who have been unsuccessful who went straight to Facebook ads.
+
+You can choose what side of the chasm to be on. Do you want to be successful or do you want to be unsuccessful? If you want to be successful you know what to do. You&#039;ve got to start with the organic methods first, get your proof of concept established, and then once you&#039;ve got your first three to five clients, then it&#039;s time to move to Facebook ads.
+
+Throughout this week we&#039;re going to cover a lot of ground. There is a lot of content in this week and we&#039;re really going to take a lot of action, we&#039;re really going to get things in motion and we&#039;re really going to get the rubber to meet the road when it comes to starting your consulting business. We&#039;re going to do things like register your business, like we&#039;re going to register it with the companies office in whatever country you&#039;re in, we&#039;re going to set up your website using a template which I&#039;m going to provide you with, we&#039;re going to get you to start building a list of your clients, prospective clients. Then we&#039;re going to get you to start marketing to them, and we&#039;re going to get you to plan out the next 30 days of your journey so that you can really plot your plan of attack and really start implementing each of those action items each day.
+
+This is an awesome week. It&#039;s where a lot of excitement and a lot of action really starts to take place, and I&#039;m really looking forward to taking you through this content, and seeing your conversations over in the Facebook group. I just wanted to show you this quick video to explain what this week&#039;s all about, a pitfall to watch out for, and really I&#039;m really looking forward to seeing you progress through this, and make sure that if you&#039;ve got any questions, or if you want to share any comments about the training, just head over to that Facebook group, consulting.com/fbgroup.
+
+Head over there, join the conversation, let us know what&#039;s on your mind. I encourage you to join the two times weekly Q&amp;A calls. They happen every Monday and every Friday, and you can join those calls by just clicking on the Community button at the top right and then selecting Weekly Q&amp;A Calls. Thanks for watching this video and I look forward to seeing you in the Facebook group.
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="https://app.consulting.com/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="#">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Four"
+    var moduleName = "Overview"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-260')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-260', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Four";
+    if (!moduleName) var moduleName = "Overview";
+    if (!file) var file = "media/a9a937a9150f7c3c9d6a3ef9c0c31b39.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "https://app.consulting.com/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-complete/260', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-incomplete/260', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "otmnjq45zx", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-260')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-260', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('https://app.consulting.com/products/mark-complete/260');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("38").style.display="none";
+	document.getElementById("39").style.display="block";
+	document.getElementById("58").style.display="none";
+	document.getElementById("59").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("38").style.display="block";
+	document.getElementById("39").style.display="none";
+	document.getElementById("58").style.display="block";
+	document.getElementById("59").style.display="none";
+	} 
+</script>
+  </body>
+</html>

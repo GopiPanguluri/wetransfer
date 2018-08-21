@@ -1,0 +1,1136 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+
+  
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">Fractal Facebook Evolution</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+     		<div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="43">43% Complete</small>
+              <small id="44" style="display:none;">44% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="43" aria-valuemin="0" aria-valuetext="43 percent" aria-valuemax="100" id="62">
+              <div class="progress-meter" style="width:43%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="44" aria-valuemin="0" aria-valuetext="44 percent" aria-valuemax="100" style="display:none;" id="63">
+              <div class="progress-meter" style="width:44%"></div>
+            </div>
+        </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+				<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+					<option value="week-five-overview">Week Five</option>
+					<option value="welcome.html">Welcome!</option>
+					<option value="week-one.html">Week One</option>
+					<option value="week-two-overview.html">Week Two</option>
+					<option value="week-Three-overview.html">Week Three</option>
+					<option value="week-four-overview.html">Week Four</option>
+					<option value="week-Six-overview">Week Six</option>
+					<option value="week-Seven-overview.html">Week Seven</option>
+					<option value="dm-1.html">DM Bonus</option>
+				</select>
+              </form>
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-five-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-1.html'>1. Fractal Facebook evolution</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-2.html'>2. Unveiling the fb algorithm</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-3.html'>3. Facebook&#039;s book of law</a>
+              </li>
+                            <li class='active '>
+                <a href='week-five-4.html'>4. Playbook for a new epoch</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-5.html'>5. Your ad hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-6.html'>6. Your audience hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-7.html'>7. Tracking swans &amp; the polaris star</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-8.html'>8. Achieving omnipresence </a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-9.html'>9. Ad &amp; audience templates</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-10.html'>10. Campaign genesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-11.html'>11. Governing initial conditions</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-12.html'>12. Daily workflow of the king</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-13.html'>13. Ratcheting up the kingdom</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Five</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>4. Playbook for a new epoch</h1>
+                  </div>
+			<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+		<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">Fractal Facebook Evolution</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+                            <select name="" id="change-category" class="chosen-select week-dropdown">
+                              <option value="20">Week Five</option>
+                            </select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-five-overview.html'>Overview</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-1.html'>1. Fractal Facebook evolution</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-2.html'>2. Unveiling the fb algorithm</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-3.html'>3. Facebook&#039;s book of law</a>
+              </li>
+                            <li class='active '>
+                <a href='week-five-4.html'>4. Playbook for a new epoch</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-5.html'>5. Your ad hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-6.html'>6. Your audience hypothesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-7.html'>7. Tracking swans &amp; the polaris star</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-8.html'>8. Achieving omnipresence </a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-9.html'>9. Ad &amp; audience templates</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-10.html'>10. Campaign genesis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-11.html'>11. Governing initial conditions</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-12.html'>12. Daily workflow of the king</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-13.html'>13. Ratcheting up the kingdom</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-five-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "jsa": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/jsae4k8ovc.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_jsae4k8ovc videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-five-3.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-five-5.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p><span style="background-color: rgb(254, 254, 254);"><font color="#636363"><span style="font-size: 15.2px; letter-spacing: -0.19px;">In this training video, I am going show you our Facebook strategy. By that, I mean exactly how are we going to go about creating our campaign, what we are trying to achieve, what our KPIs are. You'll learn the correct campaign structure as well &nbsp;as our overall game plan for dominating Facebook ads. Like any game, you have to have a plan and you have to have a strategy. This will be your blueprint for success with Facebook advertising.&nbsp;</span><br></font></span></p><p><span style="font-size: 15.2px; letter-spacing: -0.19px; background-color: rgb(254, 254, 254);"><font color="#636363">Here's what we cover:&nbsp;</font></span></p><ul><li><span style="background-color: rgb(254, 254, 254);"><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">The Fragmentation funnels role in nature </font></span></span></li><li><span style="background-color: rgb(254, 254, 254);"><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">Scientific method and the search for blue swan DNA </font></span></span></li><li><span style="background-color: rgb(254, 254, 254);"><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">Antifragile architecture and asymmetrical testing </font></span></span></li><li><span style="background-color: rgb(254, 254, 254);"><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">KPI’s and their role in identifying the two swans </font></span></span></li><li><span style="background-color: rgb(254, 254, 254);"><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">The three stages of growing your blue swan empire </font></span></span></li><li><span style="background-color: rgb(254, 254, 254);"><span style="font-size: 15.2px; letter-spacing: -0.19px;"><font color="#636363">My secret weapon: Propagating and splicing blue swan DNA</font></span><br></span></li></ul>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                        <h2>Resources</h2>
+                    <ul class="no-bullet">
+                                            <li>
+                        <a target='_blank' href="#">Paid attraction funnel math</a>
+                      </li>                    
+                                            <li>
+                        <a target='_blank' href="#">Paid attraction metrics spreadsheet</a>
+                      </li>                    
+                        
+                    </ul>
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/f94b26c728c733ece227f6be8c00e63e.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hi, everyone. Sam Ovens here and welcome to this training module called Playbook For A New Epoch. In this training video, I am going to basically show you our Facebook game book plan and our strategy. By that, I mean exactly how are we going to go about creating our campaign? Like what are trying to achieve, what are our KPIs and what&#039;s the campaign structuring? What&#039;s our general strategy that we&#039;ve got, that we&#039;re using on the Facebook platform? Like any game or like anything, you have to have a plan and you have to have a strategy. And just like in, say, with chess, for example, you would have a chess strategy. Depending on how your opponent moved his pieces, that would depend how you moved yours and you&#039;d have these different plays that you would use and all of that.
+
+That is what we&#039;re going to be talking about in this module right here, Playbook for a New Epoch, where I&#039;m going to basically walk you through my entire playbook and the most up-to-date playbook that I have for Facebook ads. This is seriously light-years beyond where any other Facebook marketer I&#039;ve seen has been. So if you really understand this stuff and you really take it in and you&#039;re able to deploy this stuff, you&#039;re going to be able to run laps around your competition and you&#039;re going to be able to scale extremely high. Because these methods that I&#039;m going to teach you in this video here, I have used to ... in the multiple millions of Adspend, and up to sort of $30,000 a day in Adspend. So, not small numbers. These strategies are also extremely reliable and it allows you to use just a small number of ads. You don&#039;t have to keep refreshing your creative and doing all of that crazy stuff that everyone else tells you that you have to do. So, let&#039;s get to work and let&#039;s take you through this playbook.
+
+Here&#039;s what we&#039;re going to cover in this module. First of all, we&#039;re going to cover the Fragmentation funnel&#039;s role in nature, our funnel that you should have built by now. We covered that in week four. So, we&#039;re going to cover that funnel and I&#039;m going to really show you its role when it comes to using Facebook ads. How does it fit in with Facebook ads and how does it really integrate? What does it do? Why is it so special? All of that.
+
+Then, we&#039;re going to cover the scientific method and the search for blue swan DNA. I&#039;m going to show you our method for setting a hypothesis, then going out, submitting that hypothesis to the market for testing and then collecting feedback, and then iterating our new hypothesis and keep going back in that cycle to the market to keep testing and keep keying through different variables to find what works. Then, we&#039;re going to cover anti-fragile architecture and asymmetrical testing. This is one of my secret weapons and it&#039;s basically the way I structure and architect my campaigns. It&#039;s a huge lesson for anyone, even people who have spend six figures, seven figures on ads. Anti-fragile architecture and asymmetrical testing is going to teach you some big lessons.
+
+Then, we&#039;re going to cover KPIs and their role in identifying the two swans. So, we&#039;re going to cover all of our key performance metrics. I&#039;m going to show you all of them, the hierarchy in which we look at them, like which ones are more important than the other ones, what ones should we be looking at all of the time. And the benchmarks, so where should your numbers be. How do you know if your numbers are high or low? How do you know what&#039;s going wrong with your campaign, if it&#039;s not working? All of that stuff. I&#039;m going to give you a spreadsheet, which you can use in Google Docs or Excel to track your campaigns day-to-day. It&#039;s got built-in algorithms and everything for calculating all of your KPIs. All you have to do is plug the data in.
+
+Then, we&#039;re going to cover the three stages of growing your blue swan empire. By that, I mean growing ... We call a blue swan a profitable Facebook ad set. So, how we can really start growing and propagating as many profitable Facebook ad sets as we possibly can, and that&#039;s what I refer to as the blue swan empire. There&#039;s three stages to doing this and you&#039;re really working through all three stages all the time. But in the beginning, we work through, sequentially, stage one, stage two, stage three. But then once you&#039;re at stage three, you&#039;re kind of doing a mixture of all three all the time. So, it&#039;s really important to know these.
+
+And then I&#039;m going to cover one of my most dangerous secret weapons, which is propagating and splicing blue swan DNA. This is a tactic, which I have not shared before, and a strategy I haven&#039;t shared before. It&#039;s extremely powerful. I basically show you how you can take profitable ads and really find the DNA structure within them and then really propagate them. By that, I mean duplicate them and get them to start breeding and then even splice them with new DNA, so that you can create offshoots of originally successful ads. When you understand this last thing, propagating and splicing blue swan DNA, you will be able to scale to the moon and back and then back there again, because it really is limitless. So, you&#039;re going to learn some extremely powerful methods in this Playbook For A New Epoch video. Let&#039;s get to work.
+
+At this stage of the Facebook training, we&#039;ve covered these three things. We started with fractal Facebook evolution. In that video, we understood Facebook from a high-level view and we understand its fractal nature and our terminology of blue swans and red swans, how the platform works, how the algorithm works. All of that stuff and why having a proof of concept is essential. I&#039;m going to say it again. If you don&#039;t have a proof of concept, then Facebook is not the place for you to go. It will burn you alive. You want to have an established proof of concept first before you touch Facebook ads.
+
+Then, the second module was called Unveiling the Facebook Algorithm. In that module, we covered how Facebook&#039;s algorithm works, how it thinks. We covered it in detail. Once you&#039;ve watched that video, you know more than even employees at Facebook know about the Facebook algorithm. We also discussed why most people have Facebook all wrong and the mess of mistakes that people are making and how they&#039;re really jamming the algorithm by only having one ad variation and one audience variation, and a micro-targeted audience at that. And it&#039;s just totally wrong; that&#039;s the inverse of what you should actually be doing.
+
+Then, we talked about initial conditions and I helped you understand initial conditions and how important they are and how they&#039;re really 10 times as important as the ad and audience itself. Then, we discussed the forever-changing competitive environment and why variation is key. Variation really is the key to Facebook and evolution and really evolving different combinations, working hand-in-hand with the algorithm, trying to find that perfect combination in the current environment.
+
+Then, we covered the third module, which is Facebook&#039;s book of lore. This is really understanding the rules of the game when it comes to using Facebook, because the last thing we want to do is get our account banned, which is what we call the mark of the beast. We talked about creating your account and your fan page properly. So, setting up your business manager account, setting up your fan page, creating a likes campaign to get enough likes, making sure there&#039;s posts on it and everything. Then, we discussed creating a compliant website, having all the essential legal documents on there. Then, following the basic rules for ad account survival, different things like don&#039;t use tacky images, don&#039;t use different buzzwords, don&#039;t make income claims, don&#039;t call your audience out, all of those things.
+
+Now, I&#039;m sure all of you have gone through these videos sequentially and watched all of them in full. One, first, then two, then three, before moving on to this video. If you are not one of those people, then honestly, you need to go through this training in order. It will not make any sense unless you go through this stuff in order, because, you know, we&#039;re going to be using words and terms and things that you won&#039;t understand unless you&#039;ve gone through and done these first. So, if that&#039;s you, don&#039;t be that person. Go back and watch it. And if you have done that, now you should have a basic understanding of everything and all the essential tools ready. Now, it&#039;s time to get into our game plan and strategy.
+
+First up, let&#039;s talk about the Fragmentation funnel&#039;s role in nature. Do you remember our client acquisition methodology? Here is a basic, high-level view of it. We have our Value Video, which is the video which we create, which is in-between 10 and 30 minutes long, where we talk about what we have to offer and everything and the problem and all of that. Then, they go and apply for a survey, and then they schedule a call with us. We drive traffic into that funnel using both organic methods, which are free methods, and paid methods, which is Facebook ads. Paid methods is what we&#039;re discussing all through week five, which is Facebook advertising and really how to use Facebook ads in combination with our Fragmentation funnel to achieve optimum results,
+
+Specifically, our Fragmentation funnel. So, this is kind of a high-level, basic view, but now I&#039;m going to show you just a drilled-down version of it, where we really cover every page. So, it starts off with Facebook ads and we use those ads to target different people, who we think are within our audience. Then, those people click on those ads, they come to our landing page. Then, they go to our value video and then a survey and then a call. Then, they become a customer. Now, I&#039;m just going to quickly step you through those, so you can see.
+
+You can have a look at this. Samovensdemo.com/case-study. This is the landing page. So, people come from a Facebook ad. They click on it, then they come to this, our landing page. Then, they click here and this thing pops up and they enter in their email address. Then, they see our value video. It says, &quot;Step One: Watch This Case Study Right Now.&quot; They watch this value video. This one&#039;s 21 minutes long. Then if they want to, they apply for a strategy session, so they can talk to us and get some more help. They click this button and then they schedule a strategy session with us. We use this little scheduling tool here. And when it finally loads, the user enters in their information. They click next and everything, and then they come to a survey. I&#039;m just going to skip this for now, because it&#039;s loading too slow.
+
+Then, they come to a survey that looks like this. They enter in all of their information. Then, the final page looks like this. It says, &quot;Awesome! Your strategy session is scheduled.&quot; Then from here, they&#039;re automatically scheduled into our calendar. We then show up at the time they scheduled and we have the strategy session with them. We take them through the [inaudible 00:12:11] conversion script and they either buy or they don&#039;t buy. That is basically the entire end-to-end process, which I am talking about here. We&#039;ve got the ads, the landing page, the value video, survey, call, customer.
+
+Then, this is the Fragmentation funnel with the math applied to it. With this funnel, it is really important that we understand our numbers. Here&#039;s the rough sort of range that we see these numbers going between and this is if it&#039;s successful. You know, you can have numbers totally outside of what I&#039;m showing you on the screen here. But if your campaign is going to be successful and if your funnel is successful, then your numbers should all be within these ranges. So, we pay in between $1 and $3 per click on a Facebook ad. Then, our landing page converts at 20%. This gets us a cost-per-lead, which is a cost-per-email of $5 to $15. Then, the people watch the value video. So, we&#039;re basically paying $5 to $15 to view the value video.
+
+Then, only really 5% of those people who watch it actually take us up on our offer and go through and complete the survey. And then, they schedule an appointment with us in our calendar. Then, we typically have like a 80% show-up rate, and this is people that schedule and then show up to the call. Because typically, we cancel about 10% of applications, because they&#039;re not a good fit when we look at their survey. Then, typically about 10% of people won&#039;t show up to the call. That&#039;s why we have an 80% show-up rate.
+
+This means that we&#039;re paying in-between $50 and $300 per call, cost per strategy session, CPS. Then, when we talk to those people, we typically have a 20% conversion rate, call conversion rate here. That means for every five people we talk to, one of them buys. That means that we have a cost-per-acquisition, a cost-per-paying customer, of in-between $250 and $1.5 thousand. That&#039;s why your product, your service, your program, whatever it is you&#039;re selling should be higher than these numbers and then the difference between the two is obviously profit. That&#039;s really how it works. That&#039;s the math behind it.
+
+At this stage of the training, I&#039;m assuming you have already built out and thoroughly tested your Fragmentation funnel. Everything should be working correctly and tested on both desktop and mobile. Back in week four, I showed you how to do it, gave you the template and everything. From this point on, I&#039;m really just assuming that you&#039;ve already built it, you&#039;ve tested it. You&#039;ve got friends to test it to and you&#039;re sure that it is solid. That, you must make sure before you progress through the rest of these videos. And if you haven&#039;t built out your Fragmentation funnel yet, you must do that now before progressing. Otherwise, this module — and all of the following modules — will make no sense and be of little to no value at all.
+
+For training and detailed step-by-step instructions on how to build the Fragmentation funnel, please go to week four and then the Paid attraction methods video and the Assembling the war machine video. Those two modules contain everything you need to set up your Fragmentation funnel. Step-by-step instructions, templates, everything. We have a live demo of the Fragmentation funnel, which can be viewed at samovensdemo.com/case-study. That just looks like this. So if we go to this, here is a demo of the Fragmentation funnel. You can go to this link in your browser, go through it, check it out, see exactly how it works. Then, we provide you with a link, so that you can actually download the Fragmentation funnel with one click. That URL to go to is consulting.com/clickfunnels, so that you can get this template for the Fragmentation funnel for free, and you can download it with one click.
+
+You just come to this page here, consulting.com/clickfunnels, you click install your funnels. If you already have a clickfunnels account, you click yes, I do. If you don&#039;t, you click no, I don&#039;t. Then, the page will look like this once you&#039;ve created our account. You can see that, number two, we provide you with a Fragmentation funnel. You can view a demo of it here and then you can just install it here with one click. Like I said, week four, these two modules here will tell you exactly how to set it all up. Paid attraction methods and Assembling the war machine. So from this point on, I&#039;m assuming that it&#039;s already built and you&#039;ve already got it.
+
+Now, we&#039;re going to talk about the scientific method and the search for the blue swan DNA. What are blue swans and what is blue swan DNA? Well, really, I&#039;ve referred to ... a lot of times, by now, about how our main role is that we&#039;re breeding blue swans. Our main job with Facebook ads is to breed blue swans and grow the empire. This means to try different iterations of possible blue swan DNA strings, made up of these variables, Audience-Message-Image. That&#039;s the string. That&#039;s what we call a blue swan DNA string, because these things are stringed together. What we&#039;re really doing is we&#039;re trying different iterations. You know, there can be any number of possible audiences, any number of possible messages and any number of possible images. However, when combined together, some will work way better than others and this is what we call the genetic makeup or the DNA string.
+
+A blue swan is basically a profitable Facebook ad set. It means it&#039;s within KPI. A red swan is a non-profitable ad set, and that means it&#039;s outside of KPI. What we&#039;re trying to do is breed blue swans, which means profitable ad sets. Each ad set acts as a cell and it contains a string of DNA made up of Audience-Message-Image. And if the cell is healthy and produces a desirable ROI, we call it a blue swan and we breed more of them from the healthy DNA string. Because if a DNA string is healthy and the swan is blue, that means that, you know, the DNA makeup of that swan, it is probably the right DNA makeup for more blue swans. So, that&#039;s why it&#039;s important that we look at the string. If the cell is unhealthy and non-profitable, we call it a red swan and we cull it from our population. That means we turn it off, we delete it and we want to look at the string as well, to make sure that we know what sort of strings work and we know what sort of strings don&#039;t work.
+
+It&#039;s pointless to guess the DNA string for blue swans. You just can&#039;t come into Facebook and then just kind of guess at what the right sort of string of Audience-Message-Image is. You will be shooting totally blind. It will take you way too much time to find something out and you might not even find something out. You know, we need to get a headstart before coming to Facebook. That&#039;s how it works. So, it&#039;s pointless trying to guess, and we must get the initial conditions from our established proof of concept.
+
+I know I&#039;ve said this so many times now I&#039;m probably sounding like a robot, but Facebook is no place for you if you don&#039;t have an established proof of concept. And by that, I mean that you must have at least three paying clients and they must all have purchased the same offer from you. So, you should have a niche-offer result combination and that should be proven with three paying customers. If you have that, then what&#039;s present inside there ... There&#039;ll be a fractal pattern that&#039;s present in that proof of concept and it&#039;ll help you to take a good guess at what it&#039;s going to be a correct Audience-Message-Image string. Then, that&#039;s how we&#039;re able to get a headstart with Facebook, because we know something.
+
+We&#039;ve got a proof of concept we&#039;ve actually been testing. We&#039;ve been doing strategy sessions, talking to people, collecting feedback. We have information learned, and so then we come to Facebook and we extract that fractal pattern from our proof of concept. We load it into Facebook and try scaling it up. We set the initial conditions and then we work hand-in-hand with Facebook&#039;s algorithm to optimize different variations and find out what works and what doesn&#039;t work. That&#039;s what we refer to as breeding blue swans.
+
+So, how do we go about finding the correct DNA? Well, do you remember our scientific method, which is basically we have a thesis, an antithesis. Then we have the synthesis, which becomes the new thesis, because it feeds back around and then it happens all over again. This is basically the master algorithm of all evolution and everything. It&#039;s how your brain works, it&#039;s how everything works, with this simple algorithm. It really just looks like this. We&#039;ve covered this multiple times throughout the entire training so far, and in week one, with the natural law and the consulting equation.
+
+When we&#039;re trying to build a successful consulting business, we&#039;re basically looking for the right combination of Niche-Offer-Result variables. That&#039;s what really makes a successful consulting business, when you get the right Niche-Offer-Result variables lined up. The only way you get those variables lined up correctly is when you&#039;re doing testing. So, you have to set a hypothesis. You go out to the market and you&#039;re testing by doing strategy sessions, talking to people, collecting feedback, iterating your hypothesis. You&#039;re creating a new one and you just keep going. That&#039;s our scientific method. Eventually, that process always finds an optimal combination of these three variables and when you achieve that, that&#039;s when you have a proof of concept. That&#039;s when you start getting customers, making a lot of money and the better optimized these three variables are, the more money you make and the easier it is to sell. That is how business works and that&#039;s how our consulting businesses work as well.
+
+Then, another one, which we talk about in the Mindset training, is how we have our current situation, which is us now doing what we&#039;re doing, thinking what we&#039;re thinking. Then, we have our desired situation, which is out in the future, and then we have an action, which we do and that brings about the new situation, which might be the desired situation or it not might be. Then, we receive feedback from that and then we&#039;re able to iterate. And next time we want to achieve that desired situation, well, we take a different action based on the feedback we got from the last time? This is how human being optimize, it&#039;s how ... It&#039;s how everything in nature optimizes. This is basically how your brain works.
+
+Then, we have two key things, which the human brain can do. That is setting a hypothesis. So, we have a goal hypothesis and an action hypothesis. How it works is, you know, we&#039;re sitting in our current situation, where we are right now. Then, we have these desires and these dreams and these things we want. That&#039;s really our goal hypothesis; that&#039;s what we set a goal for. Then, what we do is we start ... We look out into the future and we&#039;re like, &quot;Okay. We want to achieve this goal.&quot;
+
+So then, our brain comes back to sort of now and it&#039;s like, &quot;Okay. Well, what actions are we going to take, so that we can achieve that goal?&quot; And you start hypothesizing about what possible actions might work together to achieve that goal. Once you&#039;ve set the goal hypothesis and the action hypothesis, well, then you actually take action in real life. Then, when you take action, the new situation comes about and it either is or isn&#039;t in alignment with the goal. Either way, you receive feedback and you are able to iterate and try again. Each time, you get closer and closer to it. This is how we optimize with everything in life. It&#039;s not just us. It&#039;s algorithms, like computer algorithms, Facebook&#039;s algorithm, different organisms. You know, everything in the world pretty much uses this model.
+
+And when it comes to Facebook ads, we&#039;re constantly optimizing for the perfect combination of variables in the current environment and this combination of variables, we refer to as DNA. We also refer to it as a DNA string and this string is made up of these three variables, Audience-Message-Image. Basically what Facebook&#039;s algorithm is doing is it&#039;s keying through hundreds of millions of different variables and the variables it&#039;s playing with is audiences, messages and images. It&#039;s playing with these and it&#039;s trying to find the right combination to get a specific result. And with Facebook, the main result it&#039;s trying to get is clicks and it&#039;s trying to get people over to your website. It&#039;s also trying to get people to opt in, into their email address and take action on the offer that you&#039;re providing.
+
+So, Facebook&#039;s constantly optimizing what audience should see, what message, with what image. It&#039;s trying to find the best match. And so, if your message and image doesn&#039;t resonate very well with your audience, well, then Facebook&#039;s going to prioritize another advertiser above you, and they&#039;re going to get more traffic. So, constantly, we&#039;re trying to find the best combination of these variables, because then Facebook is going to give us the majority share of all the traffic.
+
+On Facebook, the advertiser that has the most powerful combination of these variables win. They take all the traffic. And if you don&#039;t have very good combinations of their variables, you pretty much get no traffic or you actually do get none at all. This is why it&#039;s important to start with a proof of concept, so that when we start creating these combinations of variables, we have some idea what we&#039;re doing and we&#039;re not just shooting blind. Just like how our brain works, we want to set a results hypothesis and we want to set an Audience-Message hypothesis, because we&#039;re going to take the action when we launch our ads. You know, we&#039;re going to actually create ads, we&#039;re going to create different combinations of images. We&#039;re going to find different combinations of audience and we&#039;re going to push it live and we&#039;re going to test it in real life, and we&#039;re going to get results. But before we go and do it live, we want to form a hypothesis, because that is how our scientific method works.
+
+We start with the hypothesis. Then once we&#039;ve done that, then we take the action and then we see how the action aligned with the hypothesis. And based on that, we iterate and adjust, based on the feedback, and we get better and better every single time. That&#039;s our method for optimization and it is seriously powerful when you use it properly. First of all, we need to set these hypotheses. We need to figure out what we&#039;re actually aiming for in terms of results and then what we believe is going to be a good combination to try and achieve those results.
+
+To be clear, here is our workflow. So, here&#039;s our scientific method workflow, step-by-step. There&#039;s really five steps to it. Before we touch Facebook, we need to form a hypothesis for both the results we expect and the combination of Audience-Message required to achieve those results. In order to form a hypothesis, we must have an established proof of concept. Without a proof of concept, you may as well burn your money. You know, I&#039;ve made this point and I&#039;m pretty sure it&#039;s clear by now. Then, when you&#039;re forming your results hypothesis, we must hypothesize about the results we expect to achieve with our experiment. So, you know, if you were in a science lab and you were going to do an experiment, before you go and do the experiment, you hypothesize, you take a guess at what you think&#039;s going to happen and all of that. Then, you do the experiment and then you compare. That way, you keep working that way.
+
+So, to help you understand the benchmarks and what to expect, I&#039;ve provided you with these worksheets, so that you can really get a clear idea. Because most people, when they go to Facebook, they have no idea what to expect. Their results hypothesis, even if they want to set one, they have no idea what to aim for. They don&#039;t know what&#039;s possible and they don&#039;t know what the right numbers are in order to achieve profit. So, you guys are really miles ahead of everyone else, because I&#039;m going to give you these resources, so you know exactly what to aim for. I&#039;m essentially helping you set your results hypothesis right away.
+
+This spreadsheet&#039;s available for download, beneath this video in the resources section. It&#039;s called Your Paid Client Attraction Metrics, or Paid Attraction Metrics. You can download it as a Microsoft Word file, Microsoft Excel file. However, I recommend you use Google Docs. You just click on this link here and you&#039;ll open it in Google Docs and boom, you&#039;ve got it open. That way, you can update it here and it&#039;s always live online. You can access it from your browser.
+
+On the first tab here, you&#039;ll see it&#039;s called Performance Dashboard. Here, we&#039;ve got our average student performance benchmarks. And so, we can look here at these different things. For example, clicks. If you want to have a successful campaign and a successful Fragmentation funnel, you should be within these two numbers. One&#039;s low, one&#039;s a bit higher. You should be somewhere within these ranges, for all of these different things. Otherwise, if you&#039;re outside of these ranges, there&#039;s a high chance that you&#039;re not making any money and you&#039;re actually losing money. So, I&#039;ve provided you with these, so you know exactly what&#039;s going on.
+
+With clicks, our click-through rate is in-between 0.5 and 1%. Then, our landing page conversion rate&#039;s in-between 20 and 30%. Our video conversion rate&#039;s in-between 5 and 10% and our call show-up rate&#039;s in-between 80 and 90%. Then, our call conversion rate&#039;s in-between 10 and 20%. That means that our cost-per-click&#039;s in-between $1 and $3. Our calls-per-lead&#039;s in-between $5 and 15%. Our-cost-per-survey&#039;s in-between $50 and $300. Our cost-per-call is in-between $55 and $330. Our cost-per-acquisition, our CPA, is in-between $275 and $3,300.
+
+Then, based on these numbers ... These are kind of like the funnel numbers and the ad numbers and all of that. Based on these, your return on investment, which is what we call the Polaris [inaudible 00:31:44], is the most important thing. It should be in-between 100-200%. That means you&#039;re getting at least 2:1 to 3:1 on your money. So, if you spend $1,000 on ads, you should get back $2-3,000 in sales. So, those are the sort of numbers you should be aiming for. You should be, initially, aiming to get leads and you should be aiming to get clicks at around this cost, and leads at around this cost, and strategy sessions at around this cost.
+
+Then, once you&#039;ve got enough of these things, then you should be aiming to pick up customers for in-between this price here. Here is everything you need to know. This makes it really simple, because this allows you to set your results hypothesis right now. So, you&#039;re really aiming to get ... You know, your results hypothesis should be to get clicks in between $1 and $3, leads in between $5 and $15, strategy sessions in between $55 and $330, and then customers in between this and that. The price of your monthly service or your program or whatever it is you&#039;re selling should exceed these numbers you&#039;ve hypothesized. I&#039;m pretty sure everyone gets that.
+
+And so, that is how we form your results hypothesis. Then, step three is you want to form your Audience-Message hypothesis. So, we must hypothesize about the combination of Audience-Message variables we believe will work together to achieve the results hypothesis. The only way to do this is if you have an established proof of concept. I know I&#039;ve said this to death now, but you have to have a proof of concept. Otherwise, you have no idea about what&#039;s going to achieve these results. So, the Niche-Offer-Result combination present there will provide you with all the essential clues. When you have a proof of concept, it means you have a Niche-Offer-Result combination that works.
+
+What happens, the way fractals and everything work is when something works and you&#039;ve got at least three customers, there should be clues in there as to what is going to work on the Facebook platform. You should have done strategy sessions. You should have spoken to people. You know their objections, you know their hot buttons, you know everything by now and you should have collected a lot of feedback on your worksheets. Then, we&#039;re going to really go looking at that stuff. That stuff&#039;s going to help us create our Audience and Message hypothesis. That&#039;s going to help us choose different audiences, where we think our people are, and it&#039;s going to help us create different messages, which we think is going to resonate with these people.
+
+Then once we&#039;ve formed the results hypothesis and then the action or the Audience-Message hypothesis, that&#039;s perfect. Now, we&#039;ve set both of these things. Now, we&#039;re ready to take it to the market and actually test it in real life. This is step four, testing. Once we&#039;ve formed the results hypothesis and the Audience-Message hypothesis, it&#039;s time to submit it for real-life testing on the Facebook ads platform. Then, what we do is we launch our ads. We launch a variation of different ads and audience and images, and then we leave it for a few days and we observe the results. After about three to four days, we come back into Facebook and we see how our experiment went. Some of our ad sets will be within the KPI hopefully and most of them are probably going to be outside of KPI. If they&#039;re in KPI, that means they&#039;re blue swans. They&#039;re good; we can leave them. If they&#039;re outside of KPI, it means they&#039;re red swans, means we&#039;ve got to turn them off and delete them.
+
+Then, step five is iteration. Once we have observed the results of our test, we collect feedback about what worked and what didn&#039;t work. So, we want to write down what audiences worked, what images worked and what messages worked. Then, we want to write down what things didn&#039;t work and we want to constantly keep track of what worked and what didn&#039;t work, because we basically want to do more of what worked and less of what didn&#039;t work. This is really simple, but this is literally what we&#039;re doing. This is all of what business is. I know it sounds so simple, but you know, people go and make things so complicated.
+
+This is our scientific method workflow. This is what we&#039;re doing. We&#039;re just doing it over and over and over again. Each time, we&#039;re getting better and better and better and learning more and more and more. So, this is a basic overview of it.
+
+Now, we&#039;re going to talk about anti-fragile architecture and asymmetrical testing. So when we&#039;re testing our hypotheses and looking for successful combinations of blue swan DNA, we need to be aware of our downside. What&#039;s downside, you might be thinking. We constantly need to be aware of our downside. Here, I&#039;m going to explain exactly what it is. When advertising with Facebook ads, it doesn&#039;t matter whether we&#039;re testing, running ads that work or ads that don&#039;t work. Everything we do costs money. Now, in order to use Facebook ads, we&#039;ve got to pay. It costs money. Every time someone clicks, we have to pay Facebook.
+
+Upside. Well, upside is what we call the money we make from profitable Facebook ads. For example, you might spend $1,000 on ads and we might make $3,000. We would call the $3,000 we made as upside. So, that would be $3,000 upside and there would have been $1,000 downside, because we spent that. That means that there would be more upside than downside, which means that we make a profit of $2,000.
+
+Then, downside. Downside is what we call the money we spend or lose from unsuccessful Facebook ads; also, money we spend on successful ads. It&#039;s still downside because it costs us money. An example is we spend $1,000 on ads and we might make $0. Well, we&#039;d call the $1,000 we lost downside. So, I&#039;m pretty sure you get it. Money spent is downside, money made is upside, right? You want to constantly be aware of this.
+
+It is of extreme importance that we always know our upside and downside when advertising on Facebook. Facebook ads is no place for creative, artistic and emotional thinking. I&#039;ve seen so many people lose their shirts on Facebook, because they think something looks cool or something looks cute or whatever, and it doesn&#039;t work. I see so many people lose their money. So, Facebook ads is a strict risk and reward game, where the people who know their numbers take all. They take everything. And the people who ignore their numbers, they lose their shirts and everything else. At all times, you must understand how much you have at risk and you must be totally fine with losing money before making money, because that&#039;s how it works. By this, I don&#039;t mean huge amounts. But, you know, when you&#039;re using Facebook, quite often you&#039;re spending hundreds of dollars before you see any money come in.
+
+Sometimes, you&#039;re spending thousands of dollars before you see any money come in. That&#039;s how it works and you really have to get your head around that before you use it. Because otherwise, it will freak you out and you constantly will think that it&#039;s not working and taking your money, because when you&#039;re using it, you&#039;re paying before the results come back. Sometimes, in the beginning, where you&#039;re trying to figure out different combinations and you&#039;re testing, well, you&#039;re going to be spending a few thousand dollars and all of those thousands of dollars are going to be going towards finding out what works. So, you really have to be aware of upside and downside. Otherwise, you know, Facebook can take all your money and it&#039;ll leave a bitter taste in your mouth. You&#039;ll probably never use it again. But when you know how to use it properly, it&#039;ll make you rich.
+
+How do you calculate downside? Well, when advertising on Facebook, 100% of the money you&#039;re spending all the time, you should assume that it is at risk. What I mean by that is you could lose it. You know, every dollar I&#039;m always spending on Facebook, I assume that there&#039;s a chance that that could be lost. It&#039;s like an investment, you know? If you buy a particular house or some real estate or whatever, that money could be lost. But you analyze it and you think that the maximum that you could lose is this, because the price of the property couldn&#039;t possibly go below this, right? You do these calculations. But with Facebook ads, I mean, it is possible that all the money you&#039;re spending could just go and you might not get anything back in return. So, you always want to understand this.
+
+You should look at your bank balance and your cash flows and determine the amount you can safely risk each month for ads. This is crucial. You want to look how much money have you got in your bank account. Then, you want to look at how much money are you consistently making each month? Now, Facebook isn&#039;t a place to go if you don&#039;t have any money and if you&#039;re not making any money, because it&#039;s just going to make you poorer and it&#039;s going to freak you out. It&#039;s a place to go when you&#039;ve got some money to bet and you also have some cash flows to replenish that money.
+
+We aim to make profit and ROI, return on investment, every-time. However, you must prepare for the worst case at all times, which is, you know, you lose everything. And the reason why I say this is because it does something you emotionally, when you prepare like this. You know, I learned a lot of this from investing. The worst thing you can do with investing in Facebook ads is to get emotional. And so, the worst investors are emotional ones. The worst investors are the people who bet all of their money on stuff and they need it to work. Whenever you need something like this to work, it won&#039;t work. So, the last place you want to put your last thousand dollars or your last $500 is Facebook ads, because when you come to Facebook ads and you&#039;re expecting a miracle and you&#039;re expecting it quick and you really need it to work, your emotions are going to cloud your judgment and it&#039;s not going to work for you.
+
+When you set a budget with Facebook and ... You&#039;re fine. You work out that your business is going to be fine and you&#039;re going to be fine if that money is lost, then it sets you up mentally. Because obviously, we&#039;re not aiming to lose that money, but if it does happen, we&#039;re not going to be in panic. Because, you know, it&#039;ll still suck but it won&#039;t be the end of the world. We always need to make sure that we&#039;re running like this, because if we run the other way around, your emotions are going to cloud your judgment. You&#039;re not going to be able to make any good decisions. So, the first number you want to figure out is that. How much can you risk?
+
+The first number you need to be aware of is your testing budget. This is the amount of money you allocate towards testing and finding the right combination of variables to produce a profitable campaign. This is when we&#039;re initially testing, we&#039;re testing our hypotheses, we&#039;re trying to find out a combination that works. This particular period of testing, if you don&#039;t have a proof of concept, it will never work. So, that&#039;s that. If you do have a proof of concept and you go into the testing period, well, it can cost in between $1,000 and $3,000 to find the right combination of variables. Now, it can cost this and it can cost more, but this is just a rough sort of range. So, you really don&#039;t want to touch Facebook until you&#039;ve got at least, really, two grand. Once you&#039;ve got two grand and you&#039;re like, &quot;Okay. I&#039;m happy to use this money for testing. I understand that I could lose it all but I also understand that it could make me a lot more,&quot; I mean, that&#039;s when you&#039;re in the right position to financially touch Facebook as a platform.
+
+The second number you need to be aware of is your daily budget. This is the amount of money you allocate towards advertising each day. You can calculate this by taking the sum of the money you can safely lose, divided by 14 days. What you want to do is write that number down right now. You want to pause this video right now and you want to calculate all of these numbers. So, first of all, how much are you able to spend, how much are you able to risk each month? Look at what&#039;s in your bank account, look at how much money you&#039;re making each month from your business, and then figure out are you able to risk two to three thousand dollars to test Facebook ads? It&#039;s either a yes or a no. If it&#039;s a yes, then you can do it. Awesome. If it&#039;s a no, then well, you need to keep saving and you need to keep using organic methods before you can touch Facebook. Simple. You can do it if you&#039;ve got less money, but it won&#039;t work for you. I&#039;m just going to be completely straight with all of these things.
+
+Then, the second number you need to determine is your daily budget. So, if you calculated that you could risk $2,000 a month, you looked at your income and you&#039;re like, &quot;Okay. I can risk two grand a month,&quot; well, you&#039;d take $2,000 and then you would divide that by 14 days. That would give you $143 a day. Your daily budget would be $143, because you could lose that money for 14 days before you would have to stop. Then, the third number you need to be aware of is what we call a hard stop. This is at the point where you must pause all of your ads, because you have hit your downside limit.
+
+And what I mean by this is ... This is ... In the beginning, you calculated how much you could safely risk each month. You worked out that number by looking at your bank balance, looking at how much money you&#039;re making and you came up with that number. Well, that&#039;s how we calculate our daily budget and then we can only lose that for 14 days before we&#039;ve going to stop our ads. However, if we&#039;re making profit, we can go for longer. But that&#039;s the maximum we can lose each month before we have to stop. It&#039;s important that you figure out this hard stop number, because if you ever get to it, well you&#039;ve really got to stop. Because otherwise, you can get yourself into trouble. You know, you don&#039;t want to keep going and then you can&#039;t pay rent and you can&#039;t do all this other stuff. I mean, that&#039;s just irresponsible. That&#039;s why we set these hard stops before we even touch Facebook ads, so that we know what our downside limits are.
+
+When you do this, it will just make Facebook easier for you. You&#039;re not going to lose your shirt with it. I mean, you&#039;re going to be much more calm and non-emotional about it. You&#039;re going to be actually acting like a professional investor. That&#039;s how you make a lot of money with Facebook. If your hard stop was ... Let&#039;s say you could lose $2,000 a month and that&#039;s $143 a day if we divide it by 14 days, that means that you could lose $143 a day for 14 days without any income on your ads. That would be your limit.
+
+You&#039;re probably thinking, &quot;Well, how do we keep track of this?&quot; Well, first off, we define what these numbers are. That&#039;s what you should have done in the previous slide. You should have paused the video and written those numbers down. Then, we track each day&#039;s results using our Paid Attraction Metrics spreadsheet, and this is the spreadsheet available for download beneath the video. I just covered it before. It&#039;s called Paid Attraction Metrics and we use it to track our performance each day. I&#039;ll just pull it up again and I&#039;ll show you exactly how we use it to track our downside.
+
+So, we&#039;ve got the performance dashboard on the front tab. Then, if we go into month one here, you set the date and everything and you put your Adspend in here and you calculate these numbers the day after each day&#039;s advertising. So the morning after, you&#039;re reporting on yesterday&#039;s data, because we need a full 24 hours to aggregate all these numbers. You&#039;ve put in the Adspend, the Impressions, Relevant, CPM, Clicks, Click-through Rate, all of this stuff. Now, everything in gray, you don&#039;t need to put in. The little formulas that I plugged into the spreadsheet do all of the gray boxes for you. All you need to plug in is the white cells. And if you hover over these things, it tells you what each one is. You can see these things are popping up. All right?
+
+When you plug all of this in here, you&#039;ll have this column here, which is called P&amp;L. Profit and Loss balance. This box here is how we track our downside. When we&#039;re looking at this, when we need to stop, when our hard stop is hit, this would look like this. It would say -$2,000. So, if you ever saw that in your P&amp;L column, then that&#039;s when you&#039;ve got to stop. Immediately when you see this, you have to go into your Facebook ads account and you just have to turn everything off. You have to pause it because you&#039;ve hit your hard stop limit. Even if you get clients and you&#039;re making money ... You know, this number might go up to 10 and whatever. But then you might hit a slump and you might go down. Now, you&#039;re coming down into ... you know, as soon as you hit this here, that&#039;s your hard stop. You have to stop. This is why we set that number, because we want this to be as high as possible, but we need to have a hard stop on our downside. Otherwise, we can get ourselves into financial trouble. This is what all professional investors do. It&#039;s what everyone who knows what they&#039;re doing and is smart with money does. You always calculate your downside and you set a hard stop there.
+
+That is how we do that and that&#039;s how you track it. It&#039;s pretty simple. You need to be disciplined and report on your numbers every day. If you set Facebook ads up and then you forget about it for a week and then you come back ... Well, it might have taken more money from you than you thought it was going to. You have to check on it each day and you have to report on your numbers each day. You have to be very disciplined like that. At all times using Facebook, you must keep upside and downside in mind, even when you create your campaigns.
+
+Now, for one of my secret weapons. Now I want to show you one of the most powerful things that I have created when it comes to using Facebook. It&#039;s something that I call anti-fragile architecture and asymmetrical testing. The way I think about ads and the way smart people think about investments is like this. You&#039;ve got your downside and your upside. The downside is this here, where we can see these negatives and we&#039;ve got this trend line going down. You can see this is losing, minus dollars, down. And then we&#039;ve got upside, which is above the line. These are all the pluses. This is money that we&#039;re making. It&#039;s profit. The nature of every single investment you&#039;re ever going to do, as a human being, is that there&#039;s always going to be downside. For sure, it&#039;s an absolute fact. There&#039;s always going to be downside. There is not always upside. Not every investment has upside.
+
+What you&#039;re always looking at is something called asymmetry here. What asymmetry means is it means that both sides aren&#039;t symmetrical, so it means that one side&#039;s way bigger than the other side. You&#039;re always looking for risk-reward situations, where the downside isn&#039;t that big, but the upside is huge. Because if you do take the downside, which is likely a lot of the time, then the upside has to more than pay it back. If this downside here was the same size as this upside, then it means that we would make $0. And if the downside was bigger than the upside, it means we&#039;d lose money. So, this is what you have to think about when you&#039;re using Facebook ads. All the time, you have to know what the downside is and what the potential upside is, because only then are you setting it up properly so that you can actually make profit. There&#039;s a special way that I architect these campaigns in order to do that.
+
+Anti-fragile architecture and asymmetrical testing. So, when structuring our campaigns, we want to have asymmetrical risk-reward, where risk is minimal and reward is uncapped with no limits. To do this, we run multiple variations of ads with multiple images to multiple large audiences, all with the lowest budgets possible. So, we set our budgets on these ad sets and these variations pretty low. I mean, it&#039;s not as low as it can go, because I know how low we can go and actually still make it work. You know, you could put 50 cents in there, but it wouldn&#039;t work, because clicks cost more than 50 cents, so you&#039;re not going to really get anywhere. But I know the numbers and I know as low as you can really bid on stuff and actually get it to work, and I&#039;m going to share those numbers with you later. But why we want to do this is we want to have lots of different variations with a really low budget and this way, we can test lots of combinations and we are never really going to lose that much money, because we have set small budgets for everything.
+
+We&#039;re getting lots of exposure with two different combinations, but with a very little downside. We also hard stop our losses. Now, we also know how much we can possibly lose before it&#039;s bad. We have that P&amp;L column in our Paid Attraction Metrics spreadsheet, so we can constantly keep track of that. As soon as that hits -$2,000 or whatever your number is, well, you&#039;ve got to pause. You&#039;ve got to shut it off, because now you&#039;re hitting your downside limit. The cool thing about Facebook ads is that we have this limited downside, where we have small budgets and we&#039;ve got a hard stop on our losses, which means that we can&#039;t really lose infinitely, because we&#039;ve stopped. We&#039;ve got a hard stop. There&#039;s only so much we can possibly lose, but there is infinite amounts that we can possibly gain. So, there&#039;s huge asymmetry here, because when things work, we can make millions and millions and millions; but when things don&#039;t work, we hard stop our losses at two grand or whatever your number is. That&#039;s how we get asymmetry here.
+
+This way, we can test thousands of variations with limited downside. Then, as soon as we find winning combinations, we can scale them up with almost uncapped upside. That means we can start scaling. When something&#039;s profitable ... If we put a dollar into Facebook and we get out five, we&#039;re going to spend as much money as we possibly can, because, I mean, why would you not? If you put a dollar in a machine and got out five, would you just take your $5 and then walk away? You&#039;d probably try putting more dollars in and see how many times you could do it for. Then, you&#039;d probably start trying to put a hundred dollars in and so on and so forth. Well, that&#039;s how it works. That&#039;s how Facebook works and that&#039;s how I&#039;m going to show you how to set it up.
+
+Now, we&#039;re going to talk about KPIs and their role in identifying the two swans. Imagine this for a moment: Your friend asked you to drive your car from your home to a location you&#039;ve never been before, and you must drive completely blindfolded. Would you do it? The same is true if you use Facebook ads without knowing your KPIs. And you might think, &quot;No, no, that&#039;s not the same.&quot; It&#039;s almost more dangerous to use Facebook without knowing your KPIs than it is to drive a car blindfolded. Without KPIs, without knowing your KPIs, your Facebook ads account is headed straight for a tree, just like if you&#039;re driving blindfolded. And just like driving blindfolded, you won&#039;t have any idea you&#039;re about to crash until you&#039;ve crashed and you&#039;ve broken your neck. Same with Facebook.
+
+If you don&#039;t measure your KPIs, if you don&#039;t know them, then you might actually think that you&#039;re making money. You might actually think things are going okay, because different people are clicking on our ads, liking them. You&#039;re getting some emails and what not. But you could be headed straight for a tree. The only way you&#039;ll know whether you&#039;ve crashed is when you actually crashed, so it&#039;s a really horrible situation to be in. I see even pretty smart people making this mistake. They think just because people are opting in for their information and they&#039;re getting emails and leads, and they think just because people are liking their stuff, that it&#039;s worth it. But you don&#039;t know whether it&#039;s worth it unless you&#039;re selling something. The only true test for advertising is profit. Nothing else.
+
+That&#039;s why KPIs are so important. You never want to run ads just to get things like email opt-ins. You know, I hear people do this all the time. They create PDFs or they create free reports or they create tripwires or all of these crazy things. Then, they advertise them and they&#039;re like, &quot;Yeah. This is going well, because I&#039;m getting leads for like two bucks or I&#039;m getting leads for a dollar. I&#039;m list-building. I&#039;m doing all of this.&quot; Well, honestly, that&#039;s stupid behavior. You never want to do anything just to get emails, because all of the emails you&#039;re getting might be wrong. They might never buy from you and then that&#039;s a total waste of money. So, this is why we need to keep track of the numbers. We need to know our KPIs. Otherwise, we&#039;re not going to know that we&#039;ve crashed, or we might not know that we&#039;re heading for a tree until it&#039;s too late. The moral of the story is, basically, don&#039;t use Facebook ads without knowing your KPIs.
+
+So, what are KPIs? Well, KPIs are key performance indicators. When using Facebook ads, it is mandatory to use KPIs to track the performance of your ads and your Fragmentation funnel. Every day, you must check your ads and plug your key numbers into the Paid Attraction Metric spreadsheet, so that you can gauge your performance. The spreadsheet provides benchmarks for all KPIs, so that you can compare your numbers with other students and see where your campaign or funnel is breaking down. Like I said, this is available for download beneath the video. Your KPIs are here. It&#039;s these average student performance benchmarks. These here don&#039;t change; these are set. However, when you enter in all of your numbers here, these numbers here will change, because this is your performance.
+
+What you&#039;re doing here is trying to compare your numbers here to these numbers here, and see where you&#039;re outside of KPI and where you&#039;re within KPI. Where you&#039;re outside of KPI, well, that&#039;s where your funnel or your ads are broken. That&#039;s where you need to drill down and start fixing it, finding out what the problem is, trying to fix it until you&#039;ve got all of our KPIs in alignment with the benchmarks. Once they&#039;re in the benchmarks, you should be making profit. It&#039;s as simple as that. I&#039;ve really made it as simple as I possibly can here. I&#039;ve given you all of the numbers, all of the calculations, all of the benchmarks, everything. That&#039;s how we use KPIs.
+
+Now, we&#039;re going to talk about using KPIs to identify the two swans, red swans and blue swans. A blue swan is a Facebook ad set that is within KPI and a red swan is an ad set outside of KPI. We need KPIs to accurately identify whether an ad set is a blue swan or a red swan, because without KPIs, we&#039;re driving blind and we have absolutely no idea. Worse yet, we will treat red swans as blues and blues as reds. So, this is the sort of messed-up stuff that can happen when you don&#039;t use KPIs and you don&#039;t track stuff. I&#039;ve seen people think they&#039;ve found a profitable ad set, and they start spending more money. They start duplicating the ad set that they think is profitable. They start turning off other ad sets, which they believe aren&#039;t profitable, based on their gut. And then later on, it turns out that they turned off the things that were working and making the money, and they started spending more money and growing the things that were losing the money.
+
+That might sound crazy to you. You might be like, &quot;Well, that would never happen.&quot; Well, honestly, if you don&#039;t track your KPIs, you have absolutely no idea. You don&#039;t even know. Like I said before, Facebook advertising is all about the numbers, not the emotions. So, it doesn&#039;t matter if you think an ad is cool, pretty, cute, or even if you are absolutely certain that the ad that you&#039;ve got is going to work. It doesn&#039;t even matter if you think an ad is working, because only the numbers can judge. Only the numbers can actually tell us whether something is working or not. Blue swans and red swans all look the same unless we have KPIs. KPIs are the only things that can show us what a swan is, red or blue. If we just try and use our eyes and no KPIs, we have no idea what we&#039;re looking at and we might even muddle them up and get them back-to-front.
+
+Now, we&#039;re going to talk about growing your population of blue swans. And by this, I mean finding ad sets that are profitable and then starting to grow them, starting to duplicate them and propagate them and really scale it up. Our main objective with Facebook ads is to grow our population of blue swans, as I&#039;ve said. We do this in three key stages. So, let&#039;s take a look at these three stages right now. The three stages of breeding blue swans.
+
+Stage one, which is where we&#039;re going to start, is called testing for blue swans. The first stage is to test our hypotheses by submitting different ad angles, different ad images and different audiences to Facebook for testing. We do this by ... We identify ad sets within KPI and we keep these, which are blue swans. We identify ad sets outside of KPI and we delete these, red swans. Then, once we&#039;ve done that, once we&#039;ve done enough of that and we&#039;ve actually identified some blue swans, then we would start scaling. However, if we don&#039;t identify any blue swans, well, we&#039;ve got to keep iterating and testing until we do find blue ones. We can&#039;t scale until we&#039;ve found blue ones. Otherwise, what we&#039;d be doing is scaling red ones and exponentially scaling our losses. So, we have to keep testing in this stage one process until we&#039;ve identified enough blue swans. Later on, I&#039;m going to show you what enough really means. I&#039;m going to define these things, show you exactly what enough means. But for now, you just need to get your head around the strategy.
+
+Then, step two, once we&#039;ve done that, is called scaling blue swans. Once we&#039;ve created enough blue swans from testing, we can start scaling. To scale, we find the most successful ad sets and we duplicate them multiple times, changing the budget and age range as variations, while keeping the proven Audience-Message string the same. So when we have a profitable ad set, which is a blue swan, within it, there&#039;s a DNA string. It&#039;s made up of an Audience, a Message and an Image, and these combination of variables work together.
+
+Now, what we want to do is we want to start duplicating these, because it works, so we want to make more of them. However, we want to create just a tiny, little micro-variation in it. We don&#039;t really want to change the string, because we know the string&#039;s good. So, we want to just create a tiny, little variation, just to kind of trick the algorithm so that it thinks it&#039;s an entirely new string. Our way of doing that is by changing the budget, because Facebook&#039;s algorithm takes the budget into account. If you have two ad sets at say, $20 ... Well, if you have one ad set at $20 and it works, it&#039;s a blue swan. So if you duplicate it and set it at $20, well, Facebook might think that it&#039;s the same ad set and it will just treat it as if that&#039;s really one ad set, even though, to you, it looks it&#039;s separated into two.
+
+But what happens is when we change the budget, it fools the algorithm. It really tricks it. If we have one at $20 and then the next one we create at $28 or $$23 or whatever, just any random number that&#039;s not $20, then the algorithm puts it in a different category and it considers that a different string. But it&#039;s only slightly differentiated because it still has the same string. It&#039;s still got the same Audience-Message-Image, but just the budget&#039;s changed a little bit.
+
+Most people don&#039;t understand that just by changing the budget, you&#039;re changing a variation in the string. We&#039;re also ... When we duplicate it, we&#039;re changing the initial conditions. We&#039;re exposing the string to a different environment and different initial conditions. So, sometimes it&#039;s possibly to actually have a profitable ad set and have a blue swan, and duplicate it three times and see all three duplicate, cloned copies fail and be red swans. Sometimes, that can confuse people, because they&#039;re like, &quot;What? I thought I found the right DNA string. How did it fail?&quot; Because each time you&#039;re duplicating it, it&#039;s not just a carbon copy. It&#039;s not a clone. You&#039;ve got new initial conditions and those are more important than the ad itself. You&#039;ve also got different budgets and all of that. Each time you duplicate it, you might think you&#039;re just cloning the same thing. You&#039;re cloning the string, but the initial conditions are different and that can make all the difference.
+
+So, what we want to do is we want to duplicate these things and just change the budget a little bit. Sometimes, we change the age range too. So, if we were targeting 16 or 18-55-year-olds, whatever, we could change it to like 18-53. It&#039;s barely like we&#039;ve changed anything, but again, we&#039;re kind of tricking the algorithm and Facebook thinks it&#039;s a totally different string. And so, we get to keep the DNA string the same, but we get to make it different in small, little ways. That&#039;s how we scale it. We start duplicating this, because if we see it&#039;s proven once, we want to keep duplicating it. That&#039;s how we really scale up.
+
+Once we work through these two phases here, phase one and phase two — or stage one and stage two — and we&#039;re constantly testing new things, and then when we find ones that work, we&#039;re scaling them up. Testing new things, scaling them up. And after enough of this, I mean, you&#039;ll be ... Very quickly, when you do this properly, you will be scaled right up and your problem will not be Facebook ads. Your problem will be hiring people and trying to get systems in place to manage all of the customers that you have.
+
+I can scale Facebook ads so fast that within one month, I can pretty much break my entire company. That&#039;s pretty much what I did last year. I scaled up so much, so quickly, that I pretty much broke my entire company. I had to hire ... It&#039;s taken me the last eight months to hire enough people to catch up with the demand. So once you learn these methods, your problem isn&#039;t going to be scaling and making money. Your problem is going to be trying to hire people and catch up with the scale. This is the part that becomes actually pretty easy.
+
+Then, stage three is managing blue swans. So, as we scale our blue swans, we need to constantly check on them to make sure they&#039;re still within KPI and trending the right way. To keep the population of blue swans healthy, we constantly duplicate the healthiest ones while deleting the unhealthy ones to keep refreshing the population. We want to take from the bottom and add to the top all the time. Just imagine you&#039;ve got a fish tank or something. You constantly need to be kind of draining the bad water out and adding the new water in. You need to constantly keep it fresh. You can&#039;t leave it sitting stagnant.
+
+Because even if you have a whole collection of blue swan ad sets and they&#039;re working fine one day, if you just leave them, then eventually all of them will die. All of them will turn into red swans. Just because something&#039;s a blue swan one day doesn&#039;t mean it&#039;s going to be a blue swan forever. You know, the environment&#039;s constantly changing and based on the initial conditions, we don&#039;t really know what the evolutionary stream is going to end up with for these different swans. So, it&#039;s important that when they do work, that we duplicate them. We try and get them to breed. And then when we duplicate them, as different swans get sick and whatnot, it doesn&#039;t affect us so much because we&#039;re constantly adding new ones to the population.
+
+That&#039;s a very important lesson. When you&#039;re managing blue swans, you have to be looking at them all the time and seeing which ones are kind of getting sick. You need to be adding new, healthy ones into the population more frequently than ones are getting sick and withdrawing from the population. Because that way, you&#039;re always keeping your audience ... or you&#039;re always keeping your population of blue swans constant or, better, you&#039;re constantly growing it and it&#039;s not declining. So, that&#039;s an important lesson to learn.
+
+In the beginning, if you&#039;re just setting up this stuff, we&#039;re going to work through these one, two, three stages sequentially. We&#039;re going to do testing. Then once we&#039;ve done that, we&#039;re going to scale. Then once we&#039;ve scaled, we&#039;re going to manage. Then once we&#039;ve kind of managed it and we&#039;ve got it to where you want it to be, it&#039;s going to be a constant process of all three of these things. You know, even for me today, after doing Facebook ads for years, every day, I&#039;m really testing new things. I&#039;m scaling different things and I&#039;m managing things. I&#039;m turning things off. I&#039;m duplicating different things. Once you get to stage three, it&#039;s a constant sort of cycle of doing all three of these things to keep the population of blue swans fresh, active and growing and all of that.
+
+Now, let&#039;s talk about the big mistake everybody makes. And there&#039;s a lot of them with Facebook ads, but this one is a big one and you&#039;ll see how blindingly obvious it is when I explain it here. The big mistake everybody makes with Facebook ads is assuming a profitable ad set will always be a profitable ad set. They create different ads and they&#039;re testing. Then, they find some that work. They turn off the ones that don&#039;t. Then, what they do is they&#039;re like, &quot;Yes. I&#039;ve found it,&quot; so they just might increase the budget or something, and then it&#039;s working and they&#039;re like, &quot;Yeah. This thing&#039;s working.&quot;
+
+Then, you know, a week goes by or whatever. Maybe four days goes by, more of the time. Then, it stops working. And then when it stops working, they assume that the ad no longer works and they refresh the creative. &quot;Oh, yes. The ad is broken. I know what happened. You know, I had this ad and it was working and now it&#039;s not working and the ad is broken.&quot; I can see how someone made that assumption, but they&#039;re wrong. And so, the last thing you want to do is refresh the creative. When I hear people say this, I&#039;m like, &quot;Man, this person doesn&#039;t know what they&#039;re talking about.&quot;
+
+A good example to look at is nature to really see what the correct method for us to do is. In nature, the environment is always changing and a genetic trait that is helpful in one environment can be harmful in another. We can see this with example, like penguins, for example. You know, penguins, genetically, are made for cold weather, right? That&#039;s their environment, so they&#039;ve got good genetics for a cold environment. However, if you put them in the desert, they don&#039;t have very good traits. So, traits aren&#039;t just good traits. Traits are only good when compared to an environment. You know, humans are good on earth, but we&#039;re not good underwater. However, fish are good underwater. They&#039;re not good on earth. The environment changes everything.
+
+With Facebook, the environment&#039;s always changing. You know, new advertisers, they&#039;re coming in and they&#039;re advertising. Niches are changing, Facebook&#039;s changing. Different preferences are changing, the economy&#039;s changing. It&#039;s a forever-changing environment and just because something worked at one stage doesn&#039;t mean it&#039;s going to work in a new stage, because the environment&#039;s literally changing. So because the environment is always changing, just because an ad set works right now doesn&#039;t mean it will continue to work forever.
+
+Eventually, all blue swans will die. I&#039;ve seen some blue swans hang on for four months, which is pretty insane. Most ad sets don&#039;t last anywhere near that long. But even those ones, those things which you think are like thoroughbred race horses, you&#039;re just like, &quot;Whoa. This thing is working and it&#039;s been working forever.&quot; Even those, they stop working. You know, eventually all blue swans will die. In nature, healthy genetics survive longer than unhealthy genetics. And because of this, they tend to propagate and produce offspring.
+
+If you remember back to week four, how we talked about natural selection and all of that stuff. We talked about how, for example, there might be brown beetles and green beetles. And if there&#039;s a predator in the environment, like a bird, and it&#039;s got a preference for green beetles, then the green beetles are going to get eaten first. So, the brown beetles are going to live longer. They&#039;re going to have more babies and everything. So eventually, there&#039;s going to be more brown beetles than green ones. Eventually, there won&#039;t be no green ones at all, right? Very simple example.
+
+If you&#039;ve got the right genetics, if you&#039;re a beetle, well, then you&#039;re going to live longer. Typically, when they live longer, they&#039;re going to propagate. They&#039;re going to have offspring. And so, that&#039;s what happens in nature. The healthy genetics and the preferential genetics, they tend to reproduce. When you have a blue swan, the last thing you want to do is keep it running till it dies and then create a completely new one. This is what everybody does. You know, people have an ad set that works, and it&#039;s profitable, and they&#039;re like, &quot;Yes. This thing&#039;s working.&quot; Then, they just leave it until it dies and then they create a totally new thing. This is pretty mad.
+
+And while the blue swan is healthy, it should propagate and produce offspring of its own, just like how things do in nature. So when you have an ad set that&#039;s working and it&#039;s profitable, while it&#039;s healthy, working and profitable, you want to start propagating it. You want to start duplicating it, cloning it, starting to reproduce it, because you know eventually that healthy blue swan&#039;s going to die. So, while it&#039;s alive and while its DNA is good and everything, you want to start duplicating it out. That way, if you&#039;re constantly duplicating the good DNA, then you&#039;re constantly doing what organisms and everything do in nature, which is adapting to the environment and reproducing when things are good and not producing when things are bad. That&#039;s what we&#039;re doing. You know, we&#039;re not trying to duplicate and scale out red swans; we&#039;re just turning them off. But when we find a blue one, we don&#039;t just want to look at it and be like, &quot;Oh. This thing&#039;s working,&quot; until it&#039;s not working, which is what everyone&#039;s doing, which is pretty crazy. But we want to duplicate it. We want to propagate it.
+
+This next thing is one of my most dangerous tactics. I&#039;ve never really shared this one before, but I decided to share it in this training. It&#039;s something that I call propagating and splicing blue swan DNA. With DNA, with all sort of organisms, they propagate, which means they breed. You know, they reproduce. Then, there&#039;s splicing. Splicing is when you take a DNA strand and you cut it and you combine it with another DNA strand. So, you start splicing the DNA. You start creating genetic mutations and different variations of different DNA. That&#039;s what we can do with our blue swans.
+
+Like I said, in nature, healthy genetics survive longer than unhealthy genetics. They produce more offspring and their genetics spread. If we have a blue swan ad set with a healthy Audience-Message-Image DNA string, why on earth would we age it out until it does, without giving it the opportunity to produce offspring? That&#039;s just cruel. This is what everybody does. They find a blue swan ad set, run it till it dies, and then they create a brand new one and they repeat this process every four days forever. They just keep refreshing the creative. It&#039;s madness. When you have a healthy blue swan, you want to propagate it by duplicating it and splicing its DNA. First of all, I&#039;m going to show you and I&#039;m going to discuss the strategy of propagating blue swans. Then after we&#039;ve done that, I&#039;m going to explain the strategy of splicing blue swan DNA. They&#039;re two different things.
+
+Propagating blue swans. So when you have a healthy blue swan ad set, you don&#039;t want to just use it until it dies and then replace it with something new. That&#039;s silly. While the blue swan ad set is healthy, you want to start propagating it by duplicating the ad set and creating micro-variations, just by changing the budget and the age range. That&#039;s all that necessary, because we know the main string is healthy. So, all we&#039;re trying to do is just create little, tiny variations, because we don&#039;t want to just create totally different strings, because we&#039;ve got a high chance of getting that wrong. That&#039;s why creating new ads all the time is stupid, because you&#039;re going back to the drawing board again. When you&#039;ve got something that&#039;s working, you already know its DNA structure. You just need to just create little variations of it. Tiny, little iterations. You&#039;re going to start propagating it out and that&#039;s why we duplicate it and change the age, change the budget and just keep duplicating like that.
+
+The thing that no one understands is that no duplication is ever the same as the original blue swan. It has completely new initial conditions. In its initial four days, it&#039;s exposed to different environments and into a totally different environment compared to the initial blue swan, even though it comes from the same DNA structure, and it has bred into a new environment. It has the same DNA string, but it&#039;s different, which is perfect. It means that it&#039;s got the good DNA string, which means it&#039;s got a high chance of working, but at the same time it&#039;s different, so we have some sort of variation. Most people don&#039;t understand you can have variation this way, but you can and when you do totally understand this, it&#039;ll change the game for you, because it really is infinite, how many times you can start propagating things. You just have to change those little things around and you can create infinite amounts of blue swans just from initial blue swans.
+
+The second method is called splicing blue swan DNA. Another method for propagating blue swans is to splice the original blue swan&#039;s DNA with a new mutation or variation to create a similar but different offshoot of the original blue swan. So, you know, if we&#039;ve got a blue swan and it&#039;s got a structure of Audience-Message-Image in its DNA string, what we want to do is we want to just splice it by just changing one of those variables. We don&#039;t want to change all three, because that&#039;s too risky. We want to just start playing with just changing one little variable, just a little bit at a time and see if we can create an even better version or a version that&#039;s on par or the same or whatever.
+
+To splice blue swan DNA, we change out any of the three variables that make up its genetic structure, which is made up of Audience-Message-Image. So, we&#039;re just trying to swap one of those things. We can take a successful ad and we can run it to a new collection of audiences, to find new combinations. So, this would be taking or an ad and an image, and that&#039;s two parts of three in the string, and then just changing it to a whole bunch of different audiences. Because then, we know that this combination works, but now we&#039;re going to run it to all those audiences and we might find some more audiences that work just as well or maybe even better. We can take a successful ad and run it with a new collection of images. So, we might keep the Message and the Audience constant, but we might just put in four new images. We might find a new image that works better than the original image. We might actually improve the DNA and we might get an even better blue swan.
+
+Then, we can create a new variation of the message itself, while keeping the audience and the image constant. So, if we keep audience and image constant, then we could write a new angle and we can do this in lots of different ways. We want to look at the original angle, because it worked, and then we want to create ... Sometimes, we create a longer version. So, if we had a short version, then we&#039;re just create a long version of the short version. Because we know the short one already works, so we may as well try a little iteration that&#039;s long. Or if we had a long one, we could create a short one, or we could just try changing around the angle just a little bit. So, we can create different offshoots of this original DNA, which is proven to be successful. This is what we call splicing the blue swan DNA.
+
+The key is to keep two variables constant and iterate just one variable at a time, so that you can keep track of cause and effect, because the key with Facebook is we always need to know what cause is and what effect is. Once we lose cause from effect, we&#039;re doomed. That&#039;s what I call tying Gordian&#039;s knot. You know, once you&#039;ve done that, you&#039;re screwed. Why we keep two variables constant and just change one is because if it doesn&#039;t work, then we know that that was that third variable. However, if we&#039;re to change two variables and it doesn&#039;t work, well, we don&#039;t know which one it was. We don&#039;t know whether it was the audience or the message, for example, because we have no idea. That&#039;s why you always have to keep two constant and change one.
+
+You wouldn&#039;t change the message, the image and the audience, which is what every person does when they refresh the creative. They create a completely new thing all over again. That&#039;s pretty silly. You just want to keep two constant, change one. That way, if it works, you know why it worked, which is good. And if it doesn&#039;t work, you know why it doesn&#039;t work. That&#039;s all you really need to know, because you can never really get lost when you know why things work and why things don&#039;t work. You know cause and effect and that&#039;s what you need to constantly keep in mind.
+
+You can have a lot of fun splicing the blue swan DNA like this. We&#039;ve taken ads that are profitable and all we&#039;ve done is just taken the image out and we&#039;ve just turned it black and white. Or sometimes, we&#039;ve turned it HDR, just with Photoshop or something. Or sometime, we&#039;ve zoomed it in. Or sometimes, we&#039;ve just flipped it horizontally, so that it&#039;s just facing the other way. We&#039;ve just created these small, little genetic mutations of this original ad that was working well. Sometimes, we make it better or we create a new offshoot, which is doing just as well. And then, when that one starts to do well, we can start propagating that one and duplicating it. We can just keep creating variation from the initial conditions.
+
+So, you can see just from having one ad, you can create variation in so many different ways. You can just have ... You could just create five ads, run them. Find three that are working, turn off the two that aren&#039;t. Then, based of those three that are working, you can start duplicating them and changing just the budgets and the ages. That&#039;s propagating out a whole bunch of stuff. Then, once you&#039;ve kind of done that to as far as you can really take it, then you can start splicing the DNA. You can start changing images, the audiences, the messages just a little bit. Then, that will create a whole new breed and a whole new species of blue swan. And then once you&#039;ve done all the splicing, then you can start propagating the ones you spliced. Then, you can go back to the other ones, that you had just propagated, and then you can start splicing them. You can just keep going back and forth, between splicing and propagating. You will never, ever, ever run out of possible variations. I mean, it really is limitless.
+
+Once you have a new mutation of blue swan, you can propagate it through multiple duplications and then splice its DNA again and again. Once you truly understand what I just explained, you will see that the variations and scale is truly limitless. So, I know what I might have just explained ... You know, it might have confused some people or whatever, if you haven&#039;t used Facebook before or anything. Or, you might be like, &quot;Why is Sam talking about swans and DNA and all this stuff?&quot; It&#039;s honestly way easier to think about it the way I have worded everything. Blue swans, red swans, DNA, that sort of stuff, because it allows you to think of it as you&#039;re trying to just grow some, trying to farm some blue swans, compared to trying to run ads. Because when you look at the ad terminology and everything, you can get confused.
+
+But when you constantly draw a parallel between that and the blue swan thing, it makes it very simple. And when you truly understand what I just showed you how to do, and when you truly understand the power of this playbook — which I just showed you — you will know that it&#039;s pretty dangerous. You can do a lot of damage with this playbook. By that, I mean you can really scale. You know, you can scale into the millions of Adspend. This year, I plan to have our Adspend up to $100 grand a day, so we&#039;re going to be spending. This isn&#039;t even making, this is spending. We&#039;re going to be spending $100 grand a day. We should be making like $3-500 grand a day. That&#039;s how far I can take it, just with this playbook. This is the very playbook that I am using, and just through splicing and propagation and all of the different things I&#039;ve shown you in this playbook. So, it&#039;s a very powerful playbook.
+
+You might have to watch this video a couple of times to truly understand it. Or when you start advertising on Facebook, come back to this video and watch it again after you&#039;ve started. Because it&#039;s one of these videos that, for some people, it will really resonate with them and they&#039;ll totally get what I&#039;m saying; and for other people, they might not really get what I&#039;m saying until they&#039;ve tried Facebook a couple of times, and then it will make sense. Don&#039;t forget about this one. Because I know, at the right time, when people will see this and understand it, they will know how powerful this stuff is.
+
+That&#039;s it for this video. Thanks for watching and I will see you in the next one right now, which is where we&#039;re going to set our ad hypothesis. Then, after that, we&#039;re going to set our audience hypothesis. That&#039;s where we really start taking action and we start creating some ads, picking out some audiences and getting ready to launch our campaign and really start breeding these blue swans and growing our blue swan empire. So, that&#039;s it for this training. Thanks. I will see you in the next one.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="https://app.consulting.com/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="#">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Five"
+    var moduleName = "4. Playbook for a new epoch"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-151')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-151', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Five";
+    if (!moduleName) var moduleName = "4. Playbook for a new epoch";
+    if (!file) var file = "media/f94b26c728c733ece227f6be8c00e63e.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "https://app.consulting.com/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-complete/151', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-incomplete/151', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "jsae4k8ovc", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-151')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-151', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('https://app.consulting.com/products/mark-complete/151');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("43").style.display="none";
+	document.getElementById("44").style.display="block";
+	document.getElementById("62").style.display="none";
+	document.getElementById("63").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("43").style.display="block";
+	document.getElementById("43").style.display="none";
+	document.getElementById("62").style.display="block";
+	document.getElementById("63").style.display="none";
+	} 
+</script>
+  </body>
+</html>

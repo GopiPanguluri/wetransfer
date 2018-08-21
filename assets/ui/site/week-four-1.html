@@ -1,0 +1,937 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Consulting Accelerator™ | Consulting.com</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="js/manifest.json">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/audio-player.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    	<style>
+	.original
+	{
+	height:45px;
+	width:155px;
+	background-color:white;
+	color:green;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.original:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+
+	.dup
+	{
+	height:45px;
+	width:155px;
+	background-color:green;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+	.dup:hover
+	{
+	height:45px;
+	width:155px;
+	background-color:darkgreen;
+	color:white;
+	border: 2px solid green;
+	border-radius:5px;
+
+	margin-left:2%;
+	}
+</style>
+  </head>
+  <body class="training action-items">
+
+    <!--[if IE 9]>
+      <div class="legacy-browser-message">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <div class="legacy-browser-message lt-ie-9">
+        <p>You are using an outdated browser. <a href="http://browsehappy.com/" target="_blank">Upgrade your browser today</a> for better experience!</p>
+      </div>
+    <![endif]-->
+
+
+    
+
+
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+    
+          <div class="mobile-header">
+            <div class="brand text-center">
+              <img src="images/consulting.com_logo@2x.png" alt="Consulting.com">
+            </div>
+          </div>
+    
+          <!-- Mobile menu content  -->
+          <button class="close-button" aria-label="Close menu" type="button" data-close>
+            <span aria-hidden="true">&#10005;</span>
+          </button>
+    
+          <ul class="menu vertical mobile-menu">
+            <li>
+          
+              <ul class="accordion" role="navigation" data-accordion data-allow-all-closed="true">
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-user" aria-hidden="true"></i> Accounts
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                      <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                      <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                      <!--<li><a href="progress/program-progress.html"><i class="fa fa-signal" aria-hidden="true"></i>
+                       Next Level Programs</a></li>
+                      <li><a href="#"><i class="fa fa-dollar aria-hidden="true""></i> Refer a Friend</a></li>-->
+                                            <li>
+                        <a href="#">
+                          <i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend
+                        </a>
+                      </li>
+                                            <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Community
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                       How to Get Help</a></li>
+                      <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                      <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                       Facebook Groups</a></li>
+                      <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                       Ring "The Bell"</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title">
+                    <i class="fa fa-support" aria-hidden="true"></i>
+                    Help
+                  </a>
+          
+                  <div class="accordion-content" data-tab-content>
+                    <ul class="submenu menu vertical" data-submenu>
+                      <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                      <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                      <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+          
+            </li>
+          </ul>
+          
+    
+        </div><!-- / .off-canvas -->
+    
+
+    <div class="off-canvas-content" data-off-canvas-content>
+
+      <!-- Mobile Menu -->
+      <div data-sticky-container>
+        <div class="top-bar hide-for-large mobile-header"  data-sticky data-sticky-on="small" data-margin-top="0">
+            <div class="row">
+              <div class="small-2 columns">
+                <button class="menu-icon" type="button" data-open="offCanvas" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+              </div>
+              <div class="small-8 columns text-center">
+                <div class="title-bar-title">
+                  <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt=""></a>
+                </div>
+              </div>
+              <div class="small-2 columns text-right search-buttons-container">
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a class="search-close" href="#">&times;</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      <div data-sticky-container>
+        <div class="top-bar show-for-large global-header" data-sticky data-margin-top="0">
+          <div class="top-bar-title">
+            <a class="brand" href="#"><img src="images/consulting.com_logo@2x.png" alt="Consulting.com"></a>
+          </div>
+          <div class="top-bar-right">
+            <ul class="dropdown menu" data-dropdown-menu role="navigation">
+                            <li>                
+                <a href="#">
+                  <i class="fa fa-heart" aria-hidden="true"></i> Refer a friend
+                </a>
+              </li>
+                            <li>
+                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Hi christopher!</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Your Products</a></li>
+                  <li><a href="#"><i class="fa fa-battery-half" aria-hidden="true"></i> Your Progress</a></li>
+                  <li><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Profile</a></li>
+                  
+                   
+                                    <li><a href="#"><i class="fa fa-dollar" aria-hidden="true"></i> Refer a Friend</a></li>
+                                    <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> Logout</a></li>
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Community</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>
+                   How to Get Help</a></li>
+                  <li><a href="#" data-open="program-type-for-calls"><i class="fa fa-microphone" aria-hidden="true"></i> Weekly Q&amp;A Calls</a></li>
+                  <li><a href="#" data-open="program-type-for-community"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                   Facebook Groups</a></li>
+                  <!--<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>
+                   Ring "The Bell"</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-support" aria-hidden="true"></i> Help</a>
+                <ul class="menu vertical">
+                  <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to Get Help</a></li>
+                  <li><a rel="noopener noreferrer" target='_blank' href="#"><i class="fa fa-support" aria-hidden="true"></i> Help Center</a></li>
+                  <!--<li><a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Suggest an Idea</a></li>-->
+                  
+                </ul>
+              </li>
+              <li>
+                <a class="search-button" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+            <div class="row site-content-container small-collapse medium-uncollapse">        
+        
+        <aside class="columns large-3 show-for-large">
+        
+          <div class="block week-theme-container">
+            <small>Week Theme</small>
+            <h5 class="week-theme">Alchemy of Client Attraction</h5>
+          </div>
+          <!-- /.block week-theme-container -->
+          
+		<div class="block transparent progress-container">
+            <div class="row collapse progress-details">
+              <div class="columns small-6">
+              <small id="30">30% Complete</small>
+              <small id="31" style="display:none;">31% Complete</small>
+              </div>
+              <div class="columns small-6 text-right">
+                <small><a href="#" class="progress-details-link">Progress Details</a></small>
+              </div>
+            </div>
+              <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="30" aria-valuemin="0" aria-valuetext="30 percent" aria-valuemax="100" id="50">
+              <div class="progress-meter" style="width:58%"></div>
+            </div>
+			<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="31" aria-valuemin="0" aria-valuetext="31 percent" aria-valuemax="100" style="display:none;" id="51">
+              <div class="progress-meter" style="width:31%"></div>
+            </div>
+        </div>
+          
+          <div class="block transparent week-dropdown-container">
+              <form action="">
+			<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+				<option value="week-four-overview.html">Week Four</option>
+				<option value="welcome.html">Welcome!</option>
+				<option value="week-one.html">Week One</option>
+				<option value="week-two-overview.html">Week Two</option>
+				<option value="week-Three-overview.html">Week Three</option>
+				<option value="week-five-overview">Week Five</option>
+				<option value="week-Six-overview">Week Six</option>
+				<option value="week-Seven-overview.html">Week Seven</option>
+				<option value="dm-1.html">DM Bonus</option>
+			</select>
+              </form>
+			 
+            <!-- /. -->
+          </div>
+          <!-- /.block week-dropdown-container-->
+          
+          <div class="block transparent lessons-list">
+            <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-four-overview.html'>Overview</a>
+              </li>
+                            <li class='active '>
+                <a href='week-four-1.html'>1. Falling for the trap</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-2.html'>2. Alchemy of client attraction</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-3.html'>3. Organic attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-4.html'>4. Paid attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-5.html'>5. Assembling the war machine</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-6.html'>6. Planning your 30d attack</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-7.html'>7. Conquering paralysis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+          </div>
+          <!-- /.block lessons-list-->
+          
+        
+        </aside>
+        
+        
+        <main class="columns large-9" role="main">
+          <article class="block block-content-container">
+            <header class="row page-header">
+        
+              <div class="column small-12 text-center hide-for-large">
+                <button id='mark-complete' class="button mobile-lesson-complete ">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+              </div>
+        
+              <nav class="column small-12 breadcrumbs-container" aria-label="You are here:" role="navigation">
+                <ul class="breadcrumbs">
+                  <li>Consulting Accelerator™</li>
+                  <li>Week Four</li>
+                </ul>
+              </nav>
+        
+              <div class="column small-12 title-container">
+                <div class="row collapse">
+                  <div class="columns medium-12 large-9">
+                    <h1>1. Falling for the trap</h1>
+                  </div>
+			<button onclick="bb1()" class="original" id="btn1"><b>Mark Complete</b></button>
+
+
+		<button onclick="cb2()" class="dup" id="btn2" style="display:none;"><b>Lesson Completed</b></button>
+                </div>
+              </div>
+        
+        
+            </header>
+        
+        
+        
+            <div class="stretch-to-edge">
+            
+              <nav class="row column hide-for-large mobile-sidebar-nav" role="navigation">
+                <div class="accordion" data-accordion data-allow-all-closed="true">
+                  <div class="accordion-item" data-accordion-item>
+                    <a href="#" class="accordion-title text-center">
+                      <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+            
+                    <div class="accordion-content" data-tab-content>
+                      <div class="block week-theme-container">
+                        <small>Week Theme</small>
+                        <h5 class="week-theme">Alchemy of Client Attraction</h5>
+                      </div>
+                      <!-- /.block week-theme-container -->
+                      
+                      <div class="block transparent progress-container">
+                        <div class="row collapse progress-details">
+                          <div class="columns small-6">
+                          <small>25% Complete</small>
+                          </div>
+                          <div class="columns small-6 text-right">
+                            <small><a href="#" class="progress-details-link">Progress Details</a></small>
+                          </div>
+                        </div>
+                          <div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+                          <div class="progress-meter" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="block transparent week-dropdown-container">
+                          <form action="">
+			<select onchange="location = this.value;" name="" id="" class="chosen-select week-dropdown">
+				<option value="week-four-overview.html">Week Four</option>
+				<option value="welcome.html">Welcome!</option>
+				<option value="week-one.html">Week One</option>
+				<option value="week-two-overview.html">Week Two</option>
+				<option value="week-Three-overview.html">Week Three</option>
+				<option value="week-five-overview">Week Five</option>
+				<option value="week-Six-overview">Week Six</option>
+				<option value="week-Seven-overview.html">Week Seven</option>
+				<option value="dm-1.html">DM Bonus</option>
+			</select>
+                          </form>
+                        <!-- /. -->
+                      </div>
+                      <!-- /.block week-dropdown-container-->
+                      
+                      <div class="block transparent lessons-list">
+                        <ul class="menu vertical">
+                            <li class=' '>
+                <a href='week-four-overview.html'>Overview</a>
+              </li>
+                            <li class='active '>
+                <a href='week-four-1.html'>1. Falling for the trap</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-2.html'>2. Alchemy of client attraction</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-3.html'>3. Organic attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-4.html'>4. Paid attraction methods</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-5.html'>5. Assembling the war machine</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-6.html'>6. Planning your 30d attack</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-7.html'>7. Conquering paralysis</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-actions.html'>Action items</a>
+              </li>
+                            <li class=' '>
+                <a href='week-four-questions.html'>Questions</a>
+              </li>
+                  
+            </ul>
+                      </div>
+                      <!-- /.block lessons-list-->
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            
+            </div>
+            
+        
+        
+            <div class="block-content">
+              <div class="module-container">
+                                <div class="row small-collapse large-uncollapse video-container">
+        
+                  <div class="columns small-12 dim-the-lights-button invisible">
+                    <a href="#"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Turn <span class="state">off</span> the lights</a>
+                  </div>
+        
+                  <div class="columns large-12">
+                    <div class="stretch-to-edge">
+                      <!-- <img src="assets/img/placeholder_video.jpg" alt=""> -->
+                      <!--<script>
+                      window._wq = window._wq || [];
+                      _wq.push({ "bzh": {
+                        email: 'christophertduffee@gmail.com',                
+                      }});
+                      </script>-->
+                      <script src="js/bzhwxz69j5.jsonp" async></script>
+                      <script src="js/E-v1.js" async></script>
+                      
+                      <div class="wistia_responsive_padding" style="padding:56.22% 0 0 0;position:relative;outline:1px solid black;">
+                        <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                          <div class="wistia_embed wistia_async_bzhwxz69j5 videoFoam=true" style="height:100%;width:100%">&nbsp;</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                        
+                <div class="row lesson-nav ">
+                  <div class="columns small-6">
+                                        <a class="lesson-prev" href="week-four-overview.html">Previous Lesson</a>
+                                      </div>
+                  <div class="columns small-6 text-right">
+                                        <a class="lesson-next" href="week-four-2.html">Next Lesson</a>
+                                      </div>
+                </div>
+                <!-- /.lessons-nav -->
+                
+        
+                <div class="row lesson-description">
+                  <div class="columns large-8 lesson-section lesson-about">
+                    <h2>About this lesson</h2>
+                    <p><font color="#636363"><span style="letter-spacing: -0.19px;">This video is about is the big trap that I see everyone fall for at this stage in the training program and starting their consulting business. I see so many entrepreneurs get fooled by this one, and it's one you definitely want to be aware of so that you can ignore it and make sure that you don't get caught in this trap.</span><br></font></p><p><span style="letter-spacing: -0.19px;"><font color="#636363">Here's what we cover: </font></span></p><ul><li><span style="letter-spacing: -0.19px;"><font color="#636363">Where you should be at in the training program right now </font></span></li><li><span style="letter-spacing: -0.19px;"><font color="#636363">The big mistake that most people make when it comes to marketing and client attraction </font></span></li><li><span style="letter-spacing: -0.19px;"><font color="#636363">Proof of concept: The only goal that should be on your mind right now </font></span></li><li><span style="letter-spacing: -0.19px;"><font color="#636363">All massive fires start with a pilot light first and then add the accelerant </font></span></li><li><span style="letter-spacing: -0.19px;"><font color="#636363">Keeping it simple and focusing on the only thing thats important</font></span><br></li></ul>
+                  </div>
+                  <div class="columns large-4 lesson-section lesson-resources">
+                                      </div>
+                </div>
+                <!-- /.lesson-description -->                
+        
+                                <section class="row lesson-section video-transcript-container">
+                  <header class="columns small-12">
+                    <div class="row collapse">
+                      <div class="columns small-8">
+                        <h2>Full video transcript  / <a href="#" id="open-module-audio">MP3</a> </h2>
+                      </div>
+                
+                      <div class="columns small-4 text-right section-options">
+                        <a class="expand-transcript" href="#">Expand View</a>
+                      </div>
+                    </div>
+                  </header>
+                                    
+                  <div class="columns">
+                    <div class="row collapse audio-container">
+                      <div class="columns large-8 player">
+                        <div class="player-wrap">
+                          <div class="track-container">
+                            <div class="player-controls">
+                              <div class="player-progress-container">
+                                <div class="player-progress-bar">
+                                  <progress class="player-progress" value="0"></progress>
+                                  <div class="progress-bar-fix"></div>
+                                  <div class="progress-bar-thumb"></div>
+                                </div>
+                                <div class="player-progress-time">
+                                  <div class="player-currenttime player-time">00:00</div> / <div class="player-duration player-time">00:00</div>
+                                </div>
+                              </div>
+                
+                              <div class="player-container">
+                                <div class="player-buttons">
+                                  <button class="player-play play"></button>
+                                  <button class="player-pause pause"></button>
+                                  <button class="player-speed">1x</button>
+                                  <audio id="player" src="media/5791773edc716848d891270afdf1f9fd.mp3"></audio>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                                  
+                  <div class="columns small-12">
+                    <div class="video-transcript">
+                      <div class="video-transcript-inner scroll-area">
+                        Hey everyone it&#039;s Sam Ovens here and welcome to week four of the consulting accelerator training program. And week four is all about the alchemy of client attraction. And what that is is basically the art and science of how we attract prospects to us, so how we attract potential clients to us, so that we can get on a strategy session with them, and we can go through our sales script and we can convert them into a paying client.
+
+So in week four we&#039;re gonna be talking about how to attract clients to us. Now this first video here, it&#039;s a brief video, and it&#039;s a very important video because I&#039;m talking about falling for the trap. And what this video is all about is the big trap that I see everyone fall for at about this stage in the training program, and about the stage of starting a business and starting your own consulting business. I see so many entrepreneurs get fooled by this one, and it&#039;s one you definitely want to be aware of so that you can ignore it and make sure that you don&#039;t get caught in this trap.
+
+So here&#039;s a brief overview of what we&#039;re gonna cover today. So we&#039;re gonna start off with where you should be at in this training program right now, as you&#039;re watching this video. And then I&#039;m gonna discuss the big mistake that most people make when it comes to marketing and client attraction. And then we&#039;re gonna discuss proof of concept, and this should be the only goal that&#039;s on your mind right now. So right now the only thing you should be thinking about is proof of concept and we&#039;re gonna discuss that.
+
+Then we&#039;re gonna talk about how all massive fires start with a pilot light first and then they add accelerant to it, so they add additional gas or fuel to it, after they first ignite a pilot light. And this is a really powerful metaphor and example of how you should start your own consulting business, because most people do it all back to front, and most people do it in a way which doesn&#039;t work and it ends up just not working at all and it ends up taking a lot of time and getting more complicated and all of that. So this metaphor is gonna make a lot of sense to you and I&#039;m gonna explain that.
+
+And then we&#039;re gonna discuss about keeping it real simple. At this stage of the training program we just want to keep it as simple as possible and just make sure that we&#039;re ticking off and achieving the most important things, because that&#039;s all you need to consulting business and mass of wealth, is you just need to execute on those key important things, and you can pretty much forget everything else.
+
+So lets start with where you should be at in this training program right now. So you should have your niche offer result hypothesis worksheet complete, you should also have your message hypothesis worksheet complete, and you should have edited the sales script and adjusted it to you, your niche and your offer, and you should have practiced it a couple of times and you should be really comfortable with it. So at this point you should have all three of these things done and ready to go to market. And in week four, which we&#039;re in right now, we&#039;re gonna go to the market. We&#039;re gonna start talking to people, we&#039;re gonna start making some sales and taking some action.
+
+And at this stage of the program we have everything we need to go to the market for real world testing, and establishing your proof of concept. And the only thing we need to do in this next stage is to test your hypothesis, iterate, and establish a proof of concept. But there&#039;s something to watch out for, something that trips most entrepreneurs up. And this is the big mistake that most people make when it comes to marketing and client attraction. I see people make this one all the time at this stage, and you definitely want to watch out for this. And what they do is they obsess over technology, funnels and Facebook ads, and other shiny objects, that is quite simply not important at this stage. And I see it happen to people all the time, and it goes like this.
+
+You have an idea to start a business, which is why you joined this program, and in week one we kind of did some discovery around what that idea is, so what&#039;s your niche, what are you gonna offer them, and what&#039;s the desired result which you&#039;re gonna help people achieve, and what&#039;s the messaging around all of that, and we really fleshed out your idea, and we came up with hypothetically what sort of consulting business you want to start. So that&#039;s the first thing most people do.
+
+Then the second thing is research and planning, so that&#039;s again done in week one. Creating the hypothesis worksheets, the niche offer result worksheet, and the message hypothesis worksheet. So we kind of do some research and some planning.
+
+And then it&#039;s time to start taking action, which is pretty much right now. We&#039;ve got everything together, and now it&#039;s time to go out and talk to some real life people in our niche and try and make some sales. And everything&#039;s going well until this point, and people are ready to go to the market and start speaking to people and it&#039;s all about ready to start making money and getting customers, and then whoa, they just disappear into a black hole, which is all about these things here.
+
+So you know people get to this stage and then boom, they just disappear. And they get sucked into this black hole of Facebook ads, funnels, fancy websites, they get all obsessed about social media accounts, they&#039;ve gotta have a Twitter, they&#039;ve gotta have a Facebook, they&#039;ve gotta have an Instagram, and you know, when you try and manage like ten social media accounts that&#039;s a full time job, so you&#039;ve got no time to do anything else. And when you try and make a perfect website which has fancy photos on it and nice designs and all of that, well that&#039;s like a multiple month job and so you&#039;re you know ... If you try and do all of these things, I mean you just get sucked into this black hole. To achieve all of these things it takes more than a year, and so at this stage all we need to do is go out and get a customer and go out and sell something and speak to our market, that&#039;s all we need to do. But people invent things to avoid the important, and the important thing is going to the market and getting a customer, but people kind of disappear into this black hole of all of this technology and everything.
+
+I also see people get obsessed about fancy logos and designs. They think they need business cards, they think they need like a fancy logo, they think they need mugs with their logo on it, they think they need all of these different things, and they also think they need all of this different software, and the truth is you don&#039;t need any of this stuff right now.
+
+And touching technology and paid advertising before establishing a proof of concept is like opening Pandora&#039;s box. Without a proof of concept you will get lost in there and forget why you entered it to begin with. And here&#039;s the common fallacies distorting the truth in the market right now when it comes to these things, this is why people get sucked into that black hole. And here they are.
+
+One of them is funnels make you successful. You know a lot of people think the reason why someone is successful is because of a funnel, like a marketing funnel. Well they think if you have like some sort of funnel software that that&#039;s what makes you successful. People also think that Facebook ads make you successful. People think that fancy websites and designs and blogs make you successful like you&#039;ve just got to write a ton of content, give lots of free value and have an amazing design and all these photos of you and these logos like New York Times and all these things on your site. And people think that you need a massive web presence and social media presence and a massive following of people to make you successful. And people also think that you need all this technology and software, and that that makes you successful, and people believe that these things here make people successful. And that couldn&#039;t be further from the truth, all of these fallacies are wrong. Like these aren&#039;t the things which make people successful.
+
+And tools, technology, and your image, and your appearance, and fame, don&#039;t make you successful. Believe me, I know a lot of people that have a lot of fame, and way more fame than me. I know people that have written books and have so many followers and they&#039;re so famous and you know, if I said their names then you would know who they are and you would think well that person would make more money than me, because they&#039;re so famous. But I know behind the scenes what their numbers are and they&#039;re way less than mine. And so I know for a fact that fame doesn&#039;t make you successful, because I know a lot of people who are very famous and don&#039;t really have that much money, and it&#039;s more of just like an appearance and an image, and the truth is that these things do not make you successful, and a lot of people believe that these things make people successful and it couldn&#039;t be further from the truth.
+
+And what makes people successful is solving peoples problems and getting paid. So you&#039;ve just gotta identify a niche market, you&#039;ve gotta find a painful problem they have, and then you&#039;ve gotta solve that painful problem for people and get paid in return. And if you can do that, that&#039;s what makes you successful. And if you can do that then you don&#039;t need fame, you don&#039;t need technology, you don&#039;t need fancy logos and all this other stuff. I mean my website looks like shit, and I made my logo in Keynote, and the website&#039;s got spelling errors on it, I mean it looks horrible. I barely make any content for free. I mean all of my good content is in my programs. And you know really my social media presence and all of that stuff, it&#039;s pretty bad. Most people would give me like a D grade rating for all of that stuff. And compared to a lot of other people I look horrible.
+
+But when it comes to the numbers and it comes to making money and profit, I absolutely destroy everyone else, and that&#039;s because I&#039;ve focused on what&#039;s important, and that&#039;s solving people&#039;s problems and getting paid in return. And because I have a laser focus on that and I forget about all the other stuff, then I beat everyone else. But the people who get sucked into the black hole and focus on all those other things, they get all tangled up in a web and they end up focusing on the wrong thing. They spend most of their time trying to look good and trying to have an appearance and an image and trying to be famous, and the numbers behind the scenes are horrible.
+
+And I don&#039;t know about you but I&#039;m assuming that you want to make money and just help people solve problems, more than you want to be famous and all of that stuff, because I mean being famous and not having any substance behind it I think is pretty lame. And you know, you&#039;ll feel not that good anyway because you&#039;ll know that it&#039;s just an image that everyone has of you and that behind the scenes you&#039;re actually not that successful. And so I think the best way to be is really successful and more successful than what your image even is. I think the coolest thing to do is be understated. Like have people think that you&#039;re successful and everything, but be way more successful than people can possibly imagine, instead of the other way around which is what a lot of gurus and celebrities and stuff like that do. And to do that you just want to focus on the most important thing which is solving peoples problems and getting paid.
+
+And lots of people think that you need all of this stuff before you get clients, when it&#039;s actually the other way around. You know you don&#039;t need a logo and a fancy website and all of these social media accounts before you get a client. That&#039;s not ... If someone&#039;s gonna buy from you they don&#039;t care what your logo looks like and they don&#039;t care about all of that other stuff, they just care about are you able to solve my problem and are you gonna do the work to help me solve my problem? That&#039;s all they care about.
+
+And getting a paying customer and establishing proof of concept is the only thing that&#039;s important right now. And a good way I can describe it is in Greek mythology there&#039;s these sirens, and the sirens were dangerous creatures who lured nearby sailors with their enchanting voices to shipwreck on the rocks. So there was these mermaid type creatures who would sing and their voices would be hypnotizing and the sailors would steer their ships off course and run into the rocks, and they would always shipwreck and die because they would listen to the sirens. And one captain ordered his crew to tie him to the mast of the ship so he wouldn&#039;t be tempted by their voices when his ship passed the rocks that the sirens were positioned on. And that&#039;s how he was able to get past them and get to his destination, because he knew that there was gonna be people trying to lure him off course, and because he knew that people were gonna be trying to lure him off, he put preventions in place. He knew that his own judgment and his own character might get fooled by the sirens so he tied himself to the mast, and that&#039;s how he was able to get through.
+
+And the sirens are all the other people in the market that are telling you that you need this new technology or new shiny object in order to be successful. You know at this stage you&#039;ve got all the key pieces ready to start your consulting business, and all you need to do is go to the market, you need to start doing sales calls, you need to start signing clients up, that&#039;s it. But what all these other people are gonna be telling you, and I don&#039;t blame them, they&#039;re trying to run a business so they&#039;re absolutely allowed to just tell you all of this other stuff. But what these other people are gonna be telling you is that you need a funnel, and that you need all of this technology and all of this software and that you need a fancy website and a YouTube channel and a blog and all of this stuff.
+
+And that couldn&#039;t be further from the truth. And those people are just like the sirens, and you&#039;re gonna hear their voices, you&#039;re gonna see their ads, you&#039;re gonna see people mentioning different things. And they&#039;re gonna be kind of luring you over to their place where they&#039;re gonna say that you need this technology or this shiny object in order to be successful and get where you want to go. And you will be tempted by their voices, but you can&#039;t listen to them, get distracted or steer your ship off course. And what I mean by this is you know what you need to do, you&#039;ve got your niche offer result hypothesis set, you&#039;ve got your message hypothesis set, you know exactly what to do and you&#039;ve got your sales script all adjusted and ready to go. Now the only step left is to generate some appointments and get on those appointments and sign a client up. That&#039;s it. If you do that then you&#039;ve got proof of concept and then we can start scaling and you&#039;re gonna be making money, you&#039;re gonna be making profit, and you&#039;re gonna be on a roll from there.
+
+But the big issue I see is all these other messages that are bombarding entrepreneurs, telling them they need all this other stuff in order to be successful. And you can&#039;t get distracted by those voices. And you can&#039;t steer your ship off course. And the only thing that&#039;s important is getting a paying customer and establishing your proof of concept, that is the only important thing right now. And the best way I can describe it is with a metaphor about furnace.
+
+So this is how a furnace works. And most furnaces start with a small pilot light which is just a small little flame. And then they get the pilot light burning properly first. They spark the pilot light and they let that burn for about 30 seconds to a minute until it&#039;s burning strong and it&#039;s got a nice strong flame there. And the once the pilot light is burning properly, they then open up the gas and let a whole bunch of gas into the chamber. And what happens is the gas rushes into the chamber and the pilot light ignites it and it just goes boom into a massive flame. And you will have seen this if you use like a ... Like when you start a barbecue or when you start an outdoor patio heater or gas heater or something, you always start with a little pilot light first, and then once that&#039;s burning nicely then you open up all the gas and it goes, and the whole thing is burning really strong.
+
+And if you open up the gas without a pilot light burning, well nothing happens. If you just open up all the gas in a furnace without having a pilot light there, nothing happens at all, all the gas just goes to waste. And what&#039;s interesting is if you add gas to a furnace and the pilot light is only burning like really weak. Like if you spark a pilot light and you only let it burn for about 10-15 seconds and it hasn&#039;t really got into its strong flame yet, then you let all the gas rush into the chamber, the gas actually puts the pilot light out, and nothing happens again because the pilot light wasn&#039;t strong enough to ignite all of the gas. And again everything goes to waste.
+
+And this is exactly what happens when you apply technology and Facebook ads and funnels to your business without establishing a proof of concept. And you want to think of your business as a furnace. And establishing a proof of concept is like getting a strong pilot light burning. So remember we discussed a proof of concept is basically proving that your hypothesis in the real world. So we&#039;ve got your niche offer result hypothesis and we&#039;ve got your message hypothesis. And we&#039;ve also got your adjusted sales script. So proof of concept is when we take your hypothetical business, and we take it to the market, we start taking action, and we prove our hypothesis, so we get a paying customer. And that&#039;s proof that our hypothesis is working in the real world. And once we&#039;ve got proof of concept by landing one client, we want to make that proof of concept stronger. And to make a proof of concept stronger we just want to get more clients.
+
+And what&#039;s fascinating is if you ... Establishing a proof of concept is like getting a strong pilot light burning. And opening up the gas is like applying technology, funnels and Facebook ads and all of those other things. And if you apply technology, funnels and Facebook ads without having a strong proof of concept, nothing will happen, and all it will do is waste a bunch of money and time. Just like when you open up the gas into a furnace without having the pilot light burning strong, it just puts out the pilot light and nothing happens and everything goes to waste.
+
+And the same is true in business, I see people do it all the time. They&#039;ve got a pretty good hypothesis, and you know, they&#039;re on the brink of being successful and landing a client. But then they invent a whole bunch of stuff to do to avoid the important, and they go and get all tangled up in all of this funnels and ads and tech and all of this stuff, and try to get a fancy website, and in the process of doing that they forget about what their hypothesis even was, and they put out the flame that was almost lit. They had an awesome hypothesis and all they had to do was get a customer and proof of concept, but then by focusing on all this other stuff they put their pilot light out. And I see people do this all the time and it is such a huge mistake. And people often do it right on the brink of being successful and establishing that proof of concept. And all this does is waste a whole bunch of money and time.
+
+And later on in this training program, in week five and six, we&#039;re gonna teach you everything you need to know about technology, funnels and Facebook ads, so I&#039;m gonna show you how to be a killer when it comes to Facebook ads. I&#039;m gonna give you the best training you can get on Facebook ads and funnels, so don&#039;t worry about that. But we&#039;re gonna cover that later on in the training program, because right now you must focus on establishing your proof of concept and getting your pilot light burning nice and strong before we start opening up the gas. You know, once we&#039;ve got your pilot light burning strong by establishing a proof of concept and proving it by getting multiple clients, then apply the Facebook ads, then apply the funnels and all the technology and stuff, and then you&#039;ll just go, and that&#039;s how you get a really fast growing business. The pilot light must come first, and then we apply all of the gas and scale everything up.
+
+So what you need to remember is to keep it simple, and remember the only thing that matters right now. And that is establishing your proof of concept. That is the only thing that needs to be on your mind right now. So this is just a brief video to start off week four, and I wanted to start with the big problem to avoid, because right now in this stage of the training program, this is the trap that I see most people fall for. They get all of their hypothesis ready, they&#039;re ready to speak to the market, they&#039;re ready to ignite their pilot light and ignite their flame, but they avoid it and they go and obsess over all this other stuff which just isn&#039;t important. And like I said you can&#039;t apply gas to a furnace without first having a pilot light burning, otherwise nothing happens and everything just goes to waste.
+
+So remember to keep it simple and the only thing that should be on your mind right now is establishing that proof of concept by getting a paying customer and proving your hypothesis in the real world and really making your hypothetical business become a reality. That is the only thing that is important.
+
+So I wanted this video to serve as a reminder before we jump into all of the content. And so I wanted to do it so that people don&#039;t fall for this and people are warned in advance so that people don&#039;t get distracted or off task.
+
+So that&#039;s it for this video, it&#039;s just a nice simple short one. So what I want you to do right now is jump onto the next video and we will get started by teaching you the alchemy of client attraction and how to start attracting potential clients to you and your business.
+
+So I&#039;ll see you in the next training video right now.
+
+                        
+                      </div>
+                
+                      <div class="column small-12 text-center">
+                        <button class="read-more small button primary">Read More</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </section>
+                <!-- /.video-transcript-container -->
+                
+                                                                      
+              </div>
+              <!-- /.module-container -->
+        
+        
+        
+            </div>
+            <!-- /.block-content -->
+          </article>
+        </main>
+        
+      </div><!-- / .site-content-container -->
+    </div><!-- / .off-canvas-content -->
+
+    <section class="site-search-overlay">
+      <button class="search-close show-for-large">&#10005;</button>
+      <div class="search-container">
+        <header class="search-header">
+          <div class="page-icon show-for-large">
+            <div class="image-icon"></div>
+          </div>
+          <h2>Search the Consulting Hive-Mind</h2>
+        </header>
+        <div class="block search-form-container">
+          <form action="https://app.consulting.com/search" id="site-search">
+            <input type="text" id="global-site-search" required name="search-term" value="" placeholder="Search keywords..." autofocus>
+            <ul class="no-bullet search-filters">
+              
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="consulting-accelerator"
+                  name='products[]' value='1' 
+                  checked>
+                  <label class="" for="consulting-accelerator">Consulting Accelerator™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="uplevel-consulting"
+                  name='products[]' value='2' 
+                  disabled>
+                  <label class="" for="uplevel-consulting">Uplevel Consulting™</label>
+                </div>
+              </li>
+                            <li class="form-field">
+                <div class="checkbox-container">
+                  <input type="checkbox" id="quantum-mastermind"
+                  name='products[]' value='3' 
+                  disabled>
+                  <label class="" for="quantum-mastermind">Quantum Mastermind™</label>
+                </div>
+              </li>
+                          </ul>
+    
+            <button class="button primary hide-for-large">Show Results</button>
+          </form>
+        </div>
+        <!-- /.search-form-container -->
+      </div>
+    </section>
+    <!-- /.site-search-overlay -->
+    
+
+    <div class="reveal program" id="program-type-for-calls" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Weekly Q&A Calls</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a href="#">Consulting Accelerator™</a>
+              </li>              
+                          </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+    <!-- /.reveal action-item question -->
+    
+        <div class="reveal program" id="program-type-for-community" data-reveal>
+      <div class="row reveal-inner">
+    
+        <header class="reveal-header columns small-12">
+          <div class="sub-heading">Facebook Group</div>
+          <h1 class="text-center">Please select the program</h1>
+        </header>
+    
+    
+    
+        <div class="reveal-content">
+          <div class="columns small-12">
+    
+            <ul class="no-bullet text-center programs-list">
+               
+              <li>
+                <a target="_blank" href="#">Consulting Accelerator™</a>
+              </li>
+                            
+            </ul>
+    
+          </div>
+        </div>
+        <!-- /.reveal-content -->
+    
+      </div>
+      <!-- /.reveal-inner -->
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&#10005;</span>
+      </button>
+    </div>
+        
+
+    <script src="js/app.js"></script>
+
+    
+  <script>
+    var categoryName = "Week Four"
+    var moduleName = "1. Falling for the trap"
+  </script>
+
+      <script>
+      var audioPlayer = document.querySelector('audio')
+      var lastAudioTime = localStorage.getItem('seek-audio-139')
+
+      if(lastAudioTime)
+        audioPlayer.currentTime = lastAudioTime;
+
+      audioPlayer.ontimeupdate = function() {
+        localStorage.setItem('seek-audio-139', audioPlayer.currentTime)
+      }
+    </script>
+
+    <script src="js/audio-player.js"></script>
+
+<script>
+  var segmentTracker = function () {
+    if (!categoryName) var categoryName = "Week Four";
+    if (!moduleName) var moduleName = "1. Falling for the trap";
+    if (!file) var file = "media/5791773edc716848d891270afdf1f9fd.mp3";
+
+    var audioPlayer = document.querySelectorAll(".player-wrap");
+
+    var currentPlayerTime = function () {
+      return Math.round(
+        Number(audio.currentTime)
+      );
+    };
+
+    for (var i = 0; i < audioPlayer.length; i++) {
+      var player = audioPlayer[i];
+      var audio = player.querySelector("audio");
+      var play = player.querySelector(".player-play");
+      var pause = player.querySelector(".player-pause");
+      var progress = player.querySelector(".player-progress");
+      var speed = player.querySelector(".player-speed");
+
+      play.addEventListener('click', function () {
+        analytics.track("Pressed Play", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          started_at: currentPlayerTime()
+        });
+      }, false);
+
+      pause.addEventListener('click', function () {
+        analytics.track("Pressed Pause", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          paused_at: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+      speed.addEventListener('click', function () {
+        analytics.track("Pressed Speed", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          set_at: audio.playbackRate
+        });
+      }, false);
+
+      progress.addEventListener('click', function () {
+        analytics.track("Pressed Seek", {
+          category: categoryName,
+          module: moduleName,
+          file: file,
+          jumped_to: currentPlayerTime(),
+          current_speed: audio.playbackRate
+        });
+      }, false);
+
+    }
+  };
+
+  segmentTracker();
+</script>  
+  
+  <script>
+    $(document).on('change', '#change-category', function() {
+      location.href = "https://app.consulting.com/products/consulting-accelerator/" + $('#change-category option:selected').val()
+    })
+
+    $('#mark-complete, .mark-complete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-complete/139', function(result){
+      location.href = location.href
+      });
+    })
+
+    $('#mark-incomplete, .mark-incomplete').on('click', function(){
+      $.get('https://app.consulting.com/products/mark-incomplete/139', function(result){
+        location.href = location.href
+      });
+    })
+  </script>
+
+  <script>
+    var marketAsComplete = false
+    window._wq = window._wq || [];
+    _wq.push({ id: "bzhwxz69j5", onReady: function(video) {
+      video.email("christophertduffee@gmail.com")
+      
+      var lastTime = localStorage.getItem('seek-video-139')
+      
+      if(lastTime)
+        video.time(lastTime)
+
+      video.bind("timechange", function(t) {
+        localStorage.setItem('seek-video-139', t)
+        var percentWatched = t / video.duration()
+        if(percentWatched > 0.9 && !marketAsComplete) {
+          marketAsComplete = true
+          $.get('https://app.consulting.com/products/mark-complete/139');
+        }
+      });
+      
+      var videoDimLightElement = $('#video-dim-lights');
+      var videoDimLightTrigger = $('.dim-the-lights-button');
+      var videoContainer = $('.video-container');
+
+      
+
+    }});
+  </script>
+
+  <!--Save current url-->
+  <script>
+  localStorage.setItem('product-last-location-1', location.href)
+  </script>
+
+<script>
+	function bb1()
+	{
+	document.getElementById("btn1").style.display="none";
+	document.getElementById("btn2").style.display="block";
+
+	document.getElementById("30").style.display="none";
+	document.getElementById("31").style.display="block";
+	document.getElementById("50").style.display="none";
+	document.getElementById("51").style.display="block";
+	}
+	  function cb2()
+	{
+	document.getElementById("btn1").style.display="block";
+	document.getElementById("btn2").style.display="none";
+
+	document.getElementById("30").style.display="block";
+	document.getElementById("31").style.display="none";
+	document.getElementById("50").style.display="block";
+	document.getElementById("51").style.display="none";
+	} 
+</script>
+  </body>
+</html>
