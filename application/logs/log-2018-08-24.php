@@ -280,3 +280,95 @@ INFO - 2018-08-24 00:43:31 --> Email Class Initialized
 INFO - 2018-08-24 00:43:31 --> Controller Class Initialized
 DEBUG - 2018-08-24 00:43:32 --> Home MX_Controller Initialized
 DEBUG - 2018-08-24 00:43:32 --> File loaded: E:\xampp\htdocs\consulting\application\modules/home/models/Home_model.php
+INFO - 2018-08-24 20:08:44 --> Config Class Initialized
+INFO - 2018-08-24 20:08:44 --> Hooks Class Initialized
+DEBUG - 2018-08-24 20:08:44 --> UTF-8 Support Enabled
+INFO - 2018-08-24 20:08:44 --> Utf8 Class Initialized
+INFO - 2018-08-24 20:08:44 --> URI Class Initialized
+INFO - 2018-08-24 20:08:44 --> Router Class Initialized
+INFO - 2018-08-24 20:08:44 --> Output Class Initialized
+INFO - 2018-08-24 20:08:44 --> Security Class Initialized
+DEBUG - 2018-08-24 20:08:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-08-24 20:08:44 --> Input Class Initialized
+INFO - 2018-08-24 20:08:44 --> Language Class Initialized
+INFO - 2018-08-24 20:08:44 --> Config Class Initialized
+INFO - 2018-08-24 20:08:44 --> Language Class Initialized
+INFO - 2018-08-24 20:08:44 --> Hooks Class Initialized
+INFO - 2018-08-24 20:08:44 --> Config Class Initialized
+DEBUG - 2018-08-24 20:08:44 --> UTF-8 Support Enabled
+INFO - 2018-08-24 20:08:44 --> Utf8 Class Initialized
+INFO - 2018-08-24 20:08:44 --> URI Class Initialized
+INFO - 2018-08-24 20:08:44 --> Router Class Initialized
+INFO - 2018-08-24 20:08:44 --> Output Class Initialized
+INFO - 2018-08-24 20:08:44 --> Security Class Initialized
+INFO - 2018-08-24 20:08:44 --> Loader Class Initialized
+DEBUG - 2018-08-24 20:08:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-08-24 20:08:44 --> Input Class Initialized
+INFO - 2018-08-24 20:08:44 --> Language Class Initialized
+DEBUG - 2018-08-24 20:08:44 --> Config file loaded: E:\xampp\htdocs\consulting\application\config/construct-data.php
+INFO - 2018-08-24 20:08:44 --> Language Class Initialized
+INFO - 2018-08-24 20:08:44 --> Config Class Initialized
+INFO - 2018-08-24 20:08:44 --> Helper loaded: url_helper
+INFO - 2018-08-24 20:08:44 --> Loader Class Initialized
+DEBUG - 2018-08-24 20:08:44 --> Config file loaded: E:\xampp\htdocs\consulting\application\config/construct-data.php
+INFO - 2018-08-24 20:08:44 --> Helper loaded: form_helper
+INFO - 2018-08-24 20:08:44 --> Helper loaded: url_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: form_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: date_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: date_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: util_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: util_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: text_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: text_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: string_helper
+INFO - 2018-08-24 20:08:45 --> Helper loaded: string_helper
+INFO - 2018-08-24 20:08:45 --> Database Driver Class Initialized
+INFO - 2018-08-24 20:08:45 --> Database Driver Class Initialized
+DEBUG - 2018-08-24 20:08:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-08-24 20:08:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-08-24 20:08:45 --> Session: Class initialized using 'files' driver.
+INFO - 2018-08-24 20:08:45 --> Session: Class initialized using 'files' driver.
+INFO - 2018-08-24 20:08:45 --> Email Class Initialized
+INFO - 2018-08-24 20:08:45 --> Email Class Initialized
+INFO - 2018-08-24 20:08:45 --> Controller Class Initialized
+INFO - 2018-08-24 20:08:45 --> Controller Class Initialized
+DEBUG - 2018-08-24 20:08:45 --> Home MX_Controller Initialized
+DEBUG - 2018-08-24 20:08:45 --> Admin MX_Controller Initialized
+INFO - 2018-08-24 20:08:45 --> Language file loaded: language/english/data_lang.php
+DEBUG - 2018-08-24 20:08:45 --> File loaded: E:\xampp\htdocs\consulting\application\modules/home/models/Home_model.php
+DEBUG - 2018-08-24 20:08:45 --> File loaded: E:\xampp\htdocs\consulting\application\controllers/../modules/admin/controllers/Login.php
+DEBUG - 2018-08-24 20:08:45 --> Login MX_Controller Initialized
+DEBUG - 2018-08-24 20:08:45 --> File loaded: E:\xampp\htdocs\consulting\application\modules/common/models/Common_model.php
+DEBUG - 2018-08-24 20:08:45 --> File loaded: E:\xampp\htdocs\consulting\application\modules/admin/models/Loginmdl.php
+DEBUG - 2018-08-24 20:08:46 --> File loaded: E:\xampp\htdocs\consulting\application\modules/common/views/logins/login.php
+DEBUG - 2018-08-24 20:08:46 --> File loaded: E:\xampp\htdocs\consulting\application\controllers/../modules/admin/controllers/Login.php
+DEBUG - 2018-08-24 20:08:46 --> Login MX_Controller Initialized
+INFO - 2018-08-24 20:08:46 --> Language file loaded: language/english/data_lang.php
+DEBUG - 2018-08-24 20:08:46 --> File loaded: E:\xampp\htdocs\consulting\application\modules/common/models/Common_model.php
+DEBUG - 2018-08-24 20:08:46 --> File loaded: E:\xampp\htdocs\consulting\application\modules/admin/models/Loginmdl.php
+DEBUG - 2018-08-24 20:08:46 --> File loaded: E:\xampp\htdocs\consulting\application\modules/admin/models/Settings_model.php
+DEBUG - 2018-08-24 20:08:46 --> File loaded: E:\xampp\htdocs\consulting\application\modules/home/views/login.php
+INFO - 2018-08-24 20:08:46 --> Config Class Initialized
+INFO - 2018-08-24 20:08:46 --> Hooks Class Initialized
+DEBUG - 2018-08-24 20:08:46 --> UTF-8 Support Enabled
+INFO - 2018-08-24 20:08:46 --> Utf8 Class Initialized
+INFO - 2018-08-24 20:08:46 --> URI Class Initialized
+INFO - 2018-08-24 20:08:46 --> Router Class Initialized
+INFO - 2018-08-24 20:08:46 --> Output Class Initialized
+INFO - 2018-08-24 20:08:46 --> Security Class Initialized
+DEBUG - 2018-08-24 20:08:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-08-24 20:08:46 --> Input Class Initialized
+INFO - 2018-08-24 20:08:46 --> Language Class Initialized
+ERROR - 2018-08-24 20:08:46 --> 404 Page Not Found: /index
+INFO - 2018-08-24 20:08:47 --> Config Class Initialized
+INFO - 2018-08-24 20:08:47 --> Hooks Class Initialized
+DEBUG - 2018-08-24 20:08:47 --> UTF-8 Support Enabled
+INFO - 2018-08-24 20:08:47 --> Utf8 Class Initialized
+INFO - 2018-08-24 20:08:47 --> URI Class Initialized
+INFO - 2018-08-24 20:08:47 --> Router Class Initialized
+INFO - 2018-08-24 20:08:47 --> Output Class Initialized
+INFO - 2018-08-24 20:08:47 --> Security Class Initialized
+DEBUG - 2018-08-24 20:08:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-08-24 20:08:47 --> Input Class Initialized
+INFO - 2018-08-24 20:08:47 --> Language Class Initialized
+ERROR - 2018-08-24 20:08:47 --> 404 Page Not Found: /index
