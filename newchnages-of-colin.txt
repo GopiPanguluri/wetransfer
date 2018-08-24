@@ -93,6 +93,3 @@ Login at https://portal.e-hawk.net/ with the following:
 
 Username: mouhamed@mskinternetads.com
 Password: 50a3cc759318b
-
-
-./magento setup:install --base-url=http://142.93.206.83/magento2/ --db-host=localhost --db-name=magento2 --db-user=magento2 --db-password=password --admin-firstname=super --admin-lastname=admin --admin-email=admin@admin.com --admin-user=admin --admin-password=admin@123 --language=en_US --currency=USD --timezone=Asia/Kolkata --use-rewrites=1

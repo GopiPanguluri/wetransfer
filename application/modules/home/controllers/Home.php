@@ -161,6 +161,26 @@ class Home extends MX_Controller  {
         $this->load->view('refer_a_friend');
 	}
     
+	public function send_referal_mail(){
+        modules::run('admin/login/is_home_logged_in');
+        $get_users_week = $this->home_model->get_users_week_before();
+        $get_users_day = $this->home_model->get_users_day_before();
+        $get_users_after_d = $this->home_model->get_users_day_after();
+        $to_users_week = '';
+        $info['week_subject'] = 'Remainder For Payment';
+        $info['day_subject'] = 'Remainder For Payment for Last time';
+        $info['day_af_subject'] = 'Payment due date expired.';
+        foreach($get_users_week as $get_users_week_rw){
+            //echo '<pre>';print_r($get_users_week_rw);exit;
+            $day_message = $week_message;
+            $day_af_message = $week_message;
+            $week_message = $message = $this->load->view('common/week_template', $info, true);
+            $this->load->model('common/mail_model');
+            $send_ml_week = $this->mail_model->send_mail($to_users_week, $info['week_subject'], $week_message);
+            $to_users_week = $get_users_week_rw['email'].',';
+        }
+	}
+    
 	public function register(){
         $this->load->view('register');
 	}

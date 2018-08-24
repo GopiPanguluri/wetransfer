@@ -91,7 +91,7 @@
                                 <div class="alert alert-warning">
                                     <p></p>
                                 </div>
-                                <form action="#" method="POST" id="referralForm" data-abide="" novalidate="">
+                                <form action="<?php echo base_url('home/send_referal_mail'); ?>" method="POST" id="referralForm">
                                     <fieldset>
                                             <div class="row">
                                                 <div class="columns large-10">
@@ -100,7 +100,7 @@
                                                             <label for="first-name">First name</label>
                                                         </div>
                                                         <div class="columns medium-8 end" id="input-name">
-                                                            <input name="first_name" id="first-name" class="referral-first-name" type="text" placeholder="Friend's first name" autofocus="" required=""/>
+                                                            <input name="first_name" id="first_name" class="referral-first-name" type="text" placeholder="Friend's first name" autofocus="" required=""/>
                                                             <div class="form-error"> Please enter a valid name </div>
                                                         </div>
                                                     </div>
@@ -123,7 +123,7 @@
                                                                     <p>Hey <span id="email-first-name">[Name]</span>,</p>
                                                                     ----------------------------------------------------------------------------------
                                                                 </div>
-                                                                <textarea name="body" id="email-body" class="email-body" rows="8" cols="80">I recently joined a training program that helped me to start a consulting business and improve my life for the better.&#013;&#010;&#013;&#010; If you join using my invitation you will receive a massive $500 discount.&#013;&#010;&#013;&#010;This program changed my life and I know it can do the same for you.</textarea>
+                                                                <textarea name="body" id="email_body" class="email_body" rows="8" cols="80">I recently joined a training program that helped me to start a consulting business and improve my life for the better.&#013;&#010;&#013;&#010; If you join using my invitation you will receive a massive $500 discount.&#013;&#010;&#013;&#010;This program changed my life and I know it can do the same for you.</textarea>
                                                                 <div class="form-error">
                                                                     Please provide a valid message
                                                                 </div>
@@ -212,15 +212,15 @@
       <div class="reveal billing issue" id="billing-issue" data-reveal>
           <div class="row reveal-inner"> 
             <header class="reveal-header columns small-12">
-              <h1 class="text-center">Oops!<br>We Had Trouble Billing Your Card…</h1>
+              <h1 class="text-center">Oops!<br>We Had Trouble Billing Your Cardï¿½</h1>
             </header>
             <div class="reveal-content">
               <div class="columns small-12">
                 <div class="page-icon">
                   <div class="image-icon billing-issue"></div>
                 </div>
-                <p>I’m sorry we had trouble charging your card on file for your latest payment and your account has been suspended until this overdue balance is paid.</p>
-                <p>Please click the “Fix Billing” button below to update your card on file and get your account back up and running again. </p>
+                <p>Iï¿½m sorry we had trouble charging your card on file for your latest payment and your account has been suspended until this overdue balance is paid.</p>
+                <p>Please click the ï¿½Fix Billingï¿½ button below to update your card on file and get your account back up and running again. </p>
               </div>
             </div>
             <!-- /.reveal-content -->
@@ -238,7 +238,7 @@
       <div class="reveal account issue" id="account-suspended" data-reveal>
           <div class="row reveal-inner"> 
             <header class="reveal-header columns small-12">
-              <h1 class="text-center">Yikes!<br>Your Account Has Been Suspended…</h1>
+              <h1 class="text-center">Yikes!<br>Your Account Has Been Suspendedï¿½</h1>
             </header>
             <div class="reveal-content">
               <div class="columns small-12">
