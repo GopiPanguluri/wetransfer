@@ -109,7 +109,7 @@
                                                             <label for="email">Email address</label>
                                                         </div>
                                                         <div class="columns medium-8 end" id="input-email">
-                                                            <input name="email" id="email" class="refferal-email" type="email" placeholder="Friend's email address" pattern="email" data-hj-masked="" required=""/>
+                                                            <input name="email" id="email" class="refferal-email" type="email" placeholder="Friend's email address" required=""/>
                                                             <div class="form-error"> Please provide a valid email address </div>
                                                         </div>
                                                     </div>
