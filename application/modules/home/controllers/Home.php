@@ -162,20 +162,20 @@ class Home extends MX_Controller  {
 	}
     
 	public function send_referal_mail(){
-        echo '<pre>';print_r($_POST);exit;
+        //echo '<pre>';print_r($_POST);exit;
         modules::run('admin/login/is_home_logged_in');
-        $get_users_week = $this->home_model->get_profile_data();
-        echo '<pre>';print_r($get_users_week);exit;
-        $info['day_af_subject'] = 'Payment due date expired.';
-        foreach($get_users_week as $get_users_week_rw){
-            //echo '<pre>';print_r($get_users_week_rw);exit;
-            $day_message = $week_message;
-            $day_af_message = $week_message;
-            $week_message = $message = $this->load->view('common/week_template', $info, true);
+        $from_name = $_SESSION['home_name'].' '.$_SESSION['home_last_name'];
+        $user_id = $_SESSION['home_user_id'];
+        //echo '<pre>';print_r($name);exit;
+        $get_user = $this->home_model->get_profile_data($user_id);
+        //echo '<pre>';print_r($get_user);exit;
+        $info['subject'] = 'You Are Refferred By '.$name;
+        //echo '<pre>';print_r($info['subject']);exit;
+            //echo '<pre>';print_r($get_user_rw);exit;
+            $message = $this->load->view('common/referal_template', $info, true);
             $this->load->model('common/mail_model');
-            $send_ml_week = $this->mail_model->send_mail($to_users_week, $info['week_subject'], $week_message);
-            $to_users_week = $get_users_week_rw['email'].',';
-        }
+            $send_ml = $this->mail_model->send_mail($to_user, $info['subject'], $message);
+            $to_user = $get_users_week_rw['email'].',';
 	}
     
 	public function register(){
