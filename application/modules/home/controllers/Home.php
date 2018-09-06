@@ -6,6 +6,7 @@ class Home extends MX_Controller  {
 	function __construct(){
         parent::__construct();
         $this->load->model('home_model');
+        $this->load->model('common/common_model');
     }
     
 	public function index(){
@@ -298,5 +299,50 @@ class Home extends MX_Controller  {
             $to_users_week = $get_users_week_rw['email'].',';
         }
 	}
+    
+	public function add_new_card(){
+        if(!isset($_POST['card_number'])||!isset($_POST['card_exp_date'])||!isset($_POST['card_cvv_number'])){
+            $this->load->view('add_new_card_details');
+        }else{
+           //echo 'nopost<pre>'; print_r($_POST);exit;
+           $home_user_id = $_SESSION['home_user_id'];
+           //echo '<pre>'; print_r($home_user_id);exit;
+           $card_exp_date = explode('/',$this->input->post('card_exp_date'));
+           $card_exp_date = $card_exp_date['0'].'-'.$card_exp_date['1'];
+           //$card_exp_date = date('m/y',strtotime($card_exp_date));
+           //echo '<pre>'; print_r($card_exp_date);exit;
+           if($_POST['card_number']!==''||$_POST['card_exp_date']!==''||$_POST['card_cvv_number']!==''){
+                $card_info = array(
+                    'credit_card_no' => $this->input->post('card_number'),
+                    'expire_date' => $card_exp_date,
+                    'cvv_no' => $this->input->post('card_cvv_number'),
+                    'user_id' => $home_user_id
+                );
+                //echo '<pre>'; print_r($card_info);exit;
+                $res = $this->common_model->insert_details('card_details', $card_info);
+                //echo $this->db->last_query();
+                //echo '<pre>'; print_r($res);exit;
+                if($res){
+                    $status = array(
+                        'status' => '0',
+                        'message' => 'Credit Card added successfully'
+                    );
+                    echo json_encode($status);exit;
+                }else{
+                    $status = array(
+                        'status' => '1',
+                        'message' => 'Failed add to Credit Card.'
+                    );
+                    echo json_encode($status);exit;
+                }
+            }else{
+                    $status = array(
+                        'status' => '1',
+                        'message' => 'Current Password is wrong'
+                    );
+                    echo json_encode($status);exit;
+            }
+        }
+    }
 }
 ?>

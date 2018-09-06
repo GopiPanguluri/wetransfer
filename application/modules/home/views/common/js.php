@@ -56,7 +56,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "red";
+    //   document.getElementById("selectid").style.backgroundColor = "red";
       //document.getElementById("selectid2").style.backgroundColor = "red";
       document.getElementById("offCanvas").style.backgroundColor = "red";
       $('.mobile-menu ul li a').css('background-color','red'); 
@@ -70,7 +70,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "blue";
+    //   document.getElementById("selectid").style.backgroundColor = "blue";
       //document.getElementById("selectid2").style.backgroundColor = "blue";
       document.getElementById("offCanvas").style.backgroundColor = "blue";
       $('.mobile-menu ul li a').css('background-color','blue'); 
@@ -85,7 +85,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "green";
+    //   document.getElementById("selectid").style.backgroundColor = "green";
       //document.getElementById("selectid2").style.backgroundColor = "green";
       document.getElementById("offCanvas").style.backgroundColor = "green";
       $('.mobile-menu ul li a').css('background-color','green');  
@@ -100,7 +100,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "black";
+    //   document.getElementById("selectid").style.backgroundColor = "black";
       //document.getElementById("selectid2").style.backgroundColor = "black";
       document.getElementById("offCanvas").style.backgroundColor = "black";
       $('.mobile-menu ul li a').css('background-color','black'); 
@@ -114,7 +114,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "orange";
+    //   document.getElementById("selectid").style.backgroundColor = "orange";
       //document.getElementById("selectid2").style.backgroundColor = "orange";
       document.getElementById("offCanvas").style.backgroundColor = "orange";
       $('.mobile-menu ul li a').css('background-color','orange');   
@@ -129,7 +129,7 @@
       document.getElementById("app3").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "aqua";
+    //   document.getElementById("selectid").style.backgroundColor = "aqua";
       //document.getElementById("selectid2").style.backgroundColor = "aqua";
       document.getElementById("offCanvas").style.backgroundColor = "aqua";
       $('.mobile-menu ul li a').css('background-color','aqua'); 
@@ -143,7 +143,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app3").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "indigo";
+    //   document.getElementById("selectid").style.backgroundColor = "indigo";
       //document.getElementById("selectid2").style.backgroundColor = "indigo";
       document.getElementById("offCanvas").style.backgroundColor = "indigo";
       $('.mobile-menu ul li a').css('background-color','indigo'); 
@@ -157,7 +157,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app3").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "violet";
+    //   document.getElementById("selectid").style.backgroundColor = "violet";
       //document.getElementById("selectid2").style.backgroundColor = "violet";
       document.getElementById("offCanvas").style.backgroundColor = "violet";
       $('.mobile-menu ul li a').css('background-color','violet'); 
@@ -171,7 +171,7 @@
       document.getElementById("app6").disabled = true;
       document.getElementById("app7").disabled = true;
       document.getElementById("app8").disabled = true;
-      document.getElementById("selectid").style.backgroundColor = "black";
+    //   document.getElementById("selectid").style.backgroundColor = "black";
       //document.getElementById("selectid2").style.backgroundColor = "black";
       document.getElementById("offCanvas").style.backgroundColor = "black";
       $('.mobile-menu ul li a').css('background-color','black'); 

@@ -85,7 +85,7 @@
                     </div>
                                         <div class="row footer-buttons-container">
                       <div class="small-12 columns">
-                        <a href='#/profile/billing/card' class="button primary">Add New Card</a>
+                        <a href='<?php echo base_url('home/add_new_card'); ?>' class="button primary">Add New Card</a>
                       </div>
                     </div>
         
@@ -120,7 +120,7 @@
                                 </div>
                                 <div class="jp-card-lower">
                                     <div class="jp-card-shiny"></div>
-                                    <div class="jp-card-cvc jp-card-display">•••</div>
+                                    <div class="jp-card-cvc jp-card-display">ï¿½ï¿½ï¿½</div>
                                     <div class="jp-card-number jp-card-display">XXXX XXXX XXXX 4529</div>
                                     <div class="jp-card-name jp-card-display">christopher duffee</div>
                                     <div class="jp-card-expiry jp-card-display" data-before="month/year" data-after="valid thru">11/22 </div>
@@ -189,7 +189,7 @@
                       </thead>
                       <tbody>
                                                 <tr>
-                          <td><strong>Consulting Accelerator™ - </strong></td>
+                          <td><strong>Consulting Acceleratorï¿½ - </strong></td>
                           <td align="center">1</td>
                           <td align="center">$1,997</td>
                           <td align="right">$1,997</td>
@@ -280,15 +280,15 @@
       <div class="reveal billing issue" id="billing-issue" data-reveal>
           <div class="row reveal-inner"> 
             <header class="reveal-header columns small-12">
-              <h1 class="text-center">Oops!<br>We Had Trouble Billing Your Card…</h1>
+              <h1 class="text-center">Oops!<br>We Had Trouble Billing Your Cardï¿½</h1>
             </header>
             <div class="reveal-content">
               <div class="columns small-12">
                 <div class="page-icon">
                   <div class="image-icon billing-issue"></div>
                 </div>
-                <p>I’m sorry we had trouble charging your card on file for your latest payment and your account has been suspended until this overdue balance is paid.</p>
-                <p>Please click the “Fix Billing” button below to update your card on file and get your account back up and running again. </p>
+                <p>Iï¿½m sorry we had trouble charging your card on file for your latest payment and your account has been suspended until this overdue balance is paid.</p>
+                <p>Please click the ï¿½Fix Billingï¿½ button below to update your card on file and get your account back up and running again. </p>
               </div>
             </div>
             <!-- /.reveal-content -->
@@ -306,7 +306,7 @@
       <div class="reveal account issue" id="account-suspended" data-reveal>
           <div class="row reveal-inner"> 
             <header class="reveal-header columns small-12">
-              <h1 class="text-center">Yikes!<br>Your Account Has Been Suspended…</h1>
+              <h1 class="text-center">Yikes!<br>Your Account Has Been Suspendedï¿½</h1>
             </header>
             <div class="reveal-content">
               <div class="columns small-12">
